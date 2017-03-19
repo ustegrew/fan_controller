@@ -2,7 +2,7 @@
 
 A control module for a fan in a laundry drying room, to exchange humid air for dry air from outside.
 
-![Block diagram](https://github.com/ustegrew/fan_controller/tree/master/doc/00_readme/img/block-diagram.png "Block diagram")
+![Block diagram](https://raw.githubusercontent.com/ustegrew/fan_controller/master/doc/00_readme/img/block-diagram.png)
 
 ## Licenses
 
