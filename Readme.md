@@ -1,6 +1,6 @@
 # Ventilator control for a laundry
 
-A control module for a fan in a laundry drying room, to exchange humid air for dry air from outside.
+A control setup for a fan in a laundry drying room, to exchange humid air for dry air from outside.
 
 ![Block diagram](https://raw.githubusercontent.com/ustegrew/fan_controller/master/doc/00_readme/img/block-diagram.png)
 
