@@ -1,7 +1,8 @@
 # Ventilator control for a laundry
 
-Someone asked me to design a control module for a laundry drying room. That's an irresistable fun project...
+A control module for a fan in a laundry drying room, to exchange humid air for dry air from outside.
 
+![Block diagram](https://github.com/ustegrew/fan_controller/tree/master/doc/00_readme/img/block-diagram.png "Block diagram")
 
 ## Licenses
 
