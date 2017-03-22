@@ -6,7 +6,7 @@ A control system for a fan in a laundry drying room, to exchange humid air for d
 
 ## Repository structure
 
-  * [Documentation::Wiki](https://github.com/ustegrew/fan_controller/wiki/00)
+  * [Documentation::Wiki](https://github.com/ustegrew/fan_controller/wiki)
   * [Doccumentation::Files](https://github.com/ustegrew/fan_controller/tree/master/doc).
 
  
