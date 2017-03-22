@@ -1,2 +1,2 @@
-This directory contains documentation plus supporting material (e.g. for the [/wiki](https://github.com/ustegrew/fan_controller/wiki) section).
+This directory contains documentation files (e.g. for the [/wiki](https://github.com/ustegrew/fan_controller/wiki) section).
 
