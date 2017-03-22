@@ -17,9 +17,9 @@ The laundry room has an area of 19 m<sup>2</sup>, and a volume of about 49 m<sup
 
 ![Room](https://raw.githubusercontent.com/ustegrew/fan_controller/master/doc/01_drawings/01/environment_room.png)
 
-To achieve efficient air flow one would need a fan with an airflow of double the room's volume per hour. Therefore, the ventilator should provide an air throughput of at least 100 100 m<sup>3</sup> per hour. Standard ventilators for bathrooms should provide this volume.
+To achieve efficient air flow one would need a fan with an airflow of double the room's volume per hour. Therefore, the ventilator should provide an air throughput of at least 100 m<sup>3</sup> per hour. Standard ventilators for bathrooms should provide this volume.
 
-For the air routing it is planned to replace the existing ventilator with a newer one. The new ventilator pulls the air out of the room and pushes it outside. Below the ventilator will be an air inlet which brings fresh outside air via a long pipe to the opposite side of the room. Thus there should be a constant air flow through the entire room as long as the ventilator is running. The room has a door, also at the opposite side of the room. The door leads to a room with low humidity. There's a good chance the system will work, whether the door is closed or open.
+For the new setup it is planned to replace the existing ventilator with a newer one. The ventilator will pull the air out of the room and push it outside. Below the ventilator will be an air inlet which brings fresh outside air via a long pipe to the opposite side of the room. Thus there should be a constant air flow through the entire room as long as the ventilator is running. The room has a door, leading to a room with low humidity. Since that door is at the opposite side as well there's a good chance the system will work, whether the door is closed or open.
 
 ![Air flow](https://raw.githubusercontent.com/ustegrew/fan_controller/master/doc/01_drawings/02/room_planned.png)
 
