@@ -4,6 +4,12 @@ A control system for a fan in a laundry drying room, to exchange humid air for d
 
 ![Block diagram](https://raw.githubusercontent.com/ustegrew/fan_controller/master/doc/00_readme/img/block-diagram.png)
 
+## Repository structure
+
+  * [Documentation] (https://github.com/ustegrew/fan_controller/wiki/Documentation)
+  * [Markdown files] (https://github.com/ustegrew/fan_controller/tree/master/doc) (plus all other material).
+
+ 
 ## Licenses
 
 Source code is licensed under GPL3, all other content under FDL.
