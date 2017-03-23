@@ -305,16 +305,16 @@ condensation?#</dia:string>
     </dia:object>
     <dia:object type="UML - State Term" version="0" id="O7">
       <dia:attribute name="obj_pos">
-        <dia:point val="35.7842,42.2958"/>
+        <dia:point val="35.7842,45.8313"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="35.7342,42.2458;37.3342,43.8458"/>
+        <dia:rectangle val="35.7342,45.7813;37.3342,47.3813"/>
       </dia:attribute>
       <dia:attribute name="meta">
         <dia:composite type="dict"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
-        <dia:point val="35.7842,42.2958"/>
+        <dia:point val="35.7842,45.8313"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
         <dia:real val="1.5"/>
@@ -337,12 +337,12 @@ condensation?#</dia:string>
         <dia:point val="28.35,13.15"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="28.3,13.1;36.8651,42.4076"/>
+        <dia:rectangle val="28.3,13.1;36.8651,45.9431"/>
       </dia:attribute>
       <dia:attribute name="orth_points">
         <dia:point val="28.35,13.15"/>
         <dia:point val="36.5342,13.15"/>
-        <dia:point val="36.5342,42.2958"/>
+        <dia:point val="36.5342,45.8313"/>
       </dia:attribute>
       <dia:attribute name="orth_orient">
         <dia:enum val="0"/>
@@ -754,16 +754,16 @@ Closed: 30 minutes#</dia:string>
     </dia:object>
     <dia:object type="UML - State Term" version="0" id="O18">
       <dia:attribute name="obj_pos">
-        <dia:point val="26.5991,42.2958"/>
+        <dia:point val="26.5991,45.8313"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="26.5491,42.2458;28.1491,43.8458"/>
+        <dia:rectangle val="26.5491,45.7813;28.1491,47.3813"/>
       </dia:attribute>
       <dia:attribute name="meta">
         <dia:composite type="dict"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
-        <dia:point val="26.5991,42.2958"/>
+        <dia:point val="26.5991,45.8313"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
         <dia:real val="1.5"/>
@@ -867,14 +867,14 @@ Closed: 30 minutes#</dia:string>
     </dia:object>
     <dia:object type="Standard - Line" version="0" id="O22">
       <dia:attribute name="obj_pos">
-        <dia:point val="27.349,38.5998"/>
+        <dia:point val="27.3557,42.0075"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="27.0182,38.5498;27.68,42.4076"/>
+        <dia:rectangle val="27.0192,41.9574;27.681,45.9431"/>
       </dia:attribute>
       <dia:attribute name="conn_endpoints">
-        <dia:point val="27.349,38.5998"/>
-        <dia:point val="27.3491,42.2958"/>
+        <dia:point val="27.3557,42.0075"/>
+        <dia:point val="27.3491,45.8313"/>
       </dia:attribute>
       <dia:attribute name="numcp">
         <dia:int val="1"/>
@@ -889,7 +889,7 @@ Closed: 30 minutes#</dia:string>
         <dia:real val="0.5"/>
       </dia:attribute>
       <dia:connections>
-        <dia:connection handle="0" to="O16" connection="6"/>
+        <dia:connection handle="0" to="O30" connection="6"/>
         <dia:connection handle="1" to="O18" connection="1"/>
       </dia:connections>
     </dia:object>
@@ -1011,12 +1011,12 @@ off for at least
         <dia:point val="28.3418,19.1736"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="28.2918,19.1236;36.8651,42.4076"/>
+        <dia:rectangle val="28.2918,19.1236;36.8651,45.9431"/>
       </dia:attribute>
       <dia:attribute name="orth_points">
         <dia:point val="28.3418,19.1736"/>
         <dia:point val="36.5342,19.1736"/>
-        <dia:point val="36.5342,42.2958"/>
+        <dia:point val="36.5342,45.8313"/>
       </dia:attribute>
       <dia:attribute name="orth_orient">
         <dia:enum val="0"/>
@@ -1104,6 +1104,82 @@ off for at least
       <dia:attribute name="valign">
         <dia:enum val="3"/>
       </dia:attribute>
+    </dia:object>
+    <dia:object type="UML - Activity" version="0" id="O30">
+      <dia:attribute name="obj_pos">
+        <dia:point val="23.6657,40.2075"/>
+      </dia:attribute>
+      <dia:attribute name="obj_bb">
+        <dia:rectangle val="23.6157,40.1575;31.0957,42.0575"/>
+      </dia:attribute>
+      <dia:attribute name="meta">
+        <dia:composite type="dict"/>
+      </dia:attribute>
+      <dia:attribute name="elem_corner">
+        <dia:point val="23.6657,40.2075"/>
+      </dia:attribute>
+      <dia:attribute name="elem_width">
+        <dia:real val="7.3799999999999999"/>
+      </dia:attribute>
+      <dia:attribute name="elem_height">
+        <dia:real val="1.8"/>
+      </dia:attribute>
+      <dia:attribute name="line_colour">
+        <dia:color val="#000000"/>
+      </dia:attribute>
+      <dia:attribute name="fill_colour">
+        <dia:color val="#ffffff"/>
+      </dia:attribute>
+      <dia:attribute name="text">
+        <dia:composite type="text">
+          <dia:attribute name="string">
+            <dia:string>#Open radiator valve#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="font">
+            <dia:font family="sans" style="0" name="Helvetica"/>
+          </dia:attribute>
+          <dia:attribute name="height">
+            <dia:real val="0.80000000000000004"/>
+          </dia:attribute>
+          <dia:attribute name="pos">
+            <dia:point val="27.3557,41.3025"/>
+          </dia:attribute>
+          <dia:attribute name="color">
+            <dia:color val="#000000"/>
+          </dia:attribute>
+          <dia:attribute name="alignment">
+            <dia:enum val="1"/>
+          </dia:attribute>
+        </dia:composite>
+      </dia:attribute>
+    </dia:object>
+    <dia:object type="Standard - Line" version="0" id="O31">
+      <dia:attribute name="obj_pos">
+        <dia:point val="27.349,38.5998"/>
+      </dia:attribute>
+      <dia:attribute name="obj_bb">
+        <dia:rectangle val="27.0225,38.5496;27.6843,40.3193"/>
+      </dia:attribute>
+      <dia:attribute name="conn_endpoints">
+        <dia:point val="27.349,38.5998"/>
+        <dia:point val="27.3557,40.2075"/>
+      </dia:attribute>
+      <dia:attribute name="numcp">
+        <dia:int val="1"/>
+      </dia:attribute>
+      <dia:attribute name="end_arrow">
+        <dia:enum val="1"/>
+      </dia:attribute>
+      <dia:attribute name="end_arrow_length">
+        <dia:real val="0.5"/>
+      </dia:attribute>
+      <dia:attribute name="end_arrow_width">
+        <dia:real val="0.5"/>
+      </dia:attribute>
+      <dia:connections>
+        <dia:connection handle="0" to="O16" connection="6"/>
+        <dia:connection handle="1" to="O30" connection="1"/>
+      </dia:connections>
     </dia:object>
   </dia:layer>
 </dia:diagram>
