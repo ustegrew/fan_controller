@@ -33,7 +33,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 1 3
 Title ""
 Date ""
 Rev ""
@@ -48,5 +48,11 @@ S 850  850  1000 600
 U 59031321
 F0 "test_frequecy-transfer_tl071_01" 60
 F1 "test_frequecy-transfer_tl071_01.sch" 60
+$EndSheet
+$Sheet
+S 850  1700 1000 600 
+U 5906D7CA
+F0 "test_frequecy-transfer_ T60403-K5032-X102_01" 60
+F1 "test_frequecy-transfer_ T60403-K5032-X102_01.sch" 60
 $EndSheet
 $EndSCHEMATC
