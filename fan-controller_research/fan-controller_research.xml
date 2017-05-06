@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/peter/git/fan-controller/project/fan-controller_research/fan-controller_research.sch</source>
+    <date>Mon 01 May 2017 14:09:14 CEST</date>
+    <tool>Eeschema 4.0.6-e0-6349~53~ubuntu14.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>fan-controller_research.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/test_frequecy-transfer_tl071_01/" tstamps="/59031321/">
+      <title_block>
+        <title>Frequency transfer, TL071</title>
+        <company/>
+        <rev/>
+        <date>2017-04-28</date>
+        <source>test_frequecy-transfer_tl071_01.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/test_frequecy-transfer_ T60403-K5032-X102_01/" tstamps="/5906D7CA/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>test_frequecy-transfer_ T60403-K5032-X102_01.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/test_frequecy-transfer_filter_15000_01/" tstamps="/59071FE0/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>test_frequecy-transfer_filter_15000_01.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U201">
+      <value>TL071</value>
+      <libsource lib="linear" part="TL071"/>
+      <sheetpath names="/test_frequecy-transfer_tl071_01/" tstamps="/59031321/"/>
+      <tstamp>5903132A</tstamp>
+    </comp>
+    <comp ref="MES201">
+      <value>Voltmeter_AC</value>
+      <libsource lib="device" part="Voltmeter_AC"/>
+      <sheetpath names="/test_frequecy-transfer_tl071_01/" tstamps="/59031321/"/>
+      <tstamp>590316AB</tstamp>
+    </comp>
+    <comp ref="C201">
+      <value>1u</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/test_frequecy-transfer_tl071_01/" tstamps="/59031321/"/>
+      <tstamp>59031E33</tstamp>
+    </comp>
+    <comp ref="C202">
+      <value>1u</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/test_frequecy-transfer_tl071_01/" tstamps="/59031321/"/>
+      <tstamp>59032073</tstamp>
+    </comp>
+    <comp ref="R201">
+      <value>1M</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/test_frequecy-transfer_tl071_01/" tstamps="/59031321/"/>
+      <tstamp>590323C6</tstamp>
+    </comp>
+    <comp ref="C203">
+      <value>100u / 25V</value>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/test_frequecy-transfer_tl071_01/" tstamps="/59031321/"/>
+      <tstamp>5904F5A5</tstamp>
+    </comp>
+    <comp ref="C204">
+      <value>100u / 25V</value>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/test_frequecy-transfer_tl071_01/" tstamps="/59031321/"/>
+      <tstamp>5904F688</tstamp>
+    </comp>
+    <comp ref="C205">
+      <value>0.1u</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/test_frequecy-transfer_tl071_01/" tstamps="/59031321/"/>
+      <tstamp>5904FE78</tstamp>
+    </comp>
+    <comp ref="C206">
+      <value>0.1u</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/test_frequecy-transfer_tl071_01/" tstamps="/59031321/"/>
+      <tstamp>5904FF65</tstamp>
+    </comp>
+    <comp ref="MES301">
+      <value>Voltmeter_AC</value>
+      <libsource lib="device" part="Voltmeter_AC"/>
+      <sheetpath names="/test_frequecy-transfer_ T60403-K5032-X102_01/" tstamps="/5906D7CA/"/>
+      <tstamp>5906E5CD</tstamp>
+    </comp>
+    <comp ref="T301">
+      <value>VAC T60403-K5032-X102</value>
+      <libsource lib="device" part="Transformer_1P_2S"/>
+      <sheetpath names="/test_frequecy-transfer_ T60403-K5032-X102_01/" tstamps="/5906D7CA/"/>
+      <tstamp>5906E7DF</tstamp>
+    </comp>
+    <comp ref="T302">
+      <value>VAC T60403-K5032-X102</value>
+      <libsource lib="device" part="Transformer_1P_2S"/>
+      <sheetpath names="/test_frequecy-transfer_ T60403-K5032-X102_01/" tstamps="/5906D7CA/"/>
+      <tstamp>5906EB8E</tstamp>
+    </comp>
+    <comp ref="U401">
+      <value>TL071</value>
+      <libsource lib="linear" part="TL071"/>
+      <sheetpath names="/test_frequecy-transfer_filter_15000_01/" tstamps="/59071FE0/"/>
+      <tstamp>590721F1</tstamp>
+    </comp>
+    <comp ref="MES401">
+      <value>Voltmeter_AC</value>
+      <libsource lib="device" part="Voltmeter_AC"/>
+      <sheetpath names="/test_frequecy-transfer_filter_15000_01/" tstamps="/59071FE0/"/>
+      <tstamp>590721F8</tstamp>
+    </comp>
+    <comp ref="C403">
+      <value>1u</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/test_frequecy-transfer_filter_15000_01/" tstamps="/59071FE0/"/>
+      <tstamp>59072212</tstamp>
+    </comp>
+    <comp ref="C409">
+      <value>1u</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/test_frequecy-transfer_filter_15000_01/" tstamps="/59071FE0/"/>
+      <tstamp>59072219</tstamp>
+    </comp>
+    <comp ref="R401">
+      <value>1M</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/test_frequecy-transfer_filter_15000_01/" tstamps="/59071FE0/"/>
+      <tstamp>59072220</tstamp>
+    </comp>
+    <comp ref="C401">
+      <value>100u / 25V</value>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/test_frequecy-transfer_filter_15000_01/" tstamps="/59071FE0/"/>
+      <tstamp>59072232</tstamp>
+    </comp>
+    <comp ref="C402">
+      <value>100u / 25V</value>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/test_frequecy-transfer_filter_15000_01/" tstamps="/59071FE0/"/>
+      <tstamp>59072239</tstamp>
+    </comp>
+    <comp ref="C405">
+      <value>0.1u</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/test_frequecy-transfer_filter_15000_01/" tstamps="/59071FE0/"/>
+      <tstamp>59072277</tstamp>
+    </comp>
+    <comp ref="C406">
+      <value>0.1u</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/test_frequecy-transfer_filter_15000_01/" tstamps="/59071FE0/"/>
+      <tstamp>5907227E</tstamp>
+    </comp>
+    <comp ref="R402">
+      <value>560k</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/test_frequecy-transfer_filter_15000_01/" tstamps="/59071FE0/"/>
+      <tstamp>590726C0</tstamp>
+    </comp>
+    <comp ref="R403">
+      <value>104</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/test_frequecy-transfer_filter_15000_01/" tstamps="/59071FE0/"/>
+      <tstamp>59072765</tstamp>
+    </comp>
+    <comp ref="R405">
+      <value>104</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/test_frequecy-transfer_filter_15000_01/" tstamps="/59071FE0/"/>
+      <tstamp>590727D0</tstamp>
+    </comp>
+    <comp ref="R404">
+      <value>52</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/test_frequecy-transfer_filter_15000_01/" tstamps="/59071FE0/"/>
+      <tstamp>59072885</tstamp>
+    </comp>
+    <comp ref="C408">
+      <value>100n</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/test_frequecy-transfer_filter_15000_01/" tstamps="/59071FE0/"/>
+      <tstamp>59072AAE</tstamp>
+    </comp>
+    <comp ref="C404">
+      <value>100n</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/test_frequecy-transfer_filter_15000_01/" tstamps="/59071FE0/"/>
+      <tstamp>59072B69</tstamp>
+    </comp>
+    <comp ref="C407">
+      <value>200n</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/test_frequecy-transfer_filter_15000_01/" tstamps="/59071FE0/"/>
+      <tstamp>59072C96</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="CP">
+      <description>Polarised capacitor</description>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="linear" part="LM741">
+      <aliases>
+        <alias>LF155</alias>
+        <alias>LF156</alias>
+        <alias>LF256</alias>
+        <alias>LF257</alias>
+        <alias>LF355</alias>
+        <alias>LF356</alias>
+        <alias>LF357</alias>
+        <alias>TL081</alias>
+        <alias>TL061</alias>
+        <alias>TL071</alias>
+      </aliases>
+      <description>Op amp</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm741.pdf</docs>
+      <footprints>
+        <fp>SOIC*Pitch1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>TSSOP*Pitch0.65mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM741</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="~" type="input"/>
+        <pin num="6" name="~" type="output"/>
+        <pin num="7" name="V+" type="power_in"/>
+        <pin num="8" name="NC" type="NotConnected"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Transformer_1P_2S">
+      <description>Transformer, single primary, dual secondary</description>
+      <fields>
+        <field name="Reference">T</field>
+        <field name="Value">Transformer_1P_2S</field>
+      </fields>
+      <pins>
+        <pin num="1" name="AA" type="passive"/>
+        <pin num="2" name="AB" type="passive"/>
+        <pin num="3" name="SA" type="passive"/>
+        <pin num="4" name="SB" type="passive"/>
+        <pin num="5" name="SC" type="passive"/>
+        <pin num="6" name="SD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Voltmeter_AC">
+      <description>AC Voltmeter</description>
+      <fields>
+        <field name="Reference">MES</field>
+        <field name="Value">Voltmeter_AC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="linear">
+      <uri>/usr/share/kicad/library/linear.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="-15V">
+      <node ref="C402" pin="2"/>
+      <node ref="C204" pin="2"/>
+    </net>
+    <net code="2" name="+15V">
+      <node ref="C401" pin="1"/>
+      <node ref="C203" pin="1"/>
+    </net>
+    <net code="3" name="Net-(C202-Pad2)">
+      <node ref="U201" pin="2"/>
+      <node ref="U201" pin="6"/>
+      <node ref="C202" pin="2"/>
+    </net>
+    <net code="4" name="Net-(C201-Pad2)">
+      <node ref="C201" pin="2"/>
+    </net>
+    <net code="5" name="Net-(U201-Pad1)">
+      <node ref="U201" pin="1"/>
+    </net>
+    <net code="6" name="Net-(C202-Pad1)">
+      <node ref="C202" pin="1"/>
+      <node ref="MES201" pin="2"/>
+    </net>
+    <net code="7" name="AC">
+      <node ref="R404" pin="2"/>
+      <node ref="MES301" pin="1"/>
+      <node ref="T301" pin="6"/>
+      <node ref="C407" pin="1"/>
+      <node ref="C406" pin="1"/>
+      <node ref="C405" pin="1"/>
+      <node ref="MES401" pin="1"/>
+      <node ref="R401" pin="2"/>
+      <node ref="C401" pin="2"/>
+      <node ref="C402" pin="1"/>
+      <node ref="C205" pin="1"/>
+      <node ref="MES201" pin="1"/>
+      <node ref="R201" pin="2"/>
+      <node ref="C203" pin="2"/>
+      <node ref="C204" pin="1"/>
+      <node ref="C206" pin="1"/>
+      <node ref="T302" pin="6"/>
+    </net>
+    <net code="8" name="Net-(U201-Pad8)">
+      <node ref="U201" pin="8"/>
+    </net>
+    <net code="9" name="/test_frequecy-transfer_tl071_01/VCC">
+      <node ref="C205" pin="2"/>
+      <node ref="U201" pin="7"/>
+    </net>
+    <net code="10" name="Net-(U201-Pad5)">
+      <node ref="U201" pin="5"/>
+    </net>
+    <net code="11" name="/test_frequecy-transfer_tl071_01/VEE">
+      <node ref="U201" pin="4"/>
+      <node ref="C206" pin="2"/>
+    </net>
+    <net code="12" name="Net-(C201-Pad1)">
+      <node ref="U201" pin="3"/>
+      <node ref="C201" pin="1"/>
+      <node ref="R201" pin="1"/>
+    </net>
+    <net code="13" name="Net-(T301-Pad4)">
+      <node ref="T301" pin="5"/>
+      <node ref="T301" pin="4"/>
+    </net>
+    <net code="14" name="Net-(T302-Pad4)">
+      <node ref="T302" pin="4"/>
+      <node ref="T302" pin="5"/>
+    </net>
+    <net code="15" name="Net-(T301-Pad1)">
+      <node ref="T301" pin="1"/>
+      <node ref="T302" pin="1"/>
+    </net>
+    <net code="16" name="Net-(T301-Pad2)">
+      <node ref="T301" pin="2"/>
+      <node ref="T302" pin="2"/>
+    </net>
+    <net code="17" name="Net-(T301-Pad3)">
+      <node ref="T301" pin="3"/>
+    </net>
+    <net code="18" name="Net-(MES301-Pad2)">
+      <node ref="T302" pin="3"/>
+      <node ref="MES301" pin="2"/>
+    </net>
+    <net code="19" name="Net-(C408-Pad1)">
+      <node ref="C408" pin="1"/>
+      <node ref="R402" pin="1"/>
+      <node ref="R405" pin="1"/>
+    </net>
+    <net code="20" name="Net-(C409-Pad1)">
+      <node ref="MES401" pin="2"/>
+      <node ref="C409" pin="1"/>
+    </net>
+    <net code="21" name="Net-(C403-Pad1)">
+      <node ref="U401" pin="3"/>
+      <node ref="R401" pin="1"/>
+      <node ref="C403" pin="1"/>
+    </net>
+    <net code="22" name="Net-(C409-Pad2)">
+      <node ref="U401" pin="6"/>
+      <node ref="C409" pin="2"/>
+    </net>
+    <net code="23" name="Net-(C404-Pad2)">
+      <node ref="R402" pin="2"/>
+      <node ref="U401" pin="2"/>
+      <node ref="R403" pin="2"/>
+      <node ref="C404" pin="2"/>
+    </net>
+    <net code="24" name="Net-(C404-Pad1)">
+      <node ref="R404" pin="1"/>
+      <node ref="C408" pin="2"/>
+      <node ref="C404" pin="1"/>
+    </net>
+    <net code="25" name="Net-(C407-Pad2)">
+      <node ref="R403" pin="1"/>
+      <node ref="C407" pin="2"/>
+      <node ref="R405" pin="2"/>
+    </net>
+    <net code="26" name="Net-(U401-Pad8)">
+      <node ref="U401" pin="8"/>
+    </net>
+    <net code="27" name="/test_frequecy-transfer_filter_15000_01/VCC">
+      <node ref="C405" pin="2"/>
+      <node ref="U401" pin="7"/>
+    </net>
+    <net code="28" name="Net-(U401-Pad5)">
+      <node ref="U401" pin="5"/>
+    </net>
+    <net code="29" name="/test_frequecy-transfer_filter_15000_01/VEE">
+      <node ref="U401" pin="4"/>
+      <node ref="C406" pin="2"/>
+    </net>
+    <net code="30" name="Net-(U401-Pad1)">
+      <node ref="U401" pin="1"/>
+    </net>
+    <net code="31" name="Net-(C403-Pad2)">
+      <node ref="C403" pin="2"/>
+    </net>
+  </nets>
+</export>

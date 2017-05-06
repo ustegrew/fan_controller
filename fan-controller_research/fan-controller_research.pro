@@ -1,4 +1,4 @@
-update=Mon 01 May 2017 13:29:44 CEST
+update=Sat 06 May 2017 23:06:14 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -61,7 +61,7 @@ version=1
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=render/100_frequ-transfer_transformer- T60403-K5032-X102_01/
+PlotDirectoryName=render/200_frequ-transfer_filter_15000Hz/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=
