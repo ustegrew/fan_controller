@@ -28,12 +28,78 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:74xgxx
+LIBS:ac-dc
+LIBS:actel
+LIBS:allegro
+LIBS:Altera
+LIBS:analog_devices
+LIBS:battery_management
+LIBS:bbd
+LIBS:bosch
+LIBS:brooktre
+LIBS:cmos_ieee
+LIBS:dc-dc
+LIBS:diode
+LIBS:elec-unifil
+LIBS:ESD_Protection
+LIBS:ftdi
+LIBS:gennum
+LIBS:graphic
+LIBS:hc11
+LIBS:infineon
+LIBS:intersil
+LIBS:ir
+LIBS:Lattice
+LIBS:leds
+LIBS:LEM
+LIBS:logo
+LIBS:maxim
+LIBS:mechanical
+LIBS:microchip_dspic33dsc
+LIBS:microchip_pic10mcu
+LIBS:microchip_pic12mcu
+LIBS:microchip_pic16mcu
+LIBS:microchip_pic18mcu
+LIBS:microchip_pic24mcu
+LIBS:microchip_pic32mcu
+LIBS:modules
+LIBS:motor_drivers
+LIBS:motors
+LIBS:msp430
+LIBS:nordicsemi
+LIBS:nxp
+LIBS:nxp_armmcu
+LIBS:onsemi
+LIBS:Oscillators
+LIBS:powerint
+LIBS:Power_Management
+LIBS:pspice
+LIBS:references
+LIBS:relays
+LIBS:rfcom
+LIBS:RFSolutions
+LIBS:sensors
+LIBS:silabs
+LIBS:stm8
+LIBS:stm32
+LIBS:supertex
+LIBS:switches
+LIBS:transf
+LIBS:triac_thyristor
+LIBS:ttl_ieee
+LIBS:video
+LIBS:wiznet
+LIBS:Worldsemi
+LIBS:Xicor
+LIBS:zetex
+LIBS:Zilog
 LIBS:fan-controller_research-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 4
+Sheet 3 12
 Title "Frequency transfer, transformer, VAC T60403-K5032-X102"
 Date "2017-05-01"
 Rev ""
@@ -55,10 +121,10 @@ F 3 "" V 5300 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AC #PWR301
+L AC #PWR08
 U 1 1 5906E5D5
 P 1200 4200
-F 0 "#PWR301" H 1200 4100 50  0001 C CNN
+F 0 "#PWR08" H 1200 4100 50  0001 C CNN
 F 1 "AC" V 950 4350 50  0000 C CNN
 F 2 "" H 1200 4200 50  0001 C CNN
 F 3 "" H 1200 4200 50  0001 C CNN
@@ -67,10 +133,10 @@ F 4 "0 Hz ...50 kHz" V 1050 4300 60  0000 C CIN "f"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR302
+L GND #PWR09
 U 1 1 5906E5DB
 P 1200 4650
-F 0 "#PWR302" H 1200 4400 50  0001 C CNN
+F 0 "#PWR09" H 1200 4400 50  0001 C CNN
 F 1 "GND" H 1200 4500 50  0000 C CNN
 F 2 "" H 1200 4650 50  0001 C CNN
 F 3 "" H 1200 4650 50  0001 C CNN
@@ -78,10 +144,10 @@ F 3 "" H 1200 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR305
+L GND #PWR010
 U 1 1 5906E5E1
 P 5300 4650
-F 0 "#PWR305" H 5300 4400 50  0001 C CNN
+F 0 "#PWR010" H 5300 4400 50  0001 C CNN
 F 1 "GND" H 5300 4500 50  0000 C CNN
 F 2 "" H 5300 4650 50  0001 C CNN
 F 3 "" H 5300 4650 50  0001 C CNN
@@ -130,10 +196,10 @@ F 3 "" H 4400 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR303
+L GND #PWR011
 U 1 1 5906EF25
 P 1600 4650
-F 0 "#PWR303" H 1600 4400 50  0001 C CNN
+F 0 "#PWR011" H 1600 4400 50  0001 C CNN
 F 1 "GND" H 1600 4500 50  0000 C CNN
 F 2 "" H 1600 4650 50  0001 C CNN
 F 3 "" H 1600 4650 50  0001 C CNN
@@ -141,10 +207,10 @@ F 3 "" H 1600 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR304
+L GND #PWR012
 U 1 1 5906F109
 P 4900 4650
-F 0 "#PWR304" H 4900 4400 50  0001 C CNN
+F 0 "#PWR012" H 4900 4400 50  0001 C CNN
 F 1 "GND" H 4900 4500 50  0000 C CNN
 F 2 "" H 4900 4650 50  0001 C CNN
 F 3 "" H 4900 4650 50  0001 C CNN

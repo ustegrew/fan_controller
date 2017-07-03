@@ -28,12 +28,78 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:74xgxx
+LIBS:ac-dc
+LIBS:actel
+LIBS:allegro
+LIBS:Altera
+LIBS:analog_devices
+LIBS:battery_management
+LIBS:bbd
+LIBS:bosch
+LIBS:brooktre
+LIBS:cmos_ieee
+LIBS:dc-dc
+LIBS:diode
+LIBS:elec-unifil
+LIBS:ESD_Protection
+LIBS:ftdi
+LIBS:gennum
+LIBS:graphic
+LIBS:hc11
+LIBS:infineon
+LIBS:intersil
+LIBS:ir
+LIBS:Lattice
+LIBS:leds
+LIBS:LEM
+LIBS:logo
+LIBS:maxim
+LIBS:mechanical
+LIBS:microchip_dspic33dsc
+LIBS:microchip_pic10mcu
+LIBS:microchip_pic12mcu
+LIBS:microchip_pic16mcu
+LIBS:microchip_pic18mcu
+LIBS:microchip_pic24mcu
+LIBS:microchip_pic32mcu
+LIBS:modules
+LIBS:motor_drivers
+LIBS:motors
+LIBS:msp430
+LIBS:nordicsemi
+LIBS:nxp
+LIBS:nxp_armmcu
+LIBS:onsemi
+LIBS:Oscillators
+LIBS:powerint
+LIBS:Power_Management
+LIBS:pspice
+LIBS:references
+LIBS:relays
+LIBS:rfcom
+LIBS:RFSolutions
+LIBS:sensors
+LIBS:silabs
+LIBS:stm8
+LIBS:stm32
+LIBS:supertex
+LIBS:switches
+LIBS:transf
+LIBS:triac_thyristor
+LIBS:ttl_ieee
+LIBS:video
+LIBS:wiznet
+LIBS:Worldsemi
+LIBS:Xicor
+LIBS:zetex
+LIBS:Zilog
 LIBS:fan-controller_research-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 4
+Sheet 2 12
 Title "Frequency transfer, TL071"
 Date "2017-04-28"
 Rev ""
@@ -100,10 +166,10 @@ F 3 "" H 4700 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C201
+L C C204
 U 1 1 59031E33
 P 2000 3500
-F 0 "C201" H 2050 3600 50  0000 L CNN
+F 0 "C204" H 2050 3600 50  0000 L CNN
 F 1 "1u" H 1850 3600 50  0000 L CNN
 F 2 "" H 2038 3350 50  0001 C CNN
 F 3 "" H 2000 3500 50  0001 C CNN
@@ -111,10 +177,10 @@ F 3 "" H 2000 3500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C C202
+L C C205
 U 1 1 59032073
 P 4400 3600
-F 0 "C202" H 4425 3700 50  0000 L CNN
+F 0 "C205" H 4425 3700 50  0000 L CNN
 F 1 "1u" H 4250 3700 50  0000 L CNN
 F 2 "" H 4438 3450 50  0001 C CNN
 F 3 "" H 4400 3600 50  0001 C CNN
@@ -41478,10 +41544,10 @@ F 3 "" H 1250 950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP C203
+L CP C201
 U 1 1 5904F5A5
 P 1250 1300
-F 0 "C203" H 1275 1400 50  0000 L CNN
+F 0 "C201" H 1275 1400 50  0000 L CNN
 F 1 "100u / 25V" H 1275 1200 50  0000 L CNN
 F 2 "" H 1288 1150 50  0001 C CNN
 F 3 "" H 1250 1300 50  0001 C CNN
@@ -41489,10 +41555,10 @@ F 3 "" H 1250 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP C204
+L CP C202
 U 1 1 5904F688
 P 1250 1850
-F 0 "C204" H 1275 1950 50  0000 L CNN
+F 0 "C202" H 1275 1950 50  0000 L CNN
 F 1 "100u / 25V" H 1275 1750 50  0000 L CNN
 F 2 "" H 1288 1700 50  0001 C CNN
 F 3 "" H 1250 1850 50  0001 C CNN
@@ -41500,10 +41566,10 @@ F 3 "" H 1250 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L -15V #PWR202
+L -15V #PWR203
 U 1 1 5904F6D2
 P 1250 2200
-F 0 "#PWR202" H 1250 2300 50  0001 C CNN
+F 0 "#PWR203" H 1250 2300 50  0001 C CNN
 F 1 "-15V" H 1250 2350 50  0000 C CNN
 F 2 "" H 1250 2200 50  0001 C CNN
 F 3 "" H 1250 2200 50  0001 C CNN
@@ -41600,10 +41666,10 @@ F 3 "" H 3750 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C205
+L C C203
 U 1 1 5904FE78
 P 3450 3050
-F 0 "C205" H 3475 3150 50  0000 L CNN
+F 0 "C203" H 3475 3150 50  0000 L CNN
 F 1 "0.1u" H 3250 3150 50  0000 L CNN
 F 2 "" H 3488 2900 50  0001 C CNN
 F 3 "" H 3450 3050 50  0001 C CNN
@@ -41643,4 +41709,6 @@ Wire Wire Line
 	4550 3600 4700 3600
 Wire Wire Line
 	4700 3600 4700 3950
+NoConn ~ 3300 3900
+NoConn ~ 3400 3900
 $EndSCHEMATC

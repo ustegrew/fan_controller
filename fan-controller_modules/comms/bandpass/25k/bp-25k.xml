@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/peter/Documents/project/2017-03-10_ventilator-control/design/bp-15k/bp-15k.sch</source>
+    <date>Sun 02 Jul 2017 22:25:47 CEST</date>
+    <tool>Eeschema 4.0.6-e0-6349~53~ubuntu14.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Bandpass, 25kHz</title>
+        <company/>
+        <rev>1</rev>
+        <date>2017-07-01</date>
+        <source>bp-15k.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U101">
+      <value>OP282</value>
+      <footprint>Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm</footprint>
+      <libsource lib="fan-controller_parts" part="OP282"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59574876</tstamp>
+    </comp>
+    <comp ref="U102">
+      <value>OP282</value>
+      <footprint>Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm</footprint>
+      <libsource lib="fan-controller_parts" part="OP282"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59574916</tstamp>
+    </comp>
+    <comp ref="C103">
+      <value>620pF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59575829</tstamp>
+    </comp>
+    <comp ref="C110">
+      <value>620pF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59575878</tstamp>
+    </comp>
+    <comp ref="R101">
+      <value>124k</value>
+      <footprint>Resistors_SMD:R_0201</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5957591B</tstamp>
+    </comp>
+    <comp ref="R109">
+      <value>750</value>
+      <footprint>Resistors_SMD:R_0201</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59575AE1</tstamp>
+    </comp>
+    <comp ref="R105">
+      <value>41.2k</value>
+      <footprint>Resistors_SMD:R_0201</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59575F83</tstamp>
+    </comp>
+    <comp ref="J101">
+      <value>CONN_01X03</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59576307</tstamp>
+    </comp>
+    <comp ref="J102">
+      <value>CONN_01X02</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59576676</tstamp>
+    </comp>
+    <comp ref="J103">
+      <value>CONN_01X02</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59576968</tstamp>
+    </comp>
+    <comp ref="C109">
+      <value>4.7uF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59576DF3</tstamp>
+    </comp>
+    <comp ref="C101">
+      <value>100u/63V</value>
+      <footprint>Capacitors_SMD:CP_Elec_6.3x7.7</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595770EE</tstamp>
+    </comp>
+    <comp ref="C102">
+      <value>100u/63V</value>
+      <footprint>Capacitors_SMD:CP_Elec_6.3x7.7</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59577149</tstamp>
+    </comp>
+    <comp ref="C107">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_1812_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5957786B</tstamp>
+    </comp>
+    <comp ref="C115">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_1812_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5957790A</tstamp>
+    </comp>
+    <comp ref="R102">
+      <value>124k</value>
+      <footprint>Resistors_SMD:R_0201</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59579F6E</tstamp>
+    </comp>
+    <comp ref="C104">
+      <value>620pF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5957A8E4</tstamp>
+    </comp>
+    <comp ref="C111">
+      <value>620pF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5957A999</tstamp>
+    </comp>
+    <comp ref="R106">
+      <value>57.6k</value>
+      <footprint>Resistors_SMD:R_0201</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5957B4ED</tstamp>
+    </comp>
+    <comp ref="R110">
+      <value>750</value>
+      <footprint>Resistors_SMD:R_0201</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5957B7FC</tstamp>
+    </comp>
+    <comp ref="R103">
+      <value>97.6k</value>
+      <footprint>Resistors_SMD:R_0201</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5957D2B9</tstamp>
+    </comp>
+    <comp ref="C105">
+      <value>560pF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5957DD25</tstamp>
+    </comp>
+    <comp ref="C112">
+      <value>560pF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5957DDD7</tstamp>
+    </comp>
+    <comp ref="R111">
+      <value>976</value>
+      <footprint>Resistors_SMD:R_0201</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5957E187</tstamp>
+    </comp>
+    <comp ref="R107">
+      <value>59k</value>
+      <footprint>Resistors_SMD:R_0201</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5957EF30</tstamp>
+    </comp>
+    <comp ref="C108">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_1812_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59580261</tstamp>
+    </comp>
+    <comp ref="C116">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_1812_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59580267</tstamp>
+    </comp>
+    <comp ref="R113">
+      <value>19.1k</value>
+      <footprint>Resistors_SMD:R_0201</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59580E6E</tstamp>
+    </comp>
+    <comp ref="R115">
+      <value>255</value>
+      <footprint>Resistors_SMD:R_0201</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59580F16</tstamp>
+    </comp>
+    <comp ref="R104">
+      <value>97.6k</value>
+      <footprint>Resistors_SMD:R_0201</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595844FD</tstamp>
+    </comp>
+    <comp ref="C106">
+      <value>680pF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59584503</tstamp>
+    </comp>
+    <comp ref="C113">
+      <value>680pF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59584509</tstamp>
+    </comp>
+    <comp ref="R112">
+      <value>976</value>
+      <footprint>Resistors_SMD:R_0201</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5958450F</tstamp>
+    </comp>
+    <comp ref="R108">
+      <value>59k</value>
+      <footprint>Resistors_SMD:R_0201</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59584521</tstamp>
+    </comp>
+    <comp ref="R114">
+      <value>20.5k</value>
+      <footprint>Resistors_SMD:R_0201</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5958455A</tstamp>
+    </comp>
+    <comp ref="R116">
+      <value>274</value>
+      <footprint>Resistors_SMD:R_0201</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59584560</tstamp>
+    </comp>
+    <comp ref="C114">
+      <value>4.7uF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595869BB</tstamp>
+    </comp>
+    <comp ref="MK01">
+      <value>3.5mm</value>
+      <footprint>Mounting_Holes:MountingHole_3.5mm_Pad_Via</footprint>
+      <libsource lib="mechanical" part="Mounting_Hole_PAD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5958F6E0</tstamp>
+    </comp>
+    <comp ref="MK02">
+      <value>3.5mm</value>
+      <footprint>Mounting_Holes:MountingHole_3.5mm_Pad_Via</footprint>
+      <libsource lib="mechanical" part="Mounting_Hole_PAD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59590057</tstamp>
+    </comp>
+    <comp ref="MK03">
+      <value>3.5mm</value>
+      <footprint>Mounting_Holes:MountingHole_3.5mm_Pad_Via</footprint>
+      <libsource lib="mechanical" part="Mounting_Hole_PAD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595900EE</tstamp>
+    </comp>
+    <comp ref="MK04">
+      <value>3.5mm</value>
+      <footprint>Mounting_Holes:MountingHole_3.5mm_Pad_Via</footprint>
+      <libsource lib="mechanical" part="Mounting_Hole_PAD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59590214</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X02">
+      <description>Connector, single row, 01x02, pin header</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X*</fp>
+        <fp>Pin_Header_Angled_1X*</fp>
+        <fp>Socket_Strip_Straight_1X*</fp>
+        <fp>Socket_Strip_Angled_1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X03">
+      <description>Connector, single row, 01x03, pin header</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X*</fp>
+        <fp>Pin_Header_Angled_1X*</fp>
+        <fp>Socket_Strip_Straight_1X*</fp>
+        <fp>Socket_Strip_Angled_1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_01X03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="CP">
+      <description>Polarised capacitor</description>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="mechanical" part="Mounting_Hole_PAD">
+      <description>Mounting Hole with connection</description>
+      <footprints>
+        <fp>Mounting?Hole*</fp>
+        <fp>Hole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">MK</field>
+        <field name="Value">Mounting_Hole_PAD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="fan-controller_parts" part="OP282">
+      <description>Dual/Quad, Low Power, High Speed JFET Operational Amplifiers</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">OP282</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="output"/>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="~" type="input"/>
+        <pin num="4" name="~" type="power_in"/>
+        <pin num="5" name="~" type="input"/>
+        <pin num="6" name="~" type="input"/>
+        <pin num="7" name="~" type="output"/>
+        <pin num="8" name="~" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="mechanical">
+      <uri>/usr/share/kicad/github_clone/kicad-library/library/mechanical.lib</uri>
+    </library>
+    <library logical="fan-controller_parts">
+      <uri>/home/peter/git/fan-controller/project/fan-controller_schem/parts/symbols/fan-controller_parts.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(C104-Pad2)">
+      <node ref="C104" pin="2"/>
+      <node ref="R107" pin="1"/>
+      <node ref="R102" pin="1"/>
+      <node ref="U101" pin="7"/>
+    </net>
+    <net code="2" name="Net-(C103-Pad2)">
+      <node ref="U101" pin="1"/>
+      <node ref="R106" pin="1"/>
+      <node ref="R101" pin="1"/>
+      <node ref="C103" pin="2"/>
+    </net>
+    <net code="3" name="Net-(C104-Pad1)">
+      <node ref="R106" pin="2"/>
+      <node ref="C111" pin="1"/>
+      <node ref="R110" pin="1"/>
+      <node ref="C104" pin="1"/>
+    </net>
+    <net code="4" name="Net-(C111-Pad2)">
+      <node ref="U101" pin="6"/>
+      <node ref="R102" pin="2"/>
+      <node ref="C111" pin="2"/>
+    </net>
+    <net code="5" name="Net-(C105-Pad1)">
+      <node ref="R111" pin="1"/>
+      <node ref="C105" pin="1"/>
+      <node ref="C112" pin="1"/>
+      <node ref="R107" pin="2"/>
+    </net>
+    <net code="6" name="Net-(C112-Pad2)">
+      <node ref="U102" pin="2"/>
+      <node ref="R103" pin="2"/>
+      <node ref="C112" pin="2"/>
+    </net>
+    <net code="7" name="Net-(C109-Pad2)">
+      <node ref="C109" pin="2"/>
+      <node ref="R105" pin="1"/>
+    </net>
+    <net code="8" name="Net-(C110-Pad2)">
+      <node ref="R101" pin="2"/>
+      <node ref="U101" pin="2"/>
+      <node ref="C110" pin="2"/>
+    </net>
+    <net code="9" name="GND">
+      <node ref="C116" pin="2"/>
+      <node ref="U101" pin="5"/>
+      <node ref="MK02" pin="1"/>
+      <node ref="R111" pin="2"/>
+      <node ref="R109" pin="2"/>
+      <node ref="J103" pin="2"/>
+      <node ref="C107" pin="2"/>
+      <node ref="C115" pin="2"/>
+      <node ref="U101" pin="3"/>
+      <node ref="J101" pin="2"/>
+      <node ref="J102" pin="2"/>
+      <node ref="C101" pin="2"/>
+      <node ref="C102" pin="1"/>
+      <node ref="R110" pin="2"/>
+      <node ref="C108" pin="2"/>
+      <node ref="R112" pin="2"/>
+      <node ref="R116" pin="2"/>
+      <node ref="R115" pin="2"/>
+      <node ref="MK04" pin="1"/>
+      <node ref="MK03" pin="1"/>
+      <node ref="MK01" pin="1"/>
+    </net>
+    <net code="10" name="Net-(C109-Pad1)">
+      <node ref="C109" pin="1"/>
+      <node ref="J102" pin="1"/>
+    </net>
+    <net code="11" name="/VEE">
+      <node ref="C115" pin="1"/>
+      <node ref="U102" pin="4"/>
+      <node ref="C102" pin="2"/>
+      <node ref="C116" pin="1"/>
+      <node ref="U101" pin="4"/>
+      <node ref="J101" pin="3"/>
+    </net>
+    <net code="12" name="/VCC">
+      <node ref="U101" pin="8"/>
+      <node ref="U102" pin="8"/>
+      <node ref="C108" pin="1"/>
+      <node ref="C101" pin="1"/>
+      <node ref="J101" pin="1"/>
+      <node ref="C107" pin="1"/>
+    </net>
+    <net code="13" name="Net-(C114-Pad2)">
+      <node ref="C114" pin="2"/>
+      <node ref="J103" pin="1"/>
+    </net>
+    <net code="14" name="Net-(R114-Pad2)">
+      <node ref="R116" pin="1"/>
+      <node ref="R114" pin="2"/>
+      <node ref="U102" pin="5"/>
+    </net>
+    <net code="15" name="Net-(C113-Pad2)">
+      <node ref="U102" pin="6"/>
+      <node ref="R104" pin="2"/>
+      <node ref="C113" pin="2"/>
+    </net>
+    <net code="16" name="Net-(R113-Pad2)">
+      <node ref="R115" pin="1"/>
+      <node ref="R113" pin="2"/>
+      <node ref="U102" pin="3"/>
+    </net>
+    <net code="17" name="Net-(C106-Pad2)">
+      <node ref="C114" pin="1"/>
+      <node ref="R114" pin="1"/>
+      <node ref="R104" pin="1"/>
+      <node ref="C106" pin="2"/>
+      <node ref="U102" pin="7"/>
+    </net>
+    <net code="18" name="Net-(C105-Pad2)">
+      <node ref="R103" pin="1"/>
+      <node ref="U102" pin="1"/>
+      <node ref="C105" pin="2"/>
+      <node ref="R108" pin="1"/>
+      <node ref="R113" pin="1"/>
+    </net>
+    <net code="19" name="Net-(C106-Pad1)">
+      <node ref="C113" pin="1"/>
+      <node ref="C106" pin="1"/>
+      <node ref="R108" pin="2"/>
+      <node ref="R112" pin="1"/>
+    </net>
+    <net code="24" name="Net-(C103-Pad1)">
+      <node ref="R105" pin="2"/>
+      <node ref="R109" pin="1"/>
+      <node ref="C110" pin="1"/>
+      <node ref="C103" pin="1"/>
+    </net>
+  </nets>
+</export>

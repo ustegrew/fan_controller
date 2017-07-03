@@ -1,0 +1,543 @@
+EESchema Schematic File Version 2
+LIBS:fan-controller_parts
+LIBS:device
+LIBS:74xgxx
+LIBS:74xx
+LIBS:ac-dc
+LIBS:actel
+LIBS:adc-dac
+LIBS:allegro
+LIBS:Altera
+LIBS:analog_devices
+LIBS:analog_switches
+LIBS:atmel
+LIBS:audio
+LIBS:battery_management
+LIBS:bbd
+LIBS:bosch
+LIBS:brooktre
+LIBS:cmos4000
+LIBS:cmos_ieee
+LIBS:conn
+LIBS:contrib
+LIBS:cypress
+LIBS:dc-dc
+LIBS:digital-audio
+LIBS:diode
+LIBS:display
+LIBS:dsp
+LIBS:elec-unifil
+LIBS:ESD_Protection
+LIBS:ftdi
+LIBS:gennum
+LIBS:graphic
+LIBS:hc11
+LIBS:infineon
+LIBS:intel
+LIBS:interface
+LIBS:intersil
+LIBS:ir
+LIBS:Lattice
+LIBS:leds
+LIBS:LEM
+LIBS:linear
+LIBS:logo
+LIBS:maxim
+LIBS:mechanical
+LIBS:memory
+LIBS:microchip
+LIBS:microchip_dspic33dsc
+LIBS:microchip_pic10mcu
+LIBS:microchip_pic12mcu
+LIBS:microchip_pic16mcu
+LIBS:microchip_pic18mcu
+LIBS:microchip_pic24mcu
+LIBS:microchip_pic32mcu
+LIBS:microcontrollers
+LIBS:modules
+LIBS:motor_drivers
+LIBS:motorola
+LIBS:motors
+LIBS:msp430
+LIBS:nordicsemi
+LIBS:nxp
+LIBS:nxp_armmcu
+LIBS:onsemi
+LIBS:opto
+LIBS:Oscillators
+LIBS:philips
+LIBS:power
+LIBS:powerint
+LIBS:Power_Management
+LIBS:pspice
+LIBS:references
+LIBS:regul
+LIBS:relays
+LIBS:rfcom
+LIBS:RFSolutions
+LIBS:sensors
+LIBS:silabs
+LIBS:siliconi
+LIBS:stm8
+LIBS:stm32
+LIBS:supertex
+LIBS:switches
+LIBS:texas
+LIBS:transf
+LIBS:transistors
+LIBS:triac_thyristor
+LIBS:ttl_ieee
+LIBS:valves
+LIBS:video
+LIBS:wiznet
+LIBS:Worldsemi
+LIBS:Xicor
+LIBS:xilinx
+LIBS:zetex
+LIBS:Zilog
+LIBS:fan-controller_schem-cache
+EELAYER 25 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 2 10
+Title "PSU module"
+Date "2017-05-31"
+Rev "1"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 2650 6500 0    60   UnSpc ~ 0
+18VAC_IN_A
+Text HLabel 2650 7300 0    60   UnSpc ~ 0
+18VAC_IN_MID
+Text HLabel 2650 8100 0    60   UnSpc ~ 0
+18VAC_IN_B
+$Comp
+L 1N5403 D204
+U 1 1 592E9880
+P 4250 6900
+F 0 "D204" H 4250 7000 50  0000 C CNN
+F 1 "1N5403" H 4250 6800 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-201AD_Horizontal_RM15" H 4250 6725 50  0001 C CNN
+F 3 "" H 4250 6900 50  0001 C CNN
+	1    4250 6900
+	-1   0    0    1   
+$EndComp
+$Comp
+L 1N5403 D208
+U 1 1 592E99B9
+P 4250 8100
+F 0 "D208" H 4250 8200 50  0000 C CNN
+F 1 "1N5403" H 4250 8000 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-201AD_Horizontal_RM15" H 4250 7925 50  0001 C CNN
+F 3 "" H 4250 8100 50  0001 C CNN
+	1    4250 8100
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1N5403 D203
+U 1 1 592E9A1E
+P 4250 6500
+F 0 "D203" H 4250 6600 50  0000 C CNN
+F 1 "1N5403" H 4250 6400 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-201AD_Horizontal_RM15" H 4250 6325 50  0001 C CNN
+F 3 "" H 4250 6500 50  0001 C CNN
+	1    4250 6500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 1N5403 D206
+U 1 1 592E9A93
+P 4250 7700
+F 0 "D206" H 4250 7800 50  0000 C CNN
+F 1 "1N5403" H 4250 7600 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-201AD_Horizontal_RM15" H 4250 7525 50  0001 C CNN
+F 3 "" H 4250 7700 50  0001 C CNN
+	1    4250 7700
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C203
+U 1 1 592E9F9C
+P 11700 6900
+F 0 "C203" H 11725 7000 50  0000 L CNN
+F 1 "0.1 uF" H 11725 6800 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0201" H 11738 6750 50  0001 C CNN
+F 3 "" H 11700 6900 50  0001 C CNN
+	1    11700 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1N4148 D205
+U 1 1 592E9FC9
+P 12300 6900
+F 0 "D205" H 12300 7000 50  0000 C CNN
+F 1 "1N4148" H 12300 6800 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_Horizontal_RM10" H 12300 6725 50  0001 C CNN
+F 3 "" H 12300 6900 50  0001 C CNN
+	1    12300 6900
+	0    -1   1    0   
+$EndComp
+$Comp
+L 1N4148 D207
+U 1 1 592EA024
+P 12300 7700
+F 0 "D207" H 12300 7800 50  0000 C CNN
+F 1 "1N4148" H 12300 7600 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_Horizontal_RM10" H 12300 7525 50  0001 C CNN
+F 3 "" H 12300 7700 50  0001 C CNN
+	1    12300 7700
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	3300 6500 4100 6500
+Wire Wire Line
+	3300 8100 4100 8100
+Wire Wire Line
+	4400 6500 10350 6500
+Wire Wire Line
+	4400 8100 10350 8100
+Wire Wire Line
+	11150 6500 13550 6500
+Wire Wire Line
+	6050 7050 6050 7550
+Wire Wire Line
+	11700 7050 11700 7550
+Connection ~ 11700 7300
+$Comp
+L CP C204
+U 1 1 592EC65E
+P 6050 7700
+F 0 "C204" H 6075 7800 50  0000 L CNN
+F 1 "100uF/63V" H 6075 7600 50  0000 L CNN
+F 2 "Capacitors_SMD:CP_Elec_4x5.7" H 6088 7550 50  0001 C CNN
+F 3 "" H 6050 7700 50  0001 C CNN
+	1    6050 7700
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C205
+U 1 1 592EC69D
+P 11700 7700
+F 0 "C205" H 11725 7800 50  0000 L CNN
+F 1 "1 uF" H 11725 7600 50  0000 L CNN
+F 2 "Capacitors_SMD:CP_Elec_4x5.8" H 11738 7550 50  0001 C CNN
+F 3 "" H 11700 7700 50  0001 C CNN
+	1    11700 7700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 8100 6050 7850
+Wire Wire Line
+	11700 7850 11700 8100
+Wire Wire Line
+	11150 8100 13550 8100
+Wire Wire Line
+	11700 6500 11700 6750
+$Comp
+L Fuse F202
+U 1 1 592ED153
+P 3150 6500
+F 0 "F202" V 3230 6500 50  0000 C CNN
+F 1 "1AT" V 3075 6500 50  0000 C CNN
+F 2 "Fuse_Holders_and_Fuses:Fuseholder5x20_Horizontal_closed_Bulgin_FX0457" V 3080 6500 50  0001 C CNN
+F 3 "" H 3150 6500 50  0001 C CNN
+	1    3150 6500
+	0    1    -1   0   
+$EndComp
+$Comp
+L Fuse F203
+U 1 1 592ED294
+P 3150 8100
+F 0 "F203" V 3230 8100 50  0000 C CNN
+F 1 "1AT" V 3075 8100 50  0000 C CNN
+F 2 "Fuse_Holders_and_Fuses:Fuseholder5x20_Horizontal_closed_Bulgin_FX0457" V 3080 8100 50  0001 C CNN
+F 3 "" H 3150 8100 50  0001 C CNN
+	1    3150 8100
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	12300 6500 12300 6750
+Wire Wire Line
+	12300 7050 12300 7550
+Connection ~ 12300 7300
+Wire Wire Line
+	12300 8100 12300 7850
+Text HLabel 13550 6500 2    60   UnSpc ~ 0
+V_15V_CC_OUT
+Text HLabel 13550 8100 2    60   UnSpc ~ 0
+V_15V_EE_OUT
+Text HLabel 13550 9350 2    60   UnSpc ~ 0
+GND
+Text HLabel 13550 2750 2    60   UnSpc ~ 0
+PE_OUT
+Text HLabel 13550 3500 2    60   UnSpc ~ 0
+L_OUT
+Wire Wire Line
+	2650 6500 3000 6500
+Wire Wire Line
+	2650 8100 3000 8100
+Connection ~ 12300 6500
+Connection ~ 12300 8100
+$Comp
+L FINDER-40.52 K201
+U 1 1 592FA24E
+P 7550 4100
+F 0 "K201" V 8650 3900 50  0000 L CNN
+F 1 "FINDER-40.52" V 8550 3900 50  0000 L CNN
+F 2 "Relays_THT:Relay_DPDT_Finder_40.52" H 9100 4070 50  0001 C CNN
+F 3 "" H 7550 4100 50  0001 C CNN
+	1    7550 4100
+	0    1    -1   0   
+$EndComp
+Text Notes 7350 3200 0    39   ~ 0
+Un=18V
+$Comp
+L 1N4148 D201
+U 1 1 592FB279
+P 7550 4700
+F 0 "D201" H 7550 4800 50  0000 C CNN
+F 1 "1N4148" H 7550 4600 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_Horizontal_RM10" H 7550 4525 50  0001 C CNN
+F 3 "" H 7550 4700 50  0001 C CNN
+	1    7550 4700
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R201
+U 1 1 592FB5CE
+P 3150 5400
+F 0 "R201" V 3230 5400 50  0000 C CNN
+F 1 "4.7k" V 3150 5400 50  0000 C CNN
+F 2 "Resistors_SMD:R_0201" V 3080 5400 50  0001 C CNN
+F 3 "" H 3150 5400 50  0001 C CNN
+	1    3150 5400
+	0    1    -1   0   
+$EndComp
+Text HLabel 2650 5400 0    60   Input ~ 0
+FAN_ON
+Text HLabel 2600 3500 0    60   UnSpc ~ 0
+L_IN
+Text HLabel 2600 3900 0    60   UnSpc ~ 0
+N_IN
+Text HLabel 2600 2750 0    60   UnSpc ~ 0
+PE_IN
+Text HLabel 13550 3900 2    60   UnSpc ~ 0
+N_OUT
+$Comp
+L Fuse F201
+U 1 1 593030E1
+P 3150 3500
+F 0 "F201" V 3230 3500 50  0000 C CNN
+F 1 "4AT" V 3075 3500 50  0000 C CNN
+F 2 "Fuse_Holders_and_Fuses:Fuseholder5x20_Horizontal_closed_Bulgin_FX0457" V 3080 3500 50  0001 C CNN
+F 3 "" H 3150 3500 50  0001 C CNN
+	1    3150 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CP C202
+U 1 1 5931CB2E
+P 6050 6900
+F 0 "C202" H 6075 7000 50  0000 L CNN
+F 1 "100uF/63V" H 6075 6800 50  0000 L CNN
+F 2 "Capacitors_SMD:CP_Elec_4x4.5" H 6088 6750 50  0001 C CNN
+F 3 "" H 6050 6900 50  0001 C CNN
+	1    6050 6900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 6500 6050 6750
+Connection ~ 6050 6500
+Wire Wire Line
+	2650 5400 3000 5400
+Wire Wire Line
+	7850 4300 8000 4300
+Wire Wire Line
+	8000 4300 8000 6500
+Connection ~ 8000 4700
+Wire Wire Line
+	7250 4300 7050 4300
+Wire Wire Line
+	7050 4300 7050 5200
+Wire Wire Line
+	7700 4700 8000 4700
+Wire Wire Line
+	7050 4700 7400 4700
+Wire Wire Line
+	2600 3500 3000 3500
+Wire Wire Line
+	2600 3900 7250 3900
+Wire Wire Line
+	3300 3500 7250 3500
+Wire Wire Line
+	2600 2750 13550 2750
+Wire Wire Line
+	7850 3400 8150 3400
+Wire Wire Line
+	8150 3400 8150 3500
+Wire Wire Line
+	8150 3500 13550 3500
+Wire Wire Line
+	7850 3800 8050 3800
+Wire Wire Line
+	8050 3800 8050 3900
+Wire Wire Line
+	8050 3900 13550 3900
+Connection ~ 6050 7300
+$Comp
+L TIP121 Q201
+U 1 1 592FE00A
+P 6950 5400
+F 0 "Q201" H 7200 5475 50  0000 L CNN
+F 1 "TIP121" H 7200 5400 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-220_Vertical" H 7200 5325 50  0001 L CIN
+F 3 "" H 6950 5400 50  0001 L CNN
+	1    6950 5400
+	1    0    0    -1  
+$EndComp
+Connection ~ 7050 4700
+Wire Wire Line
+	7050 7300 7050 5600
+Connection ~ 7050 7300
+$Comp
+L LM7815ACT U202
+U 1 1 593040CC
+P 10750 6550
+F 0 "U202" H 10550 6750 50  0000 C CNN
+F 1 "LM7815ACT" H 10750 6750 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-220_Vertical" H 10750 6650 50  0001 C CIN
+F 3 "" H 10750 6550 50  0001 C CNN
+	1    10750 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L LM7915CT U203
+U 1 1 5930410F
+P 10750 8050
+F 0 "U203" H 10550 7850 50  0000 C CNN
+F 1 "LM7915CT" H 10750 7850 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-220_Vertical" H 10750 7950 50  0001 C CIN
+F 3 "" H 10750 8050 50  0001 C CNN
+	1    10750 8050
+	1    0    0    -1  
+$EndComp
+Connection ~ 11700 6500
+Connection ~ 11700 8100
+Wire Wire Line
+	3300 5400 6750 5400
+Connection ~ 8000 6500
+Connection ~ 6050 8100
+Wire Wire Line
+	10750 6800 10750 7800
+Connection ~ 10750 7300
+Connection ~ 9850 7300
+Wire Wire Line
+	9850 5700 9850 9800
+Wire Wire Line
+	9850 5700 12350 5700
+Wire Wire Line
+	2650 7300 12300 7300
+Text HLabel 13550 4900 2    60   UnSpc ~ 0
+V_5V_OUT
+Wire Wire Line
+	11150 4900 13550 4900
+Wire Wire Line
+	9850 9350 13550 9350
+$Comp
+L C C201
+U 1 1 5930EFD5
+P 11700 5300
+F 0 "C201" H 11725 5400 50  0000 L CNN
+F 1 "0.1 uF" H 11725 5200 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0201" H 11738 5150 50  0001 C CNN
+F 3 "" H 11700 5300 50  0001 C CNN
+	1    11700 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11700 5700 11700 5450
+Wire Wire Line
+	11700 5150 11700 4900
+$Comp
+L 1N4148 D202
+U 1 1 5930F1DF
+P 12350 5300
+F 0 "D202" H 12350 5400 50  0000 C CNN
+F 1 "1N4148" H 12350 5200 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_Horizontal_RM10" H 12350 5125 50  0001 C CNN
+F 3 "" H 12350 5300 50  0001 C CNN
+	1    12350 5300
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	12350 5700 12350 5450
+Connection ~ 11700 5700
+Wire Wire Line
+	12350 5150 12350 4900
+Connection ~ 12350 4900
+$Comp
+L LM7805CT U201
+U 1 1 5930F664
+P 10750 4950
+F 0 "U201" H 10550 5150 50  0000 C CNN
+F 1 "LM7805CT" H 10750 5150 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-220_Vertical" H 10750 5050 50  0001 C CIN
+F 3 "" H 10750 4950 50  0001 C CNN
+	1    10750 4950
+	1    0    0    -1  
+$EndComp
+Connection ~ 11700 4900
+Wire Wire Line
+	10750 5200 10750 5700
+Connection ~ 10750 5700
+Wire Wire Line
+	10350 4900 9150 4900
+Wire Wire Line
+	9150 4900 9150 6500
+Connection ~ 9150 6500
+Wire Wire Line
+	4400 6900 4700 6900
+Wire Wire Line
+	4700 6900 4700 6500
+Connection ~ 4700 6500
+Wire Wire Line
+	4400 7700 4700 7700
+Wire Wire Line
+	4700 7700 4700 8100
+Connection ~ 4700 8100
+Wire Wire Line
+	4100 7700 3600 7700
+Wire Wire Line
+	3600 7700 3600 6500
+Connection ~ 3600 6500
+Wire Wire Line
+	4100 6900 3900 6900
+Wire Wire Line
+	3900 6900 3900 8100
+Connection ~ 3900 8100
+Text Notes 14450 4950 0    60   ~ 0
++5V
+Text Notes 14500 6550 0    60   ~ 0
++15V
+Text Notes 14500 8150 0    60   ~ 0
+-15V
+Text Notes 14500 9400 0    60   ~ 0
+GND (Internal)
+$Comp
+L GND #PWR201
+U 1 1 59322103
+P 9850 9800
+F 0 "#PWR201" H 9850 9550 50  0001 C CNN
+F 1 "GND" H 9850 9650 50  0000 C CNN
+F 2 "" H 9850 9800 50  0001 C CNN
+F 3 "" H 9850 9800 50  0001 C CNN
+	1    9850 9800
+	1    0    0    -1  
+$EndComp
+Connection ~ 9850 9350
+$EndSCHEMATC
