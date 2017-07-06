@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/peter/git/fan-controller/project/fan-controller_modules/comms/oscillator/osc_25k/osc_25k.sch</source>
-    <date>Tue 04 Jul 2017 16:22:42 CEST</date>
+    <date>Thu 06 Jul 2017 11:07:21 CEST</date>
     <tool>Eeschema 4.0.6-e0-6349~53~ubuntu14.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -47,384 +47,441 @@
   <components>
     <comp ref="J101">
       <value>PWR</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm</footprint>
       <libsource lib="conn" part="CONN_01X03"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>595E1BE2</tstamp>
     </comp>
     <comp ref="J102">
       <value>UNMUTE</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm</footprint>
       <libsource lib="conn" part="CONN_01X02"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>595E24FE</tstamp>
     </comp>
     <comp ref="J103">
       <value>SIG_OUT</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm</footprint>
       <libsource lib="conn" part="CONN_01X02"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>595E2F01</tstamp>
     </comp>
     <comp ref="C101">
       <value>100uF/35V</value>
+      <footprint>Capacitors_SMD:CP_Elec_6.3x7.7</footprint>
       <libsource lib="device" part="CP"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>595E3FF3</tstamp>
     </comp>
     <comp ref="C102">
       <value>100uF/35V</value>
+      <footprint>Capacitors_SMD:CP_Elec_6.3x7.7</footprint>
       <libsource lib="device" part="CP"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>595E40B6</tstamp>
     </comp>
     <comp ref="MK101">
       <value>~</value>
+      <footprint>Mounting_Holes:MountingHole_3.5mm_Pad_Via</footprint>
       <libsource lib="mechanical" part="Mounting_Hole_PAD"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>595E4399</tstamp>
     </comp>
     <comp ref="MK102">
       <value>~</value>
+      <footprint>Mounting_Holes:MountingHole_3.5mm_Pad_Via</footprint>
       <libsource lib="mechanical" part="Mounting_Hole_PAD"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>595E44FC</tstamp>
     </comp>
     <comp ref="MK103">
       <value>~</value>
+      <footprint>Mounting_Holes:MountingHole_3.5mm_Pad_Via</footprint>
       <libsource lib="mechanical" part="Mounting_Hole_PAD"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>595E4567</tstamp>
     </comp>
     <comp ref="MK104">
       <value>~</value>
+      <footprint>Mounting_Holes:MountingHole_3.5mm_Pad_Via</footprint>
       <libsource lib="mechanical" part="Mounting_Hole_PAD"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>595E45D5</tstamp>
     </comp>
     <comp ref="R201">
       <value>6.34k</value>
+      <footprint>Resistors_SMD:R_0201</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/subcirc_osc/" tstamps="/595B4EED/"/>
       <tstamp>595B5D8E</tstamp>
     </comp>
     <comp ref="R203">
       <value>6.34k</value>
+      <footprint>Resistors_SMD:R_0201</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/subcirc_osc/" tstamps="/595B4EED/"/>
       <tstamp>595B5D95</tstamp>
     </comp>
     <comp ref="C206">
       <value>1nF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/subcirc_osc/" tstamps="/595B4EED/"/>
       <tstamp>595B5D9C</tstamp>
     </comp>
     <comp ref="C201">
       <value>1nF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/subcirc_osc/" tstamps="/595B4EED/"/>
       <tstamp>595B5DA3</tstamp>
     </comp>
     <comp ref="Q201">
       <value>2N3819</value>
+      <footprint>TO_SOT_Packages_THT:TO-92_Inline_Narrow_Oval</footprint>
       <libsource lib="device" part="Q_NJFET_DGS"/>
       <sheetpath names="/subcirc_osc/" tstamps="/595B4EED/"/>
       <tstamp>595B5DB2</tstamp>
     </comp>
     <comp ref="R204">
       <value>4.7k</value>
+      <footprint>Resistors_SMD:R_0201</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/subcirc_osc/" tstamps="/595B4EED/"/>
       <tstamp>595B5DC1</tstamp>
     </comp>
     <comp ref="C209">
       <value>0.47u</value>
+      <footprint>Capacitors_SMD:C_1812_HandSoldering</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/subcirc_osc/" tstamps="/595B4EED/"/>
       <tstamp>595B5DC8</tstamp>
     </comp>
     <comp ref="R202">
       <value>4.7k</value>
+      <footprint>Resistors_SMD:R_0201</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/subcirc_osc/" tstamps="/595B4EED/"/>
       <tstamp>595B5DCF</tstamp>
     </comp>
     <comp ref="C208">
       <value>1u</value>
+      <footprint>Capacitors_SMD:C_1210_HandSoldering</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/subcirc_osc/" tstamps="/595B4EED/"/>
       <tstamp>595B5DD6</tstamp>
     </comp>
     <comp ref="RV201">
       <value>22k</value>
+      <footprint>Potentiometers:Potentiometer_Trimmer_Bourns_3296W</footprint>
       <libsource lib="device" part="POT"/>
       <sheetpath names="/subcirc_osc/" tstamps="/595B4EED/"/>
       <tstamp>595B5DF1</tstamp>
     </comp>
     <comp ref="RV202">
       <value>22k</value>
+      <footprint>Potentiometers:Potentiometer_Trimmer_Bourns_3296W</footprint>
       <libsource lib="device" part="POT"/>
       <sheetpath names="/subcirc_osc/" tstamps="/595B4EED/"/>
       <tstamp>595B5DF8</tstamp>
     </comp>
     <comp ref="D202">
       <value>1N4148</value>
-      <footprint>Diodes_THT:D_DO-35_SOD27_Horizontal_RM10</footprint>
+      <footprint>Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
       <libsource lib="diode" part="1N4148"/>
       <sheetpath names="/subcirc_osc/" tstamps="/595B4EED/"/>
       <tstamp>595B5E08</tstamp>
     </comp>
     <comp ref="D201">
       <value>1N4148</value>
-      <footprint>Diodes_THT:D_DO-35_SOD27_Horizontal_RM10</footprint>
+      <footprint>Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
       <libsource lib="diode" part="1N4148"/>
       <sheetpath names="/subcirc_osc/" tstamps="/595B4EED/"/>
       <tstamp>595B5E0F</tstamp>
     </comp>
     <comp ref="U201">
       <value>TL061</value>
+      <footprint>Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm</footprint>
       <libsource lib="linear" part="TL061"/>
       <sheetpath names="/subcirc_osc/" tstamps="/595B4EED/"/>
       <tstamp>595B5E18</tstamp>
     </comp>
     <comp ref="U202">
       <value>TL061</value>
+      <footprint>Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm</footprint>
       <libsource lib="linear" part="TL061"/>
       <sheetpath names="/subcirc_osc/" tstamps="/595B4EED/"/>
       <tstamp>595B5E3E</tstamp>
     </comp>
     <comp ref="C202">
       <value>100nF</value>
+      <footprint>Capacitors_SMD:C_1812_HandSoldering</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/subcirc_osc/" tstamps="/595B4EED/"/>
       <tstamp>595B6334</tstamp>
     </comp>
     <comp ref="C205">
       <value>100nF</value>
+      <footprint>Capacitors_SMD:C_1812_HandSoldering</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/subcirc_osc/" tstamps="/595B4EED/"/>
       <tstamp>595B63E4</tstamp>
     </comp>
     <comp ref="C203">
       <value>100nF</value>
+      <footprint>Capacitors_SMD:C_1812_HandSoldering</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/subcirc_osc/" tstamps="/595B4EED/"/>
       <tstamp>595B717B</tstamp>
     </comp>
     <comp ref="C207">
       <value>100nF</value>
+      <footprint>Capacitors_SMD:C_1812_HandSoldering</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/subcirc_osc/" tstamps="/595B4EED/"/>
       <tstamp>595B7249</tstamp>
     </comp>
     <comp ref="C204">
       <value>4.7uF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/subcirc_osc/" tstamps="/595B4EED/"/>
       <tstamp>595B7B58</tstamp>
     </comp>
     <comp ref="U301">
       <value>4066</value>
+      <footprint>Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm</footprint>
       <libsource lib="cmos4000" part="4066"/>
       <sheetpath names="/subcirc_switch/" tstamps="/595B864F/"/>
       <tstamp>595B9722</tstamp>
     </comp>
     <comp ref="R301">
       <value>4.7k</value>
+      <footprint>Resistors_SMD:R_0201</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/subcirc_switch/" tstamps="/595B864F/"/>
       <tstamp>595B9726</tstamp>
     </comp>
     <comp ref="R308">
       <value>4.7k</value>
+      <footprint>Resistors_SMD:R_0201</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/subcirc_switch/" tstamps="/595B864F/"/>
       <tstamp>595B9727</tstamp>
     </comp>
     <comp ref="C301">
       <value>100uF/35V</value>
+      <footprint>Capacitors_SMD:CP_Elec_6.3x7.7</footprint>
       <libsource lib="device" part="CP"/>
       <sheetpath names="/subcirc_switch/" tstamps="/595B864F/"/>
       <tstamp>595B9728</tstamp>
     </comp>
     <comp ref="C302">
       <value>100uF/35V</value>
+      <footprint>Capacitors_SMD:CP_Elec_6.3x7.7</footprint>
       <libsource lib="device" part="CP"/>
       <sheetpath names="/subcirc_switch/" tstamps="/595B864F/"/>
       <tstamp>595B9729</tstamp>
     </comp>
     <comp ref="C303">
       <value>100nF</value>
+      <footprint>Capacitors_SMD:C_1812_HandSoldering</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/subcirc_switch/" tstamps="/595B864F/"/>
       <tstamp>595B972A</tstamp>
     </comp>
     <comp ref="C307">
       <value>100nF</value>
+      <footprint>Capacitors_SMD:C_1812_HandSoldering</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/subcirc_switch/" tstamps="/595B864F/"/>
       <tstamp>595B972B</tstamp>
     </comp>
     <comp ref="R311">
       <value>1k</value>
+      <footprint>Resistors_SMD:R_0201</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/subcirc_switch/" tstamps="/595B864F/"/>
       <tstamp>595B972C</tstamp>
     </comp>
     <comp ref="R314">
       <value>1k</value>
+      <footprint>Resistors_SMD:R_0201</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/subcirc_switch/" tstamps="/595B864F/"/>
       <tstamp>595B972D</tstamp>
     </comp>
     <comp ref="D301">
       <value>5.6V</value>
+      <footprint>Diodes_SMD:D_SOD-523</footprint>
       <libsource lib="device" part="D_Zener"/>
       <sheetpath names="/subcirc_switch/" tstamps="/595B864F/"/>
       <tstamp>595B972F</tstamp>
     </comp>
     <comp ref="D304">
       <value>5.6V</value>
+      <footprint>Diodes_SMD:D_SOD-523</footprint>
       <libsource lib="device" part="D_Zener"/>
       <sheetpath names="/subcirc_switch/" tstamps="/595B864F/"/>
       <tstamp>595B9730</tstamp>
     </comp>
     <comp ref="R312">
       <value>1k</value>
+      <footprint>Resistors_SMD:R_0201</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/subcirc_switch/" tstamps="/595B864F/"/>
       <tstamp>595B9732</tstamp>
     </comp>
     <comp ref="Q302">
       <value>BC546</value>
-      <footprint>TO_SOT_Packages_THT:TO-92_Molded_Narrow</footprint>
+      <footprint>TO_SOT_Packages_THT:TO-92_Inline_Narrow_Oval</footprint>
       <libsource lib="transistors" part="BC546"/>
       <sheetpath names="/subcirc_switch/" tstamps="/595B864F/"/>
       <tstamp>595B9733</tstamp>
     </comp>
     <comp ref="Q303">
       <value>BC546</value>
-      <footprint>TO_SOT_Packages_THT:TO-92_Molded_Narrow</footprint>
+      <footprint>TO_SOT_Packages_THT:TO-92_Inline_Narrow_Oval</footprint>
       <libsource lib="transistors" part="BC546"/>
       <sheetpath names="/subcirc_switch/" tstamps="/595B864F/"/>
       <tstamp>595B9734</tstamp>
     </comp>
     <comp ref="R303">
       <value>10k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/subcirc_switch/" tstamps="/595B864F/"/>
       <tstamp>595B9735</tstamp>
     </comp>
     <comp ref="R304">
       <value>10k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/subcirc_switch/" tstamps="/595B864F/"/>
       <tstamp>595B9736</tstamp>
     </comp>
     <comp ref="R306">
       <value>100k</value>
+      <footprint>Resistors_SMD:R_0201</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/subcirc_switch/" tstamps="/595B864F/"/>
       <tstamp>595B9737</tstamp>
     </comp>
     <comp ref="R305">
       <value>100k</value>
+      <footprint>Resistors_SMD:R_0201</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/subcirc_switch/" tstamps="/595B864F/"/>
       <tstamp>595B9738</tstamp>
     </comp>
     <comp ref="D303">
       <value>1N4148</value>
+      <footprint>Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
       <libsource lib="device" part="D"/>
       <sheetpath names="/subcirc_switch/" tstamps="/595B864F/"/>
       <tstamp>595B9739</tstamp>
     </comp>
     <comp ref="D302">
       <value>5.6V</value>
+      <footprint>Diodes_SMD:D_SOD-523</footprint>
       <libsource lib="device" part="D_Zener"/>
       <sheetpath names="/subcirc_switch/" tstamps="/595B864F/"/>
       <tstamp>595B973A</tstamp>
     </comp>
     <comp ref="R309">
       <value>100k</value>
+      <footprint>Resistors_SMD:R_0201</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/subcirc_switch/" tstamps="/595B864F/"/>
       <tstamp>595B973B</tstamp>
     </comp>
     <comp ref="R310">
       <value>100k</value>
+      <footprint>Resistors_SMD:R_0201</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/subcirc_switch/" tstamps="/595B864F/"/>
       <tstamp>595B973C</tstamp>
     </comp>
     <comp ref="Q301">
       <value>BC546</value>
-      <footprint>TO_SOT_Packages_THT:TO-92_Molded_Narrow</footprint>
+      <footprint>TO_SOT_Packages_THT:TO-92_Inline_Narrow_Oval</footprint>
       <libsource lib="transistors" part="BC546"/>
       <sheetpath names="/subcirc_switch/" tstamps="/595B864F/"/>
       <tstamp>595B973D</tstamp>
     </comp>
     <comp ref="R302">
       <value>10k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/subcirc_switch/" tstamps="/595B864F/"/>
       <tstamp>595B973E</tstamp>
     </comp>
     <comp ref="R307">
       <value>10k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/subcirc_switch/" tstamps="/595B864F/"/>
       <tstamp>595B973F</tstamp>
     </comp>
     <comp ref="Q304">
       <value>BC556</value>
-      <footprint>TO_SOT_Packages_THT:TO-92_Molded_Narrow</footprint>
+      <footprint>TO_SOT_Packages_THT:TO-92_Inline_Narrow_Oval</footprint>
       <libsource lib="transistors" part="BC556"/>
       <sheetpath names="/subcirc_switch/" tstamps="/595B864F/"/>
       <tstamp>595B9740</tstamp>
     </comp>
     <comp ref="C308">
       <value>4.7uF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/subcirc_switch/" tstamps="/595B864F/"/>
       <tstamp>595B9741</tstamp>
     </comp>
     <comp ref="C309">
       <value>4.7uF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/subcirc_switch/" tstamps="/595B864F/"/>
       <tstamp>595B9742</tstamp>
     </comp>
     <comp ref="U302">
       <value>TL061</value>
+      <footprint>Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm</footprint>
       <libsource lib="linear" part="TL061"/>
       <sheetpath names="/subcirc_switch/" tstamps="/595B864F/"/>
       <tstamp>595C9A88</tstamp>
     </comp>
     <comp ref="C304">
       <value>100nF</value>
+      <footprint>Capacitors_SMD:C_1812_HandSoldering</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/subcirc_switch/" tstamps="/595B864F/"/>
       <tstamp>595C9A96</tstamp>
     </comp>
     <comp ref="C306">
       <value>100nF</value>
+      <footprint>Capacitors_SMD:C_1812_HandSoldering</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/subcirc_switch/" tstamps="/595B864F/"/>
       <tstamp>595C9A9D</tstamp>
     </comp>
     <comp ref="C305">
       <value>4.7uF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/subcirc_switch/" tstamps="/595B864F/"/>
       <tstamp>595C9AB0</tstamp>
     </comp>
     <comp ref="R315">
       <value>1k</value>
+      <footprint>Resistors_SMD:R_0201</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/subcirc_switch/" tstamps="/595B864F/"/>
       <tstamp>595B972E</tstamp>
     </comp>
     <comp ref="R313">
       <value>1k</value>
+      <footprint>Resistors_SMD:R_0201</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/subcirc_switch/" tstamps="/595B864F/"/>
       <tstamp>595B9731</tstamp>
@@ -728,26 +785,26 @@
     </libpart>
   </libparts>
   <libraries>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
     <library logical="transistors">
       <uri>/usr/share/kicad/library/transistors.lib</uri>
-    </library>
-    <library logical="diode">
-      <uri>/usr/share/kicad/github_clone/kicad-library/library/diode.lib</uri>
     </library>
     <library logical="linear">
       <uri>/usr/share/kicad/library/linear.lib</uri>
     </library>
-    <library logical="mechanical">
-      <uri>/usr/share/kicad/github_clone/kicad-library/library/mechanical.lib</uri>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
     </library>
     <library logical="cmos4000">
       <uri>/usr/share/kicad/library/cmos4000.lib</uri>
     </library>
-    <library logical="conn">
-      <uri>/usr/share/kicad/library/conn.lib</uri>
+    <library logical="diode">
+      <uri>/usr/share/kicad/github_clone/kicad-library/library/diode.lib</uri>
     </library>
-    <library logical="device">
-      <uri>/usr/share/kicad/library/device.lib</uri>
+    <library logical="mechanical">
+      <uri>/usr/share/kicad/github_clone/kicad-library/library/mechanical.lib</uri>
     </library>
   </libraries>
   <nets>
