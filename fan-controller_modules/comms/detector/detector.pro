@@ -1,4 +1,4 @@
-update=Tue 11 Jul 2017 17:07:57 CEST
+update=So 16 Jul 2017 21:25:22 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,9 +25,19 @@ version=1
 NetIExt=net
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=render/schem/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [eeschema]
 version=1
-LibDir=/usr/share/kicad/github_clone/kicad-library/library
+LibDir=/home/peter/bin/kicad/libraries_official
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -120,13 +130,3 @@ LibName88=Worldsemi
 LibName89=Xicor
 LibName90=zetex
 LibName91=Zilog
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=render/schem/
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
