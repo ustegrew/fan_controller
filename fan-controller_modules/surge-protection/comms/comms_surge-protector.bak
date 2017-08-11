@@ -1,0 +1,369 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:surge_protect
+LIBS:comms_surge-protector-cache
+EELAYER 25 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "2017-08-11"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L D_TVS D?
+U 1 1 598DB82C
+P 6050 5100
+F 0 "D?" H 6050 5200 50  0000 C CNN
+F 1 "82V" H 6050 5000 50  0000 C CNN
+F 2 "" H 6050 5100 50  0001 C CNN
+F 3 "" H 6050 5100 50  0001 C CNN
+	1    6050 5100
+	0    -1   1    0   
+$EndComp
+$Comp
+L D_TVS D?
+U 1 1 598DB93F
+P 6050 6000
+F 0 "D?" H 6050 6100 50  0000 C CNN
+F 1 "82V" H 6050 5900 50  0000 C CNN
+F 2 "" H 6050 6000 50  0001 C CNN
+F 3 "" H 6050 6000 50  0001 C CNN
+	1    6050 6000
+	0    -1   1    0   
+$EndComp
+$Comp
+L D_TVS D?
+U 1 1 598DB9AC
+P 5550 5550
+F 0 "D?" H 5550 5650 50  0000 C CNN
+F 1 "82V" H 5550 5450 50  0000 C CNN
+F 2 "" H 5550 5550 50  0001 C CNN
+F 3 "" H 5550 5550 50  0001 C CNN
+	1    5550 5550
+	0    -1   1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 598DB9F3
+P 6700 4750
+F 0 "R?" V 6780 4750 50  0000 C CNN
+F 1 "4.7" V 6600 4750 50  0000 C CNN
+F 2 "" V 6630 4750 50  0001 C CNN
+F 3 "" H 6700 4750 50  0001 C CNN
+	1    6700 4750
+	0    1    -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 598DBA76
+P 6700 6350
+F 0 "R?" V 6780 6350 50  0000 C CNN
+F 1 "4.7" V 6600 6350 50  0000 C CNN
+F 2 "" V 6630 6350 50  0001 C CNN
+F 3 "" H 6700 6350 50  0001 C CNN
+	1    6700 6350
+	0    1    -1   0   
+$EndComp
+$Comp
+L gdt_3 G?
+U 1 1 598DC768
+P 7850 5550
+F 0 "G?" H 7600 5550 60  0000 C CNN
+F 1 "gdt_3" H 7550 5650 60  0000 C CNN
+F 2 "" H 7850 5550 60  0001 C CNN
+F 3 "" H 7850 5550 60  0001 C CNN
+	1    7850 5550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Fuse F?
+U 1 1 598DC7FE
+P 8500 4750
+F 0 "F?" V 8580 4750 50  0000 C CNN
+F 1 "150mAF" V 8425 4750 50  0000 C CNN
+F 2 "" V 8430 4750 50  0001 C CNN
+F 3 "" H 8500 4750 50  0001 C CNN
+	1    8500 4750
+	0    1    -1   0   
+$EndComp
+$Comp
+L Fuse F?
+U 1 1 598DC86F
+P 8500 6350
+F 0 "F?" V 8580 6350 50  0000 C CNN
+F 1 "150mAF" V 8425 6350 50  0000 C CNN
+F 2 "" V 8430 6350 50  0001 C CNN
+F 3 "" H 8500 6350 50  0001 C CNN
+	1    8500 6350
+	0    1    -1   0   
+$EndComp
+Wire Notes Line
+	4250 4100 4250 6950
+Wire Notes Line
+	9700 6950 9700 4100
+Wire Wire Line
+	4300 4150 9650 4150
+Wire Wire Line
+	9650 4150 9650 6900
+Wire Wire Line
+	9650 6900 7200 6900
+Wire Wire Line
+	7200 6900 4300 6900
+Wire Wire Line
+	4300 6900 4300 4150
+$Comp
+L Earth #PWR?
+U 1 1 598DDCB5
+P 7200 7350
+F 0 "#PWR?" H 7200 7100 50  0001 C CNN
+F 1 "Earth" H 7200 7200 50  0001 C CNN
+F 2 "" H 7200 7350 50  0001 C CNN
+F 3 "" H 7200 7350 50  0001 C CNN
+	1    7200 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02_MALE J?
+U 1 1 598DEA94
+P 1850 5550
+F 0 "J?" H 1850 5725 50  0000 C CNN
+F 1 "CONN_01X02_MALE" H 1850 5350 50  0001 C CNN
+F 2 "" H 1850 5650 50  0001 C CNN
+F 3 "" H 1850 5650 50  0001 C CNN
+	1    1850 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02_MALE J?
+U 1 1 598DEAE7
+P 14650 5550
+F 0 "J?" H 14650 5725 50  0000 C CNN
+F 1 "CONN_01X02_MALE" H 14650 5350 50  0001 C CNN
+F 2 "" H 14650 5650 50  0001 C CNN
+F 3 "" H 14650 5650 50  0001 C CNN
+	1    14650 5550
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 4750 7850 4750
+Wire Wire Line
+	7850 4750 8350 4750
+Wire Wire Line
+	6850 6350 7850 6350
+Wire Wire Line
+	7850 6350 8350 6350
+Wire Wire Line
+	7850 5250 7850 4750
+Connection ~ 7850 4750
+Wire Wire Line
+	7850 5850 7850 6350
+Connection ~ 7850 6350
+Wire Wire Line
+	6050 5250 6050 5550
+Wire Wire Line
+	6050 5550 6050 5850
+Wire Wire Line
+	6050 5550 7200 5550
+Wire Wire Line
+	7200 5550 7550 5550
+Connection ~ 6050 5550
+Wire Wire Line
+	6050 4750 6050 4950
+Wire Wire Line
+	4950 4750 5550 4750
+Wire Wire Line
+	5550 4750 6050 4750
+Wire Wire Line
+	6050 4750 6550 4750
+Wire Wire Line
+	6050 6350 6050 6150
+Wire Wire Line
+	4950 6350 5550 6350
+Wire Wire Line
+	5550 6350 6050 6350
+Wire Wire Line
+	6050 6350 6550 6350
+Wire Wire Line
+	5550 5400 5550 4750
+Connection ~ 6050 4750
+Wire Wire Line
+	5550 5700 5550 6350
+Connection ~ 6050 6350
+Wire Wire Line
+	7200 5550 7200 6900
+Wire Wire Line
+	7200 6900 7200 7150
+Wire Wire Line
+	7200 7150 7200 7350
+Connection ~ 7200 6900
+Connection ~ 7200 5550
+Wire Wire Line
+	4950 5350 4950 4750
+Connection ~ 5550 4750
+Wire Wire Line
+	4950 5750 4950 6350
+Connection ~ 5550 6350
+Wire Wire Line
+	8650 4750 9200 4750
+Wire Wire Line
+	9200 4750 9200 5350
+Wire Wire Line
+	9200 5350 12100 5350
+Wire Wire Line
+	8650 6350 9200 6350
+Wire Wire Line
+	9200 6350 9200 5750
+Wire Wire Line
+	9200 5750 12100 5750
+$Comp
+L Transformer_1P_1S T?
+U 1 1 598DF675
+P 12500 5550
+F 0 "T?" H 12500 5800 50  0000 C CNN
+F 1 "2:1" H 12500 5250 50  0000 C CNN
+F 2 "" H 12500 5550 50  0001 C CNN
+F 3 "" H 12500 5550 50  0001 C CNN
+	1    12500 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transformer_1P_1S T?
+U 1 1 598DF721
+P 3550 5550
+F 0 "T?" H 3550 5800 50  0000 C CNN
+F 1 "1:2" H 3550 5250 50  0000 C CNN
+F 2 "" H 3550 5550 50  0001 C CNN
+F 3 "" H 3550 5550 50  0001 C CNN
+	1    3550 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 5350 4950 5350
+Wire Wire Line
+	3950 5750 4950 5750
+Wire Wire Line
+	2150 5450 2350 5450
+Wire Wire Line
+	2350 5450 2350 5350
+Wire Wire Line
+	2350 5350 3000 5350
+Wire Wire Line
+	3000 5350 3150 5350
+Wire Wire Line
+	2150 5650 2350 5650
+Wire Wire Line
+	2350 5650 2350 5750
+Wire Wire Line
+	2350 5750 3000 5750
+Wire Wire Line
+	3000 5750 3150 5750
+Wire Wire Line
+	12900 5350 13050 5350
+Wire Wire Line
+	13050 5350 14150 5350
+Wire Wire Line
+	14150 5350 14150 5450
+Wire Wire Line
+	14150 5450 14350 5450
+Wire Wire Line
+	12900 5750 13050 5750
+Wire Wire Line
+	13050 5750 14150 5750
+Wire Wire Line
+	14150 5750 14150 5650
+Wire Wire Line
+	14150 5650 14350 5650
+$Comp
+L D_TVS D?
+U 1 1 598DFF60
+P 13050 5550
+F 0 "D?" H 13050 5650 50  0000 C CNN
+F 1 "20V" H 13050 5450 50  0000 C CNN
+F 2 "" H 13050 5550 50  0001 C CNN
+F 3 "" H 13050 5550 50  0001 C CNN
+	1    13050 5550
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	13050 5400 13050 5350
+Connection ~ 13050 5350
+Wire Wire Line
+	13050 5700 13050 5750
+Connection ~ 13050 5750
+$Comp
+L RF_Shield_One_Piece J?
+U 1 1 598E0207
+P 10900 5550
+F 0 "J?" H 10900 5950 50  0000 C CNN
+F 1 "RF_Shield_One_Piece" H 10900 5650 50  0001 C CNN
+F 2 "" H 10900 5450 50  0001 C CNN
+F 3 "" H 10900 5450 50  0001 C CNN
+	1    10900 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 7150 10900 7150
+Wire Wire Line
+	10900 7150 10900 5950
+Connection ~ 7200 7150
+Text Notes 15150 5950 1    118  ~ 0
+Peripheral\ndevice
+Text Notes 1600 5950 1    118  ~ 0
+Controller
+$Comp
+L D_TVS D?
+U 1 1 598E1B1D
+P 3000 5550
+F 0 "D?" H 3000 5650 50  0000 C CNN
+F 1 "20V" H 3000 5450 50  0000 C CNN
+F 2 "" H 3000 5550 50  0001 C CNN
+F 3 "" H 3000 5550 50  0001 C CNN
+	1    3000 5550
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	3000 5400 3000 5350
+Connection ~ 3000 5350
+Wire Wire Line
+	3000 5700 3000 5750
+Connection ~ 3000 5750
+Wire Notes Line
+	9700 4100 4250 4100
+Wire Notes Line
+	4250 6950 9700 6950
+$EndSCHEMATC
