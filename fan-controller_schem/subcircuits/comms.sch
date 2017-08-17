@@ -32,14 +32,11 @@ LIBS:ftdi
 LIBS:gennum
 LIBS:graphic
 LIBS:hc11
-LIBS:infineon
 LIBS:intel
 LIBS:interface
-LIBS:intersil
 LIBS:ir
 LIBS:Lattice
 LIBS:leds
-LIBS:LEM
 LIBS:linear
 LIBS:logo
 LIBS:maxim
@@ -74,7 +71,6 @@ LIBS:references
 LIBS:regul
 LIBS:relays
 LIBS:rfcom
-LIBS:RFSolutions
 LIBS:sensors
 LIBS:silabs
 LIBS:siliconi

@@ -1,0 +1,481 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:surge-protection-cache
+EELAYER 25 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 4 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L D_TVS D?
+U 1 1 59960DDD
+P 4680 9220
+F 0 "D?" H 4680 9320 50  0001 C CNN
+F 1 "<= 30V" H 4680 9340 50  0000 C CNN
+F 2 "" H 4680 9220 50  0001 C CNN
+F 3 "" H 4680 9220 50  0001 C CNN
+	1    4680 9220
+	0    -1   1    0   
+$EndComp
+$Comp
+L D_TVS D?
+U 1 1 59960DE3
+P 5360 9220
+F 0 "D?" H 5360 9320 50  0001 C CNN
+F 1 "<= 30V" H 5360 9120 50  0000 C CNN
+F 2 "" H 5360 9220 50  0001 C CNN
+F 3 "" H 5360 9220 50  0001 C CNN
+	1    5360 9220
+	0    -1   1    0   
+$EndComp
+$Comp
+L Fuse F?
+U 1 1 59960DE9
+P 6040 8610
+F 0 "F?" V 6120 8610 50  0001 C CNN
+F 1 "200mAF" V 5965 8610 50  0000 C CNN
+F 2 "" V 5970 8610 50  0001 C CNN
+F 3 "" H 6040 8610 50  0001 C CNN
+	1    6040 8610
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Fuse F?
+U 1 1 59960DEF
+P 6040 9920
+F 0 "F?" V 6120 9920 50  0001 C CNN
+F 1 "200mAF" V 5965 9920 50  0000 C CNN
+F 2 "" V 5970 9920 50  0001 C CNN
+F 3 "" H 6040 9920 50  0001 C CNN
+	1    6040 9920
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 59960DF5
+P 8770 10110
+F 0 "#PWR?" H 8770 9860 50  0001 C CNN
+F 1 "GND" H 8770 9960 50  0000 C CNN
+F 2 "" H 8770 10110 50  0001 C CNN
+F 3 "" H 8770 10110 50  0001 C CNN
+	1    8770 10110
+	1    0    0    -1  
+$EndComp
+Text Notes 3720 9250 0    59   ~ 0
+e.g. 1.5CE36CA
+Text Notes 7770 10510 0    59   ~ 0
+e.g. 1.5CE27CA
+Text Notes 8820 9140 0    60   ~ 0
++15V supply
+Text Notes 8820 11030 0    60   ~ 0
+-15V supply
+Text Notes 2760 7900 0    118  ~ 0
+Primary side
+Text Notes 5790 7900 0    118  ~ 0
+Secondary side
+$Comp
+L L L?
+U 1 1 59960E01
+P 4920 9220
+F 0 "L?" H 4920 9470 50  0001 C CNN
+F 1 "L" H 4920 8970 50  0001 C CNN
+F 2 "" H 4920 9220 50  0001 C CNN
+F 3 "" H 4920 9220 50  0001 C CNN
+	1    4920 9220
+	1    0    0    -1  
+$EndComp
+$Comp
+L L L?
+U 1 1 59960E07
+P 5110 9220
+F 0 "L?" H 5110 9470 50  0001 C CNN
+F 1 "L" H 5110 8970 50  0001 C CNN
+F 2 "" H 5110 9220 50  0001 C CNN
+F 3 "" H 5110 9220 50  0001 C CNN
+	1    5110 9220
+	-1   0    0    -1  
+$EndComp
+Text Notes 5660 9250 0    59   ~ 0
+e.g. 1.5CE36CA
+Wire Notes Line
+	5020 8080 5020 10310
+Wire Wire Line
+	5890 8610 5110 8610
+Wire Wire Line
+	5110 8610 5110 9070
+Wire Wire Line
+	5890 9920 5110 9920
+Wire Wire Line
+	5110 9920 5110 9370
+Wire Wire Line
+	5360 9370 5360 9920
+Connection ~ 5360 9920
+Wire Wire Line
+	5360 9070 5360 8610
+Connection ~ 5360 8610
+Text Notes 4460 12120 0    60   ~ 0
+Diode: \n15V (Standoff),\n17V (Breakdown),\ne.g. 1.5KE18CA
+$Comp
+L D_TVS D?
+U 1 1 5996122F
+P 6270 4730
+F 0 "D?" H 6270 4830 50  0001 C CNN
+F 1 "<= 95V" H 6270 4630 50  0000 C CNN
+F 2 "" H 6270 4730 50  0001 C CNN
+F 3 "" H 6270 4730 50  0001 C CNN
+	1    6270 4730
+	0    -1   1    0   
+$EndComp
+$Comp
+L D_TVS D?
+U 1 1 59961235
+P 6270 5630
+F 0 "D?" H 6270 5730 50  0001 C CNN
+F 1 "<= 95V" H 6270 5530 50  0000 C CNN
+F 2 "" H 6270 5630 50  0001 C CNN
+F 3 "" H 6270 5630 50  0001 C CNN
+	1    6270 5630
+	0    -1   1    0   
+$EndComp
+$Comp
+L D_TVS D?
+U 1 1 5996123B
+P 5770 5180
+F 0 "D?" H 5770 5280 50  0001 C CNN
+F 1 "<= 95V" H 5770 5080 50  0001 C CNN
+F 2 "" H 5770 5180 50  0001 C CNN
+F 3 "" H 5770 5180 50  0001 C CNN
+	1    5770 5180
+	0    -1   1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 59961241
+P 6920 4380
+F 0 "R?" V 7000 4380 50  0001 C CNN
+F 1 "4.7" V 6820 4380 50  0000 C CNN
+F 2 "" V 6850 4380 50  0001 C CNN
+F 3 "" H 6920 4380 50  0001 C CNN
+	1    6920 4380
+	0    1    -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 59961247
+P 6920 5980
+F 0 "R?" V 7000 5980 50  0001 C CNN
+F 1 "4.7" V 6820 5980 50  0000 C CNN
+F 2 "" V 6850 5980 50  0001 C CNN
+F 3 "" H 6920 5980 50  0001 C CNN
+	1    6920 5980
+	0    1    -1   0   
+$EndComp
+$Comp
+L gdt_3 G?
+U 1 1 5996124D
+P 8070 5180
+F 0 "G?" H 7820 5180 60  0001 C CNN
+F 1 "<= 90V" H 7690 5180 60  0001 C CNN
+F 2 "" H 8070 5180 60  0001 C CNN
+F 3 "" H 8070 5180 60  0001 C CNN
+	1    8070 5180
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Fuse F?
+U 1 1 59961253
+P 8720 4380
+F 0 "F?" V 8800 4380 50  0001 C CNN
+F 1 "150mAF" V 8645 4380 50  0000 C CNN
+F 2 "" V 8650 4380 50  0001 C CNN
+F 3 "" H 8720 4380 50  0001 C CNN
+	1    8720 4380
+	0    1    -1   0   
+$EndComp
+$Comp
+L Fuse F?
+U 1 1 59961259
+P 8720 5980
+F 0 "F?" V 8800 5980 50  0001 C CNN
+F 1 "150mAF" V 8645 5980 50  0000 C CNN
+F 2 "" V 8650 5980 50  0001 C CNN
+F 3 "" H 8720 5980 50  0001 C CNN
+	1    8720 5980
+	0    1    -1   0   
+$EndComp
+Wire Notes Line
+	4470 3730 4470 6580
+Wire Notes Line
+	9920 6580 9920 3730
+Wire Wire Line
+	4520 3780 9870 3780
+Wire Wire Line
+	9870 3780 9870 6530
+Wire Wire Line
+	9870 6530 4520 6530
+Wire Wire Line
+	4520 6530 4520 3780
+$Comp
+L Earth #PWR?
+U 1 1 59961265
+P 7420 6980
+F 0 "#PWR?" H 7420 6730 50  0001 C CNN
+F 1 "Earth" H 7420 6830 50  0001 C CNN
+F 2 "" H 7420 6980 50  0001 C CNN
+F 3 "" H 7420 6980 50  0001 C CNN
+	1    7420 6980
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02_MALE J?
+U 1 1 5996126B
+P 2070 5180
+F 0 "J?" H 2070 5355 50  0001 C CNN
+F 1 "CONN_01X02_MALE" H 2070 4980 50  0001 C CNN
+F 2 "" H 2070 5280 50  0001 C CNN
+F 3 "" H 2070 5280 50  0001 C CNN
+	1    2070 5180
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02_MALE J?
+U 1 1 59961271
+P 14870 5180
+F 0 "J?" H 14870 5355 50  0000 C CNN
+F 1 "CONN_01X02_MALE" H 14870 4980 50  0001 C CNN
+F 2 "" H 14870 5280 50  0001 C CNN
+F 3 "" H 14870 5280 50  0001 C CNN
+	1    14870 5180
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7070 4380 8570 4380
+Wire Wire Line
+	7070 5980 8570 5980
+Wire Wire Line
+	8070 4880 8070 4380
+Connection ~ 8070 4380
+Wire Wire Line
+	8070 5480 8070 5980
+Connection ~ 8070 5980
+Wire Wire Line
+	6270 4880 6270 5480
+Wire Wire Line
+	6270 5180 7770 5180
+Connection ~ 6270 5180
+Wire Wire Line
+	6270 4380 6270 4580
+Wire Wire Line
+	5170 4380 6770 4380
+Wire Wire Line
+	6270 5980 6270 5780
+Wire Wire Line
+	5170 5980 6770 5980
+Wire Wire Line
+	5770 5030 5770 4380
+Connection ~ 6270 4380
+Wire Wire Line
+	5770 5330 5770 5980
+Connection ~ 6270 5980
+Wire Wire Line
+	7420 5180 7420 6980
+Connection ~ 7420 6530
+Connection ~ 7420 5180
+Wire Wire Line
+	5170 4980 5170 4380
+Connection ~ 5770 4380
+Wire Wire Line
+	5170 5380 5170 5980
+Connection ~ 5770 5980
+Wire Wire Line
+	8870 4380 9420 4380
+Wire Wire Line
+	9420 4380 9420 4980
+Wire Wire Line
+	9420 4980 12320 4980
+Wire Wire Line
+	8870 5980 9420 5980
+Wire Wire Line
+	9420 5980 9420 5380
+Wire Wire Line
+	9420 5380 12320 5380
+$Comp
+L Transformer_1P_1S T?
+U 1 1 59961296
+P 12720 5180
+F 0 "T?" H 12720 5430 50  0001 C CNN
+F 1 "2:1" H 12720 4880 50  0001 C CNN
+F 2 "" H 12720 5180 50  0001 C CNN
+F 3 "" H 12720 5180 50  0001 C CNN
+	1    12720 5180
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transformer_1P_1S T?
+U 1 1 5996129C
+P 3770 5180
+F 0 "T?" H 3770 5430 50  0001 C CNN
+F 1 "1:2" H 3770 4910 50  0000 C CNN
+F 2 "" H 3770 5180 50  0001 C CNN
+F 3 "" H 3770 5180 50  0001 C CNN
+	1    3770 5180
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4170 4980 5170 4980
+Wire Wire Line
+	4170 5380 5170 5380
+Wire Wire Line
+	2370 5080 2570 5080
+Wire Wire Line
+	2570 5080 2570 4980
+Wire Wire Line
+	2570 4980 2980 4980
+Wire Wire Line
+	2370 5280 2570 5280
+Wire Wire Line
+	2570 5280 2570 5380
+Wire Wire Line
+	2570 5380 3370 5380
+Wire Wire Line
+	13120 5380 14370 5380
+Wire Wire Line
+	14370 5380 14370 5280
+Wire Wire Line
+	14370 5280 14570 5280
+$Comp
+L D_TVS D?
+U 1 1 599612AD
+P 13650 5180
+F 0 "D?" H 13650 5280 50  0001 C CNN
+F 1 "<=14V" H 13650 5080 50  0001 C CNN
+F 2 "" H 13650 5180 50  0001 C CNN
+F 3 "" H 13650 5180 50  0001 C CNN
+	1    13650 5180
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	13650 5330 13650 5380
+Connection ~ 13650 5380
+$Comp
+L RF_Shield_One_Piece J?
+U 1 1 599612B5
+P 11120 5180
+F 0 "J?" H 11120 5580 50  0000 C CNN
+F 1 "RF_Shield_One_Piece" H 11120 5280 50  0001 C CNN
+F 2 "" H 11120 5080 50  0001 C CNN
+F 3 "" H 11120 5080 50  0001 C CNN
+	1    11120 5180
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7420 6780 11120 6780
+Wire Wire Line
+	11120 6780 11120 5580
+Connection ~ 7420 6780
+Text Notes 15370 5580 1    118  ~ 0
+Peripheral\ndevice
+Text Notes 1820 5580 1    118  ~ 0
+Controller
+$Comp
+L D_TVS D?
+U 1 1 599612C1
+P 2860 5180
+F 0 "D?" H 2860 5280 50  0001 C CNN
+F 1 "<= 14V" V 3130 5180 50  0001 C CNN
+F 2 "" H 2860 5180 50  0001 C CNN
+F 3 "" H 2860 5180 50  0001 C CNN
+	1    2860 5180
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	2860 4980 2860 5030
+Wire Wire Line
+	2860 5330 2860 5380
+Connection ~ 2860 5380
+Wire Notes Line
+	9920 3730 4470 3730
+Wire Notes Line
+	4470 6580 9920 6580
+Text Notes 5550 6430 0    60   ~ 0
+Diodes: \n86V (Standoff),\n95V (Breakdown),\ne.g. 1.5KE100CA
+Text Notes 7820 6430 0    60   ~ 0
+Gas discharge tube\n90V\ne.g. Epcos T83-A90X
+Text Notes 2560 6430 0    60   ~ 0
+Diode: \n15V (Standoff),\n17V (Breakdown),\ne.g. 1.5KE18CA
+$Comp
+L Fuse F?
+U 1 1 599612CF
+P 3130 4980
+F 0 "F?" V 3210 4980 50  0001 C CNN
+F 1 "150mAF" V 3055 4980 50  0000 C CNN
+F 2 "" V 3060 4980 50  0001 C CNN
+F 3 "" H 3130 4980 50  0001 C CNN
+	1    3130 4980
+	0    1    -1   0   
+$EndComp
+Connection ~ 2860 4980
+Wire Wire Line
+	3280 4980 3370 4980
+$Comp
+L Fuse F?
+U 1 1 599612D7
+P 13380 4980
+F 0 "F?" V 13460 4980 50  0001 C CNN
+F 1 "150mAF" V 13305 4980 50  0000 C CNN
+F 2 "" V 13310 4980 50  0001 C CNN
+F 3 "" H 13380 4980 50  0001 C CNN
+	1    13380 4980
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	13120 4980 13230 4980
+Wire Wire Line
+	13530 4980 14370 4980
+Wire Wire Line
+	13650 4980 13650 5030
+Wire Wire Line
+	14570 5080 14370 5080
+Wire Wire Line
+	14370 5080 14370 4980
+Connection ~ 13650 4980
+Text Notes 13310 6420 0    60   ~ 0
+Diode: \n15V (Standoff),\n17V (Breakdown),\ne.g. 1.5KE18CA
+$EndSCHEMATC

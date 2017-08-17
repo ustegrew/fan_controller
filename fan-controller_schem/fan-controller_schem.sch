@@ -32,14 +32,11 @@ LIBS:ftdi
 LIBS:gennum
 LIBS:graphic
 LIBS:hc11
-LIBS:infineon
 LIBS:intel
 LIBS:interface
-LIBS:intersil
 LIBS:ir
 LIBS:Lattice
 LIBS:leds
-LIBS:LEM
 LIBS:linear
 LIBS:logo
 LIBS:maxim
@@ -74,7 +71,6 @@ LIBS:references
 LIBS:regul
 LIBS:relays
 LIBS:rfcom
-LIBS:RFSolutions
 LIBS:sensors
 LIBS:silabs
 LIBS:siliconi
@@ -131,10 +127,10 @@ F14 "N_OUT" U R 3600 2400 60
 F15 "V_5V_OUT" U R 3600 1650 60 
 $EndSheet
 $Comp
-L Screw_Terminal_1x03 J101
+L Screw_Terminal_1x03 J1
 U 1 1 59325FBC
 P 1400 1550
-F 0 "J101" H 1400 1900 50  0000 C TNN
+F 0 "J1" H 1400 1900 50  0000 C TNN
 F 1 "Transformer" V 1250 1550 50  0000 C TNN
 F 2 "" H 1400 1225 50  0001 C CNN
 F 3 "" H 1375 1650 50  0001 C CNN
@@ -156,10 +152,10 @@ Wire Wire Line
 Wire Wire Line
 	1850 1750 1600 1750
 $Comp
-L Screw_Terminal_1x03 J102
+L Screw_Terminal_1x03 J2
 U 1 1 593262DA
 P 1400 2400
-F 0 "J102" H 1400 2750 50  0000 C TNN
+F 0 "J2" H 1400 2750 50  0000 C TNN
 F 1 "Mains" V 1250 2400 50  0000 C TNN
 F 2 "" H 1400 2075 50  0001 C CNN
 F 3 "" H 1375 2500 50  0001 C CNN
@@ -181,10 +177,10 @@ Wire Wire Line
 Wire Wire Line
 	1600 2400 1950 2400
 $Comp
-L Screw_Terminal_1x03 J103
+L Screw_Terminal_1x03 J3
 U 1 1 59326420
 P 4200 2400
-F 0 "J103" H 4200 2750 50  0000 C TNN
+F 0 "J3" H 4200 2750 50  0000 C TNN
 F 1 "MAINS_SW" V 4050 2400 50  0000 C TNN
 F 2 "" H 4200 2075 50  0001 C CNN
 F 3 "" H 4175 2500 50  0001 C CNN
