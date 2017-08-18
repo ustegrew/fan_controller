@@ -34,7 +34,7 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 4
-Title "Surge protection, Mains power"
+Title "Surge protection, mains power"
 Date "2017-08-15"
 Rev "1.0"
 Comp ""
@@ -68,16 +68,16 @@ $EndComp
 $Comp
 L Earth #PWR?
 U 1 1 5995D355
-P 2730 5210
-F 0 "#PWR?" H 2730 4960 50  0001 C CNN
-F 1 "Earth" H 2730 5060 50  0001 C CNN
-F 2 "" H 2730 5210 50  0001 C CNN
-F 3 "" H 2730 5210 50  0001 C CNN
-	1    2730 5210
+P 2400 6360
+F 0 "#PWR?" H 2400 6110 50  0001 C CNN
+F 1 "Earth" H 2400 6210 50  0001 C CNN
+F 2 "" H 2400 6360 50  0001 C CNN
+F 3 "" H 2400 6360 50  0001 C CNN
+	1    2400 6360
 	1    0    0    -1  
 $EndComp
-Text Notes 4790 4330 0    59   ~ 0
-e.g. Littelfuse\nV20H275P
+Text Notes 5350 4350 2    59   ~ 0
+Varistor: e.g. \nLittelfuse V20H275P
 Text Notes 1690 3850 0    60   ~ 0
 L
 Text Notes 1690 4260 0    60   ~ 0
@@ -179,9 +179,9 @@ Text Notes 6550 3710 0    60   ~ 0
 Text Notes 6550 4220 0    60   ~ 0
 15VAC
 Wire Wire Line
-	2210 4210 2730 4210
+	2210 4210 2400 4210
 Wire Wire Line
-	2730 4210 2730 5210
+	2400 4210 2400 6360
 Wire Notes Line
 	4790 3690 5360 3690
 Wire Notes Line
@@ -243,10 +243,6 @@ Wire Wire Line
 	6900 3930 9290 3930
 Wire Wire Line
 	9290 3930 9290 4090
-Text Notes 8290 3500 0    59   ~ 0
-e.g. 1.5CE27CA
-Text Notes 8290 4390 0    59   ~ 0
-e.g. 1.5CE27CA
 Text Notes 9340 3020 0    60   ~ 0
 +15V supply
 Text Notes 9340 4910 0    60   ~ 0
@@ -255,10 +251,6 @@ Text Notes 4130 2630 0    118  ~ 0
 Primary side
 Text Notes 7160 2630 0    118  ~ 0
 Secondary side
-Wire Notes Line
-	6410 2300 6410 3480
-Wire Notes Line
-	6410 4390 6410 5390
 $Comp
 L Transformer_1P_2S T?
 U 1 1 5995D4DC
@@ -297,6 +289,43 @@ Wire Wire Line
 Wire Wire Line
 	5900 4130 6010 4130
 Connection ~ 6900 3930
-Text Notes 7980 5430 0    60   ~ 0
-Diodes: \n23V (Standoff),\n26V (Breakdown),\ne.g. 1.5KE27CA
+Text Notes 6990 3700 0    60   ~ 0
+Diode: e.g. \n1.5KE27CA:\n    23.1V (Standoff),\n    25.7V (Breakdown)
+$Comp
+L D_TVS D?
+U 1 1 5996A737
+P 8600 3460
+F 0 "D?" H 8600 3560 50  0001 C CNN
+F 1 "<=23V" H 8600 3580 50  0001 C CNN
+F 2 "" H 8600 3460 50  0001 C CNN
+F 3 "" H 8600 3460 50  0001 C CNN
+	1    8600 3460
+	0    -1   1    0   
+$EndComp
+Text Notes 8730 3650 0    60   ~ 0
+Diode: e.g. \n1.5KE56CA:\n    47.8V (Standoff),\n    53.2V (Breakdown)
+Wire Wire Line
+	8600 3310 8600 2990
+Connection ~ 8600 2990
+Wire Wire Line
+	8600 3610 8600 4880
+Connection ~ 8600 4880
+Text Notes 6990 4640 0    60   ~ 0
+Diode: e.g. \n1.5KE27CA:\n    23.1V (Standoff),\n    25.7V (Breakdown)
+Wire Notes Line
+	5600 1600 10700 1600
+Wire Notes Line
+	10700 6000 5600 6000
+Wire Notes Line
+	5600 6000 5600 1600
+Wire Wire Line
+	2400 5950 10700 5950
+Wire Wire Line
+	5650 5950 5650 1650
+Wire Wire Line
+	5650 1650 10700 1650
+Connection ~ 2400 5950
+Connection ~ 5650 5950
+Text Notes 5650 6200 0    79   ~ 0
+Shielding
 $EndSCHEMATC
