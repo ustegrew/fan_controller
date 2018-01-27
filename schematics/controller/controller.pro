@@ -1,4 +1,4 @@
-update=Sun 26 Nov 2017 20:50:01 CET
+update=Sat 27 Jan 2018 22:51:47 CET
 version=1
 last_client=kicad
 [pcbnew]
@@ -129,7 +129,7 @@ LibName97=/home/peter/Documents/project/2017-03-10_ventilator-control/git/fan-co
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=
+PlotDirectoryName=render/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=

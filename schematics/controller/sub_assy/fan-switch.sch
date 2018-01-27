@@ -101,7 +101,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 18
+Sheet 2 18
 Title "Fan switch"
 Date "2017-10-01"
 Rev "1.1"

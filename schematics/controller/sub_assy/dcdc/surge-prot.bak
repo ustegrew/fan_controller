@@ -101,7 +101,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 18 18
+Sheet 17 18
 Title ""
 Date ""
 Rev ""
@@ -155,19 +155,11 @@ V_DCDC_0_OUT
 Wire Wire Line
 	1600 2200 3250 2200
 Wire Wire Line
-	3550 2200 5100 2200
-Wire Wire Line
-	5100 2200 7800 2200
-Wire Wire Line
-	7800 2200 9700 2200
+	3550 2200 9700 2200
 Wire Wire Line
 	1600 4200 3250 4200
 Wire Wire Line
-	3550 4200 5100 4200
-Wire Wire Line
-	5100 4200 7800 4200
-Wire Wire Line
-	7800 4200 9700 4200
+	3550 4200 9700 4200
 $Comp
 L D_TVS D?
 U 1 1 5A649072
@@ -197,9 +189,7 @@ Wire Wire Line
 	7800 3850 7800 4200
 Connection ~ 7800 4200
 Wire Wire Line
-	7800 2850 7800 3200
-Wire Wire Line
-	7800 3200 7800 3550
+	7800 2850 7800 3550
 Text HLabel 1600 5500 0    60   UnSpc ~ 0
 EARTH
 Wire Wire Line

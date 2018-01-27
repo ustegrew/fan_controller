@@ -133,7 +133,7 @@ Wire Wire Line
 Wire Wire Line
 	8750 4150 8750 4050
 Wire Wire Line
-	8650 6050 3400 6050
+	3400 6050 10200 6050
 Connection ~ 8650 4150
 $Comp
 L R R?
@@ -158,7 +158,7 @@ F 3 "" H 6800 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 1100 2800 0    60   ~ 0
-10 baud\nLow speed bus\n(sensors etc.)
+10 baud\nlow speed bus\n(sensors etc.)
 Wire Wire Line
 	7200 1750 7200 2650
 Wire Wire Line
@@ -168,7 +168,7 @@ Wire Wire Line
 Wire Wire Line
 	3400 2750 8150 2750
 Wire Wire Line
-	6800 1450 6800 1050
+	6800 1050 6800 1450
 Wire Wire Line
 	7200 1050 7200 1450
 Wire Wire Line
@@ -190,17 +190,17 @@ SCL_HIBAUD
 Text Notes 1100 4950 0    60   ~ 0
 Standard I2C bus\n(Display, manual controls etc.)\n
 Wire Wire Line
-	3400 4850 9900 4850
+	3400 4850 9500 4850
 Wire Wire Line
-	9900 4850 9900 3450
+	9500 4850 9500 3450
 Wire Wire Line
-	9900 3450 9150 3450
+	9500 3450 9150 3450
 Wire Wire Line
-	3400 4950 10300 4950
+	3400 4950 9600 4950
 Wire Wire Line
-	10300 4950 10300 3550
+	9600 4950 9600 3550
 Wire Wire Line
-	10300 3550 9150 3550
+	9600 3550 9150 3550
 $Comp
 L R R?
 U 1 1 5A6CE7F9
@@ -235,4 +235,44 @@ Connection ~ 5800 4850
 Wire Wire Line
 	5400 1750 5400 4950
 Connection ~ 5400 4950
+$Comp
+L BC546 Q?
+U 1 1 5A6D1A96
+P 10100 5600
+F 0 "Q?" H 10300 5675 50  0000 L CNN
+F 1 "BC546" H 10300 5600 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 10300 5525 50  0001 L CIN
+F 3 "" H 10100 5600 50  0001 L CNN
+	1    10100 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9150 2450 9300 2450
+Wire Wire Line
+	9300 2450 9300 2550
+Wire Wire Line
+	9150 2550 10200 2550
+Wire Wire Line
+	10200 2550 10200 5400
+Connection ~ 9300 2550
+Wire Wire Line
+	10200 6050 10200 5800
+Connection ~ 8650 6050
+$Comp
+L R R?
+U 1 1 5A6D1B7B
+P 9500 5600
+F 0 "R?" V 9580 5600 50  0000 C CNN
+F 1 "10 kΩ" V 9400 5600 50  0000 C CNN
+F 2 "" V 9430 5600 50  0001 C CNN
+F 3 "" H 9500 5600 50  0001 C CNN
+	1    9500 5600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9650 5600 9900 5600
+Text HLabel 3400 5600 0    60   Input ~ 0
+RESET
+Wire Wire Line
+	3400 5600 9350 5600
 $EndSCHEMATC
