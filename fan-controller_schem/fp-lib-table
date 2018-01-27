@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name fan-controller_parts)(type KiCad)(uri "$(KIPRJMOD)/parts/footprints/fan-controller_parts.pretty")(options "")(descr ""))
-)

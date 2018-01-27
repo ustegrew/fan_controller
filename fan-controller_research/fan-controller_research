@@ -1,7 +1,0 @@
-Qty,partname,description,lib
-0,"C","Unpolarized capacitor","device"
-0,"CP","Polarised capacitor","device"
-0,"LM741","Op amp","linear"
-0,"R","Resistor","device"
-0,"Transformer_1P_2S","Transformer, single primary, dual secondary","device"
-0,"Voltmeter_AC","AC Voltmeter","device"

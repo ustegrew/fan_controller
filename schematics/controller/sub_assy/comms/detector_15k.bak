@@ -1,0 +1,909 @@
+EESchema Schematic File Version 2
+LIBS:74xgxx
+LIBS:74xx
+LIBS:ac-dc
+LIBS:actel
+LIBS:adc-dac
+LIBS:allegro
+LIBS:Altera
+LIBS:analog_devices
+LIBS:analog_switches
+LIBS:atmel
+LIBS:audio
+LIBS:battery_management
+LIBS:bbd
+LIBS:bosch
+LIBS:brooktre
+LIBS:cmos4000
+LIBS:cmos_ieee
+LIBS:conn
+LIBS:contrib
+LIBS:cypress
+LIBS:dc-dc
+LIBS:device
+LIBS:digital-audio
+LIBS:diode
+LIBS:display
+LIBS:driver_gate
+LIBS:dsp
+LIBS:elec-unifil
+LIBS:ESD_Protection
+LIBS:ftdi
+LIBS:gennum
+LIBS:graphic_symbols
+LIBS:hc11
+LIBS:infineon
+LIBS:intel
+LIBS:interface
+LIBS:intersil
+LIBS:ir
+LIBS:Lattice
+LIBS:leds
+LIBS:LEM
+LIBS:linear
+LIBS:logic_programmable
+LIBS:maxim
+LIBS:mechanical
+LIBS:memory
+LIBS:microchip
+LIBS:microchip_dspic33dsc
+LIBS:microchip_pic10mcu
+LIBS:microchip_pic12mcu
+LIBS:microchip_pic16mcu
+LIBS:microchip_pic18mcu
+LIBS:microchip_pic24mcu
+LIBS:microchip_pic32mcu
+LIBS:microcontrollers
+LIBS:modules
+LIBS:motor_drivers
+LIBS:motorola
+LIBS:motors
+LIBS:msp430
+LIBS:nordicsemi
+LIBS:nxp
+LIBS:nxp_armmcu
+LIBS:onsemi
+LIBS:opto
+LIBS:Oscillators
+LIBS:philips
+LIBS:power
+LIBS:powerint
+LIBS:Power_Management
+LIBS:pspice
+LIBS:references
+LIBS:regul
+LIBS:relays
+LIBS:rfcom
+LIBS:RFSolutions
+LIBS:sensors
+LIBS:silabs
+LIBS:siliconi
+LIBS:stm8
+LIBS:stm32
+LIBS:supertex
+LIBS:switches
+LIBS:texas
+LIBS:transf
+LIBS:transistors
+LIBS:triac_thyristor
+LIBS:ttl_ieee
+LIBS:valves
+LIBS:video
+LIBS:wiznet
+LIBS:Worldsemi
+LIBS:Xicor
+LIBS:xilinx
+LIBS:zetex
+LIBS:Zilog
+LIBS:fan-controller_parts
+LIBS:controller-cache
+EELAYER 25 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 14 18
+Title "Signal detector, 15kHz"
+Date "2017-10-15"
+Rev "1.1"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L TL061 U?
+U 1 1 59E4ED22
+P 2950 4200
+F 0 "U?" H 2950 4450 50  0000 L CNN
+F 1 "TL061" H 2950 4350 50  0000 L CNN
+F 2 "" H 3000 4250 50  0001 C CNN
+F 3 "" H 3100 4350 50  0001 C CNN
+	1    2950 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 59E4EE64
+P 2100 5950
+F 0 "R?" H 2150 6000 50  0000 L CNN
+F 1 "100kΩ" H 2150 5900 50  0000 L CNN
+F 2 "" V 2030 5950 50  0001 C CNN
+F 3 "" H 2100 5950 50  0001 C CNN
+	1    2100 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 59E4EEEF
+P 1700 4100
+F 0 "C?" V 1850 4100 50  0000 C CNN
+F 1 "0.22uF" V 1950 4100 50  0000 C CNN
+F 2 "" H 1738 3950 50  0001 C CNN
+F 3 "" H 1700 4100 50  0001 C CNN
+	1    1700 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L POT RV?
+U 1 1 59E4F42E
+P 3650 5950
+F 0 "RV?" H 3600 6000 50  0000 R CNN
+F 1 "22kΩ" H 3600 5900 50  0000 R CNN
+F 2 "" H 3650 5950 50  0001 C CNN
+F 3 "" H 3650 5950 50  0001 C CNN
+	1    3650 5950
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 4200 4100 4200
+Wire Wire Line
+	3650 4200 3650 5800
+Wire Wire Line
+	3500 5950 2550 5950
+Wire Wire Line
+	2550 5950 2550 4300
+Wire Wire Line
+	2550 4300 2650 4300
+Wire Wire Line
+	1850 4100 2650 4100
+Wire Wire Line
+	2100 5800 2100 4100
+Connection ~ 2100 4100
+NoConn ~ 2950 4500
+NoConn ~ 3050 4500
+$Comp
+L C C?
+U 1 1 59E4FB10
+P 3100 4700
+F 0 "C?" V 3250 4700 50  0000 C CNN
+F 1 "100nF" V 3350 4700 50  0000 C CNN
+F 2 "" H 3138 4550 50  0001 C CNN
+F 3 "" H 3100 4700 50  0001 C CNN
+	1    3100 4700
+	0    1    1    0   
+$EndComp
+$Comp
+L C C?
+U 1 1 59E4FBB7
+P 3100 3700
+F 0 "C?" V 2850 3700 50  0000 C CNN
+F 1 "100nF" V 2950 3700 50  0000 C CNN
+F 2 "" H 3138 3550 50  0001 C CNN
+F 3 "" H 3100 3700 50  0001 C CNN
+	1    3100 3700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2850 3200 2850 3900
+Wire Wire Line
+	2850 3700 2950 3700
+Wire Wire Line
+	2950 4700 2850 4700
+Wire Wire Line
+	2850 4500 2850 5200
+Wire Wire Line
+	3250 3700 3350 3700
+Wire Wire Line
+	3350 3700 3350 5200
+Wire Wire Line
+	3350 4700 3250 4700
+Connection ~ 3350 4700
+Text Label 3350 5200 0    60   ~ 0
+_GND
+$Comp
+L R R?
+U 1 1 59E4FF49
+P 4100 4700
+F 0 "R?" H 4150 4750 50  0000 L CNN
+F 1 "22kΩ" H 4150 4650 50  0000 L CNN
+F 2 "" V 4030 4700 50  0001 C CNN
+F 3 "" H 4100 4700 50  0001 C CNN
+	1    4100 4700
+	1    0    0    -1  
+$EndComp
+Connection ~ 3650 4200
+Connection ~ 2850 4700
+Connection ~ 2850 3700
+Text Label 2850 3200 0    60   ~ 0
+_VCC
+Text Label 2850 5200 0    60   ~ 0
+_VEE
+$Comp
+L 1N4148 D?
+U 1 1 59E50302
+P 4100 5300
+F 0 "D?" V 4150 5350 50  0000 L CNN
+F 1 "1N4148" V 4050 5350 50  0000 L CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_Horizontal_RM10" H 4100 5125 50  0001 C CNN
+F 3 "" H 4100 5300 50  0001 C CNN
+	1    4100 5300
+	0    1    -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 59E51433
+P 4100 5950
+F 0 "R?" H 4150 6000 50  0000 L CNN
+F 1 "100kΩ" H 4150 5900 50  0000 L CNN
+F 2 "" V 4030 5950 50  0001 C CNN
+F 3 "" H 4100 5950 50  0001 C CNN
+	1    4100 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L BC546 Q?
+U 1 1 59E5163C
+P 4550 5650
+F 0 "Q?" H 4750 5725 50  0000 L CNN
+F 1 "BC546C" H 4750 5650 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 4750 5575 50  0001 L CIN
+F 3 "" H 4550 5650 50  0001 L CNN
+	1    4550 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 4200 4100 4550
+Wire Wire Line
+	4100 4850 4100 5150
+Wire Wire Line
+	4100 5450 4100 5800
+Connection ~ 4100 5650
+$Comp
+L BZX85xx D?
+U 1 1 59E53CA2
+P 5300 1450
+F 0 "D?" V 5300 1650 60  0000 R CNN
+F 1 "BZX85C6V2" V 5200 2050 60  0000 R CNN
+F 2 "" H 5300 1450 60  0000 C CNN
+F 3 "" H 5300 1450 60  0000 C CNN
+	1    5300 1450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 59E55CC2
+P 5300 3000
+F 0 "R?" H 5200 3050 50  0000 R CNN
+F 1 "22kΩ" H 5200 2950 50  0000 R CNN
+F 2 "" V 5230 3000 50  0001 C CNN
+F 3 "" H 5300 3000 50  0001 C CNN
+	1    5300 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L BC556 Q?
+U 1 1 59E55E16
+P 5700 2600
+F 0 "Q?" H 5900 2675 50  0000 L CNN
+F 1 "BC556" H 5900 2600 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 5900 2525 50  0001 L CIN
+F 3 "" H 5700 2600 50  0001 L CNN
+	1    5700 2600
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	5300 1650 5300 2850
+Wire Wire Line
+	5500 2600 5300 2600
+Connection ~ 5300 2600
+$Comp
+L BC556 Q?
+U 1 1 59E56441
+P 6300 2100
+F 0 "Q?" H 6500 2175 50  0000 L CNN
+F 1 "BC556" H 6500 2100 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 6500 2025 50  0001 L CIN
+F 3 "" H 6300 2100 50  0001 L CNN
+	1    6300 2100
+	1    0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 59E3B3D7
+P 6400 1550
+F 0 "R?" H 6300 1600 50  0000 R CNN
+F 1 "4.7kΩ" H 6300 1500 50  0000 R CNN
+F 2 "" V 6330 1550 50  0001 C CNN
+F 3 "" H 6400 1550 50  0001 C CNN
+	1    6400 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 6100 2100 8800
+Wire Wire Line
+	3650 6100 3650 8450
+Wire Wire Line
+	2100 8450 14550 8450
+Connection ~ 2100 8450
+Wire Wire Line
+	4100 8450 4100 6100
+Connection ~ 3650 8450
+Wire Wire Line
+	4650 8450 4650 5850
+Connection ~ 4100 8450
+Wire Wire Line
+	5300 8450 5300 3150
+Connection ~ 4650 8450
+Connection ~ 5300 8450
+$Comp
+L C C?
+U 1 1 59E3DD35
+P 6400 5650
+F 0 "C?" H 6425 5750 50  0000 L CNN
+F 1 "39nF" H 6425 5550 50  0000 L CNN
+F 2 "" H 6438 5500 50  0001 C CNN
+F 3 "" H 6400 5650 50  0001 C CNN
+	1    6400 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 2400 5800 2100
+Wire Wire Line
+	5800 2100 6100 2100
+Wire Wire Line
+	6400 1700 6400 1900
+Wire Wire Line
+	6400 2300 6400 5500
+Wire Wire Line
+	5800 8450 5800 2800
+Wire Wire Line
+	4650 5450 4650 3700
+Wire Wire Line
+	4650 3700 7900 3700
+Connection ~ 6400 3700
+Wire Wire Line
+	6400 8450 6400 5800
+Connection ~ 5800 8450
+Wire Wire Line
+	5300 1350 5300 1000
+Wire Wire Line
+	4650 1000 13600 1000
+Wire Wire Line
+	6400 1000 6400 1400
+Connection ~ 5300 1000
+Text Label 4650 1000 2    60   ~ 0
+_VCC
+Text Label 2100 8800 0    60   ~ 0
+_GND
+$Comp
+L R R?
+U 1 1 59E3FAE1
+P 7250 1550
+F 0 "R?" H 7150 1600 50  0000 R CNN
+F 1 "68kΩ" H 7150 1500 50  0000 R CNN
+F 2 "" V 7180 1550 50  0001 C CNN
+F 3 "" H 7250 1550 50  0001 C CNN
+	1    7250 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 59E40074
+P 7250 3100
+F 0 "R?" H 7150 3150 50  0000 R CNN
+F 1 "7.5kΩ" H 7150 3050 50  0000 R CNN
+F 2 "" V 7180 3100 50  0001 C CNN
+F 3 "" H 7250 3100 50  0001 C CNN
+	1    7250 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 59E4011C
+P 7250 5650
+F 0 "R?" H 7150 5700 50  0000 R CNN
+F 1 "22kΩ" H 7150 5600 50  0000 R CNN
+F 2 "" V 7180 5650 50  0001 C CNN
+F 3 "" H 7250 5650 50  0001 C CNN
+	1    7250 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 1000 7250 1400
+Connection ~ 6400 1000
+Wire Wire Line
+	7250 3250 7250 5500
+Wire Wire Line
+	7250 8450 7250 5800
+Connection ~ 6400 8450
+Connection ~ 7250 4700
+Wire Wire Line
+	7900 2400 7900 4900
+Connection ~ 7900 3700
+$Comp
+L TL061 U?
+U 1 1 59E41B34
+P 8650 2500
+F 0 "U?" H 8650 2750 50  0000 L CNN
+F 1 "TL061" H 8650 2650 50  0000 L CNN
+F 2 "" H 8700 2550 50  0001 C CNN
+F 3 "" H 8800 2650 50  0001 C CNN
+	1    8650 2500
+	1    0    0    -1  
+$EndComp
+NoConn ~ 8650 2800
+NoConn ~ 8750 2800
+$Comp
+L C C?
+U 1 1 59E41B42
+P 8800 3000
+F 0 "C?" V 8950 3000 50  0000 C CNN
+F 1 "100nF" V 9050 3000 50  0000 C CNN
+F 2 "" H 8838 2850 50  0001 C CNN
+F 3 "" H 8800 3000 50  0001 C CNN
+	1    8800 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L C C?
+U 1 1 59E41B48
+P 8800 2000
+F 0 "C?" V 8550 2000 50  0000 C CNN
+F 1 "100nF" V 8650 2000 50  0000 C CNN
+F 2 "" H 8838 1850 50  0001 C CNN
+F 3 "" H 8800 2000 50  0001 C CNN
+	1    8800 2000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8450 2000 8650 2000
+Wire Wire Line
+	8550 2000 8550 2200
+Wire Wire Line
+	8450 3000 8650 3000
+Wire Wire Line
+	8550 3000 8550 2800
+Wire Wire Line
+	8950 2000 9050 2000
+Wire Wire Line
+	9050 2000 9050 3000
+Wire Wire Line
+	8950 3000 9150 3000
+Connection ~ 9050 3000
+Text Label 9150 3000 0    60   ~ 0
+_GND
+Connection ~ 8550 3000
+Connection ~ 8550 2000
+Text Label 8450 2000 2    60   ~ 0
+_VCC
+Text Label 8450 3000 2    60   ~ 0
+_VEE
+$Comp
+L TL061 U?
+U 1 1 59E42BAC
+P 8700 4800
+F 0 "U?" H 8700 5050 50  0000 L CNN
+F 1 "TL061" H 8700 4950 50  0000 L CNN
+F 2 "" H 8750 4850 50  0001 C CNN
+F 3 "" H 8850 4950 50  0001 C CNN
+	1    8700 4800
+	1    0    0    -1  
+$EndComp
+NoConn ~ 8700 5100
+NoConn ~ 8800 5100
+$Comp
+L C C?
+U 1 1 59E42BB4
+P 8850 5300
+F 0 "C?" V 9000 5300 50  0000 C CNN
+F 1 "100nF" V 9100 5300 50  0000 C CNN
+F 2 "" H 8888 5150 50  0001 C CNN
+F 3 "" H 8850 5300 50  0001 C CNN
+	1    8850 5300
+	0    1    1    0   
+$EndComp
+$Comp
+L C C?
+U 1 1 59E42BBA
+P 8850 4300
+F 0 "C?" V 8600 4300 50  0000 C CNN
+F 1 "100nF" V 8700 4300 50  0000 C CNN
+F 2 "" H 8888 4150 50  0001 C CNN
+F 3 "" H 8850 4300 50  0001 C CNN
+	1    8850 4300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8500 4300 8700 4300
+Wire Wire Line
+	8600 4300 8600 4500
+Wire Wire Line
+	8500 5300 8700 5300
+Wire Wire Line
+	8600 5300 8600 5100
+Wire Wire Line
+	9000 4300 9100 4300
+Wire Wire Line
+	9100 4300 9100 5300
+Wire Wire Line
+	9000 5300 9200 5300
+Connection ~ 9100 5300
+Text Label 9200 5300 0    60   ~ 0
+_GND
+Connection ~ 8600 5300
+Connection ~ 8600 4300
+Text Label 8500 4300 2    60   ~ 0
+_VCC
+Text Label 8500 5300 2    60   ~ 0
+_VEE
+Wire Wire Line
+	8350 2400 7900 2400
+Wire Wire Line
+	7900 4900 8400 4900
+Wire Wire Line
+	7250 1700 7250 2950
+Wire Wire Line
+	8350 2600 7250 2600
+Connection ~ 7250 2600
+Wire Wire Line
+	8400 4700 7250 4700
+Text HLabel 1350 9600 0    60   Input ~ 0
+VCC
+Text HLabel 1350 11000 0    60   Input ~ 0
+VEE
+Text HLabel 1350 10300 0    60   Input ~ 0
+GND
+$Comp
+L CP C?
+U 1 1 59E43DCE
+P 1900 9950
+F 0 "C?" H 1925 10050 50  0000 L CNN
+F 1 "47uF / 63V" H 1925 9850 50  0000 L CNN
+F 2 "" H 1938 9800 50  0001 C CNN
+F 3 "" H 1900 9950 50  0001 C CNN
+	1    1900 9950
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C?
+U 1 1 59E43DD5
+P 1900 10650
+F 0 "C?" H 1925 10750 50  0000 L CNN
+F 1 "47uF / 63V" H 1925 10550 50  0000 L CNN
+F 2 "" H 1938 10500 50  0001 C CNN
+F 3 "" H 1900 10650 50  0001 C CNN
+	1    1900 10650
+	1    0    0    -1  
+$EndComp
+Text Label 2400 11000 0    60   ~ 0
+_VEE
+Text Label 2400 10300 0    60   ~ 0
+_GND
+Text Label 2400 9600 0    60   ~ 0
+_VCC
+Wire Wire Line
+	1900 10100 1900 10500
+Wire Wire Line
+	1350 9600 2400 9600
+Wire Wire Line
+	1900 9600 1900 9800
+Wire Wire Line
+	1900 10800 1900 11000
+Wire Wire Line
+	1350 11000 2400 11000
+Wire Wire Line
+	1350 10300 2400 10300
+Connection ~ 1900 10300
+Connection ~ 1900 9600
+Connection ~ 1900 11000
+Text HLabel 1350 4100 0    60   Input ~ 0
+IN
+Wire Wire Line
+	1350 4100 1550 4100
+Text HLabel 15050 6000 2    60   Output ~ 0
+OUT
+Wire Wire Line
+	4100 5650 4350 5650
+$Comp
+L R R?
+U 1 1 59EC43D1
+P 9350 4800
+F 0 "R?" V 9450 4800 50  0000 C CNN
+F 1 "22kΩ" V 9250 4800 50  0000 C CNN
+F 2 "" V 9280 4800 50  0001 C CNN
+F 3 "" H 9350 4800 50  0001 C CNN
+	1    9350 4800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 1N4148 D?
+U 1 1 59EC467E
+P 9800 4800
+F 0 "D?" H 9800 4700 50  0000 C CNN
+F 1 "1N4148" H 9800 4900 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_Horizontal_RM10" H 9800 4625 50  0001 C CNN
+F 3 "" H 9800 4800 50  0001 C CNN
+	1    9800 4800
+	-1   0    0    1   
+$EndComp
+$Comp
+L BC546 Q?
+U 1 1 59EC4D04
+P 10750 7550
+F 0 "Q?" H 10950 7625 50  0000 L CNN
+F 1 "BC546" H 10950 7550 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 10950 7475 50  0001 L CIN
+F 3 "" H 10750 7550 50  0001 L CNN
+	1    10750 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L BC546 Q?
+U 1 1 59EC4DA7
+P 10950 8050
+F 0 "Q?" H 11150 8125 50  0000 L CNN
+F 1 "BC546" H 11150 8050 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 11150 7975 50  0001 L CIN
+F 3 "" H 10950 8050 50  0001 L CNN
+	1    10950 8050
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	10850 7750 10850 7850
+Wire Wire Line
+	10850 8450 10850 8250
+Connection ~ 7250 8450
+$Comp
+L R R?
+U 1 1 59EC5ABD
+P 10850 6400
+F 0 "R?" H 10900 6450 50  0000 L CNN
+F 1 "39kΩ" H 10900 6350 50  0000 L CNN
+F 2 "" V 10780 6400 50  0001 C CNN
+F 3 "" H 10850 6400 50  0001 C CNN
+	1    10850 6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10850 6550 10850 7350
+$Comp
+L R R?
+U 1 1 59EC6265
+P 10350 7150
+F 0 "R?" H 10300 7200 50  0000 R CNN
+F 1 "39kΩ" H 10300 7100 50  0000 R CNN
+F 2 "" V 10280 7150 50  0001 C CNN
+F 3 "" H 10350 7150 50  0001 C CNN
+	1    10350 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 59EC6316
+P 10350 8050
+F 0 "R?" H 10300 8100 50  0000 R CNN
+F 1 "39kΩ" H 10300 8000 50  0000 R CNN
+F 2 "" V 10280 8050 50  0001 C CNN
+F 3 "" H 10350 8050 50  0001 C CNN
+	1    10350 8050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10350 7300 10350 7900
+Wire Wire Line
+	10550 7550 10350 7550
+Connection ~ 10350 7550
+Wire Wire Line
+	10350 8200 10350 8450
+Connection ~ 10350 8450
+$Comp
+L BC546 Q?
+U 1 1 59EC7179
+P 13200 7550
+F 0 "Q?" H 13400 7625 50  0000 L CNN
+F 1 "BC546" H 13400 7550 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 13400 7475 50  0001 L CIN
+F 3 "" H 13200 7550 50  0001 L CNN
+	1    13200 7550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L BC546 Q?
+U 1 1 59EC717F
+P 13000 8050
+F 0 "Q?" H 13200 8125 50  0000 L CNN
+F 1 "BC546" H 13200 8050 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 13200 7975 50  0001 L CIN
+F 3 "" H 13000 8050 50  0001 L CNN
+	1    13000 8050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13100 7750 13100 7850
+Wire Wire Line
+	13100 8450 13100 8250
+$Comp
+L R R?
+U 1 1 59EC7187
+P 13100 6400
+F 0 "R?" H 13150 6450 50  0000 L CNN
+F 1 "39kΩ" H 13150 6350 50  0000 L CNN
+F 2 "" V 13030 6400 50  0001 C CNN
+F 3 "" H 13100 6400 50  0001 C CNN
+	1    13100 6400
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	13100 6550 13100 7350
+$Comp
+L R R?
+U 1 1 59EC718E
+P 13600 7150
+F 0 "R?" H 13550 7200 50  0000 R CNN
+F 1 "39kΩ" H 13550 7100 50  0000 R CNN
+F 2 "" V 13530 7150 50  0001 C CNN
+F 3 "" H 13600 7150 50  0001 C CNN
+	1    13600 7150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 59EC7194
+P 13600 8050
+F 0 "R?" H 13550 8100 50  0000 R CNN
+F 1 "39kΩ" H 13550 8000 50  0000 R CNN
+F 2 "" V 13530 8050 50  0001 C CNN
+F 3 "" H 13600 8050 50  0001 C CNN
+	1    13600 8050
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	13600 7300 13600 7900
+Wire Wire Line
+	13400 7550 13600 7550
+Connection ~ 13600 7550
+Wire Wire Line
+	13600 8450 13600 8200
+$Comp
+L R R?
+U 1 1 59EC8D93
+P 11500 8050
+F 0 "R?" V 11600 8050 50  0000 C CNN
+F 1 "100kΩ" V 11400 8050 50  0000 C CNN
+F 2 "" V 11430 8050 50  0001 C CNN
+F 3 "" H 11500 8050 50  0001 C CNN
+	1    11500 8050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 59EC9808
+P 12450 8050
+F 0 "R?" V 12550 8050 50  0000 C CNN
+F 1 "100kΩ" V 12350 8050 50  0000 C CNN
+F 2 "" V 12380 8050 50  0001 C CNN
+F 3 "" H 12450 8050 50  0001 C CNN
+	1    12450 8050
+	0    -1   -1   0   
+$EndComp
+Connection ~ 10850 8450
+Connection ~ 13100 8450
+Connection ~ 10850 6800
+Wire Wire Line
+	12100 6800 13850 6800
+Connection ~ 13100 6800
+Wire Wire Line
+	10850 6250 10850 6000
+Wire Wire Line
+	10350 6000 13600 6000
+Wire Wire Line
+	10350 6000 10350 7000
+Wire Wire Line
+	13100 6000 13100 6250
+Wire Wire Line
+	13600 1000 13600 7000
+Wire Wire Line
+	12600 8050 12800 8050
+Wire Wire Line
+	11150 8050 11350 8050
+Connection ~ 13100 6000
+Connection ~ 10850 6000
+$Comp
+L R R?
+U 1 1 59ED3023
+P 14000 6800
+F 0 "R?" V 14100 6800 50  0000 C CNN
+F 1 "100kΩ" V 13900 6800 50  0000 C CNN
+F 2 "" V 13930 6800 50  0001 C CNN
+F 3 "" H 14000 6800 50  0001 C CNN
+	1    14000 6800
+	0    -1   -1   0   
+$EndComp
+Connection ~ 7250 1000
+Connection ~ 13600 6000
+$Comp
+L R R?
+U 1 1 59ED38BC
+P 9350 2500
+F 0 "R?" V 9450 2500 50  0000 C CNN
+F 1 "22kΩ" V 9250 2500 50  0000 C CNN
+F 2 "" V 9280 2500 50  0001 C CNN
+F 3 "" H 9350 2500 50  0001 C CNN
+	1    9350 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 1N4148 D?
+U 1 1 59ED38C2
+P 9800 2500
+F 0 "D?" H 9800 2400 50  0000 C CNN
+F 1 "1N4148" H 9800 2600 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_Horizontal_RM10" H 9800 2325 50  0001 C CNN
+F 3 "" H 9800 2500 50  0001 C CNN
+	1    9800 2500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	11250 8050 11250 4800
+Wire Wire Line
+	11250 4800 9950 4800
+Connection ~ 11250 8050
+Wire Wire Line
+	12700 8050 12700 2500
+Wire Wire Line
+	12700 2500 9950 2500
+Connection ~ 12700 8050
+Wire Wire Line
+	9500 2500 9650 2500
+Wire Wire Line
+	8950 2500 9200 2500
+Wire Wire Line
+	9000 4800 9200 4800
+Wire Wire Line
+	9500 4800 9650 4800
+$Comp
+L BC546 Q?
+U 1 1 59ED55CD
+P 14450 6800
+F 0 "Q?" H 14650 6875 50  0000 L CNN
+F 1 "BC546" H 14650 6800 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 14650 6725 50  0001 L CIN
+F 3 "" H 14450 6800 50  0001 L CNN
+	1    14450 6800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14150 6800 14250 6800
+Wire Wire Line
+	14550 8450 14550 7000
+Connection ~ 13600 8450
+Wire Wire Line
+	15050 6000 14550 6000
+Wire Wire Line
+	14550 6000 14550 6600
+Wire Wire Line
+	11650 8050 11900 8050
+Wire Wire Line
+	11900 8050 12100 7850
+Wire Wire Line
+	12100 7850 12100 6800
+Wire Wire Line
+	12300 8050 12100 8050
+Wire Wire Line
+	12100 8050 11900 7850
+Wire Wire Line
+	11900 7850 11900 6800
+Wire Wire Line
+	11900 6800 10850 6800
+$EndSCHEMATC
