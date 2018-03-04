@@ -101,7 +101,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 14 18
+Sheet 14 21
 Title "Transformer Barrier module"
 Date "2017-10-08"
 Rev "1.0"
@@ -116,7 +116,7 @@ L Transformer_1P_2S T?
 U 1 1 59FEBF23
 P 9000 3350
 F 0 "T?" H 9000 3850 50  0000 C CNN
-F 1 "Transformer_1P_2S" H 9000 2850 50  0000 C CNN
+F 1 "Transformer_2P_1S" H 9000 2850 50  0000 C CNN
 F 2 "" H 9000 3350 50  0001 C CNN
 F 3 "" H 9000 3350 50  0001 C CNN
 	1    9000 3350

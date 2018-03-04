@@ -101,7 +101,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 12 18
+Sheet 12 21
 Title "Bandpass filter, 25k"
 Date "2017-10-14"
 Rev "1.1"

@@ -101,7 +101,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 18 18
+Sheet 18 21
 Title ""
 Date ""
 Rev ""
@@ -138,51 +138,37 @@ Connection ~ 8650 4150
 $Comp
 L R R?
 U 1 1 5A64974C
-P 7200 1600
-F 0 "R?" V 7100 1600 50  0000 C CNN
-F 1 "10kΩ" V 7300 1600 50  0000 C CNN
-F 2 "" V 7130 1600 50  0001 C CNN
-F 3 "" H 7200 1600 50  0001 C CNN
-	1    7200 1600
+P 6950 1600
+F 0 "R?" V 6850 1600 50  0000 C CNN
+F 1 "10kΩ" V 7050 1600 50  0000 C CNN
+F 2 "" V 6880 1600 50  0001 C CNN
+F 3 "" H 6950 1600 50  0001 C CNN
+	1    6950 1600
 	1    0    0    -1  
 $EndComp
 $Comp
 L R R?
 U 1 1 5A6497C2
-P 6800 1600
-F 0 "R?" V 6700 1600 50  0000 C CNN
-F 1 "10kΩ" V 6900 1600 50  0000 C CNN
-F 2 "" V 6730 1600 50  0001 C CNN
-F 3 "" H 6800 1600 50  0001 C CNN
-	1    6800 1600
+P 6550 1600
+F 0 "R?" V 6450 1600 50  0000 C CNN
+F 1 "10kΩ" V 6650 1600 50  0000 C CNN
+F 2 "" V 6480 1600 50  0001 C CNN
+F 3 "" H 6550 1600 50  0001 C CNN
+	1    6550 1600
 	1    0    0    -1  
 $EndComp
 Text Notes 1100 2800 0    60   ~ 0
 10 baud\nlow speed bus\n(sensors etc.)
 Wire Wire Line
-	7200 1750 7200 2650
-Wire Wire Line
-	3400 2650 8150 2650
-Wire Wire Line
-	6800 1750 6800 2750
-Wire Wire Line
-	3400 2750 8150 2750
-Wire Wire Line
-	6800 1050 6800 1450
-Wire Wire Line
-	7200 1050 7200 1450
-Wire Wire Line
 	3400 1050 8850 1050
-Connection ~ 6800 1050
+Connection ~ 6550 1050
 Wire Wire Line
 	8850 1050 8850 2050
-Connection ~ 7200 1050
+Connection ~ 6950 1050
 Text HLabel 3400 2650 0    60   BiDi ~ 0
 SDA_10
 Text HLabel 3400 2750 0    60   BiDi ~ 0
 SCL_10
-Connection ~ 7200 2650
-Connection ~ 6800 2750
 Text HLabel 3400 4850 0    60   BiDi ~ 0
 SDA_HIBAUD
 Text HLabel 3400 4950 0    60   BiDi ~ 0
@@ -204,37 +190,37 @@ Wire Wire Line
 $Comp
 L R R?
 U 1 1 5A6CE7F9
-P 5800 1600
-F 0 "R?" V 5700 1600 50  0000 C CNN
-F 1 "10kΩ" V 5900 1600 50  0000 C CNN
-F 2 "" V 5730 1600 50  0001 C CNN
-F 3 "" H 5800 1600 50  0001 C CNN
-	1    5800 1600
+P 5750 1600
+F 0 "R?" V 5650 1600 50  0000 C CNN
+F 1 "10kΩ" V 5850 1600 50  0000 C CNN
+F 2 "" V 5680 1600 50  0001 C CNN
+F 3 "" H 5750 1600 50  0001 C CNN
+	1    5750 1600
 	1    0    0    -1  
 $EndComp
 $Comp
 L R R?
 U 1 1 5A6CE83F
-P 5400 1600
-F 0 "R?" V 5300 1600 50  0000 C CNN
-F 1 "10kΩ" V 5500 1600 50  0000 C CNN
-F 2 "" V 5330 1600 50  0001 C CNN
-F 3 "" H 5400 1600 50  0001 C CNN
-	1    5400 1600
+P 5350 1600
+F 0 "R?" V 5250 1600 50  0000 C CNN
+F 1 "10kΩ" V 5450 1600 50  0000 C CNN
+F 2 "" V 5280 1600 50  0001 C CNN
+F 3 "" H 5350 1600 50  0001 C CNN
+	1    5350 1600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5800 1450 5800 1050
-Connection ~ 5800 1050
+	5750 1450 5750 1050
+Connection ~ 5750 1050
 Wire Wire Line
-	5400 1450 5400 1050
-Connection ~ 5400 1050
+	5350 1450 5350 1050
+Connection ~ 5350 1050
 Wire Wire Line
-	5800 1750 5800 4850
-Connection ~ 5800 4850
+	5750 1750 5750 4850
+Connection ~ 5750 4850
 Wire Wire Line
-	5400 1750 5400 4950
-Connection ~ 5400 4950
+	5350 1750 5350 4950
+Connection ~ 5350 4950
 $Comp
 L BC546 Q?
 U 1 1 5A6D1A96
@@ -275,4 +261,62 @@ Text HLabel 3400 5600 0    60   Input ~ 0
 RESET
 Wire Wire Line
 	3400 5600 9350 5600
+Text HLabel 3400 2850 0    60   Output ~ 0
+WR_EN
+$Comp
+L R R?
+U 1 1 5A6F45AA
+P 6150 1600
+F 0 "R?" V 6050 1600 50  0000 C CNN
+F 1 "10kΩ" V 6250 1600 50  0000 C CNN
+F 2 "" V 6080 1600 50  0001 C CNN
+F 3 "" H 6150 1600 50  0001 C CNN
+	1    6150 1600
+	1    0    0    -1  
+$EndComp
+Connection ~ 6150 1050
+$Comp
+L R R?
+U 1 1 5A9FC163
+P 7350 1600
+F 0 "R?" V 7250 1600 50  0000 C CNN
+F 1 "10kΩ" V 7450 1600 50  0000 C CNN
+F 2 "" V 7280 1600 50  0001 C CNN
+F 3 "" H 7350 1600 50  0001 C CNN
+	1    7350 1600
+	1    0    0    -1  
+$EndComp
+Text HLabel 3400 3600 0    60   Output ~ 0
+FAN_ON
+Wire Wire Line
+	8150 2950 6150 2950
+Wire Wire Line
+	6950 1050 6950 1450
+Wire Wire Line
+	6550 1050 6550 1450
+Wire Wire Line
+	6150 1050 6150 1450
+Wire Wire Line
+	7350 1450 7350 1050
+Connection ~ 7350 1050
+Wire Wire Line
+	3400 2650 8150 2650
+Wire Wire Line
+	3400 2750 8150 2750
+Wire Wire Line
+	3400 2850 8150 2850
+Wire Wire Line
+	6150 1750 6150 3600
+Connection ~ 6150 2950
+Wire Wire Line
+	6950 1750 6950 2750
+Connection ~ 6950 2750
+Wire Wire Line
+	6550 1750 6550 2850
+Connection ~ 6550 2850
+Wire Wire Line
+	7350 1750 7350 2650
+Connection ~ 7350 2650
+Wire Wire Line
+	6150 3600 3400 3600
 $EndSCHEMATC

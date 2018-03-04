@@ -1,4 +1,4 @@
-update=Sat 27 Jan 2018 22:51:47 CET
+update=Sun 04 Mar 2018 22:17:41 CET
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=../../lib/kicad-library/library
@@ -126,6 +124,8 @@ LibName94=/home/peter/Documents/project/2017-03-10_ventilator-control/git/fan-co
 LibName95=/home/peter/Documents/project/2017-03-10_ventilator-control/git/fan-controller/project/lib/kicad-library/library/zetex
 LibName96=/home/peter/Documents/project/2017-03-10_ventilator-control/git/fan-controller/project/lib/kicad-library/library/Zilog
 LibName97=/home/peter/Documents/project/2017-03-10_ventilator-control/git/fan-controller/project/lib/custom/symbols/fan-controller_parts
+[general]
+version=1
 [schematic_editor]
 version=1
 PageLayoutDescrFile=

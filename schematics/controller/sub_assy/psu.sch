@@ -101,7 +101,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 3 18
+Sheet 3 21
 Title "PSU"
 Date "2017-09-24"
 Rev "1.1"
