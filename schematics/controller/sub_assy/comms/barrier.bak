@@ -101,7 +101,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 14 21
+Sheet 14 19
 Title "Transformer Barrier module"
 Date "2017-10-08"
 Rev "1.0"

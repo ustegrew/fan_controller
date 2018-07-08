@@ -101,7 +101,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 13 21
+Sheet 13 19
 Title "Signal detector, 15kHz"
 Date "2017-10-15"
 Rev "1.1"
@@ -275,7 +275,7 @@ U 1 1 59E53CA2
 P 5300 1450
 F 0 "D13001" V 5300 1650 60  0000 R CNN
 F 1 "BZX85C6V2" V 5200 2050 60  0000 R CNN
-F 2 "" H 5300 1450 60  0000 C CNN
+F 2 "" H 5300 1450 60  0001 C CNN
 F 3 "" H 5300 1450 60  0000 C CNN
 	1    5300 1450
 	0    -1   -1   0   
@@ -612,7 +612,7 @@ IN
 Wire Wire Line
 	1350 4100 1550 4100
 Text HLabel 15050 6000 2    60   Output ~ 0
-OUT
+DETECTOR_15K
 Wire Wire Line
 	4100 5650 4350 5650
 $Comp

@@ -101,7 +101,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 7 21
+Sheet 7 19
 Title "Signal Switch"
 Date "2017-11-26"
 Rev "1.1"

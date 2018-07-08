@@ -101,7 +101,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 18 21
+Sheet 18 19
 Title ""
 Date ""
 Rev ""
@@ -109,7 +109,7 @@ Comp ""
 Comment1 ""
 Comment2 ""
 Comment3 ""
-Comment4 ""
+Comment4 "CPU module"
 $EndDescr
 $Comp
 L Arduino_Nano_v3.x A18001
@@ -117,7 +117,7 @@ U 1 1 5A665ACA
 P 8650 3050
 F 0 "A18001" H 8450 4075 50  0000 R CNN
 F 1 "Arduino_Nano_v3.x" H 8450 4000 50  0000 R CNN
-F 2 "Modules:Arduino_Nano" H 8800 2100 50  0001 L CNN
+F 2 "Modules:Arduino_Nano_WithMountingHoles" H 8800 2100 50  0001 L CNN
 F 3 "" H 8650 2050 50  0001 C CNN
 	1    8650 3050
 	1    0    0    -1  
@@ -157,8 +157,8 @@ F 3 "" H 6550 1600 50  0001 C CNN
 	1    6550 1600
 	1    0    0    -1  
 $EndComp
-Text Notes 1100 2800 0    60   ~ 0
-10 baud\nlow speed bus\n(sensors etc.)
+Text Notes 2250 2800 2    60   ~ 0
+Low speed bus, 10 baud\nPeripherals (sensors, heat valve)
 Wire Wire Line
 	3400 1050 8850 1050
 Connection ~ 6550 1050
@@ -166,15 +166,15 @@ Wire Wire Line
 	8850 1050 8850 2050
 Connection ~ 6950 1050
 Text HLabel 3400 2650 0    60   BiDi ~ 0
-SDA_10
-Text HLabel 3400 2750 0    60   BiDi ~ 0
-SCL_10
+CPU_10BAUD_SDA
+Text HLabel 3400 2750 0    60   Output ~ 0
+CPU_10BAUD_SCL
 Text HLabel 3400 4850 0    60   BiDi ~ 0
-SDA_HIBAUD
-Text HLabel 3400 4950 0    60   BiDi ~ 0
-SCL_HIBAUD
-Text Notes 1100 4950 0    60   ~ 0
-Standard I2C bus\n(Display, manual controls etc.)\n
+CPU_HIBAUD_SDA
+Text HLabel 3400 4950 0    60   Output ~ 0
+CPU_HIBAUD_SCL
+Text Notes 2250 5000 2    60   ~ 0
+I2C bus, standard speed\nDisplay, manual controls
 Wire Wire Line
 	3400 4850 9500 4850
 Wire Wire Line
@@ -262,7 +262,7 @@ RESET
 Wire Wire Line
 	3400 5600 9350 5600
 Text HLabel 3400 2850 0    60   Output ~ 0
-WR_EN
+CPU_10BAUD_WR_EN
 $Comp
 L R R18003
 U 1 1 5A6F45AA

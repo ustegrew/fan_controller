@@ -155,7 +155,7 @@ Wire Wire Line
 Wire Wire Line
 	8200 9400 8200 6200
 Text HLabel 2100 5000 0    60   BiDi ~ 0
-CPU_IO
+SCL
 $Comp
 L BC546 Q20003
 U 1 1 5A977656
