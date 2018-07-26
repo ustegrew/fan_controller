@@ -101,7 +101,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 19
+Sheet 9 16
 Title ""
 Date ""
 Rev ""
@@ -274,7 +274,7 @@ L Q_NJFET_DGS Q9001
 U 1 1 5A1B3E62
 P 3050 4650
 F 0 "Q9001" H 3250 4700 50  0000 L CNN
-F 1 "Q_NJFET_DGS" H 3250 4600 50  0000 L CNN
+F 1 "2N3819" H 3250 4600 50  0000 L CNN
 F 2 "" H 3250 4750 50  0001 C CNN
 F 3 "" H 3050 4650 50  0001 C CNN
 	1    3050 4650
@@ -333,20 +333,20 @@ Connection ~ 4350 4300
 Wire Wire Line
 	3250 4650 3600 4650
 Wire Wire Line
-	2950 4850 2950 5300
+	2950 4850 2950 5150
 Wire Wire Line
-	1950 5300 5850 5300
+	1950 5150 5850 5150
 Wire Wire Line
-	3750 5300 3750 4800
+	3750 5150 3750 4800
 Wire Wire Line
-	4350 5300 4350 4800
-Connection ~ 3750 5300
+	4350 5150 4350 4800
+Connection ~ 3750 5150
 Wire Wire Line
-	4950 5300 4950 4800
-Connection ~ 4350 5300
+	4950 5150 4950 4800
+Connection ~ 4350 5150
 Wire Wire Line
-	5850 5300 5850 4800
-Connection ~ 4950 5300
+	5850 5150 5850 4800
+Connection ~ 4950 5150
 Wire Wire Line
 	5850 3700 5850 3500
 Connection ~ 5850 3000
@@ -357,9 +357,9 @@ Wire Wire Line
 Wire Wire Line
 	2250 3900 2250 3450
 Wire Wire Line
-	1950 5300 1950 3900
+	1950 5150 1950 3900
 Connection ~ 1950 3900
-Connection ~ 2950 5300
+Connection ~ 2950 5150
 Wire Wire Line
 	7750 3100 9050 3100
 Wire Wire Line
@@ -412,24 +412,24 @@ Wire Wire Line
 	3950 3600 3750 3600
 Wire Wire Line
 	3750 3300 3750 3900
-Text Label 1750 6500 0    60   ~ 0
+Text Label 1300 850  0    60   ~ 0
 _VCC
-Text Label 1750 6900 0    60   ~ 0
+Text Label 1300 1250 0    60   ~ 0
 _VEE
-Text Label 1750 6700 0    60   ~ 0
+Text Label 1300 1050 0    60   ~ 0
 _GND
-Text HLabel 1500 6500 0    60   Input ~ 0
+Text HLabel 1050 850  0    60   Input ~ 0
 VCC
-Text HLabel 1500 6700 0    60   Input ~ 0
+Text HLabel 1050 1050 0    60   Input ~ 0
 GND
-Text HLabel 1500 6900 0    60   Input ~ 0
+Text HLabel 1050 1250 0    60   Input ~ 0
 VEE
 Wire Wire Line
-	1500 6500 1750 6500
+	1050 850  1300 850 
 Wire Wire Line
-	1500 6700 1750 6700
+	1050 1050 1300 1050
 Wire Wire Line
-	1500 6900 1750 6900
+	1050 1250 1300 1250
 Text HLabel 10150 3100 2    60   Output ~ 0
 OUT
 Wire Wire Line
@@ -492,4 +492,14 @@ Wire Wire Line
 	4250 3600 4500 3600
 Connection ~ 3750 2400
 Connection ~ 3750 3600
+Text Notes 3600 4800 2    60   ~ 0
+AGC
+Text Notes 3050 3450 0    60   ~ 0
+FEEDBACK
+Text Notes 3650 5900 0    79   ~ 0
+Oscillator
+Text Notes 7300 5900 0    79   ~ 0
+Buffer
+Wire Notes Line
+	6400 1100 6400 6150
 $EndSCHEMATC

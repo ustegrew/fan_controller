@@ -101,7 +101,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 19 19
+Sheet 16 16
 Title ""
 Date "2018-02-25"
 Rev "1.0"
@@ -111,284 +111,311 @@ Comment2 ""
 Comment3 ""
 Comment4 "Router: 10Baud bus I/O"
 $EndDescr
-Text HLabel 13350 4050 2    60   Output ~ 0
+Text HLabel 14050 2650 2    60   Output ~ 0
 OSC_25K_UNMUTE_10BAUD_SCL
-Text HLabel 3000 3100 0    60   Input ~ 0
+Text HLabel 3000 2100 0    60   Input ~ 0
 CPU_10BAUD_SCL
 $Comp
-L BC546 Q19001
+L BC546 Q15001
 U 1 1 5B438A1E
-P 12000 3100
-F 0 "Q19001" H 12200 3175 50  0000 L CNN
-F 1 "BC546" H 12200 3100 50  0000 L CNN
-F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 12200 3025 50  0001 L CIN
-F 3 "" H 12000 3100 50  0001 L CNN
-	1    12000 3100
+P 12200 2100
+F 0 "Q15001" H 12400 2175 50  0000 L CNN
+F 1 "BC546" H 12400 2100 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 12400 2025 50  0001 L CIN
+F 3 "" H 12200 2100 50  0001 L CNN
+	1    12200 2100
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R19006
+L R R15003
 U 1 1 5B438A26
-P 12100 5050
-F 0 "R19006" V 12000 5050 50  0000 C CNN
-F 1 "100kΩ" V 12200 5050 50  0000 C CNN
-F 2 "" V 12030 5050 50  0001 C CNN
-F 3 "" H 12100 5050 50  0001 C CNN
-	1    12100 5050
+P 12300 3150
+F 0 "R15003" V 12200 3150 50  0000 C CNN
+F 1 "100kΩ" V 12400 3150 50  0000 C CNN
+F 2 "" V 12230 3150 50  0001 C CNN
+F 3 "" H 12300 3150 50  0001 C CNN
+	1    12300 3150
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R19001
+L R R15001
 U 1 1 5B438A34
-P 10150 3100
-F 0 "R19001" V 10050 3100 50  0000 C CNN
-F 1 "10kΩ" V 10250 3100 50  0000 C CNN
-F 2 "" V 10080 3100 50  0001 C CNN
-F 3 "" H 10150 3100 50  0001 C CNN
-	1    10150 3100
+P 5350 2100
+F 0 "R15001" V 5250 2100 50  0000 C CNN
+F 1 "10kΩ" V 5450 2100 50  0000 C CNN
+F 2 "" V 5280 2100 50  0001 C CNN
+F 3 "" H 5350 2100 50  0001 C CNN
+	1    5350 2100
 	0    1    1    0   
 $EndComp
 $Comp
-L 1N4148 D19001
-U 1 1 5B438A3D
-P 3950 3100
-F 0 "D19001" H 3950 3200 50  0000 C CNN
-F 1 "1N4148" H 3950 3000 50  0000 C CNN
-F 2 "Diodes_THT:D_DO-35_SOD27_Horizontal_RM10" H 3950 2925 50  0001 C CNN
-F 3 "" H 3950 3100 50  0001 C CNN
-	1    3950 3100
-	-1   0    0    -1  
-$EndComp
-$Comp
-L R R19005
+L R R15002
 U 1 1 5B438A49
-P 11000 5050
-F 0 "R19005" V 10900 5050 50  0000 C CNN
-F 1 "100kΩ" V 11100 5050 50  0000 C CNN
-F 2 "" V 10930 5050 50  0001 C CNN
-F 3 "" H 11000 5050 50  0001 C CNN
-	1    11000 5050
+P 11500 3150
+F 0 "R15002" V 11400 3150 50  0000 C CNN
+F 1 "100kΩ" V 11600 3150 50  0000 C CNN
+F 2 "" V 11430 3150 50  0001 C CNN
+F 3 "" H 11500 3150 50  0001 C CNN
+	1    11500 3150
 	1    0    0    -1  
 $EndComp
-Text HLabel 3000 1250 0    60   UnSpc ~ 0
+Text HLabel 3000 1000 0    60   UnSpc ~ 0
 V_LOGIC
-Text HLabel 3000 9200 0    60   UnSpc ~ 0
+Text HLabel 3000 8600 0    60   UnSpc ~ 0
 GND
-Text HLabel 3000 7300 0    60   Input ~ 0
+Text HLabel 3000 7350 0    60   Input ~ 0
 CPU_10BAUD_WR_EN
-Text HLabel 3000 5850 0    60   Input ~ 0
+Text HLabel 3000 5400 0    60   Input ~ 0
 DETECTOR_15K_10BAUD_SDA
-Text HLabel 13350 7250 2    60   Output ~ 0
+Text HLabel 14050 5400 2    60   Output ~ 0
 OSC_15K_UNMUTE_10BAUD_SDA
 $Comp
-L R R19004
-U 1 1 5B439F78
-P 6650 4550
-F 0 "R19004" V 6550 4550 50  0000 C CNN
-F 1 "10kΩ" V 6750 4550 50  0000 C CNN
-F 2 "" V 6580 4550 50  0001 C CNN
-F 3 "" H 6650 4550 50  0001 C CNN
-	1    6650 4550
-	1    0    0    -1  
-$EndComp
-$Comp
-L BC546 Q19005
+L BC546 Q15004
 U 1 1 5B439F82
-P 6550 8250
-F 0 "Q19005" H 6750 8325 50  0000 L CNN
-F 1 "BC546" H 6750 8250 50  0000 L CNN
-F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 6750 8175 50  0001 L CIN
-F 3 "" H 6550 8250 50  0001 L CNN
-	1    6550 8250
+P 10400 7350
+F 0 "Q15004" H 10600 7425 50  0000 L CNN
+F 1 "BC546" H 10600 7350 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 10600 7275 50  0001 L CIN
+F 3 "" H 10400 7350 50  0001 L CNN
+	1    10400 7350
 	1    0    0    -1  
 $EndComp
-Text HLabel 3000 4550 0    60   BiDi ~ 0
+Text HLabel 3000 4450 0    60   BiDi ~ 0
 CPU_10BAUD_SDA
 $Comp
-L BC546 Q19004
+L BC546 Q15005
 U 1 1 5B439F8D
-P 5450 7300
-F 0 "Q19004" H 5650 7375 50  0000 L CNN
-F 1 "BC546" H 5650 7300 50  0000 L CNN
-F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 5650 7225 50  0001 L CIN
-F 3 "" H 5450 7300 50  0001 L CNN
-	1    5450 7300
+P 9650 7850
+F 0 "Q15005" H 9850 7925 50  0000 L CNN
+F 1 "BC546" H 9850 7850 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 9850 7775 50  0001 L CIN
+F 3 "" H 9650 7850 50  0001 L CNN
+	1    9650 7850
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R19007
+L R R15006
 U 1 1 5B439FA2
-P 4700 7300
-F 0 "R19007" V 4600 7300 50  0000 C CNN
-F 1 "10kΩ" V 4800 7300 50  0000 C CNN
-F 2 "" V 4630 7300 50  0001 C CNN
-F 3 "" H 4700 7300 50  0001 C CNN
-	1    4700 7300
+P 9050 5400
+F 0 "R15006" V 8950 5400 50  0000 C CNN
+F 1 "10kΩ" V 9150 5400 50  0000 C CNN
+F 2 "" V 8980 5400 50  0001 C CNN
+F 3 "" H 9050 5400 50  0001 C CNN
+	1    9050 5400
 	0    1    1    0   
 $EndComp
 $Comp
-L BC546 Q19002
+L BC546 Q15002
 U 1 1 5B439FB3
-P 8350 5850
-F 0 "Q19002" H 8550 5925 50  0000 L CNN
-F 1 "BC546" H 8550 5850 50  0000 L CNN
-F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 8550 5775 50  0001 L CIN
-F 3 "" H 8350 5850 50  0001 L CNN
-	1    8350 5850
+P 8200 4450
+F 0 "Q15002" H 8400 4525 50  0000 L CNN
+F 1 "BC546" H 8400 4450 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 8400 4375 50  0001 L CIN
+F 3 "" H 8200 4450 50  0001 L CNN
+	1    8200 4450
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R19009
+L R R15010
 U 1 1 5B439FBC
-P 8450 8250
-F 0 "R19009" V 8350 8250 50  0000 C CNN
-F 1 "100kΩ" V 8550 8250 50  0000 C CNN
-F 2 "" V 8380 8250 50  0001 C CNN
-F 3 "" H 8450 8250 50  0001 C CNN
-	1    8450 8250
+P 8300 8250
+F 0 "R15010" V 8200 8250 50  0000 C CNN
+F 1 "100kΩ" V 8400 8250 50  0000 C CNN
+F 2 "" V 8230 8250 50  0001 C CNN
+F 3 "" H 8300 8250 50  0001 C CNN
+	1    8300 8250
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R19002
+L R R15004
 U 1 1 5B439FCA
-P 3950 4550
-F 0 "R19002" V 3850 4550 50  0000 C CNN
-F 1 "10kΩ" V 4050 4550 50  0000 C CNN
-F 2 "" V 3880 4550 50  0001 C CNN
-F 3 "" H 3950 4550 50  0001 C CNN
-	1    3950 4550
+P 5350 4450
+F 0 "R15004" V 5250 4450 50  0000 C CNN
+F 1 "10kΩ" V 5450 4450 50  0000 C CNN
+F 2 "" V 5280 4450 50  0001 C CNN
+F 3 "" H 5350 4450 50  0001 C CNN
+	1    5350 4450
 	0    1    1    0   
 $EndComp
 $Comp
-L R R19008
+L R R15008
 U 1 1 5B439FE1
-P 4700 8250
-F 0 "R19008" V 4600 8250 50  0000 C CNN
-F 1 "10kΩ" V 4800 8250 50  0000 C CNN
-F 2 "" V 4630 8250 50  0001 C CNN
-F 3 "" H 4700 8250 50  0001 C CNN
-	1    4700 8250
+P 5350 7350
+F 0 "R15008" V 5250 7350 50  0000 C CNN
+F 1 "10kΩ" V 5450 7350 50  0000 C CNN
+F 2 "" V 5280 7350 50  0001 C CNN
+F 3 "" H 5350 7350 50  0001 C CNN
+	1    5350 7350
 	0    1    1    0   
 $EndComp
 $Comp
-L R R19010
+L R R15009
 U 1 1 5B439FEC
-P 3950 8800
-F 0 "R19010" V 3850 8800 50  0000 C CNN
-F 1 "100kΩ" V 4050 8800 50  0000 C CNN
-F 2 "" V 3880 8800 50  0001 C CNN
-F 3 "" H 3950 8800 50  0001 C CNN
-	1    3950 8800
+P 6050 8250
+F 0 "R15009" V 5950 8250 50  0000 C CNN
+F 1 "100kΩ" V 6150 8250 50  0000 C CNN
+F 2 "" V 5980 8250 50  0001 C CNN
+F 3 "" H 6050 8250 50  0001 C CNN
+	1    6050 8250
 	1    0    0    -1  
 $EndComp
 $Comp
-L BC546 Q19003
+L BC546 Q15003
 U 1 1 5B439FD6
-P 7300 7250
-F 0 "Q19003" H 7500 7325 50  0000 L CNN
-F 1 "BC546" H 7500 7250 50  0000 L CNN
-F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 7500 7175 50  0001 L CIN
-F 3 "" H 7300 7250 50  0001 L CNN
-	1    7300 7250
+P 6700 7350
+F 0 "Q15003" H 6900 7425 50  0000 L CNN
+F 1 "BC546" H 6900 7350 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 6900 7275 50  0001 L CIN
+F 3 "" H 6700 7350 50  0001 L CNN
+	1    6700 7350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	12100 3300 12100 4900
-Connection ~ 12100 4050
-Wire Wire Line
-	10300 3100 11800 3100
-Wire Wire Line
-	4100 3100 10000 3100
-Wire Wire Line
-	3000 3100 3800 3100
-Wire Wire Line
-	11000 4900 11000 3100
-Connection ~ 11000 3100
-Wire Wire Line
-	3000 1250 12100 1250
-Wire Wire Line
-	3000 9200 12100 9200
-Wire Wire Line
-	5550 9200 5550 7500
-Connection ~ 5550 9200
-Wire Wire Line
-	4850 7300 5250 7300
-Wire Wire Line
-	8450 1250 8450 5650
-Wire Wire Line
-	8450 6050 8450 8100
-Wire Wire Line
-	8450 9200 8450 8400
-Wire Wire Line
-	7400 9200 7400 7450
-Connection ~ 7400 9200
-Wire Wire Line
-	7400 5850 7400 7050
-Connection ~ 7400 5850
-Wire Wire Line
-	4550 8250 3950 8250
-Wire Wire Line
-	3950 7300 3950 8650
-Connection ~ 3950 7300
-Connection ~ 3950 8250
-Wire Wire Line
-	3950 8950 3950 9200
-Connection ~ 3950 9200
-Wire Wire Line
-	12100 4050 13350 4050
-Wire Wire Line
-	13350 7250 8450 7250
-Connection ~ 8450 7250
-Wire Wire Line
-	12100 1250 12100 2900
-Connection ~ 8450 1250
-Wire Wire Line
-	11000 9200 11000 5200
-Connection ~ 8450 9200
-Wire Wire Line
-	12100 9200 12100 5200
-Connection ~ 11000 9200
-Wire Wire Line
-	5550 4700 5550 7100
-Connection ~ 5550 5850
-Wire Wire Line
-	4850 8250 6350 8250
-Wire Wire Line
-	6650 4700 6650 8050
-Wire Wire Line
-	6650 8450 6650 9200
-Connection ~ 6650 9200
-Wire Wire Line
-	7100 7250 6650 7250
-Connection ~ 6650 7250
-Wire Wire Line
-	6650 4400 6650 1250
-Connection ~ 6650 1250
-$Comp
-L R R19003
-U 1 1 5B45A768
-P 5550 4550
-F 0 "R19003" V 5450 4550 50  0000 C CNN
-F 1 "10kΩ" V 5650 4550 50  0000 C CNN
-F 2 "" V 5480 4550 50  0001 C CNN
-F 3 "" H 5550 4550 50  0001 C CNN
-	1    5550 4550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5550 4400 5550 1250
-Connection ~ 5550 1250
-Wire Wire Line
-	3000 4550 3800 4550
-Wire Wire Line
-	3000 7300 4550 7300
-Wire Wire Line
-	3000 5850 8150 5850
-Wire Wire Line
-	4100 4550 4700 4550
-Wire Wire Line
-	4700 4550 4700 5850
-Connection ~ 4700 5850
-Text Notes 2900 7700 2    60   ~ 0
+Text Notes 2900 7800 2    60   ~ 0
 10Baud bus WRITE_ENABLE\nLO: CPU Receives serial data\nHI: CPU Sends serial data
+$Comp
+L 1N4148 D15001
+U 1 1 5B55AEF3
+P 6800 4900
+F 0 "D15001" H 6800 5000 50  0000 C CNN
+F 1 "1N4148" H 6800 4800 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_Horizontal_RM10" H 6800 4725 50  0001 C CNN
+F 3 "" H 6800 4900 50  0001 C CNN
+	1    6800 4900
+	0    -1   1    0   
+$EndComp
+$Comp
+L R R15007
+U 1 1 5B5625B9
+P 9750 6800
+F 0 "R15007" V 9650 6800 50  0000 C CNN
+F 1 "100kΩ" V 9850 6800 50  0000 C CNN
+F 2 "" V 9680 6800 50  0001 C CNN
+F 3 "" H 9750 6800 50  0001 C CNN
+	1    9750 6800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12300 2300 12300 3000
+Connection ~ 12300 2650
+Wire Wire Line
+	3000 1000 12300 1000
+Wire Wire Line
+	3000 8600 12300 8600
+Wire Wire Line
+	8300 1000 8300 4250
+Wire Wire Line
+	8300 4650 8300 8100
+Wire Wire Line
+	8300 8600 8300 8400
+Wire Wire Line
+	12300 2650 14050 2650
+Wire Wire Line
+	12300 1000 12300 1900
+Connection ~ 8300 1000
+Wire Wire Line
+	11500 8600 11500 3300
+Connection ~ 8300 8600
+Wire Wire Line
+	12300 8600 12300 3300
+Connection ~ 11500 8600
+Wire Wire Line
+	3000 4450 5200 4450
+Wire Wire Line
+	6800 4450 6800 4750
+Wire Wire Line
+	5500 4450 8000 4450
+Connection ~ 6800 4450
+Wire Wire Line
+	3000 5400 6800 5400
+Wire Wire Line
+	5500 7350 6500 7350
+Wire Wire Line
+	6050 7350 6050 8100
+Connection ~ 6050 7350
+Wire Wire Line
+	6050 8400 6050 8600
+Connection ~ 6050 8600
+Wire Wire Line
+	6800 7550 6800 8600
+Connection ~ 6800 8600
+Wire Wire Line
+	6800 5050 6800 7150
+Connection ~ 6800 5400
+Wire Wire Line
+	3000 2100 5200 2100
+Wire Wire Line
+	5500 2100 12000 2100
+Wire Wire Line
+	11500 3000 11500 2100
+Connection ~ 11500 2100
+Wire Wire Line
+	8900 5400 8300 5400
+Connection ~ 8300 5400
+Wire Wire Line
+	9200 5400 14050 5400
+Wire Wire Line
+	10500 7150 10500 5400
+Connection ~ 10500 5400
+Wire Wire Line
+	10500 7550 10500 8600
+Connection ~ 10500 8600
+Wire Wire Line
+	9750 6950 9750 7650
+Wire Wire Line
+	9750 8050 9750 8600
+Connection ~ 9750 8600
+Wire Wire Line
+	9750 6650 9750 1000
+Connection ~ 9750 1000
+Wire Wire Line
+	10200 7350 9750 7350
+Connection ~ 9750 7350
+Wire Wire Line
+	9450 7850 6050 7850
+Connection ~ 6050 7850
+Wire Notes Line
+	1200 6200 15600 6200
+Text Notes 1050 8050 1    79   Italic 0
+Write enable logic
+Text Notes 1050 5400 1    79   Italic 0
+For serial data
+Text Notes 1050 2650 1    79   Italic 0
+For serial clock
+Wire Notes Line
+	1200 3750 15600 3750
+Text Notes 6750 4350 0    60   ~ 12
+A
+Text Notes 6850 5450 0    60   ~ 12
+B
+Text Notes 3850 10400 0    60   Italic 0
+WR_EN (Write-enable) logic\n    * WR_EN low (about 0V)\n        * TrsA open, TrsB open, TrsC closed.\n        * OSC_15K_UNMUTE_10BAUD_SDA pulled to GND (0V),\n          i.e. 15kHz oscillator will be muted.\n        * CPU_10BAUD_SDA follows A follows B follows DETECTOR_15K_10BAUD_SDA.\n    * WR_EN high (about 5V)\n        * TrsA closed, TrsB closed, TrsC open.\n        * DA will be either closed when A is on GND potential\n          or reverse polarized when A is on V_LOGIC potential,\n          i.e. B and A will be isolated from each other.\n        * DETECTOR_15K_10BAUD_SDA pulled to GND (0V)\n          i.e. 15kHz detector remains silent.\n        * OSC_15K_UNMUTE_10BAUD_SDA follows A follows CPU_10BAUD_SDA.\n    * Legend\n        * Trs... open:   Transistor, CE, not conducting\n        * Trs... closed: Transistor, CE, conducting
+Text Notes 6450 7200 0    60   ~ 12
+TrsA
+Text Notes 9350 7750 0    60   ~ 12
+TrsB
+Text Notes 10150 7200 0    60   ~ 12
+TrsC
+Text Notes 6450 4950 0    60   ~ 12
+DA
+Text Notes 700  11050 0    60   ~ 0
+Notes: \n  * The communication with the periphery implements \n    ideas from the I2C bus design with the addon that we \n    encode the logic levels with AC signals between\n    controller and peripherals. For the clock we use a \n    25kHz signal, for the data we use a 15kHz signal.\n    Signal abscent = logic 0, Signal present = logic 1 \n  * The design is geared at EMC robustness, i.e. we \n    employ surge protection between controller\n    and periphery. Equipment operates in an area \n    with thunderstorms and near lightning strikes.\n  * As a trade-off, comms between controller and \n    periphery can only handle very low data rates.\n    It's no problem in this application as we\n    are handling very small amounts of data (a few bytes \n    per transferral) when receiving and sending data from / to\n    the peripherals.\n  * Serial clock is unidirectional as the clock is generated\n    by the controller with all peripheral devices listening.\n  * Serial data is bidirectional as the CPU both receives\n    and transmits data from / to the periphery devices.\n  * DETECTOR_15K_10BAUD_SDA is connected to an \n    open-collector output. It seemed best to put the \n    pullup resistor here.
+$Comp
+L R R15005
+U 1 1 5B5761E8
+P 4600 4950
+F 0 "R15005" V 4500 4950 50  0000 C CNN
+F 1 "10kΩ" V 4700 4950 50  0000 C CNN
+F 2 "" V 4530 4950 50  0001 C CNN
+F 3 "" H 4600 4950 50  0001 C CNN
+	1    4600 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 4800 4600 1000
+Connection ~ 4600 1000
+Wire Wire Line
+	5200 7350 3000 7350
+Wire Wire Line
+	4600 5100 4600 5400
+Connection ~ 4600 5400
 $EndSCHEMATC

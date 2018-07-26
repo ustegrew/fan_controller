@@ -101,7 +101,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 19
+Sheet 5 16
 Title ""
 Date ""
 Rev ""
@@ -140,19 +140,19 @@ Wire Wire Line
 Wire Wire Line
 	2750 4850 2750 5250
 Wire Wire Line
-	1450 5050 6650 5050
+	2150 5050 6650 5050
 Connection ~ 2750 5050
-Text HLabel 1450 4350 0    60   Input ~ 0
+Text HLabel 2150 4350 0    60   Input ~ 0
 VCC
-Text HLabel 1450 5050 0    60   Input ~ 0
+Text HLabel 2150 5050 0    60   Input ~ 0
 GND
-Text HLabel 1450 5750 0    60   Input ~ 0
+Text HLabel 2150 5750 0    60   Input ~ 0
 VEE
 Wire Wire Line
-	1450 4350 6550 4350
+	2150 4350 6550 4350
 Connection ~ 2750 4350
 Wire Wire Line
-	1450 5750 6750 5750
+	2150 5750 6750 5750
 Connection ~ 2750 5750
 $Sheet
 S 4350 3150 1400 600 
@@ -178,10 +178,10 @@ F7 "UNMUTE" I L 7400 3350 60
 $EndSheet
 Wire Wire Line
 	5750 3200 7400 3200
-Text HLabel 1450 1600 0    60   Input ~ 0
-UNMUTE
+Text HLabel 2150 1600 0    60   Input ~ 0
+OSC_15K_UNMUTE_10BAUD_SDA
 Wire Wire Line
-	1450 1600 6850 1600
+	2150 1600 6850 1600
 Wire Wire Line
 	6850 1600 6850 3350
 Wire Wire Line
@@ -213,8 +213,8 @@ Wire Wire Line
 Wire Wire Line
 	6750 3700 6750 5750
 Connection ~ 3850 5750
-Text HLabel 10400 3200 2    60   Output ~ 0
-SIG_OUT_15K
+Text HLabel 9600 3200 2    60   Output ~ 0
+OSC_15K_SIG_OUT_10BAUD_SDA
 Wire Wire Line
-	8800 3200 10400 3200
+	8800 3200 9600 3200
 $EndSCHEMATC
