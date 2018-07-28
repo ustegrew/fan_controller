@@ -101,7 +101,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 16
+Sheet 6 15
 Title "Oscillator, 15kHz"
 Date "2017-11-12"
 Rev "1.1"

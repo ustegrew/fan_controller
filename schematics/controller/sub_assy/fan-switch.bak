@@ -101,7 +101,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 2 16
+Sheet 2 15
 Title "Fan switch"
 Date "2017-10-01"
 Rev "1.1"
@@ -311,4 +311,6 @@ NoConn ~ 9650 3700
 NoConn ~ 9650 3300
 Wire Wire Line
 	7000 6600 7600 6600
+Text Notes 3000 5000 0    60   ~ 0
+≈ +24V
 $EndSCHEMATC

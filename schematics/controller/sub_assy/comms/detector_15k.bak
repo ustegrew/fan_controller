@@ -101,7 +101,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 12 16
+Sheet 12 15
 Title "Signal detector, 15kHz"
 Date "2017-10-15"
 Rev "1.1"
