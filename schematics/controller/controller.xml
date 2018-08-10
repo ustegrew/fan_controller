@@ -1,0 +1,4502 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/peter/Documents/project/2017-03-10_ventilator-control/git/fan-controller/project/schematics/controller/controller.sch</source>
+    <date>Fr 10 Aug 2018 11:43:32 CEST</date>
+    <tool>Eeschema 4.0.7-e2-6376~61~ubuntu18.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Controller</title>
+        <company/>
+        <rev>1.1</rev>
+        <date>2017-09-24</date>
+        <source>controller.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/fan-switch/" tstamps="/59D1AD98/">
+      <title_block>
+        <title>Fan switch</title>
+        <company/>
+        <rev>1.1</rev>
+        <date>2017-10-01</date>
+        <source>fan-switch.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/psu/" tstamps="/59C7EB6B/">
+      <title_block>
+        <title>PSU</title>
+        <company/>
+        <rev>1.1</rev>
+        <date>2017-09-24</date>
+        <source>psu.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/comms/" tstamps="/59DA9A66/">
+      <title_block>
+        <title>comms module</title>
+        <company/>
+        <rev>1.0</rev>
+        <date>2017-10-08</date>
+        <source>comms.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/comms/sub_assy/comms/osc_15k/" tstamps="/59DA9A66/59DAC346/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>osc_15k.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/comms/sub_assy/comms/osc_15k/sub_assy/comms/osc_15k/osc/" tstamps="/59DA9A66/59DAC346/5A092A6C/">
+      <title_block>
+        <title>Oscillator, 15kHz</title>
+        <company/>
+        <rev>1.1</rev>
+        <date>2017-11-12</date>
+        <source>osc.sch</source>
+        <comment number="1" value="Wien bridge oscillator, 15kHz, AGC stabilized"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="7" name="/comms/sub_assy/comms/osc_15k/sub_assy/comms/osc_15k/switch/" tstamps="/59DA9A66/59DAC346/5A092EE2/">
+      <title_block>
+        <title>Signal Switch</title>
+        <company/>
+        <rev>1.1</rev>
+        <date>2017-11-26</date>
+        <source>switch.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="8" name="/comms/sub_assy/comms/osc_25k/" tstamps="/59DA9A66/59DAC4E4/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>osc_25k.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="9" name="/comms/sub_assy/comms/osc_25k/sub_assy/comms/osc_25k/osc/" tstamps="/59DA9A66/59DAC4E4/5A1C7282/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>osc.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="10" name="/comms/sub_assy/comms/osc_25k/sub_assy/comms/osc_25k/switch/" tstamps="/59DA9A66/59DAC4E4/5A1C7539/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>switch.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="11" name="/comms/sub_assy/comms/filter_15k/" tstamps="/59DA9A66/59DAC4E7/">
+      <title_block>
+        <title>Bandpass filter, 15k</title>
+        <company/>
+        <rev>1.1</rev>
+        <date>2017-10-15</date>
+        <source>filter_15k.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="12" name="/comms/sub_assy/comms/detector_15k/" tstamps="/59DA9A66/59DAC4ED/">
+      <title_block>
+        <title>Signal detector, 15kHz</title>
+        <company/>
+        <rev>1.1</rev>
+        <date>2017-10-15</date>
+        <source>detector_15k.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="13" name="/comms/sub_assy/comms/barrier/" tstamps="/59DA9A66/59DAC6DD/">
+      <title_block>
+        <title>Transformer Barrier module</title>
+        <company/>
+        <rev>1.0</rev>
+        <date>2017-10-08</date>
+        <source>barrier.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="14" name="/comms_router/" tstamps="/5A9355B1/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev>1.0</rev>
+        <date>2018-02-25</date>
+        <source>router.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value="Router: 10Baud bus I/O"/>
+      </title_block>
+    </sheet>
+    <sheet number="15" name="/cpu/" tstamps="/59C7EB6E/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>cpu.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value="CPU module"/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1005">
+      <value>Conn_01x04_Male</value>
+      <libsource lib="conn" part="Conn_01x04_Male"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59D2E43C</tstamp>
+    </comp>
+    <comp ref="J1006">
+      <value>Conn_01x04_Male</value>
+      <libsource lib="conn" part="Conn_01x04_Male"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59D2EA34</tstamp>
+    </comp>
+    <comp ref="J1001">
+      <value>Screw_Terminal_01x03</value>
+      <libsource lib="conn" part="Screw_Terminal_01x03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59D41362</tstamp>
+    </comp>
+    <comp ref="J1002">
+      <value>Screw_Terminal_01x03</value>
+      <libsource lib="conn" part="Screw_Terminal_01x03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59D44A54</tstamp>
+    </comp>
+    <comp ref="J1004">
+      <value>Conn_01x02_Male</value>
+      <libsource lib="conn" part="Conn_01x02_Male"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59D45F93</tstamp>
+    </comp>
+    <comp ref="U1001">
+      <value>Module: surgeprot.mains.275.5.01</value>
+      <libsource lib="fan-controller_parts" part="line-protector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59D3311B</tstamp>
+    </comp>
+    <comp ref="J1007">
+      <value>FRONTPANEL</value>
+      <libsource lib="conn" part="Conn_01x05_Male"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A9D8BFF</tstamp>
+    </comp>
+    <comp ref="J1003">
+      <value>Periphery</value>
+      <libsource lib="conn" part="Screw_Terminal_01x12"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B5BA553</tstamp>
+    </comp>
+    <comp ref="D1002">
+      <value>1.5KE33CA</value>
+      <libsource lib="device" part="D_TVS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B5E8770</tstamp>
+    </comp>
+    <comp ref="F1001">
+      <value>250mAF</value>
+      <libsource lib="device" part="Fuse"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B5E8777</tstamp>
+    </comp>
+    <comp ref="F1002">
+      <value>250mAF</value>
+      <libsource lib="device" part="Fuse"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B5E877E</tstamp>
+    </comp>
+    <comp ref="D1001">
+      <value>1.5KE33CA</value>
+      <libsource lib="device" part="D_TVS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B5E8785</tstamp>
+    </comp>
+    <comp ref="D1003">
+      <value>1.5KE33CA</value>
+      <libsource lib="device" part="D_TVS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B5E878C</tstamp>
+    </comp>
+    <comp ref="D1010">
+      <value>1.5KE30CA</value>
+      <libsource lib="device" part="D_TVS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B5F72B0</tstamp>
+    </comp>
+    <comp ref="D1012">
+      <value>1.5KE30CA</value>
+      <libsource lib="device" part="D_TVS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B5F72B7</tstamp>
+    </comp>
+    <comp ref="D1011">
+      <value>1.5KE30CA</value>
+      <libsource lib="device" part="D_TVS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B5F72BE</tstamp>
+    </comp>
+    <comp ref="U1002">
+      <value>TDK T90-A75XSMD</value>
+      <libsource lib="ESD_Protection" part="GDT-3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B5F72CF</tstamp>
+    </comp>
+    <comp ref="R1001">
+      <value>27Ω / 1W</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B5F72D6</tstamp>
+    </comp>
+    <comp ref="R1002">
+      <value>27Ω / 1W</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B5F72DD</tstamp>
+    </comp>
+    <comp ref="F1007">
+      <value>100mAF</value>
+      <libsource lib="device" part="Fuse"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B5F72EA</tstamp>
+    </comp>
+    <comp ref="F1008">
+      <value>100mAF</value>
+      <libsource lib="device" part="Fuse"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B5F72F1</tstamp>
+    </comp>
+    <comp ref="D1005">
+      <value>1.5KE33CA</value>
+      <libsource lib="device" part="D_TVS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B5D9E04</tstamp>
+    </comp>
+    <comp ref="F1003">
+      <value>250mAF</value>
+      <libsource lib="device" part="Fuse"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B5D9E0B</tstamp>
+    </comp>
+    <comp ref="F1004">
+      <value>250mAF</value>
+      <libsource lib="device" part="Fuse"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B5D9E12</tstamp>
+    </comp>
+    <comp ref="D1004">
+      <value>1.5KE33CA</value>
+      <libsource lib="device" part="D_TVS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B5D9E19</tstamp>
+    </comp>
+    <comp ref="D1006">
+      <value>1.5KE33CA</value>
+      <libsource lib="device" part="D_TVS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B5D9E20</tstamp>
+    </comp>
+    <comp ref="D1008">
+      <value>1.5KE33CA</value>
+      <libsource lib="device" part="D_TVS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B5DA192</tstamp>
+    </comp>
+    <comp ref="F1005">
+      <value>250mAF</value>
+      <libsource lib="device" part="Fuse"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B5DA199</tstamp>
+    </comp>
+    <comp ref="F1006">
+      <value>250mAF</value>
+      <libsource lib="device" part="Fuse"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B5DA1A0</tstamp>
+    </comp>
+    <comp ref="D1007">
+      <value>1.5KE33CA</value>
+      <libsource lib="device" part="D_TVS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B5DA1A7</tstamp>
+    </comp>
+    <comp ref="D1009">
+      <value>1.5KE33CA</value>
+      <libsource lib="device" part="D_TVS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B5DA1AE</tstamp>
+    </comp>
+    <comp ref="D1013">
+      <value>1.5KE30CA</value>
+      <libsource lib="device" part="D_TVS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B65FC44</tstamp>
+    </comp>
+    <comp ref="D1015">
+      <value>1.5KE30CA</value>
+      <libsource lib="device" part="D_TVS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B65FC4A</tstamp>
+    </comp>
+    <comp ref="D1014">
+      <value>1.5KE30CA</value>
+      <libsource lib="device" part="D_TVS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B65FC50</tstamp>
+    </comp>
+    <comp ref="U1003">
+      <value>TDK T90-A75XSMD</value>
+      <libsource lib="ESD_Protection" part="GDT-3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B65FC56</tstamp>
+    </comp>
+    <comp ref="R1003">
+      <value>27Ω / 1W</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B65FC5C</tstamp>
+    </comp>
+    <comp ref="R1004">
+      <value>27Ω / 1W</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B65FC62</tstamp>
+    </comp>
+    <comp ref="F1009">
+      <value>100mAF</value>
+      <libsource lib="device" part="Fuse"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B65FC68</tstamp>
+    </comp>
+    <comp ref="F1010">
+      <value>100mAF</value>
+      <libsource lib="device" part="Fuse"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B65FC6E</tstamp>
+    </comp>
+    <comp ref="D1016">
+      <value>1.5KE30CA</value>
+      <libsource lib="device" part="D_TVS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B660220</tstamp>
+    </comp>
+    <comp ref="D1018">
+      <value>1.5KE30CA</value>
+      <libsource lib="device" part="D_TVS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B660226</tstamp>
+    </comp>
+    <comp ref="D1017">
+      <value>1.5KE30CA</value>
+      <libsource lib="device" part="D_TVS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B66022C</tstamp>
+    </comp>
+    <comp ref="U1004">
+      <value>TDK T90-A75XSMD</value>
+      <libsource lib="ESD_Protection" part="GDT-3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B660232</tstamp>
+    </comp>
+    <comp ref="R1005">
+      <value>27Ω / 1W</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B660238</tstamp>
+    </comp>
+    <comp ref="R1006">
+      <value>27Ω / 1W</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B66023E</tstamp>
+    </comp>
+    <comp ref="F1011">
+      <value>100mAF</value>
+      <libsource lib="device" part="Fuse"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B660244</tstamp>
+    </comp>
+    <comp ref="F1012">
+      <value>100mAF</value>
+      <libsource lib="device" part="Fuse"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B66024A</tstamp>
+    </comp>
+    <comp ref="MK1005">
+      <value>3.5</value>
+      <libsource lib="mechanical" part="Mounting_Hole_PAD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B5F91C5</tstamp>
+    </comp>
+    <comp ref="MK1006">
+      <value>3.5</value>
+      <libsource lib="mechanical" part="Mounting_Hole_PAD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B5FD13B</tstamp>
+    </comp>
+    <comp ref="MK1007">
+      <value>3.5</value>
+      <libsource lib="mechanical" part="Mounting_Hole_PAD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B5FD551</tstamp>
+    </comp>
+    <comp ref="MK1008">
+      <value>3.5</value>
+      <libsource lib="mechanical" part="Mounting_Hole_PAD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B5FD557</tstamp>
+    </comp>
+    <comp ref="MK1001">
+      <value>3.5</value>
+      <libsource lib="mechanical" part="Mounting_Hole_PAD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B5FDB23</tstamp>
+    </comp>
+    <comp ref="MK1002">
+      <value>3.5</value>
+      <libsource lib="mechanical" part="Mounting_Hole_PAD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B5FDB29</tstamp>
+    </comp>
+    <comp ref="MK1003">
+      <value>3.5</value>
+      <libsource lib="mechanical" part="Mounting_Hole_PAD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B5FDB2F</tstamp>
+    </comp>
+    <comp ref="MK1004">
+      <value>3.5</value>
+      <libsource lib="mechanical" part="Mounting_Hole_PAD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B5FDB35</tstamp>
+    </comp>
+    <comp ref="MK1009">
+      <value>3.5</value>
+      <libsource lib="mechanical" part="Mounting_Hole_PAD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B5FDEA3</tstamp>
+    </comp>
+    <comp ref="MK1010">
+      <value>3.5</value>
+      <libsource lib="mechanical" part="Mounting_Hole_PAD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B5FDEA9</tstamp>
+    </comp>
+    <comp ref="Q2003">
+      <value>BD249C</value>
+      <libsource lib="transistors" part="BD249C"/>
+      <sheetpath names="/fan-switch/" tstamps="/59D1AD98/"/>
+      <tstamp>59D1BB01</tstamp>
+    </comp>
+    <comp ref="Q2001">
+      <value>BC556</value>
+      <libsource lib="transistors" part="BC556"/>
+      <sheetpath names="/fan-switch/" tstamps="/59D1AD98/"/>
+      <tstamp>59D1BB08</tstamp>
+    </comp>
+    <comp ref="R2002">
+      <value>10kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/fan-switch/" tstamps="/59D1AD98/"/>
+      <tstamp>59D1BB0F</tstamp>
+    </comp>
+    <comp ref="R2004">
+      <value>4.7kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/fan-switch/" tstamps="/59D1AD98/"/>
+      <tstamp>59D1BB16</tstamp>
+    </comp>
+    <comp ref="R2005">
+      <value>100kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/fan-switch/" tstamps="/59D1AD98/"/>
+      <tstamp>59D1BB1D</tstamp>
+    </comp>
+    <comp ref="K2001">
+      <value>FINDER-44.62/24V</value>
+      <libsource lib="relays" part="FINDER-44.62"/>
+      <sheetpath names="/fan-switch/" tstamps="/59D1AD98/"/>
+      <tstamp>59D1BB24</tstamp>
+    </comp>
+    <comp ref="F2001">
+      <value>6AT</value>
+      <libsource lib="device" part="Fuse"/>
+      <sheetpath names="/fan-switch/" tstamps="/59D1AD98/"/>
+      <tstamp>59D1BB2B</tstamp>
+    </comp>
+    <comp ref="Q2002">
+      <value>BC546</value>
+      <libsource lib="transistors" part="BC546"/>
+      <sheetpath names="/fan-switch/" tstamps="/59D1AD98/"/>
+      <tstamp>59D1BB32</tstamp>
+    </comp>
+    <comp ref="R2001">
+      <value>100kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/fan-switch/" tstamps="/59D1AD98/"/>
+      <tstamp>59D1BB39</tstamp>
+    </comp>
+    <comp ref="R2003">
+      <value>10kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/fan-switch/" tstamps="/59D1AD98/"/>
+      <tstamp>59D1BB40</tstamp>
+    </comp>
+    <comp ref="D2001">
+      <value>1N4148</value>
+      <libsource lib="diode" part="1N4148"/>
+      <sheetpath names="/fan-switch/" tstamps="/59D1AD98/"/>
+      <tstamp>59D1BB6A</tstamp>
+    </comp>
+    <comp ref="D3018">
+      <value>1N5404</value>
+      <libsource lib="diode" part="1N5404"/>
+      <sheetpath names="/psu/" tstamps="/59C7EB6B/"/>
+      <tstamp>59C7F318</tstamp>
+    </comp>
+    <comp ref="D3021">
+      <value>1N5404</value>
+      <libsource lib="diode" part="1N5404"/>
+      <sheetpath names="/psu/" tstamps="/59C7EB6B/"/>
+      <tstamp>59C7F46A</tstamp>
+    </comp>
+    <comp ref="D3019">
+      <value>1N5404</value>
+      <libsource lib="diode" part="1N5404"/>
+      <sheetpath names="/psu/" tstamps="/59C7EB6B/"/>
+      <tstamp>59C7F4D0</tstamp>
+    </comp>
+    <comp ref="D3022">
+      <value>1N5404</value>
+      <libsource lib="diode" part="1N5404"/>
+      <sheetpath names="/psu/" tstamps="/59C7EB6B/"/>
+      <tstamp>59C7F50D</tstamp>
+    </comp>
+    <comp ref="C3006">
+      <value>470uF/63V</value>
+      <footprint>Capacitors_THT:CP_Radial_D16.0mm_P7.50mm</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/psu/" tstamps="/59C7EB6B/"/>
+      <tstamp>59C7FF94</tstamp>
+    </comp>
+    <comp ref="C3010">
+      <value>470uF/63V</value>
+      <footprint>Capacitors_THT:CP_Radial_D16.0mm_P7.50mm</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/psu/" tstamps="/59C7EB6B/"/>
+      <tstamp>59C80119</tstamp>
+    </comp>
+    <comp ref="U3002">
+      <value>L7815</value>
+      <libsource lib="regul" part="L7815"/>
+      <sheetpath names="/psu/" tstamps="/59C7EB6B/"/>
+      <tstamp>59C83FF4</tstamp>
+    </comp>
+    <comp ref="U3003">
+      <value>L7915</value>
+      <libsource lib="regul" part="L7915"/>
+      <sheetpath names="/psu/" tstamps="/59C7EB6B/"/>
+      <tstamp>59C84085</tstamp>
+    </comp>
+    <comp ref="D3016">
+      <value>1N4007</value>
+      <libsource lib="diode" part="1N4007"/>
+      <sheetpath names="/psu/" tstamps="/59C7EB6B/"/>
+      <tstamp>59C85149</tstamp>
+    </comp>
+    <comp ref="D3023">
+      <value>1N4007</value>
+      <libsource lib="diode" part="1N4007"/>
+      <sheetpath names="/psu/" tstamps="/59C7EB6B/"/>
+      <tstamp>59C8535C</tstamp>
+    </comp>
+    <comp ref="C3007">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/psu/" tstamps="/59C7EB6B/"/>
+      <tstamp>59C8540F</tstamp>
+    </comp>
+    <comp ref="C3005">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/psu/" tstamps="/59C7EB6B/"/>
+      <tstamp>59C85458</tstamp>
+    </comp>
+    <comp ref="C3008">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/psu/" tstamps="/59C7EB6B/"/>
+      <tstamp>59C85657</tstamp>
+    </comp>
+    <comp ref="C3009">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/psu/" tstamps="/59C7EB6B/"/>
+      <tstamp>59C856A2</tstamp>
+    </comp>
+    <comp ref="U3001">
+      <value>L7805</value>
+      <libsource lib="regul" part="L7805"/>
+      <sheetpath names="/psu/" tstamps="/59C7EB6B/"/>
+      <tstamp>59D28B24</tstamp>
+    </comp>
+    <comp ref="D3008">
+      <value>1N4007</value>
+      <libsource lib="diode" part="1N4007"/>
+      <sheetpath names="/psu/" tstamps="/59C7EB6B/"/>
+      <tstamp>59D28BDE</tstamp>
+    </comp>
+    <comp ref="C3003">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/psu/" tstamps="/59C7EB6B/"/>
+      <tstamp>59D290DC</tstamp>
+    </comp>
+    <comp ref="C3004">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/psu/" tstamps="/59C7EB6B/"/>
+      <tstamp>59D29184</tstamp>
+    </comp>
+    <comp ref="C3002">
+      <value>470uF/63V</value>
+      <footprint>Capacitors_THT:CP_Radial_D16.0mm_P7.50mm</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/psu/" tstamps="/59C7EB6B/"/>
+      <tstamp>59D2BD09</tstamp>
+    </comp>
+    <comp ref="D3010">
+      <value>1N5404</value>
+      <libsource lib="diode" part="1N5404"/>
+      <sheetpath names="/psu/" tstamps="/59C7EB6B/"/>
+      <tstamp>59D2C046</tstamp>
+    </comp>
+    <comp ref="D3013">
+      <value>1N5404</value>
+      <libsource lib="diode" part="1N5404"/>
+      <sheetpath names="/psu/" tstamps="/59C7EB6B/"/>
+      <tstamp>59D2C04C</tstamp>
+    </comp>
+    <comp ref="D3011">
+      <value>1N5404</value>
+      <libsource lib="diode" part="1N5404"/>
+      <sheetpath names="/psu/" tstamps="/59C7EB6B/"/>
+      <tstamp>59D2C052</tstamp>
+    </comp>
+    <comp ref="D3014">
+      <value>1N5404</value>
+      <libsource lib="diode" part="1N5404"/>
+      <sheetpath names="/psu/" tstamps="/59C7EB6B/"/>
+      <tstamp>59D2C058</tstamp>
+    </comp>
+    <comp ref="C3001">
+      <value>1000uF/63V</value>
+      <footprint>Capacitors_THT:CP_Radial_D16.0mm_P7.50mm</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/psu/" tstamps="/59C7EB6B/"/>
+      <tstamp>59D3291B</tstamp>
+    </comp>
+    <comp ref="D3002">
+      <value>1N5404</value>
+      <libsource lib="diode" part="1N5404"/>
+      <sheetpath names="/psu/" tstamps="/59C7EB6B/"/>
+      <tstamp>59D32921</tstamp>
+    </comp>
+    <comp ref="D3005">
+      <value>1N5404</value>
+      <libsource lib="diode" part="1N5404"/>
+      <sheetpath names="/psu/" tstamps="/59C7EB6B/"/>
+      <tstamp>59D32927</tstamp>
+    </comp>
+    <comp ref="D3003">
+      <value>1N5404</value>
+      <libsource lib="diode" part="1N5404"/>
+      <sheetpath names="/psu/" tstamps="/59C7EB6B/"/>
+      <tstamp>59D3292D</tstamp>
+    </comp>
+    <comp ref="D3006">
+      <value>1N5404</value>
+      <libsource lib="diode" part="1N5404"/>
+      <sheetpath names="/psu/" tstamps="/59C7EB6B/"/>
+      <tstamp>59D32933</tstamp>
+    </comp>
+    <comp ref="D3001">
+      <value>1.5KE36CA</value>
+      <libsource lib="device" part="D_TVS"/>
+      <sheetpath names="/psu/" tstamps="/59C7EB6B/"/>
+      <tstamp>5B718EB2</tstamp>
+    </comp>
+    <comp ref="D3007">
+      <value>1.5KE36CA</value>
+      <libsource lib="device" part="D_TVS"/>
+      <sheetpath names="/psu/" tstamps="/59C7EB6B/"/>
+      <tstamp>5B718EB9</tstamp>
+    </comp>
+    <comp ref="F3001">
+      <value>2AT</value>
+      <libsource lib="device" part="Fuse"/>
+      <sheetpath names="/psu/" tstamps="/59C7EB6B/"/>
+      <tstamp>5B718EDC</tstamp>
+    </comp>
+    <comp ref="F3002">
+      <value>2AT</value>
+      <libsource lib="device" part="Fuse"/>
+      <sheetpath names="/psu/" tstamps="/59C7EB6B/"/>
+      <tstamp>5B718EE3</tstamp>
+    </comp>
+    <comp ref="D3004">
+      <value>1.5KE36CA</value>
+      <libsource lib="device" part="D_TVS"/>
+      <sheetpath names="/psu/" tstamps="/59C7EB6B/"/>
+      <tstamp>5B718EC0</tstamp>
+    </comp>
+    <comp ref="D3015">
+      <value>1.5KE36CA</value>
+      <libsource lib="device" part="D_TVS"/>
+      <sheetpath names="/psu/" tstamps="/59C7EB6B/"/>
+      <tstamp>5B722A3D</tstamp>
+    </comp>
+    <comp ref="D3009">
+      <value>1.5KE36CA</value>
+      <libsource lib="device" part="D_TVS"/>
+      <sheetpath names="/psu/" tstamps="/59C7EB6B/"/>
+      <tstamp>5B722A43</tstamp>
+    </comp>
+    <comp ref="F3003">
+      <value>1AT</value>
+      <libsource lib="device" part="Fuse"/>
+      <sheetpath names="/psu/" tstamps="/59C7EB6B/"/>
+      <tstamp>5B722A49</tstamp>
+    </comp>
+    <comp ref="F3004">
+      <value>1AT</value>
+      <libsource lib="device" part="Fuse"/>
+      <sheetpath names="/psu/" tstamps="/59C7EB6B/"/>
+      <tstamp>5B722A4F</tstamp>
+    </comp>
+    <comp ref="D3012">
+      <value>1.5KE36CA</value>
+      <libsource lib="device" part="D_TVS"/>
+      <sheetpath names="/psu/" tstamps="/59C7EB6B/"/>
+      <tstamp>5B722A55</tstamp>
+    </comp>
+    <comp ref="F3005">
+      <value>1AF</value>
+      <libsource lib="device" part="Fuse"/>
+      <sheetpath names="/psu/" tstamps="/59C7EB6B/"/>
+      <tstamp>5B724E52</tstamp>
+    </comp>
+    <comp ref="F3006">
+      <value>1AF</value>
+      <libsource lib="device" part="Fuse"/>
+      <sheetpath names="/psu/" tstamps="/59C7EB6B/"/>
+      <tstamp>5B724E59</tstamp>
+    </comp>
+    <comp ref="D3020">
+      <value>1.5KE36CA</value>
+      <libsource lib="device" part="D_TVS"/>
+      <sheetpath names="/psu/" tstamps="/59C7EB6B/"/>
+      <tstamp>5B724E60</tstamp>
+    </comp>
+    <comp ref="F3007">
+      <value>1AF</value>
+      <libsource lib="device" part="Fuse"/>
+      <sheetpath names="/psu/" tstamps="/59C7EB6B/"/>
+      <tstamp>5B727155</tstamp>
+    </comp>
+    <comp ref="F3008">
+      <value>1AF</value>
+      <libsource lib="device" part="Fuse"/>
+      <sheetpath names="/psu/" tstamps="/59C7EB6B/"/>
+      <tstamp>5B72715B</tstamp>
+    </comp>
+    <comp ref="D3024">
+      <value>1.5KE36CA</value>
+      <libsource lib="device" part="D_TVS"/>
+      <sheetpath names="/psu/" tstamps="/59C7EB6B/"/>
+      <tstamp>5B727161</tstamp>
+    </comp>
+    <comp ref="C5001">
+      <value>47uF / 63V</value>
+      <footprint>Capacitors_THT:CP_Radial_D8.0mm_P5.00mm</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_15k/" tstamps="/59DA9A66/59DAC346/"/>
+      <tstamp>5A091E04</tstamp>
+    </comp>
+    <comp ref="C5002">
+      <value>47uF / 63V</value>
+      <footprint>Capacitors_THT:CP_Radial_D8.0mm_P5.00mm</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_15k/" tstamps="/59DA9A66/59DAC346/"/>
+      <tstamp>5A091E0B</tstamp>
+    </comp>
+    <comp ref="U6001">
+      <value>TL061</value>
+      <libsource lib="linear" part="TL061"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_15k/sub_assy/comms/osc_15k/osc/" tstamps="/59DA9A66/59DAC346/5A092A6C/"/>
+      <tstamp>5A0933A9</tstamp>
+    </comp>
+    <comp ref="U6002">
+      <value>TL061</value>
+      <libsource lib="linear" part="TL061"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_15k/sub_assy/comms/osc_15k/osc/" tstamps="/59DA9A66/59DAC346/5A092A6C/"/>
+      <tstamp>5A093449</tstamp>
+    </comp>
+    <comp ref="R6003">
+      <value>4.7kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_15k/sub_assy/comms/osc_15k/osc/" tstamps="/59DA9A66/59DAC346/5A092A6C/"/>
+      <tstamp>5A093547</tstamp>
+    </comp>
+    <comp ref="C6008">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_15k/sub_assy/comms/osc_15k/osc/" tstamps="/59DA9A66/59DAC346/5A092A6C/"/>
+      <tstamp>5A093617</tstamp>
+    </comp>
+    <comp ref="C6009">
+      <value>0.47uF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_15k/sub_assy/comms/osc_15k/osc/" tstamps="/59DA9A66/59DAC346/5A092A6C/"/>
+      <tstamp>5A093644</tstamp>
+    </comp>
+    <comp ref="C6005">
+      <value>2.4nF</value>
+      <footprint>Capacitors_SMD:C_1812_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_15k/sub_assy/comms/osc_15k/osc/" tstamps="/59DA9A66/59DAC346/5A092A6C/"/>
+      <tstamp>5A093695</tstamp>
+    </comp>
+    <comp ref="C6001">
+      <value>2.4nF</value>
+      <footprint>Capacitors_SMD:C_1812_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_15k/sub_assy/comms/osc_15k/osc/" tstamps="/59DA9A66/59DAC346/5A092A6C/"/>
+      <tstamp>5A0936F5</tstamp>
+    </comp>
+    <comp ref="R6001">
+      <value>4.42kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_15k/sub_assy/comms/osc_15k/osc/" tstamps="/59DA9A66/59DAC346/5A092A6C/"/>
+      <tstamp>5A093792</tstamp>
+    </comp>
+    <comp ref="R6002">
+      <value>4.42kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_15k/sub_assy/comms/osc_15k/osc/" tstamps="/59DA9A66/59DAC346/5A092A6C/"/>
+      <tstamp>5A09381C</tstamp>
+    </comp>
+    <comp ref="RV6001">
+      <value>22kΩ</value>
+      <libsource lib="device" part="POT"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_15k/sub_assy/comms/osc_15k/osc/" tstamps="/59DA9A66/59DAC346/5A092A6C/"/>
+      <tstamp>5A093BE8</tstamp>
+    </comp>
+    <comp ref="RV6002">
+      <value>22kΩ</value>
+      <libsource lib="device" part="POT"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_15k/sub_assy/comms/osc_15k/osc/" tstamps="/59DA9A66/59DAC346/5A092A6C/"/>
+      <tstamp>5A093C19</tstamp>
+    </comp>
+    <comp ref="Q6001">
+      <value>2N3819</value>
+      <libsource lib="device" part="Q_NJFET_DGS"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_15k/sub_assy/comms/osc_15k/osc/" tstamps="/59DA9A66/59DAC346/5A092A6C/"/>
+      <tstamp>5A094681</tstamp>
+    </comp>
+    <comp ref="D6001">
+      <value>1N4148</value>
+      <libsource lib="diode" part="1N4148"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_15k/sub_assy/comms/osc_15k/osc/" tstamps="/59DA9A66/59DAC346/5A092A6C/"/>
+      <tstamp>5A094A42</tstamp>
+    </comp>
+    <comp ref="D6002">
+      <value>1N4148</value>
+      <libsource lib="diode" part="1N4148"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_15k/sub_assy/comms/osc_15k/osc/" tstamps="/59DA9A66/59DAC346/5A092A6C/"/>
+      <tstamp>5A094AD5</tstamp>
+    </comp>
+    <comp ref="R6004">
+      <value>4.7kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_15k/sub_assy/comms/osc_15k/osc/" tstamps="/59DA9A66/59DAC346/5A092A6C/"/>
+      <tstamp>5A094C86</tstamp>
+    </comp>
+    <comp ref="C6004">
+      <value>4.7uF</value>
+      <footprint>Capacitors_SMD:C_1210_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_15k/sub_assy/comms/osc_15k/osc/" tstamps="/59DA9A66/59DAC346/5A092A6C/"/>
+      <tstamp>5A095F17</tstamp>
+    </comp>
+    <comp ref="C6002">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_15k/sub_assy/comms/osc_15k/osc/" tstamps="/59DA9A66/59DAC346/5A092A6C/"/>
+      <tstamp>5A0962BB</tstamp>
+    </comp>
+    <comp ref="C6006">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_15k/sub_assy/comms/osc_15k/osc/" tstamps="/59DA9A66/59DAC346/5A092A6C/"/>
+      <tstamp>5A0963CB</tstamp>
+    </comp>
+    <comp ref="C6003">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_15k/sub_assy/comms/osc_15k/osc/" tstamps="/59DA9A66/59DAC346/5A092A6C/"/>
+      <tstamp>5A097B5C</tstamp>
+    </comp>
+    <comp ref="C6007">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_15k/sub_assy/comms/osc_15k/osc/" tstamps="/59DA9A66/59DAC346/5A092A6C/"/>
+      <tstamp>5A097C0D</tstamp>
+    </comp>
+    <comp ref="R7001">
+      <value>4.7kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_15k/sub_assy/comms/osc_15k/switch/" tstamps="/59DA9A66/59DAC346/5A092EE2/"/>
+      <tstamp>5A1B1055</tstamp>
+    </comp>
+    <comp ref="D7001">
+      <value>5.6V</value>
+      <libsource lib="device" part="D_Zener"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_15k/sub_assy/comms/osc_15k/switch/" tstamps="/59DA9A66/59DAC346/5A092EE2/"/>
+      <tstamp>5A1B1269</tstamp>
+    </comp>
+    <comp ref="D7004">
+      <value>5.6V</value>
+      <libsource lib="device" part="D_Zener"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_15k/sub_assy/comms/osc_15k/switch/" tstamps="/59DA9A66/59DAC346/5A092EE2/"/>
+      <tstamp>5A1B12EF</tstamp>
+    </comp>
+    <comp ref="R7010">
+      <value>4.7kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_15k/sub_assy/comms/osc_15k/switch/" tstamps="/59DA9A66/59DAC346/5A092EE2/"/>
+      <tstamp>5A1B1324</tstamp>
+    </comp>
+    <comp ref="C7001">
+      <value>47uF / 63V</value>
+      <footprint>Capacitors_THT:CP_Radial_D8.0mm_P5.00mm</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_15k/sub_assy/comms/osc_15k/switch/" tstamps="/59DA9A66/59DAC346/5A092EE2/"/>
+      <tstamp>5A1B1624</tstamp>
+    </comp>
+    <comp ref="C7004">
+      <value>47uF / 63V</value>
+      <footprint>Capacitors_THT:CP_Radial_D8.0mm_P5.00mm</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_15k/sub_assy/comms/osc_15k/switch/" tstamps="/59DA9A66/59DAC346/5A092EE2/"/>
+      <tstamp>5A1B1681</tstamp>
+    </comp>
+    <comp ref="R7002">
+      <value>10kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_15k/sub_assy/comms/osc_15k/switch/" tstamps="/59DA9A66/59DAC346/5A092EE2/"/>
+      <tstamp>5A1B1968</tstamp>
+    </comp>
+    <comp ref="R7007">
+      <value>10kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_15k/sub_assy/comms/osc_15k/switch/" tstamps="/59DA9A66/59DAC346/5A092EE2/"/>
+      <tstamp>5A1B1A61</tstamp>
+    </comp>
+    <comp ref="Q7001">
+      <value>BC546</value>
+      <libsource lib="transistors" part="BC546"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_15k/sub_assy/comms/osc_15k/switch/" tstamps="/59DA9A66/59DAC346/5A092EE2/"/>
+      <tstamp>5A1B1D73</tstamp>
+    </comp>
+    <comp ref="Q7004">
+      <value>BC556</value>
+      <libsource lib="transistors" part="BC556"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_15k/sub_assy/comms/osc_15k/switch/" tstamps="/59DA9A66/59DAC346/5A092EE2/"/>
+      <tstamp>5A1B1DB6</tstamp>
+    </comp>
+    <comp ref="U7001">
+      <value>4066</value>
+      <libsource lib="cmos4000" part="4066"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_15k/sub_assy/comms/osc_15k/switch/" tstamps="/59DA9A66/59DAC346/5A092EE2/"/>
+      <tstamp>5A1B0079</tstamp>
+    </comp>
+    <comp ref="C7002">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_15k/sub_assy/comms/osc_15k/switch/" tstamps="/59DA9A66/59DAC346/5A092EE2/"/>
+      <tstamp>5A1B0466</tstamp>
+    </comp>
+    <comp ref="C7003">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_15k/sub_assy/comms/osc_15k/switch/" tstamps="/59DA9A66/59DAC346/5A092EE2/"/>
+      <tstamp>5A1B0F9F</tstamp>
+    </comp>
+    <comp ref="Q7002">
+      <value>BC546</value>
+      <libsource lib="transistors" part="BC546"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_15k/sub_assy/comms/osc_15k/switch/" tstamps="/59DA9A66/59DAC346/5A092EE2/"/>
+      <tstamp>5A1B1E38</tstamp>
+    </comp>
+    <comp ref="R7003">
+      <value>10kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_15k/sub_assy/comms/osc_15k/switch/" tstamps="/59DA9A66/59DAC346/5A092EE2/"/>
+      <tstamp>5A1B211E</tstamp>
+    </comp>
+    <comp ref="R7005">
+      <value>100kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_15k/sub_assy/comms/osc_15k/switch/" tstamps="/59DA9A66/59DAC346/5A092EE2/"/>
+      <tstamp>5A1B284B</tstamp>
+    </comp>
+    <comp ref="D7002">
+      <value>5.6V</value>
+      <libsource lib="device" part="D_Zener"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_15k/sub_assy/comms/osc_15k/switch/" tstamps="/59DA9A66/59DAC346/5A092EE2/"/>
+      <tstamp>5A1B29D4</tstamp>
+    </comp>
+    <comp ref="Q7003">
+      <value>BC546</value>
+      <libsource lib="transistors" part="BC546"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_15k/sub_assy/comms/osc_15k/switch/" tstamps="/59DA9A66/59DAC346/5A092EE2/"/>
+      <tstamp>5A1B36A8</tstamp>
+    </comp>
+    <comp ref="R7004">
+      <value>10kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_15k/sub_assy/comms/osc_15k/switch/" tstamps="/59DA9A66/59DAC346/5A092EE2/"/>
+      <tstamp>5A1B36AE</tstamp>
+    </comp>
+    <comp ref="R7006">
+      <value>100kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_15k/sub_assy/comms/osc_15k/switch/" tstamps="/59DA9A66/59DAC346/5A092EE2/"/>
+      <tstamp>5A1B36BA</tstamp>
+    </comp>
+    <comp ref="R7008">
+      <value>100kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_15k/sub_assy/comms/osc_15k/switch/" tstamps="/59DA9A66/59DAC346/5A092EE2/"/>
+      <tstamp>5A1B3F55</tstamp>
+    </comp>
+    <comp ref="R7009">
+      <value>100kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_15k/sub_assy/comms/osc_15k/switch/" tstamps="/59DA9A66/59DAC346/5A092EE2/"/>
+      <tstamp>5A1B405A</tstamp>
+    </comp>
+    <comp ref="R7012">
+      <value>1kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_15k/sub_assy/comms/osc_15k/switch/" tstamps="/59DA9A66/59DAC346/5A092EE2/"/>
+      <tstamp>5A1B4F3D</tstamp>
+    </comp>
+    <comp ref="R7013">
+      <value>1kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_15k/sub_assy/comms/osc_15k/switch/" tstamps="/59DA9A66/59DAC346/5A092EE2/"/>
+      <tstamp>5A1B5199</tstamp>
+    </comp>
+    <comp ref="R7014">
+      <value>1kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_15k/sub_assy/comms/osc_15k/switch/" tstamps="/59DA9A66/59DAC346/5A092EE2/"/>
+      <tstamp>5A1B52CD</tstamp>
+    </comp>
+    <comp ref="R7015">
+      <value>1kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_15k/sub_assy/comms/osc_15k/switch/" tstamps="/59DA9A66/59DAC346/5A092EE2/"/>
+      <tstamp>5A1B5364</tstamp>
+    </comp>
+    <comp ref="C7009">
+      <value>4.7uF</value>
+      <footprint>Capacitors_SMD:C_1210_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_15k/sub_assy/comms/osc_15k/switch/" tstamps="/59DA9A66/59DAC346/5A092EE2/"/>
+      <tstamp>5A1B6012</tstamp>
+    </comp>
+    <comp ref="C7010">
+      <value>4.7uF</value>
+      <footprint>Capacitors_SMD:C_1210_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_15k/sub_assy/comms/osc_15k/switch/" tstamps="/59DA9A66/59DAC346/5A092EE2/"/>
+      <tstamp>5A1B61A1</tstamp>
+    </comp>
+    <comp ref="R7011">
+      <value>1kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_15k/sub_assy/comms/osc_15k/switch/" tstamps="/59DA9A66/59DAC346/5A092EE2/"/>
+      <tstamp>5A1B697E</tstamp>
+    </comp>
+    <comp ref="U7002">
+      <value>TL061</value>
+      <libsource lib="linear" part="TL061"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_15k/sub_assy/comms/osc_15k/switch/" tstamps="/59DA9A66/59DAC346/5A092EE2/"/>
+      <tstamp>5A1B8DBA</tstamp>
+    </comp>
+    <comp ref="C7005">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_15k/sub_assy/comms/osc_15k/switch/" tstamps="/59DA9A66/59DAC346/5A092EE2/"/>
+      <tstamp>5A1B936A</tstamp>
+    </comp>
+    <comp ref="C7008">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_15k/sub_assy/comms/osc_15k/switch/" tstamps="/59DA9A66/59DAC346/5A092EE2/"/>
+      <tstamp>5A1B960C</tstamp>
+    </comp>
+    <comp ref="C7007">
+      <value>4.7uF</value>
+      <footprint>Capacitors_SMD:C_1210_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_15k/sub_assy/comms/osc_15k/switch/" tstamps="/59DA9A66/59DAC346/5A092EE2/"/>
+      <tstamp>5A1BA138</tstamp>
+    </comp>
+    <comp ref="D7003">
+      <value>1N4148</value>
+      <libsource lib="diode" part="1N4148"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_15k/sub_assy/comms/osc_15k/switch/" tstamps="/59DA9A66/59DAC346/5A092EE2/"/>
+      <tstamp>5B5855B2</tstamp>
+    </comp>
+    <comp ref="C7006">
+      <value>4.7uF</value>
+      <footprint>Capacitors_SMD:C_1210_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_15k/sub_assy/comms/osc_15k/switch/" tstamps="/59DA9A66/59DAC346/5A092EE2/"/>
+      <tstamp>5B5A2CD5</tstamp>
+    </comp>
+    <comp ref="R7016">
+      <value>100kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_15k/sub_assy/comms/osc_15k/switch/" tstamps="/59DA9A66/59DAC346/5A092EE2/"/>
+      <tstamp>5B5A2EA2</tstamp>
+    </comp>
+    <comp ref="C8001">
+      <value>47uF / 63V</value>
+      <footprint>Capacitors_THT:CP_Radial_D8.0mm_P5.00mm</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_25k/" tstamps="/59DA9A66/59DAC4E4/"/>
+      <tstamp>5A1B9051</tstamp>
+    </comp>
+    <comp ref="C8002">
+      <value>47uF / 63V</value>
+      <footprint>Capacitors_THT:CP_Radial_D8.0mm_P5.00mm</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_25k/" tstamps="/59DA9A66/59DAC4E4/"/>
+      <tstamp>5A1B9058</tstamp>
+    </comp>
+    <comp ref="U9001">
+      <value>TL061</value>
+      <libsource lib="linear" part="TL061"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_25k/sub_assy/comms/osc_25k/osc/" tstamps="/59DA9A66/59DAC4E4/5A1C7282/"/>
+      <tstamp>5A1B3DFF</tstamp>
+    </comp>
+    <comp ref="U9002">
+      <value>TL061</value>
+      <libsource lib="linear" part="TL061"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_25k/sub_assy/comms/osc_25k/osc/" tstamps="/59DA9A66/59DAC4E4/5A1C7282/"/>
+      <tstamp>5A1B3E06</tstamp>
+    </comp>
+    <comp ref="R9003">
+      <value>4.7kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_25k/sub_assy/comms/osc_25k/osc/" tstamps="/59DA9A66/59DAC4E4/5A1C7282/"/>
+      <tstamp>5A1B3E11</tstamp>
+    </comp>
+    <comp ref="C9008">
+      <value>1uF</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_25k/sub_assy/comms/osc_25k/osc/" tstamps="/59DA9A66/59DAC4E4/5A1C7282/"/>
+      <tstamp>5A1B3E18</tstamp>
+    </comp>
+    <comp ref="C9009">
+      <value>0.47uF</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_25k/sub_assy/comms/osc_25k/osc/" tstamps="/59DA9A66/59DAC4E4/5A1C7282/"/>
+      <tstamp>5A1B3E1F</tstamp>
+    </comp>
+    <comp ref="C9005">
+      <value>1nF</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_25k/sub_assy/comms/osc_25k/osc/" tstamps="/59DA9A66/59DAC4E4/5A1C7282/"/>
+      <tstamp>5A1B3E26</tstamp>
+    </comp>
+    <comp ref="C9001">
+      <value>1nF</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_25k/sub_assy/comms/osc_25k/osc/" tstamps="/59DA9A66/59DAC4E4/5A1C7282/"/>
+      <tstamp>5A1B3E2D</tstamp>
+    </comp>
+    <comp ref="R9001">
+      <value>6.34kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_25k/sub_assy/comms/osc_25k/osc/" tstamps="/59DA9A66/59DAC4E4/5A1C7282/"/>
+      <tstamp>5A1B3E34</tstamp>
+    </comp>
+    <comp ref="R9002">
+      <value>6.34kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_25k/sub_assy/comms/osc_25k/osc/" tstamps="/59DA9A66/59DAC4E4/5A1C7282/"/>
+      <tstamp>5A1B3E3B</tstamp>
+    </comp>
+    <comp ref="RV9001">
+      <value>22kΩ</value>
+      <libsource lib="device" part="POT"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_25k/sub_assy/comms/osc_25k/osc/" tstamps="/59DA9A66/59DAC4E4/5A1C7282/"/>
+      <tstamp>5A1B3E42</tstamp>
+    </comp>
+    <comp ref="RV9002">
+      <value>22kΩ</value>
+      <libsource lib="device" part="POT"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_25k/sub_assy/comms/osc_25k/osc/" tstamps="/59DA9A66/59DAC4E4/5A1C7282/"/>
+      <tstamp>5A1B3E49</tstamp>
+    </comp>
+    <comp ref="Q9001">
+      <value>2N3819</value>
+      <libsource lib="device" part="Q_NJFET_DGS"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_25k/sub_assy/comms/osc_25k/osc/" tstamps="/59DA9A66/59DAC4E4/5A1C7282/"/>
+      <tstamp>5A1B3E62</tstamp>
+    </comp>
+    <comp ref="D9001">
+      <value>1N4148</value>
+      <libsource lib="diode" part="1N4148"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_25k/sub_assy/comms/osc_25k/osc/" tstamps="/59DA9A66/59DAC4E4/5A1C7282/"/>
+      <tstamp>5A1B3E6A</tstamp>
+    </comp>
+    <comp ref="D9002">
+      <value>1N4148</value>
+      <libsource lib="diode" part="1N4148"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_25k/sub_assy/comms/osc_25k/osc/" tstamps="/59DA9A66/59DAC4E4/5A1C7282/"/>
+      <tstamp>5A1B3E71</tstamp>
+    </comp>
+    <comp ref="R9004">
+      <value>4.7kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_25k/sub_assy/comms/osc_25k/osc/" tstamps="/59DA9A66/59DAC4E4/5A1C7282/"/>
+      <tstamp>5A1B3E78</tstamp>
+    </comp>
+    <comp ref="C9004">
+      <value>4.7uF</value>
+      <footprint>Capacitors_SMD:C_1210_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_25k/sub_assy/comms/osc_25k/osc/" tstamps="/59DA9A66/59DAC4E4/5A1C7282/"/>
+      <tstamp>5A1B3E9F</tstamp>
+    </comp>
+    <comp ref="C9002">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_25k/sub_assy/comms/osc_25k/osc/" tstamps="/59DA9A66/59DAC4E4/5A1C7282/"/>
+      <tstamp>5A1B3EA7</tstamp>
+    </comp>
+    <comp ref="C9006">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_25k/sub_assy/comms/osc_25k/osc/" tstamps="/59DA9A66/59DAC4E4/5A1C7282/"/>
+      <tstamp>5A1B3EAE</tstamp>
+    </comp>
+    <comp ref="C9003">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_25k/sub_assy/comms/osc_25k/osc/" tstamps="/59DA9A66/59DAC4E4/5A1C7282/"/>
+      <tstamp>5A1B3EC8</tstamp>
+    </comp>
+    <comp ref="C9007">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_25k/sub_assy/comms/osc_25k/osc/" tstamps="/59DA9A66/59DAC4E4/5A1C7282/"/>
+      <tstamp>5A1B3ECF</tstamp>
+    </comp>
+    <comp ref="R10001">
+      <value>4.7kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_25k/sub_assy/comms/osc_25k/switch/" tstamps="/59DA9A66/59DAC4E4/5A1C7539/"/>
+      <tstamp>5A1C92E1</tstamp>
+    </comp>
+    <comp ref="D10001">
+      <value>5.6V</value>
+      <libsource lib="device" part="D_Zener"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_25k/sub_assy/comms/osc_25k/switch/" tstamps="/59DA9A66/59DAC4E4/5A1C7539/"/>
+      <tstamp>5A1C92E8</tstamp>
+    </comp>
+    <comp ref="D10004">
+      <value>5.6V</value>
+      <libsource lib="device" part="D_Zener"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_25k/sub_assy/comms/osc_25k/switch/" tstamps="/59DA9A66/59DAC4E4/5A1C7539/"/>
+      <tstamp>5A1C92EF</tstamp>
+    </comp>
+    <comp ref="R10010">
+      <value>4.7kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_25k/sub_assy/comms/osc_25k/switch/" tstamps="/59DA9A66/59DAC4E4/5A1C7539/"/>
+      <tstamp>5A1C92F6</tstamp>
+    </comp>
+    <comp ref="C10001">
+      <value>47uF / 63V</value>
+      <footprint>Capacitors_THT:CP_Radial_D8.0mm_P5.00mm</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_25k/sub_assy/comms/osc_25k/switch/" tstamps="/59DA9A66/59DAC4E4/5A1C7539/"/>
+      <tstamp>5A1C92FD</tstamp>
+    </comp>
+    <comp ref="C10004">
+      <value>47uF / 63V</value>
+      <footprint>Capacitors_THT:CP_Radial_D8.0mm_P5.00mm</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_25k/sub_assy/comms/osc_25k/switch/" tstamps="/59DA9A66/59DAC4E4/5A1C7539/"/>
+      <tstamp>5A1C9304</tstamp>
+    </comp>
+    <comp ref="R10002">
+      <value>10kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_25k/sub_assy/comms/osc_25k/switch/" tstamps="/59DA9A66/59DAC4E4/5A1C7539/"/>
+      <tstamp>5A1C930B</tstamp>
+    </comp>
+    <comp ref="R10007">
+      <value>10kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_25k/sub_assy/comms/osc_25k/switch/" tstamps="/59DA9A66/59DAC4E4/5A1C7539/"/>
+      <tstamp>5A1C9312</tstamp>
+    </comp>
+    <comp ref="Q10001">
+      <value>BC546</value>
+      <libsource lib="transistors" part="BC546"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_25k/sub_assy/comms/osc_25k/switch/" tstamps="/59DA9A66/59DAC4E4/5A1C7539/"/>
+      <tstamp>5A1C9319</tstamp>
+    </comp>
+    <comp ref="Q10004">
+      <value>BC556</value>
+      <libsource lib="transistors" part="BC556"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_25k/sub_assy/comms/osc_25k/switch/" tstamps="/59DA9A66/59DAC4E4/5A1C7539/"/>
+      <tstamp>5A1C9320</tstamp>
+    </comp>
+    <comp ref="U10001">
+      <value>4066</value>
+      <libsource lib="cmos4000" part="4066"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_25k/sub_assy/comms/osc_25k/switch/" tstamps="/59DA9A66/59DAC4E4/5A1C7539/"/>
+      <tstamp>5A1C932A</tstamp>
+    </comp>
+    <comp ref="C10002">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_25k/sub_assy/comms/osc_25k/switch/" tstamps="/59DA9A66/59DAC4E4/5A1C7539/"/>
+      <tstamp>5A1C934D</tstamp>
+    </comp>
+    <comp ref="C10003">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_25k/sub_assy/comms/osc_25k/switch/" tstamps="/59DA9A66/59DAC4E4/5A1C7539/"/>
+      <tstamp>5A1C9354</tstamp>
+    </comp>
+    <comp ref="Q10002">
+      <value>BC546</value>
+      <libsource lib="transistors" part="BC546"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_25k/sub_assy/comms/osc_25k/switch/" tstamps="/59DA9A66/59DAC4E4/5A1C7539/"/>
+      <tstamp>5A1C9367</tstamp>
+    </comp>
+    <comp ref="R10003">
+      <value>10kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_25k/sub_assy/comms/osc_25k/switch/" tstamps="/59DA9A66/59DAC4E4/5A1C7539/"/>
+      <tstamp>5A1C936E</tstamp>
+    </comp>
+    <comp ref="D10003">
+      <value>1N4148</value>
+      <libsource lib="diode" part="1N4148"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_25k/sub_assy/comms/osc_25k/switch/" tstamps="/59DA9A66/59DAC4E4/5A1C7539/"/>
+      <tstamp>5A1C9375</tstamp>
+    </comp>
+    <comp ref="R10005">
+      <value>100kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_25k/sub_assy/comms/osc_25k/switch/" tstamps="/59DA9A66/59DAC4E4/5A1C7539/"/>
+      <tstamp>5A1C937C</tstamp>
+    </comp>
+    <comp ref="D10002">
+      <value>5.6V</value>
+      <libsource lib="device" part="D_Zener"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_25k/sub_assy/comms/osc_25k/switch/" tstamps="/59DA9A66/59DAC4E4/5A1C7539/"/>
+      <tstamp>5A1C9383</tstamp>
+    </comp>
+    <comp ref="Q10003">
+      <value>BC546</value>
+      <libsource lib="transistors" part="BC546"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_25k/sub_assy/comms/osc_25k/switch/" tstamps="/59DA9A66/59DAC4E4/5A1C7539/"/>
+      <tstamp>5A1C93D3</tstamp>
+    </comp>
+    <comp ref="R10004">
+      <value>10kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_25k/sub_assy/comms/osc_25k/switch/" tstamps="/59DA9A66/59DAC4E4/5A1C7539/"/>
+      <tstamp>5A1C93DA</tstamp>
+    </comp>
+    <comp ref="R10006">
+      <value>100kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_25k/sub_assy/comms/osc_25k/switch/" tstamps="/59DA9A66/59DAC4E4/5A1C7539/"/>
+      <tstamp>5A1C93E8</tstamp>
+    </comp>
+    <comp ref="R10008">
+      <value>100kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_25k/sub_assy/comms/osc_25k/switch/" tstamps="/59DA9A66/59DAC4E4/5A1C7539/"/>
+      <tstamp>5A1C9406</tstamp>
+    </comp>
+    <comp ref="R10009">
+      <value>100kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_25k/sub_assy/comms/osc_25k/switch/" tstamps="/59DA9A66/59DAC4E4/5A1C7539/"/>
+      <tstamp>5A1C940D</tstamp>
+    </comp>
+    <comp ref="R10012">
+      <value>1kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_25k/sub_assy/comms/osc_25k/switch/" tstamps="/59DA9A66/59DAC4E4/5A1C7539/"/>
+      <tstamp>5A1C9418</tstamp>
+    </comp>
+    <comp ref="R10013">
+      <value>1kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_25k/sub_assy/comms/osc_25k/switch/" tstamps="/59DA9A66/59DAC4E4/5A1C7539/"/>
+      <tstamp>5A1C941F</tstamp>
+    </comp>
+    <comp ref="R10014">
+      <value>1kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_25k/sub_assy/comms/osc_25k/switch/" tstamps="/59DA9A66/59DAC4E4/5A1C7539/"/>
+      <tstamp>5A1C9426</tstamp>
+    </comp>
+    <comp ref="R10015">
+      <value>1kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_25k/sub_assy/comms/osc_25k/switch/" tstamps="/59DA9A66/59DAC4E4/5A1C7539/"/>
+      <tstamp>5A1C942D</tstamp>
+    </comp>
+    <comp ref="C10009">
+      <value>4.7uF</value>
+      <footprint>Capacitors_SMD:C_1210_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_25k/sub_assy/comms/osc_25k/switch/" tstamps="/59DA9A66/59DAC4E4/5A1C7539/"/>
+      <tstamp>5A1C9440</tstamp>
+    </comp>
+    <comp ref="C10010">
+      <value>4.7uF</value>
+      <footprint>Capacitors_SMD:C_1210_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_25k/sub_assy/comms/osc_25k/switch/" tstamps="/59DA9A66/59DAC4E4/5A1C7539/"/>
+      <tstamp>5A1C9447</tstamp>
+    </comp>
+    <comp ref="R10011">
+      <value>1kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_25k/sub_assy/comms/osc_25k/switch/" tstamps="/59DA9A66/59DAC4E4/5A1C7539/"/>
+      <tstamp>5A1C9456</tstamp>
+    </comp>
+    <comp ref="U10002">
+      <value>TL061</value>
+      <libsource lib="linear" part="TL061"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_25k/sub_assy/comms/osc_25k/switch/" tstamps="/59DA9A66/59DAC4E4/5A1C7539/"/>
+      <tstamp>5A1C946B</tstamp>
+    </comp>
+    <comp ref="C10005">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_25k/sub_assy/comms/osc_25k/switch/" tstamps="/59DA9A66/59DAC4E4/5A1C7539/"/>
+      <tstamp>5A1C947A</tstamp>
+    </comp>
+    <comp ref="C10008">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_25k/sub_assy/comms/osc_25k/switch/" tstamps="/59DA9A66/59DAC4E4/5A1C7539/"/>
+      <tstamp>5A1C9481</tstamp>
+    </comp>
+    <comp ref="C10007">
+      <value>4.7uF</value>
+      <footprint>Capacitors_SMD:C_1210_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_25k/sub_assy/comms/osc_25k/switch/" tstamps="/59DA9A66/59DAC4E4/5A1C7539/"/>
+      <tstamp>5A1C9497</tstamp>
+    </comp>
+    <comp ref="C10006">
+      <value>4.7uF</value>
+      <footprint>Capacitors_SMD:C_1210_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_25k/sub_assy/comms/osc_25k/switch/" tstamps="/59DA9A66/59DAC4E4/5A1C7539/"/>
+      <tstamp>5B5A655D</tstamp>
+    </comp>
+    <comp ref="R10016">
+      <value>100kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms/sub_assy/comms/osc_25k/sub_assy/comms/osc_25k/switch/" tstamps="/59DA9A66/59DAC4E4/5A1C7539/"/>
+      <tstamp>5B5A6FBA</tstamp>
+    </comp>
+    <comp ref="C11007">
+      <value>4.7uF</value>
+      <footprint>Capacitors_SMD:C_1210_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/comms/sub_assy/comms/filter_15k/" tstamps="/59DA9A66/59DAC4E7/"/>
+      <tstamp>59E38A9A</tstamp>
+    </comp>
+    <comp ref="R11005">
+      <value>49.9kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms/sub_assy/comms/filter_15k/" tstamps="/59DA9A66/59DAC4E7/"/>
+      <tstamp>59E38AA1</tstamp>
+    </comp>
+    <comp ref="C11001">
+      <value>1nF</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/comms/sub_assy/comms/filter_15k/" tstamps="/59DA9A66/59DAC4E7/"/>
+      <tstamp>59E38AA8</tstamp>
+    </comp>
+    <comp ref="C11008">
+      <value>1nF</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/comms/sub_assy/comms/filter_15k/" tstamps="/59DA9A66/59DAC4E7/"/>
+      <tstamp>59E38AAF</tstamp>
+    </comp>
+    <comp ref="R11001">
+      <value>118kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms/sub_assy/comms/filter_15k/" tstamps="/59DA9A66/59DAC4E7/"/>
+      <tstamp>59E38AB6</tstamp>
+    </comp>
+    <comp ref="R11009">
+      <value>825Ω</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms/sub_assy/comms/filter_15k/" tstamps="/59DA9A66/59DAC4E7/"/>
+      <tstamp>59E38ABD</tstamp>
+    </comp>
+    <comp ref="U11001">
+      <value>OP282</value>
+      <libsource lib="fan-controller_parts" part="OP282"/>
+      <sheetpath names="/comms/sub_assy/comms/filter_15k/" tstamps="/59DA9A66/59DAC4E7/"/>
+      <tstamp>59E38AC4</tstamp>
+    </comp>
+    <comp ref="C11005">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/comms/sub_assy/comms/filter_15k/" tstamps="/59DA9A66/59DAC4E7/"/>
+      <tstamp>59E38ACB</tstamp>
+    </comp>
+    <comp ref="C11013">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/comms/sub_assy/comms/filter_15k/" tstamps="/59DA9A66/59DAC4E7/"/>
+      <tstamp>59E38AD2</tstamp>
+    </comp>
+    <comp ref="R11006">
+      <value>56.2kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms/sub_assy/comms/filter_15k/" tstamps="/59DA9A66/59DAC4E7/"/>
+      <tstamp>59E38ADF</tstamp>
+    </comp>
+    <comp ref="C11002">
+      <value>1nF</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/comms/sub_assy/comms/filter_15k/" tstamps="/59DA9A66/59DAC4E7/"/>
+      <tstamp>59E38AE6</tstamp>
+    </comp>
+    <comp ref="C11009">
+      <value>1nF</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/comms/sub_assy/comms/filter_15k/" tstamps="/59DA9A66/59DAC4E7/"/>
+      <tstamp>59E38AED</tstamp>
+    </comp>
+    <comp ref="R11002">
+      <value>133kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms/sub_assy/comms/filter_15k/" tstamps="/59DA9A66/59DAC4E7/"/>
+      <tstamp>59E38AF4</tstamp>
+    </comp>
+    <comp ref="R11010">
+      <value>931Ω</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms/sub_assy/comms/filter_15k/" tstamps="/59DA9A66/59DAC4E7/"/>
+      <tstamp>59E38AFB</tstamp>
+    </comp>
+    <comp ref="R11007">
+      <value>39.2kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms/sub_assy/comms/filter_15k/" tstamps="/59DA9A66/59DAC4E7/"/>
+      <tstamp>59E38B09</tstamp>
+    </comp>
+    <comp ref="C11003">
+      <value>910pF</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/comms/sub_assy/comms/filter_15k/" tstamps="/59DA9A66/59DAC4E7/"/>
+      <tstamp>59E38B10</tstamp>
+    </comp>
+    <comp ref="C11010">
+      <value>910pF</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/comms/sub_assy/comms/filter_15k/" tstamps="/59DA9A66/59DAC4E7/"/>
+      <tstamp>59E38B17</tstamp>
+    </comp>
+    <comp ref="R11003">
+      <value>100kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms/sub_assy/comms/filter_15k/" tstamps="/59DA9A66/59DAC4E7/"/>
+      <tstamp>59E38B1E</tstamp>
+    </comp>
+    <comp ref="R11011">
+      <value>1.05kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms/sub_assy/comms/filter_15k/" tstamps="/59DA9A66/59DAC4E7/"/>
+      <tstamp>59E38B25</tstamp>
+    </comp>
+    <comp ref="U11002">
+      <value>OP282</value>
+      <libsource lib="fan-controller_parts" part="OP282"/>
+      <sheetpath names="/comms/sub_assy/comms/filter_15k/" tstamps="/59DA9A66/59DAC4E7/"/>
+      <tstamp>59E38B2C</tstamp>
+    </comp>
+    <comp ref="C11006">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/comms/sub_assy/comms/filter_15k/" tstamps="/59DA9A66/59DAC4E7/"/>
+      <tstamp>59E38B33</tstamp>
+    </comp>
+    <comp ref="C11014">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/comms/sub_assy/comms/filter_15k/" tstamps="/59DA9A66/59DAC4E7/"/>
+      <tstamp>59E38B3A</tstamp>
+    </comp>
+    <comp ref="R11008">
+      <value>46.4kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms/sub_assy/comms/filter_15k/" tstamps="/59DA9A66/59DAC4E7/"/>
+      <tstamp>59E38B45</tstamp>
+    </comp>
+    <comp ref="C11004">
+      <value>1nF</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/comms/sub_assy/comms/filter_15k/" tstamps="/59DA9A66/59DAC4E7/"/>
+      <tstamp>59E38B4C</tstamp>
+    </comp>
+    <comp ref="C11011">
+      <value>1nF</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/comms/sub_assy/comms/filter_15k/" tstamps="/59DA9A66/59DAC4E7/"/>
+      <tstamp>59E38B53</tstamp>
+    </comp>
+    <comp ref="R11004">
+      <value>118kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms/sub_assy/comms/filter_15k/" tstamps="/59DA9A66/59DAC4E7/"/>
+      <tstamp>59E38B5A</tstamp>
+    </comp>
+    <comp ref="R11013">
+      <value>1.21kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms/sub_assy/comms/filter_15k/" tstamps="/59DA9A66/59DAC4E7/"/>
+      <tstamp>59E38B61</tstamp>
+    </comp>
+    <comp ref="R11012">
+      <value>23.7kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms/sub_assy/comms/filter_15k/" tstamps="/59DA9A66/59DAC4E7/"/>
+      <tstamp>59E38B6F</tstamp>
+    </comp>
+    <comp ref="R11015">
+      <value>316Ω</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms/sub_assy/comms/filter_15k/" tstamps="/59DA9A66/59DAC4E7/"/>
+      <tstamp>59E38B76</tstamp>
+    </comp>
+    <comp ref="R11014">
+      <value>27.4kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms/sub_assy/comms/filter_15k/" tstamps="/59DA9A66/59DAC4E7/"/>
+      <tstamp>59E38B7D</tstamp>
+    </comp>
+    <comp ref="R11016">
+      <value>357Ω</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms/sub_assy/comms/filter_15k/" tstamps="/59DA9A66/59DAC4E7/"/>
+      <tstamp>59E38B84</tstamp>
+    </comp>
+    <comp ref="C11012">
+      <value>4.7uF</value>
+      <footprint>Capacitors_SMD:C_1210_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/comms/sub_assy/comms/filter_15k/" tstamps="/59DA9A66/59DAC4E7/"/>
+      <tstamp>59E38B8F</tstamp>
+    </comp>
+    <comp ref="C11015">
+      <value>47uF / 63V</value>
+      <footprint>Capacitors_THT:CP_Radial_D8.0mm_P5.00mm</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/comms/sub_assy/comms/filter_15k/" tstamps="/59DA9A66/59DAC4E7/"/>
+      <tstamp>59E38B9A</tstamp>
+    </comp>
+    <comp ref="C11016">
+      <value>47uF / 63V</value>
+      <footprint>Capacitors_THT:CP_Radial_D8.0mm_P5.00mm</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/comms/sub_assy/comms/filter_15k/" tstamps="/59DA9A66/59DAC4E7/"/>
+      <tstamp>59E38BA1</tstamp>
+    </comp>
+    <comp ref="U12002">
+      <value>TL061</value>
+      <libsource lib="linear" part="TL061"/>
+      <sheetpath names="/comms/sub_assy/comms/detector_15k/" tstamps="/59DA9A66/59DAC4ED/"/>
+      <tstamp>59E4ED22</tstamp>
+    </comp>
+    <comp ref="R12009">
+      <value>100kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms/sub_assy/comms/detector_15k/" tstamps="/59DA9A66/59DAC4ED/"/>
+      <tstamp>59E4EE64</tstamp>
+    </comp>
+    <comp ref="C12004">
+      <value>0.22uF</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/comms/sub_assy/comms/detector_15k/" tstamps="/59DA9A66/59DAC4ED/"/>
+      <tstamp>59E4EEEF</tstamp>
+    </comp>
+    <comp ref="RV12001">
+      <value>22kΩ</value>
+      <libsource lib="device" part="POT"/>
+      <sheetpath names="/comms/sub_assy/comms/detector_15k/" tstamps="/59DA9A66/59DAC4ED/"/>
+      <tstamp>59E4F42E</tstamp>
+    </comp>
+    <comp ref="C12006">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/comms/sub_assy/comms/detector_15k/" tstamps="/59DA9A66/59DAC4ED/"/>
+      <tstamp>59E4FB10</tstamp>
+    </comp>
+    <comp ref="C12003">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/comms/sub_assy/comms/detector_15k/" tstamps="/59DA9A66/59DAC4ED/"/>
+      <tstamp>59E4FBB7</tstamp>
+    </comp>
+    <comp ref="R12006">
+      <value>22kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms/sub_assy/comms/detector_15k/" tstamps="/59DA9A66/59DAC4ED/"/>
+      <tstamp>59E4FF49</tstamp>
+    </comp>
+    <comp ref="D12004">
+      <value>1N4148</value>
+      <libsource lib="diode" part="1N4148"/>
+      <sheetpath names="/comms/sub_assy/comms/detector_15k/" tstamps="/59DA9A66/59DAC4ED/"/>
+      <tstamp>59E50302</tstamp>
+    </comp>
+    <comp ref="R12010">
+      <value>100kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms/sub_assy/comms/detector_15k/" tstamps="/59DA9A66/59DAC4ED/"/>
+      <tstamp>59E51433</tstamp>
+    </comp>
+    <comp ref="Q12003">
+      <value>BC546C</value>
+      <libsource lib="transistors" part="BC546"/>
+      <sheetpath names="/comms/sub_assy/comms/detector_15k/" tstamps="/59DA9A66/59DAC4ED/"/>
+      <tstamp>59E5163C</tstamp>
+    </comp>
+    <comp ref="D12001">
+      <value>BZX85C6V2</value>
+      <libsource lib="fan-controller_parts" part="BZX85xx"/>
+      <sheetpath names="/comms/sub_assy/comms/detector_15k/" tstamps="/59DA9A66/59DAC4ED/"/>
+      <tstamp>59E53CA2</tstamp>
+    </comp>
+    <comp ref="R12004">
+      <value>22kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms/sub_assy/comms/detector_15k/" tstamps="/59DA9A66/59DAC4ED/"/>
+      <tstamp>59E55CC2</tstamp>
+    </comp>
+    <comp ref="Q12002">
+      <value>BC556</value>
+      <libsource lib="transistors" part="BC556"/>
+      <sheetpath names="/comms/sub_assy/comms/detector_15k/" tstamps="/59DA9A66/59DAC4ED/"/>
+      <tstamp>59E55E16</tstamp>
+    </comp>
+    <comp ref="Q12001">
+      <value>BC556</value>
+      <libsource lib="transistors" part="BC556"/>
+      <sheetpath names="/comms/sub_assy/comms/detector_15k/" tstamps="/59DA9A66/59DAC4ED/"/>
+      <tstamp>59E56441</tstamp>
+    </comp>
+    <comp ref="R12001">
+      <value>4.7kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms/sub_assy/comms/detector_15k/" tstamps="/59DA9A66/59DAC4ED/"/>
+      <tstamp>59E3B3D7</tstamp>
+    </comp>
+    <comp ref="C12008">
+      <value>39nF</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/comms/sub_assy/comms/detector_15k/" tstamps="/59DA9A66/59DAC4ED/"/>
+      <tstamp>59E3DD35</tstamp>
+    </comp>
+    <comp ref="R12002">
+      <value>68kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms/sub_assy/comms/detector_15k/" tstamps="/59DA9A66/59DAC4ED/"/>
+      <tstamp>59E3FAE1</tstamp>
+    </comp>
+    <comp ref="R12005">
+      <value>7.5kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms/sub_assy/comms/detector_15k/" tstamps="/59DA9A66/59DAC4ED/"/>
+      <tstamp>59E40074</tstamp>
+    </comp>
+    <comp ref="R12008">
+      <value>22kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms/sub_assy/comms/detector_15k/" tstamps="/59DA9A66/59DAC4ED/"/>
+      <tstamp>59E4011C</tstamp>
+    </comp>
+    <comp ref="U12001">
+      <value>TL061</value>
+      <libsource lib="linear" part="TL061"/>
+      <sheetpath names="/comms/sub_assy/comms/detector_15k/" tstamps="/59DA9A66/59DAC4ED/"/>
+      <tstamp>59E41B34</tstamp>
+    </comp>
+    <comp ref="C12002">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/comms/sub_assy/comms/detector_15k/" tstamps="/59DA9A66/59DAC4ED/"/>
+      <tstamp>59E41B42</tstamp>
+    </comp>
+    <comp ref="C12001">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/comms/sub_assy/comms/detector_15k/" tstamps="/59DA9A66/59DAC4ED/"/>
+      <tstamp>59E41B48</tstamp>
+    </comp>
+    <comp ref="U12003">
+      <value>TL061</value>
+      <libsource lib="linear" part="TL061"/>
+      <sheetpath names="/comms/sub_assy/comms/detector_15k/" tstamps="/59DA9A66/59DAC4ED/"/>
+      <tstamp>59E42BAC</tstamp>
+    </comp>
+    <comp ref="C12007">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/comms/sub_assy/comms/detector_15k/" tstamps="/59DA9A66/59DAC4ED/"/>
+      <tstamp>59E42BB4</tstamp>
+    </comp>
+    <comp ref="C12005">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/comms/sub_assy/comms/detector_15k/" tstamps="/59DA9A66/59DAC4ED/"/>
+      <tstamp>59E42BBA</tstamp>
+    </comp>
+    <comp ref="C12011">
+      <value>47uF / 63V</value>
+      <footprint>Capacitors_THT:CP_Radial_D8.0mm_P5.00mm</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/comms/sub_assy/comms/detector_15k/" tstamps="/59DA9A66/59DAC4ED/"/>
+      <tstamp>59E43DCE</tstamp>
+    </comp>
+    <comp ref="C12012">
+      <value>47uF / 63V</value>
+      <footprint>Capacitors_THT:CP_Radial_D8.0mm_P5.00mm</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/comms/sub_assy/comms/detector_15k/" tstamps="/59DA9A66/59DAC4ED/"/>
+      <tstamp>59E43DD5</tstamp>
+    </comp>
+    <comp ref="R12007">
+      <value>22kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms/sub_assy/comms/detector_15k/" tstamps="/59DA9A66/59DAC4ED/"/>
+      <tstamp>59EC43D1</tstamp>
+    </comp>
+    <comp ref="D12003">
+      <value>1N4148</value>
+      <libsource lib="diode" part="1N4148"/>
+      <sheetpath names="/comms/sub_assy/comms/detector_15k/" tstamps="/59DA9A66/59DAC4ED/"/>
+      <tstamp>59EC467E</tstamp>
+    </comp>
+    <comp ref="Q12005">
+      <value>BC546</value>
+      <libsource lib="transistors" part="BC546"/>
+      <sheetpath names="/comms/sub_assy/comms/detector_15k/" tstamps="/59DA9A66/59DAC4ED/"/>
+      <tstamp>59EC4D04</tstamp>
+    </comp>
+    <comp ref="Q12007">
+      <value>BC546</value>
+      <libsource lib="transistors" part="BC546"/>
+      <sheetpath names="/comms/sub_assy/comms/detector_15k/" tstamps="/59DA9A66/59DAC4ED/"/>
+      <tstamp>59EC4DA7</tstamp>
+    </comp>
+    <comp ref="R12011">
+      <value>39kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms/sub_assy/comms/detector_15k/" tstamps="/59DA9A66/59DAC4ED/"/>
+      <tstamp>59EC5ABD</tstamp>
+    </comp>
+    <comp ref="R12014">
+      <value>39kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms/sub_assy/comms/detector_15k/" tstamps="/59DA9A66/59DAC4ED/"/>
+      <tstamp>59EC6265</tstamp>
+    </comp>
+    <comp ref="R12016">
+      <value>39kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms/sub_assy/comms/detector_15k/" tstamps="/59DA9A66/59DAC4ED/"/>
+      <tstamp>59EC6316</tstamp>
+    </comp>
+    <comp ref="Q12006">
+      <value>BC546</value>
+      <libsource lib="transistors" part="BC546"/>
+      <sheetpath names="/comms/sub_assy/comms/detector_15k/" tstamps="/59DA9A66/59DAC4ED/"/>
+      <tstamp>59EC7179</tstamp>
+    </comp>
+    <comp ref="Q12008">
+      <value>BC546</value>
+      <libsource lib="transistors" part="BC546"/>
+      <sheetpath names="/comms/sub_assy/comms/detector_15k/" tstamps="/59DA9A66/59DAC4ED/"/>
+      <tstamp>59EC717F</tstamp>
+    </comp>
+    <comp ref="R12012">
+      <value>39kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms/sub_assy/comms/detector_15k/" tstamps="/59DA9A66/59DAC4ED/"/>
+      <tstamp>59EC7187</tstamp>
+    </comp>
+    <comp ref="R12015">
+      <value>39kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms/sub_assy/comms/detector_15k/" tstamps="/59DA9A66/59DAC4ED/"/>
+      <tstamp>59EC718E</tstamp>
+    </comp>
+    <comp ref="R12019">
+      <value>39kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms/sub_assy/comms/detector_15k/" tstamps="/59DA9A66/59DAC4ED/"/>
+      <tstamp>59EC7194</tstamp>
+    </comp>
+    <comp ref="R12017">
+      <value>100kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms/sub_assy/comms/detector_15k/" tstamps="/59DA9A66/59DAC4ED/"/>
+      <tstamp>59EC8D93</tstamp>
+    </comp>
+    <comp ref="R12018">
+      <value>100kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms/sub_assy/comms/detector_15k/" tstamps="/59DA9A66/59DAC4ED/"/>
+      <tstamp>59EC9808</tstamp>
+    </comp>
+    <comp ref="R12013">
+      <value>100kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms/sub_assy/comms/detector_15k/" tstamps="/59DA9A66/59DAC4ED/"/>
+      <tstamp>59ED3023</tstamp>
+    </comp>
+    <comp ref="R12003">
+      <value>22kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms/sub_assy/comms/detector_15k/" tstamps="/59DA9A66/59DAC4ED/"/>
+      <tstamp>59ED38BC</tstamp>
+    </comp>
+    <comp ref="D12002">
+      <value>1N4148</value>
+      <libsource lib="diode" part="1N4148"/>
+      <sheetpath names="/comms/sub_assy/comms/detector_15k/" tstamps="/59DA9A66/59DAC4ED/"/>
+      <tstamp>59ED38C2</tstamp>
+    </comp>
+    <comp ref="Q12004">
+      <value>BC546</value>
+      <libsource lib="transistors" part="BC546"/>
+      <sheetpath names="/comms/sub_assy/comms/detector_15k/" tstamps="/59DA9A66/59DAC4ED/"/>
+      <tstamp>59ED55CD</tstamp>
+    </comp>
+    <comp ref="C12009">
+      <value>1μF</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/comms/sub_assy/comms/detector_15k/" tstamps="/59DA9A66/59DAC4ED/"/>
+      <tstamp>5B5BF999</tstamp>
+    </comp>
+    <comp ref="C12010">
+      <value>1μF</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/comms/sub_assy/comms/detector_15k/" tstamps="/59DA9A66/59DAC4ED/"/>
+      <tstamp>5B5C01AB</tstamp>
+    </comp>
+    <comp ref="T13001">
+      <value>Transformer_2P_1S</value>
+      <libsource lib="device" part="Transformer_1P_2S"/>
+      <sheetpath names="/comms/sub_assy/comms/barrier/" tstamps="/59DA9A66/59DAC6DD/"/>
+      <tstamp>59FEBF23</tstamp>
+    </comp>
+    <comp ref="C13007">
+      <value>47uF / 63V</value>
+      <footprint>Capacitors_THT:CP_Radial_D8.0mm_P5.00mm</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/comms/sub_assy/comms/barrier/" tstamps="/59DA9A66/59DAC6DD/"/>
+      <tstamp>59FEC637</tstamp>
+    </comp>
+    <comp ref="C13008">
+      <value>47uF / 63V</value>
+      <footprint>Capacitors_THT:CP_Radial_D8.0mm_P5.00mm</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/comms/sub_assy/comms/barrier/" tstamps="/59DA9A66/59DAC6DD/"/>
+      <tstamp>59FEC63E</tstamp>
+    </comp>
+    <comp ref="U13001">
+      <value>OP282</value>
+      <libsource lib="fan-controller_parts" part="OP282"/>
+      <sheetpath names="/comms/sub_assy/comms/barrier/" tstamps="/59DA9A66/59DAC6DD/"/>
+      <tstamp>59FEDC02</tstamp>
+    </comp>
+    <comp ref="R13002">
+      <value>10kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms/sub_assy/comms/barrier/" tstamps="/59DA9A66/59DAC6DD/"/>
+      <tstamp>59FEDE15</tstamp>
+    </comp>
+    <comp ref="R13001">
+      <value>10kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms/sub_assy/comms/barrier/" tstamps="/59DA9A66/59DAC6DD/"/>
+      <tstamp>59FEDF1E</tstamp>
+    </comp>
+    <comp ref="R13004">
+      <value>100kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms/sub_assy/comms/barrier/" tstamps="/59DA9A66/59DAC6DD/"/>
+      <tstamp>59FEDF9C</tstamp>
+    </comp>
+    <comp ref="RV13001">
+      <value>22kΩ</value>
+      <libsource lib="device" part="POT"/>
+      <sheetpath names="/comms/sub_assy/comms/barrier/" tstamps="/59DA9A66/59DAC6DD/"/>
+      <tstamp>59FEE260</tstamp>
+    </comp>
+    <comp ref="C13002">
+      <value>4.7uF</value>
+      <footprint>Capacitors_SMD:C_1210_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/comms/sub_assy/comms/barrier/" tstamps="/59DA9A66/59DAC6DD/"/>
+      <tstamp>59FF2E08</tstamp>
+    </comp>
+    <comp ref="D13001">
+      <value>1.5KE12CA</value>
+      <libsource lib="device" part="D_TVS"/>
+      <sheetpath names="/comms/sub_assy/comms/barrier/" tstamps="/59DA9A66/59DAC6DD/"/>
+      <tstamp>59FF35FB</tstamp>
+    </comp>
+    <comp ref="D13003">
+      <value>1.5KE10CA</value>
+      <libsource lib="device" part="D_TVS"/>
+      <sheetpath names="/comms/sub_assy/comms/barrier/" tstamps="/59DA9A66/59DAC6DD/"/>
+      <tstamp>59FF3757</tstamp>
+    </comp>
+    <comp ref="R13003">
+      <value>220Ω</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms/sub_assy/comms/barrier/" tstamps="/59DA9A66/59DAC6DD/"/>
+      <tstamp>59FF3E5A</tstamp>
+    </comp>
+    <comp ref="RV13002">
+      <value>22kΩ</value>
+      <libsource lib="device" part="POT"/>
+      <sheetpath names="/comms/sub_assy/comms/barrier/" tstamps="/59DA9A66/59DAC6DD/"/>
+      <tstamp>59FF57DD</tstamp>
+    </comp>
+    <comp ref="C13005">
+      <value>4.7uF</value>
+      <footprint>Capacitors_SMD:C_1210_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/comms/sub_assy/comms/barrier/" tstamps="/59DA9A66/59DAC6DD/"/>
+      <tstamp>59FF5ADA</tstamp>
+    </comp>
+    <comp ref="R13005">
+      <value>100kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms/sub_assy/comms/barrier/" tstamps="/59DA9A66/59DAC6DD/"/>
+      <tstamp>59FFB848</tstamp>
+    </comp>
+    <comp ref="C13001">
+      <value>100nF</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/comms/sub_assy/comms/barrier/" tstamps="/59DA9A66/59DAC6DD/"/>
+      <tstamp>59FFD748</tstamp>
+    </comp>
+    <comp ref="C13004">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/comms/sub_assy/comms/barrier/" tstamps="/59DA9A66/59DAC6DD/"/>
+      <tstamp>59FFD74F</tstamp>
+    </comp>
+    <comp ref="D13002">
+      <value>1.5KE12CA</value>
+      <libsource lib="device" part="D_TVS"/>
+      <sheetpath names="/comms/sub_assy/comms/barrier/" tstamps="/59DA9A66/59DAC6DD/"/>
+      <tstamp>5A088F5A</tstamp>
+    </comp>
+    <comp ref="R13006">
+      <value>220Ω</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms/sub_assy/comms/barrier/" tstamps="/59DA9A66/59DAC6DD/"/>
+      <tstamp>5A08963C</tstamp>
+    </comp>
+    <comp ref="C13003">
+      <value>4.7nF</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/comms/sub_assy/comms/barrier/" tstamps="/59DA9A66/59DAC6DD/"/>
+      <tstamp>5A08A237</tstamp>
+    </comp>
+    <comp ref="C13006">
+      <value>4.7nF</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/comms/sub_assy/comms/barrier/" tstamps="/59DA9A66/59DAC6DD/"/>
+      <tstamp>5A08A304</tstamp>
+    </comp>
+    <comp ref="Q14001">
+      <value>BC546</value>
+      <libsource lib="transistors" part="BC546"/>
+      <sheetpath names="/comms_router/" tstamps="/5A9355B1/"/>
+      <tstamp>5B438A1E</tstamp>
+    </comp>
+    <comp ref="R14003">
+      <value>100kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms_router/" tstamps="/5A9355B1/"/>
+      <tstamp>5B438A26</tstamp>
+    </comp>
+    <comp ref="R14001">
+      <value>10kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms_router/" tstamps="/5A9355B1/"/>
+      <tstamp>5B438A34</tstamp>
+    </comp>
+    <comp ref="R14002">
+      <value>100kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms_router/" tstamps="/5A9355B1/"/>
+      <tstamp>5B438A49</tstamp>
+    </comp>
+    <comp ref="Q14004">
+      <value>BC546</value>
+      <libsource lib="transistors" part="BC546"/>
+      <sheetpath names="/comms_router/" tstamps="/5A9355B1/"/>
+      <tstamp>5B439F82</tstamp>
+    </comp>
+    <comp ref="Q14005">
+      <value>BC546</value>
+      <libsource lib="transistors" part="BC546"/>
+      <sheetpath names="/comms_router/" tstamps="/5A9355B1/"/>
+      <tstamp>5B439F8D</tstamp>
+    </comp>
+    <comp ref="R14006">
+      <value>10kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms_router/" tstamps="/5A9355B1/"/>
+      <tstamp>5B439FA2</tstamp>
+    </comp>
+    <comp ref="Q14002">
+      <value>BC546</value>
+      <libsource lib="transistors" part="BC546"/>
+      <sheetpath names="/comms_router/" tstamps="/5A9355B1/"/>
+      <tstamp>5B439FB3</tstamp>
+    </comp>
+    <comp ref="R14010">
+      <value>100kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms_router/" tstamps="/5A9355B1/"/>
+      <tstamp>5B439FBC</tstamp>
+    </comp>
+    <comp ref="R14004">
+      <value>10kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms_router/" tstamps="/5A9355B1/"/>
+      <tstamp>5B439FCA</tstamp>
+    </comp>
+    <comp ref="R14008">
+      <value>10kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms_router/" tstamps="/5A9355B1/"/>
+      <tstamp>5B439FE1</tstamp>
+    </comp>
+    <comp ref="R14009">
+      <value>100kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms_router/" tstamps="/5A9355B1/"/>
+      <tstamp>5B439FEC</tstamp>
+    </comp>
+    <comp ref="Q14003">
+      <value>BC546</value>
+      <libsource lib="transistors" part="BC546"/>
+      <sheetpath names="/comms_router/" tstamps="/5A9355B1/"/>
+      <tstamp>5B439FD6</tstamp>
+    </comp>
+    <comp ref="D14001">
+      <value>1N4148</value>
+      <libsource lib="diode" part="1N4148"/>
+      <sheetpath names="/comms_router/" tstamps="/5A9355B1/"/>
+      <tstamp>5B55AEF3</tstamp>
+    </comp>
+    <comp ref="R14007">
+      <value>100kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms_router/" tstamps="/5A9355B1/"/>
+      <tstamp>5B5625B9</tstamp>
+    </comp>
+    <comp ref="R14005">
+      <value>10kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/comms_router/" tstamps="/5A9355B1/"/>
+      <tstamp>5B5761E8</tstamp>
+    </comp>
+    <comp ref="A15001">
+      <value>Arduino_Nano_v3.x</value>
+      <libsource lib="modules" part="Arduino_Nano_v3.x"/>
+      <sheetpath names="/cpu/" tstamps="/59C7EB6E/"/>
+      <tstamp>5A665ACA</tstamp>
+    </comp>
+    <comp ref="R15005">
+      <value>10kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/cpu/" tstamps="/59C7EB6E/"/>
+      <tstamp>5A64974C</tstamp>
+    </comp>
+    <comp ref="R15004">
+      <value>10kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/cpu/" tstamps="/59C7EB6E/"/>
+      <tstamp>5A6497C2</tstamp>
+    </comp>
+    <comp ref="R15002">
+      <value>10kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/cpu/" tstamps="/59C7EB6E/"/>
+      <tstamp>5A6CE7F9</tstamp>
+    </comp>
+    <comp ref="R15001">
+      <value>10kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/cpu/" tstamps="/59C7EB6E/"/>
+      <tstamp>5A6CE83F</tstamp>
+    </comp>
+    <comp ref="Q15001">
+      <value>BC546</value>
+      <libsource lib="transistors" part="BC546"/>
+      <sheetpath names="/cpu/" tstamps="/59C7EB6E/"/>
+      <tstamp>5A6D1A96</tstamp>
+    </comp>
+    <comp ref="R15007">
+      <value>10 kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/cpu/" tstamps="/59C7EB6E/"/>
+      <tstamp>5A6D1B7B</tstamp>
+    </comp>
+    <comp ref="R15003">
+      <value>10kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/cpu/" tstamps="/59C7EB6E/"/>
+      <tstamp>5A6F45AA</tstamp>
+    </comp>
+    <comp ref="R15006">
+      <value>10kΩ</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/cpu/" tstamps="/59C7EB6E/"/>
+      <tstamp>5A9FC163</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="diode" part="1N4001">
+      <aliases>
+        <alias>1N4002</alias>
+        <alias>1N4003</alias>
+        <alias>1N4004</alias>
+        <alias>1N4005</alias>
+        <alias>1N4006</alias>
+        <alias>1N4007</alias>
+        <alias>BA157</alias>
+        <alias>BA158</alias>
+        <alias>BA159</alias>
+      </aliases>
+      <description>50V 1A General Purpose Rectifier Diode, DO-41</description>
+      <docs>http://www.vishay.com/docs/88503/1n4001.pdf</docs>
+      <footprints>
+        <fp>D*DO?41*</fp>
+        <fp>D*DO?204AL*</fp>
+        <fp>D*SOD81*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4001</field>
+        <field name="Footprint">Diodes_THT:D_DO-41_SOD81_Horizontal_RM10</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="diode" part="1N4148">
+      <aliases>
+        <alias>1N4448</alias>
+        <alias>1N4149</alias>
+        <alias>1N4151</alias>
+        <alias>1N914</alias>
+        <alias>BA243</alias>
+        <alias>BA244</alias>
+        <alias>BA282</alias>
+        <alias>BA283</alias>
+        <alias>BAV17</alias>
+        <alias>BAV18</alias>
+        <alias>BAV19</alias>
+        <alias>BAV20</alias>
+        <alias>BAV21</alias>
+        <alias>BAW75</alias>
+        <alias>BAW76</alias>
+        <alias>BAY93</alias>
+      </aliases>
+      <description>100V 0.15A standard switching diode, DO-35</description>
+      <docs>http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf</docs>
+      <footprints>
+        <fp>D*DO?35*</fp>
+        <fp>D*SOD27*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4148</field>
+        <field name="Footprint">Diodes_THT:D_DO-35_SOD27_Horizontal_RM10</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="diode" part="1N5400">
+      <aliases>
+        <alias>1N5401</alias>
+        <alias>1N5402</alias>
+        <alias>1N5404</alias>
+        <alias>1N5405</alias>
+        <alias>1N5406</alias>
+        <alias>1N5407</alias>
+        <alias>1N5408</alias>
+        <alias>UF5400</alias>
+        <alias>UF5401</alias>
+        <alias>UF5402</alias>
+        <alias>UF5403</alias>
+        <alias>UF5404</alias>
+        <alias>UF5405</alias>
+        <alias>UF5406</alias>
+        <alias>UF5407</alias>
+        <alias>UF5408</alias>
+        <alias>1N5403</alias>
+      </aliases>
+      <description>50V 3A General Purpose Rectifier Diode, DO-201AD</description>
+      <docs>http://www.vishay.com/docs/88516/1n5400.pdf</docs>
+      <footprints>
+        <fp>D*DO?201AD*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N5400</field>
+        <field name="Footprint">Diodes_THT:D_DO-201AD_Horizontal_RM15</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="cmos4000" part="4016">
+      <aliases>
+        <alias>4066</alias>
+      </aliases>
+      <description>Quad Analog Switches</description>
+      <docs>http://www.ti.com/lit/ds/symlink/cd4016b.pdf</docs>
+      <footprints>
+        <fp>DIP?14*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">4016</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="input"/>
+        <pin num="6" name="~" type="input"/>
+        <pin num="7" name="VSS" type="power_in"/>
+        <pin num="8" name="~" type="passive"/>
+        <pin num="9" name="~" type="passive"/>
+        <pin num="10" name="~" type="passive"/>
+        <pin num="11" name="~" type="passive"/>
+        <pin num="12" name="~" type="input"/>
+        <pin num="13" name="~" type="input"/>
+        <pin num="14" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="modules" part="Arduino_Nano_v3.x">
+      <aliases>
+        <alias>Arduino_Nano_v2.x</alias>
+      </aliases>
+      <description>Arduino Nano v3.x</description>
+      <docs>http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf</docs>
+      <footprints>
+        <fp>Arduino*Nano*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">A</field>
+        <field name="Value">Arduino_Nano_v3.x</field>
+        <field name="Footprint">Modules:Arduino_Nano</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D1/TX" type="BiDi"/>
+        <pin num="2" name="D0/RX" type="BiDi"/>
+        <pin num="3" name="RESET" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="D2" type="BiDi"/>
+        <pin num="6" name="D3" type="BiDi"/>
+        <pin num="7" name="D4" type="BiDi"/>
+        <pin num="8" name="D5" type="BiDi"/>
+        <pin num="9" name="D6" type="BiDi"/>
+        <pin num="10" name="D7" type="BiDi"/>
+        <pin num="11" name="D8" type="BiDi"/>
+        <pin num="12" name="D9" type="BiDi"/>
+        <pin num="13" name="D10" type="BiDi"/>
+        <pin num="14" name="D11" type="BiDi"/>
+        <pin num="15" name="D12" type="BiDi"/>
+        <pin num="16" name="D13" type="BiDi"/>
+        <pin num="17" name="3V3" type="power_out"/>
+        <pin num="18" name="AREF" type="input"/>
+        <pin num="19" name="A0" type="BiDi"/>
+        <pin num="20" name="A1" type="BiDi"/>
+        <pin num="21" name="A2" type="BiDi"/>
+        <pin num="22" name="A3" type="BiDi"/>
+        <pin num="23" name="A4" type="BiDi"/>
+        <pin num="24" name="A5" type="BiDi"/>
+        <pin num="25" name="A6" type="BiDi"/>
+        <pin num="26" name="A7" type="BiDi"/>
+        <pin num="27" name="+5V" type="power_in"/>
+        <pin num="28" name="RESET" type="input"/>
+        <pin num="29" name="GND" type="power_in"/>
+        <pin num="30" name="VIN" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="transistors" part="BC547">
+      <aliases>
+        <alias>BC546</alias>
+        <alias>BC548</alias>
+        <alias>BC549</alias>
+        <alias>BC550</alias>
+        <alias>BC337</alias>
+        <alias>BC338</alias>
+      </aliases>
+      <description>45V Vce, 0.1A Ic, NPN, Small Signal Transistor, TO-92</description>
+      <docs>http://www.fairchildsemi.com/ds/BC/BC547.pdf</docs>
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BC547</field>
+        <field name="Footprint">TO_SOT_Packages_THT:TO-92_Molded_Narrow</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C" type="passive"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="transistors" part="BC557">
+      <aliases>
+        <alias>BC556</alias>
+        <alias>BC558</alias>
+        <alias>BC559</alias>
+        <alias>BC560</alias>
+        <alias>BC327</alias>
+        <alias>BC328</alias>
+      </aliases>
+      <description>45V Vce, 0.1A Ic, PNP Small Signal Transistor, TO-92</description>
+      <docs>http://www.fairchildsemi.com/ds/BC/BC557.pdf</docs>
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BC557</field>
+        <field name="Footprint">TO_SOT_Packages_THT:TO-92_Molded_Narrow</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C" type="passive"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="transistors" part="BD249">
+      <aliases>
+        <alias>BD249A</alias>
+        <alias>BD249B</alias>
+        <alias>BD249C</alias>
+      </aliases>
+      <description>25A Ic, 55V Vce, Silicon Power Transistors NPN, SOT-93</description>
+      <docs>http://www.bourns.com/data/global/pdfs/bd249.pdf</docs>
+      <footprints>
+        <fp>SOT?93*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BD249</field>
+        <field name="Footprint">TO_SOT_Packages_THT:TO-218_SOT93_Vertical</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="fan-controller_parts" part="BZX85xx">
+      <description>z-diode, bzx85 series</description>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">BZX85xx</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="CP">
+      <description>Polarised capacitor</description>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="Conn_01x02_Male">
+      <description>Generic connector, single row, 01x02</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Pin?Header?Straight?1X*</fp>
+        <fp>Pin?Header?Angled?1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="Conn_01x04_Male">
+      <description>Generic connector, single row, 01x04</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Pin?Header?Straight?1X*</fp>
+        <fp>Pin?Header?Angled?1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="Conn_01x05_Male">
+      <description>Generic connector, single row, 01x05</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Pin?Header?Straight?1X*</fp>
+        <fp>Pin?Header?Angled?1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x05_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D_TVS">
+      <description>Bidirectional transient-voltage-suppression (TVS) diode</description>
+      <docs>https://en.wikipedia.org/wiki/Transient-voltage-suppression_diode</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_TVS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="passive"/>
+        <pin num="2" name="A2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D_Zener">
+      <description>Zener Diode</description>
+      <docs>https://en.wikipedia.org/wiki/Zener_diode</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Zener</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="relays" part="FINDER-40.52">
+      <aliases>
+        <alias>FINDER-41.52</alias>
+        <alias>FINDER-44.52</alias>
+        <alias>FINDER-44.62</alias>
+        <alias>FINDER-30.22</alias>
+        <alias>RSM822</alias>
+        <alias>RM84</alias>
+      </aliases>
+      <description>FINDER 40.52, Dual Pole Relay, 5mm Pitch, 10A</description>
+      <docs>http://gfinder.findernet.com/assets/Series/353/S40EN.pdf</docs>
+      <footprints>
+        <fp>Relay*DPDT*Finder*40.52*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">FINDER-40.52</field>
+        <field name="Footprint">Relays_THT:Relay_DPDT_Finder_40.52</field>
+      </fields>
+      <pins>
+        <pin num="11" name="~" type="passive"/>
+        <pin num="12" name="~" type="passive"/>
+        <pin num="14" name="~" type="passive"/>
+        <pin num="21" name="~" type="passive"/>
+        <pin num="22" name="~" type="passive"/>
+        <pin num="24" name="~" type="passive"/>
+        <pin num="A1" name="~" type="passive"/>
+        <pin num="A2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Fuse">
+      <description>Fuse, generic</description>
+      <footprints>
+        <fp>*Fuse*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESD_Protection" part="GDT-3">
+      <description>Gas discharge tube</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">GDT-3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="regul" part="L7805">
+      <aliases>
+        <alias>L7806</alias>
+        <alias>L7808</alias>
+        <alias>L7885</alias>
+        <alias>L7809</alias>
+        <alias>L7812</alias>
+        <alias>L7815</alias>
+        <alias>L7818</alias>
+        <alias>L7824</alias>
+      </aliases>
+      <description>Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252</description>
+      <docs>http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf</docs>
+      <footprints>
+        <fp>TO?252*</fp>
+        <fp>TO?263*</fp>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">L7805</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="regul" part="L7905">
+      <aliases>
+        <alias>L7908</alias>
+        <alias>L7912</alias>
+        <alias>L7915</alias>
+        <alias>MC7905</alias>
+        <alias>MC7905.2</alias>
+        <alias>MC7906</alias>
+        <alias>MC7908</alias>
+        <alias>MC7912</alias>
+        <alias>MC7915</alias>
+        <alias>MC7918</alias>
+        <alias>MC7924</alias>
+      </aliases>
+      <description>Negative 1.5A 35V Linear Regulator, Fixed Output -5V, TO-220/TO-263</description>
+      <docs>http://www.st.com/content/ccc/resource/technical/document/datasheet/c9/16/86/41/c7/2b/45/f2/CD00000450.pdf/files/CD00000450.pdf/jcr:content/translations/en.CD00000450.pdf</docs>
+      <footprints>
+        <fp>TO?220*</fp>
+        <fp>TO?263*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">L7905</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VI" type="power_in"/>
+        <pin num="3" name="VO" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="linear" part="LM741">
+      <aliases>
+        <alias>AD8610</alias>
+        <alias>LF155</alias>
+        <alias>LF156</alias>
+        <alias>LF256</alias>
+        <alias>LF257</alias>
+        <alias>LF355</alias>
+        <alias>LF356</alias>
+        <alias>LF357</alias>
+        <alias>TL081</alias>
+        <alias>TL061</alias>
+        <alias>TL071</alias>
+      </aliases>
+      <description>Operational Amplifier, DIP-8/TO-99-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm741.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*Pitch1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>TSSOP*3x3mm*Pitch0.65mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM741</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="~" type="input"/>
+        <pin num="6" name="~" type="output"/>
+        <pin num="7" name="V+" type="power_in"/>
+        <pin num="8" name="NC" type="NotConnected"/>
+      </pins>
+    </libpart>
+    <libpart lib="mechanical" part="Mounting_Hole_PAD">
+      <description>Mounting Hole with connection</description>
+      <footprints>
+        <fp>Mounting?Hole*</fp>
+        <fp>Hole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">MK</field>
+        <field name="Value">Mounting_Hole_PAD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="fan-controller_parts" part="OP282">
+      <description>Dual/Quad, Low Power, High Speed JFET Operational Amplifiers</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">OP282</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="output"/>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="~" type="input"/>
+        <pin num="4" name="~" type="power_in"/>
+        <pin num="5" name="~" type="input"/>
+        <pin num="6" name="~" type="input"/>
+        <pin num="7" name="~" type="output"/>
+        <pin num="8" name="~" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="POT">
+      <description>Potentiometer</description>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">POT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Q_NJFET_DGS">
+      <description>Transistor N-JFET (general)</description>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NJFET_DGS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D" type="passive"/>
+        <pin num="2" name="G" type="input"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="Screw_Terminal_01x03">
+      <description>Generic screw terminal, single row, 01x03</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*Terminal*Block*:*</fp>
+        <fp>TerminalBlock*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="Screw_Terminal_01x12">
+      <description>Generic screw terminal, single row, 01x12</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*Terminal*Block*:*</fp>
+        <fp>TerminalBlock*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x12</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Transformer_1P_2S">
+      <description>Transformer, single primary, dual secondary</description>
+      <fields>
+        <field name="Reference">T</field>
+        <field name="Value">Transformer_1P_2S</field>
+      </fields>
+      <pins>
+        <pin num="1" name="AA" type="passive"/>
+        <pin num="2" name="AB" type="passive"/>
+        <pin num="3" name="SA" type="passive"/>
+        <pin num="4" name="SB" type="passive"/>
+        <pin num="5" name="SC" type="passive"/>
+        <pin num="6" name="SD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="fan-controller_parts" part="line-protector">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">line-protector</field>
+      </fields>
+      <pins>
+        <pin num="1" name="L" type="input"/>
+        <pin num="2" name="N" type="input"/>
+        <pin num="3" name="LProt" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="transistors">
+      <uri>/home/peter/Documents/project/2017-03-10_ventilator-control/git/fan-controller/project/lib/kicad-library/library/transistors.lib</uri>
+    </library>
+    <library logical="fan-controller_parts">
+      <uri>/home/peter/Documents/project/2017-03-10_ventilator-control/git/fan-controller/project/lib/custom/symbols/fan-controller_parts.lib</uri>
+    </library>
+    <library logical="modules">
+      <uri>/home/peter/Documents/project/2017-03-10_ventilator-control/git/fan-controller/project/lib/kicad-library/library/modules.lib</uri>
+    </library>
+    <library logical="ESD_Protection">
+      <uri>/home/peter/Documents/project/2017-03-10_ventilator-control/git/fan-controller/project/lib/kicad-library/library/ESD_Protection.lib</uri>
+    </library>
+    <library logical="linear">
+      <uri>/home/peter/Documents/project/2017-03-10_ventilator-control/git/fan-controller/project/lib/kicad-library/library/linear.lib</uri>
+    </library>
+    <library logical="mechanical">
+      <uri>/home/peter/Documents/project/2017-03-10_ventilator-control/git/fan-controller/project/lib/kicad-library/library/mechanical.lib</uri>
+    </library>
+    <library logical="regul">
+      <uri>/home/peter/Documents/project/2017-03-10_ventilator-control/git/fan-controller/project/lib/kicad-library/library/regul.lib</uri>
+    </library>
+    <library logical="relays">
+      <uri>/home/peter/Documents/project/2017-03-10_ventilator-control/git/fan-controller/project/lib/kicad-library/library/relays.lib</uri>
+    </library>
+    <library logical="diode">
+      <uri>/home/peter/Documents/project/2017-03-10_ventilator-control/git/fan-controller/project/lib/kicad-library/library/diode.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>/home/peter/Documents/project/2017-03-10_ventilator-control/git/fan-controller/project/lib/kicad-library/library/device.lib</uri>
+    </library>
+    <library logical="cmos4000">
+      <uri>/home/peter/Documents/project/2017-03-10_ventilator-control/git/fan-controller/project/lib/kicad-library/library/cmos4000.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/home/peter/Documents/project/2017-03-10_ventilator-control/git/fan-controller/project/lib/kicad-library/library/conn.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/comms_router/CPU_10BAUD_SCL">
+      <node ref="R15005" pin="2"/>
+      <node ref="A15001" pin="6"/>
+      <node ref="R14001" pin="2"/>
+    </net>
+    <net code="2" name="/comms_router/CPU_10BAUD_WR_EN">
+      <node ref="A15001" pin="7"/>
+      <node ref="R14008" pin="2"/>
+      <node ref="R15004" pin="2"/>
+    </net>
+    <net code="3" name="/comms_router/CPU_10BAUD_SDA">
+      <node ref="A15001" pin="5"/>
+      <node ref="R14004" pin="2"/>
+      <node ref="R15006" pin="2"/>
+    </net>
+    <net code="4" name="/comms/DETECTOR_15K_10BAUD_SDA">
+      <node ref="Q14003" pin="1"/>
+      <node ref="R14005" pin="2"/>
+      <node ref="D14001" pin="2"/>
+      <node ref="Q12004" pin="1"/>
+    </net>
+    <net code="5" name="Net-(F1009-Pad2)">
+      <node ref="J1003" pin="7"/>
+      <node ref="F1009" pin="2"/>
+    </net>
+    <net code="6" name="Net-(F1010-Pad2)">
+      <node ref="F1010" pin="2"/>
+      <node ref="J1003" pin="8"/>
+    </net>
+    <net code="7" name="Net-(F1011-Pad2)">
+      <node ref="J1003" pin="11"/>
+      <node ref="F1011" pin="2"/>
+    </net>
+    <net code="8" name="Net-(F1012-Pad2)">
+      <node ref="J1003" pin="12"/>
+      <node ref="F1012" pin="2"/>
+    </net>
+    <net code="9" name="Net-(F1008-Pad2)">
+      <node ref="F1008" pin="2"/>
+      <node ref="J1003" pin="4"/>
+    </net>
+    <net code="10" name="Net-(F1007-Pad2)">
+      <node ref="J1003" pin="3"/>
+      <node ref="F1007" pin="2"/>
+    </net>
+    <net code="11" name="Net-(F1006-Pad2)">
+      <node ref="J1003" pin="10"/>
+      <node ref="F1006" pin="2"/>
+    </net>
+    <net code="12" name="Net-(F1005-Pad2)">
+      <node ref="J1003" pin="9"/>
+      <node ref="F1005" pin="2"/>
+    </net>
+    <net code="13" name="Net-(F1004-Pad2)">
+      <node ref="J1003" pin="6"/>
+      <node ref="F1004" pin="2"/>
+    </net>
+    <net code="14" name="/cpu/RESET">
+      <node ref="R15007" pin="1"/>
+      <node ref="J1007" pin="3"/>
+    </net>
+    <net code="15" name="/cpu/CPU_HIBAUD_SDA">
+      <node ref="J1007" pin="2"/>
+      <node ref="R15002" pin="2"/>
+      <node ref="A15001" pin="23"/>
+    </net>
+    <net code="16" name="/cpu/CPU_HIBAUD_SCL">
+      <node ref="A15001" pin="24"/>
+      <node ref="R15001" pin="2"/>
+      <node ref="J1007" pin="1"/>
+    </net>
+    <net code="17" name="Earth">
+      <node ref="C10008" pin="1"/>
+      <node ref="D1016" pin="1"/>
+      <node ref="C11015" pin="2"/>
+      <node ref="C10010" pin="2"/>
+      <node ref="C10009" pin="2"/>
+      <node ref="C11016" pin="1"/>
+      <node ref="R11013" pin="2"/>
+      <node ref="D1018" pin="1"/>
+      <node ref="U11001" pin="3"/>
+      <node ref="C11005" pin="2"/>
+      <node ref="C11013" pin="2"/>
+      <node ref="C8001" pin="2"/>
+      <node ref="D1009" pin="2"/>
+      <node ref="D1009" pin="1"/>
+      <node ref="R11015" pin="2"/>
+      <node ref="R11016" pin="2"/>
+      <node ref="U1003" pin="2"/>
+      <node ref="C11014" pin="2"/>
+      <node ref="U11001" pin="5"/>
+      <node ref="C10003" pin="1"/>
+      <node ref="R11010" pin="2"/>
+      <node ref="D10001" pin="2"/>
+      <node ref="D10004" pin="1"/>
+      <node ref="C10001" pin="2"/>
+      <node ref="C10004" pin="1"/>
+      <node ref="R11009" pin="2"/>
+      <node ref="R10016" pin="2"/>
+      <node ref="C10005" pin="1"/>
+      <node ref="C10002" pin="2"/>
+      <node ref="D1013" pin="1"/>
+      <node ref="D1015" pin="1"/>
+      <node ref="R11011" pin="2"/>
+      <node ref="C11006" pin="2"/>
+      <node ref="C3010" pin="1"/>
+      <node ref="D3013" pin="2"/>
+      <node ref="C3006" pin="2"/>
+      <node ref="D3010" pin="2"/>
+      <node ref="U3002" pin="2"/>
+      <node ref="U3003" pin="1"/>
+      <node ref="C3008" pin="1"/>
+      <node ref="C3009" pin="1"/>
+      <node ref="R14010" pin="2"/>
+      <node ref="Q14003" pin="3"/>
+      <node ref="U3001" pin="2"/>
+      <node ref="C3003" pin="2"/>
+      <node ref="C3004" pin="2"/>
+      <node ref="C3002" pin="2"/>
+      <node ref="C3001" pin="2"/>
+      <node ref="D3002" pin="2"/>
+      <node ref="D3005" pin="2"/>
+      <node ref="Q15001" pin="3"/>
+      <node ref="A15001" pin="29"/>
+      <node ref="A15001" pin="4"/>
+      <node ref="Q2003" pin="3"/>
+      <node ref="C3007" pin="2"/>
+      <node ref="Q2002" pin="3"/>
+      <node ref="D3001" pin="1"/>
+      <node ref="C3005" pin="2"/>
+      <node ref="D3007" pin="2"/>
+      <node ref="R2005" pin="2"/>
+      <node ref="C5001" pin="2"/>
+      <node ref="C5002" pin="1"/>
+      <node ref="C8002" pin="1"/>
+      <node ref="F3007" pin="2"/>
+      <node ref="Q14004" pin="3"/>
+      <node ref="Q14005" pin="3"/>
+      <node ref="R14009" pin="2"/>
+      <node ref="R14003" pin="2"/>
+      <node ref="R14002" pin="2"/>
+      <node ref="D3024" pin="2"/>
+      <node ref="D3020" pin="1"/>
+      <node ref="F3006" pin="2"/>
+      <node ref="D3009" pin="1"/>
+      <node ref="D3015" pin="2"/>
+      <node ref="MK1010" pin="1"/>
+      <node ref="MK1009" pin="1"/>
+      <node ref="MK1004" pin="1"/>
+      <node ref="D13003" pin="1"/>
+      <node ref="C6006" pin="2"/>
+      <node ref="C12008" pin="2"/>
+      <node ref="C6002" pin="2"/>
+      <node ref="C12010" pin="2"/>
+      <node ref="RV13001" pin="3"/>
+      <node ref="R12008" pin="2"/>
+      <node ref="C13006" pin="1"/>
+      <node ref="C13004" pin="2"/>
+      <node ref="MK1001" pin="1"/>
+      <node ref="R13005" pin="2"/>
+      <node ref="MK1003" pin="1"/>
+      <node ref="MK1002" pin="1"/>
+      <node ref="MK1008" pin="1"/>
+      <node ref="MK1007" pin="1"/>
+      <node ref="MK1006" pin="1"/>
+      <node ref="MK1005" pin="1"/>
+      <node ref="D13001" pin="2"/>
+      <node ref="T13001" pin="4"/>
+      <node ref="C13003" pin="1"/>
+      <node ref="R13004" pin="1"/>
+      <node ref="C13007" pin="2"/>
+      <node ref="T13001" pin="5"/>
+      <node ref="C13008" pin="1"/>
+      <node ref="RV13002" pin="1"/>
+      <node ref="C13001" pin="2"/>
+      <node ref="C12012" pin="1"/>
+      <node ref="C12011" pin="2"/>
+      <node ref="C7008" pin="1"/>
+      <node ref="C12007" pin="1"/>
+      <node ref="C12005" pin="1"/>
+      <node ref="U1004" pin="2"/>
+      <node ref="C7002" pin="2"/>
+      <node ref="J1002" pin="3"/>
+      <node ref="C7003" pin="1"/>
+      <node ref="J1001" pin="3"/>
+      <node ref="C12009" pin="2"/>
+      <node ref="C7010" pin="2"/>
+      <node ref="C7009" pin="2"/>
+      <node ref="C7005" pin="1"/>
+      <node ref="D1004" pin="1"/>
+      <node ref="D1007" pin="1"/>
+      <node ref="F1006" pin="1"/>
+      <node ref="D1008" pin="1"/>
+      <node ref="D1006" pin="2"/>
+      <node ref="D1006" pin="1"/>
+      <node ref="F1004" pin="1"/>
+      <node ref="C9006" pin="2"/>
+      <node ref="D1005" pin="1"/>
+      <node ref="C9007" pin="2"/>
+      <node ref="Q12007" pin="3"/>
+      <node ref="C9002" pin="2"/>
+      <node ref="R12016" pin="2"/>
+      <node ref="C9003" pin="2"/>
+      <node ref="J1007" pin="5"/>
+      <node ref="D1001" pin="1"/>
+      <node ref="U1002" pin="2"/>
+      <node ref="C12003" pin="1"/>
+      <node ref="C12006" pin="1"/>
+      <node ref="R12004" pin="2"/>
+      <node ref="D1012" pin="1"/>
+      <node ref="D1010" pin="1"/>
+      <node ref="D1003" pin="2"/>
+      <node ref="D1003" pin="1"/>
+      <node ref="R12010" pin="2"/>
+      <node ref="F1002" pin="1"/>
+      <node ref="C6003" pin="2"/>
+      <node ref="C6007" pin="2"/>
+      <node ref="Q12003" pin="3"/>
+      <node ref="C12002" pin="1"/>
+      <node ref="C12001" pin="1"/>
+      <node ref="D1002" pin="1"/>
+      <node ref="Q12008" pin="3"/>
+      <node ref="R12019" pin="2"/>
+      <node ref="Q12004" pin="3"/>
+      <node ref="Q12002" pin="1"/>
+      <node ref="D7001" pin="2"/>
+      <node ref="R7016" pin="2"/>
+      <node ref="D7004" pin="1"/>
+      <node ref="C7001" pin="2"/>
+      <node ref="C7004" pin="1"/>
+      <node ref="R12009" pin="2"/>
+      <node ref="RV12001" pin="3"/>
+    </net>
+    <net code="18" name="/comms/Y">
+      <node ref="T13001" pin="2"/>
+      <node ref="D1015" pin="2"/>
+      <node ref="D1014" pin="1"/>
+      <node ref="D1011" pin="1"/>
+      <node ref="R1006" pin="1"/>
+      <node ref="R1004" pin="1"/>
+      <node ref="D1012" pin="2"/>
+      <node ref="D1018" pin="2"/>
+      <node ref="D1017" pin="1"/>
+      <node ref="R1002" pin="1"/>
+    </net>
+    <net code="19" name="/comms/X">
+      <node ref="D1016" pin="2"/>
+      <node ref="R1003" pin="1"/>
+      <node ref="D1011" pin="2"/>
+      <node ref="T13001" pin="1"/>
+      <node ref="D1017" pin="2"/>
+      <node ref="R1005" pin="1"/>
+      <node ref="D1014" pin="2"/>
+      <node ref="D1010" pin="2"/>
+      <node ref="D1013" pin="2"/>
+      <node ref="R1001" pin="1"/>
+    </net>
+    <net code="20" name="/comms_router/V_LOGIC">
+      <node ref="R14005" pin="1"/>
+      <node ref="R15006" pin="1"/>
+      <node ref="R15003" pin="1"/>
+      <node ref="R14007" pin="1"/>
+      <node ref="U3001" pin="3"/>
+      <node ref="A15001" pin="27"/>
+      <node ref="R15004" pin="1"/>
+      <node ref="R15005" pin="1"/>
+      <node ref="C3004" pin="1"/>
+      <node ref="J1007" pin="4"/>
+      <node ref="R15001" pin="1"/>
+      <node ref="D3008" pin="2"/>
+      <node ref="R15002" pin="1"/>
+      <node ref="Q14002" pin="1"/>
+      <node ref="Q14001" pin="1"/>
+    </net>
+    <net code="21" name="/comms/VCC">
+      <node ref="R12015" pin="1"/>
+      <node ref="C8001" pin="1"/>
+      <node ref="C6002" pin="1"/>
+      <node ref="C3005" pin="1"/>
+      <node ref="C12001" pin="2"/>
+      <node ref="C5001" pin="1"/>
+      <node ref="U12001" pin="7"/>
+      <node ref="C9003" pin="1"/>
+      <node ref="U6001" pin="7"/>
+      <node ref="R12014" pin="1"/>
+      <node ref="U6002" pin="7"/>
+      <node ref="C11015" pin="1"/>
+      <node ref="C12011" pin="1"/>
+      <node ref="U7002" pin="7"/>
+      <node ref="C7005" pin="2"/>
+      <node ref="R12001" pin="1"/>
+      <node ref="C12005" pin="2"/>
+      <node ref="C6003" pin="1"/>
+      <node ref="C9002" pin="1"/>
+      <node ref="R12011" pin="1"/>
+      <node ref="C10005" pin="2"/>
+      <node ref="C11006" pin="1"/>
+      <node ref="U11002" pin="8"/>
+      <node ref="D12001" pin="2"/>
+      <node ref="U10002" pin="7"/>
+      <node ref="U11001" pin="8"/>
+      <node ref="C12003" pin="2"/>
+      <node ref="R12012" pin="1"/>
+      <node ref="C11005" pin="1"/>
+      <node ref="U9002" pin="7"/>
+      <node ref="U9001" pin="7"/>
+      <node ref="R10001" pin="1"/>
+      <node ref="Q10001" pin="1"/>
+      <node ref="Q7001" pin="1"/>
+      <node ref="C13001" pin="1"/>
+      <node ref="C13007" pin="1"/>
+      <node ref="R7001" pin="1"/>
+      <node ref="D3016" pin="2"/>
+      <node ref="U12002" pin="7"/>
+      <node ref="U3002" pin="3"/>
+      <node ref="R12002" pin="1"/>
+      <node ref="U12003" pin="7"/>
+      <node ref="U13001" pin="8"/>
+    </net>
+    <net code="22" name="/comms/VEE">
+      <node ref="U11001" pin="4"/>
+      <node ref="U10002" pin="4"/>
+      <node ref="C7008" pin="2"/>
+      <node ref="C12006" pin="2"/>
+      <node ref="C11014" pin="1"/>
+      <node ref="U11002" pin="4"/>
+      <node ref="D3023" pin="1"/>
+      <node ref="U7002" pin="4"/>
+      <node ref="C11013" pin="1"/>
+      <node ref="C8002" pin="2"/>
+      <node ref="Q7004" pin="1"/>
+      <node ref="C10008" pin="2"/>
+      <node ref="C11016" pin="2"/>
+      <node ref="C12007" pin="2"/>
+      <node ref="C13008" pin="2"/>
+      <node ref="U6002" pin="4"/>
+      <node ref="U6001" pin="4"/>
+      <node ref="U13001" pin="4"/>
+      <node ref="C9007" pin="1"/>
+      <node ref="C9006" pin="1"/>
+      <node ref="R10010" pin="2"/>
+      <node ref="C13004" pin="1"/>
+      <node ref="Q10004" pin="1"/>
+      <node ref="C12012" pin="2"/>
+      <node ref="U9001" pin="4"/>
+      <node ref="U9002" pin="4"/>
+      <node ref="U12002" pin="4"/>
+      <node ref="R7010" pin="2"/>
+      <node ref="C12002" pin="2"/>
+      <node ref="U12003" pin="4"/>
+      <node ref="C6006" pin="1"/>
+      <node ref="C6007" pin="1"/>
+      <node ref="U12001" pin="4"/>
+      <node ref="C5002" pin="2"/>
+      <node ref="U3003" pin="3"/>
+      <node ref="C3009" pin="2"/>
+    </net>
+    <net code="23" name="/comms/OSC_25K_UNMUTE_10BAUD_SCL">
+      <node ref="D10002" pin="1"/>
+      <node ref="R14003" pin="1"/>
+      <node ref="Q14001" pin="3"/>
+    </net>
+    <net code="24" name="/comms/OSC_15K_UNMUTE_10BAUD_SDA">
+      <node ref="R14006" pin="1"/>
+      <node ref="Q14004" pin="1"/>
+      <node ref="D7002" pin="1"/>
+    </net>
+    <net code="25" name="/cpu/FAN_ON">
+      <node ref="R2003" pin="1"/>
+      <node ref="A15001" pin="8"/>
+      <node ref="R15003" pin="2"/>
+    </net>
+    <net code="26" name="Net-(F1003-Pad2)">
+      <node ref="J1003" pin="5"/>
+      <node ref="F1003" pin="2"/>
+    </net>
+    <net code="27" name="Net-(F1002-Pad2)">
+      <node ref="F1002" pin="2"/>
+      <node ref="J1003" pin="2"/>
+    </net>
+    <net code="28" name="Net-(F1008-Pad1)">
+      <node ref="U1002" pin="3"/>
+      <node ref="F1008" pin="1"/>
+      <node ref="R1002" pin="2"/>
+    </net>
+    <net code="29" name="Net-(F1007-Pad1)">
+      <node ref="F1007" pin="1"/>
+      <node ref="U1002" pin="1"/>
+      <node ref="R1001" pin="2"/>
+    </net>
+    <net code="30" name="Net-(F1001-Pad2)">
+      <node ref="J1003" pin="1"/>
+      <node ref="F1001" pin="2"/>
+    </net>
+    <net code="31" name="/psu/TR01-2">
+      <node ref="F3002" pin="1"/>
+      <node ref="J1005" pin="2"/>
+    </net>
+    <net code="32" name="/psu/TR01-1">
+      <node ref="J1005" pin="1"/>
+      <node ref="F3001" pin="1"/>
+    </net>
+    <net code="33" name="/psu/TR01-4">
+      <node ref="J1005" pin="4"/>
+      <node ref="F3004" pin="1"/>
+    </net>
+    <net code="34" name="/psu/TR01-3">
+      <node ref="J1005" pin="3"/>
+      <node ref="F3003" pin="1"/>
+    </net>
+    <net code="35" name="/psu/TR02-1">
+      <node ref="F3005" pin="1"/>
+      <node ref="J1006" pin="1"/>
+    </net>
+    <net code="36" name="/psu/V_DCDC_+18">
+      <node ref="D1005" pin="2"/>
+      <node ref="F1001" pin="1"/>
+      <node ref="R2001" pin="1"/>
+      <node ref="D2001" pin="1"/>
+      <node ref="D1002" pin="2"/>
+      <node ref="D3006" pin="1"/>
+      <node ref="D1007" pin="2"/>
+      <node ref="F1005" pin="1"/>
+      <node ref="D1008" pin="2"/>
+      <node ref="D1004" pin="2"/>
+      <node ref="F1003" pin="1"/>
+      <node ref="D3003" pin="1"/>
+      <node ref="C3001" pin="1"/>
+      <node ref="Q2001" pin="3"/>
+      <node ref="D1001" pin="2"/>
+      <node ref="K2001" pin="A2"/>
+    </net>
+    <net code="37" name="/fan-switch/L">
+      <node ref="U1001" pin="1"/>
+      <node ref="J1001" pin="1"/>
+      <node ref="F2001" pin="1"/>
+    </net>
+    <net code="38" name="Net-(J1004-Pad2)">
+      <node ref="U1001" pin="3"/>
+      <node ref="J1004" pin="2"/>
+    </net>
+    <net code="39" name="/fan-switch/NFAN">
+      <node ref="J1002" pin="2"/>
+      <node ref="K2001" pin="14"/>
+    </net>
+    <net code="40" name="/fan-switch/LFAN">
+      <node ref="K2001" pin="24"/>
+      <node ref="J1002" pin="1"/>
+    </net>
+    <net code="41" name="/psu/TR02-4">
+      <node ref="F3008" pin="1"/>
+      <node ref="J1006" pin="4"/>
+    </net>
+    <net code="42" name="/psu/TR02-3">
+      <node ref="J1006" pin="3"/>
+      <node ref="F3007" pin="1"/>
+    </net>
+    <net code="43" name="/psu/TR02-2">
+      <node ref="F3006" pin="1"/>
+      <node ref="J1006" pin="2"/>
+    </net>
+    <net code="44" name="Net-(F1012-Pad1)">
+      <node ref="U1004" pin="3"/>
+      <node ref="F1012" pin="1"/>
+      <node ref="R1006" pin="2"/>
+    </net>
+    <net code="45" name="/fan-switch/N">
+      <node ref="K2001" pin="11"/>
+      <node ref="U1001" pin="2"/>
+      <node ref="J1004" pin="1"/>
+      <node ref="J1001" pin="2"/>
+    </net>
+    <net code="46" name="Net-(F1011-Pad1)">
+      <node ref="F1011" pin="1"/>
+      <node ref="U1004" pin="1"/>
+      <node ref="R1005" pin="2"/>
+    </net>
+    <net code="47" name="Net-(F1009-Pad1)">
+      <node ref="U1003" pin="1"/>
+      <node ref="R1003" pin="2"/>
+      <node ref="F1009" pin="1"/>
+    </net>
+    <net code="48" name="Net-(F1010-Pad1)">
+      <node ref="U1003" pin="3"/>
+      <node ref="R1004" pin="2"/>
+      <node ref="F1010" pin="1"/>
+    </net>
+    <net code="49" name="Net-(D3004-Pad1)">
+      <node ref="D3006" pin="2"/>
+      <node ref="D3007" pin="1"/>
+      <node ref="D3005" pin="1"/>
+      <node ref="F3002" pin="2"/>
+      <node ref="D3004" pin="1"/>
+    </net>
+    <net code="50" name="Net-(D3001-Pad2)">
+      <node ref="D3001" pin="2"/>
+      <node ref="D3004" pin="2"/>
+      <node ref="D3002" pin="1"/>
+      <node ref="D3003" pin="2"/>
+      <node ref="F3001" pin="2"/>
+    </net>
+    <net code="51" name="Net-(D3012-Pad1)">
+      <node ref="D3015" pin="1"/>
+      <node ref="D3013" pin="1"/>
+      <node ref="F3004" pin="2"/>
+      <node ref="D3012" pin="1"/>
+      <node ref="D3014" pin="2"/>
+    </net>
+    <net code="52" name="Net-(D3009-Pad2)">
+      <node ref="F3003" pin="2"/>
+      <node ref="D3012" pin="2"/>
+      <node ref="D3009" pin="2"/>
+      <node ref="D3010" pin="1"/>
+      <node ref="D3011" pin="2"/>
+    </net>
+    <net code="53" name="Net-(C3002-Pad1)">
+      <node ref="D3011" pin="1"/>
+      <node ref="U3001" pin="1"/>
+      <node ref="D3014" pin="1"/>
+      <node ref="D3008" pin="1"/>
+      <node ref="C3002" pin="1"/>
+      <node ref="C3003" pin="1"/>
+    </net>
+    <net code="54" name="Net-(D3021-Pad1)">
+      <node ref="F3008" pin="2"/>
+      <node ref="D3024" pin="1"/>
+      <node ref="D3021" pin="1"/>
+      <node ref="D3022" pin="2"/>
+    </net>
+    <net code="55" name="Net-(D3018-Pad1)">
+      <node ref="D3019" pin="2"/>
+      <node ref="D3018" pin="1"/>
+      <node ref="F3005" pin="2"/>
+      <node ref="D3020" pin="2"/>
+    </net>
+    <net code="56" name="Net-(C3006-Pad1)">
+      <node ref="D3022" pin="1"/>
+      <node ref="D3019" pin="1"/>
+      <node ref="C3006" pin="1"/>
+      <node ref="U3002" pin="1"/>
+      <node ref="D3016" pin="1"/>
+      <node ref="C3007" pin="1"/>
+    </net>
+    <net code="57" name="Net-(C3008-Pad2)">
+      <node ref="C3008" pin="2"/>
+      <node ref="D3023" pin="2"/>
+      <node ref="U3003" pin="2"/>
+      <node ref="D3021" pin="2"/>
+      <node ref="D3018" pin="2"/>
+      <node ref="C3010" pin="2"/>
+    </net>
+    <net code="58" name="Net-(A15001-Pad20)">
+      <node ref="A15001" pin="20"/>
+    </net>
+    <net code="59" name="Net-(A15001-Pad19)">
+      <node ref="A15001" pin="19"/>
+    </net>
+    <net code="60" name="Net-(A15001-Pad18)">
+      <node ref="A15001" pin="18"/>
+    </net>
+    <net code="61" name="Net-(A15001-Pad21)">
+      <node ref="A15001" pin="21"/>
+    </net>
+    <net code="62" name="Net-(A15001-Pad22)">
+      <node ref="A15001" pin="22"/>
+    </net>
+    <net code="63" name="Net-(A15001-Pad25)">
+      <node ref="A15001" pin="25"/>
+    </net>
+    <net code="64" name="Net-(A15001-Pad26)">
+      <node ref="A15001" pin="26"/>
+    </net>
+    <net code="65" name="Net-(A15001-Pad11)">
+      <node ref="A15001" pin="11"/>
+    </net>
+    <net code="66" name="Net-(A15001-Pad12)">
+      <node ref="A15001" pin="12"/>
+    </net>
+    <net code="67" name="Net-(A15001-Pad13)">
+      <node ref="A15001" pin="13"/>
+    </net>
+    <net code="68" name="Net-(A15001-Pad14)">
+      <node ref="A15001" pin="14"/>
+    </net>
+    <net code="69" name="Net-(A15001-Pad15)">
+      <node ref="A15001" pin="15"/>
+    </net>
+    <net code="70" name="Net-(A15001-Pad1)">
+      <node ref="A15001" pin="1"/>
+    </net>
+    <net code="71" name="Net-(A15001-Pad2)">
+      <node ref="A15001" pin="2"/>
+    </net>
+    <net code="72" name="Net-(A15001-Pad9)">
+      <node ref="A15001" pin="9"/>
+    </net>
+    <net code="73" name="Net-(A15001-Pad10)">
+      <node ref="A15001" pin="10"/>
+    </net>
+    <net code="74" name="Net-(A15001-Pad30)">
+      <node ref="A15001" pin="30"/>
+    </net>
+    <net code="75" name="Net-(A15001-Pad16)">
+      <node ref="A15001" pin="16"/>
+    </net>
+    <net code="76" name="Net-(A15001-Pad17)">
+      <node ref="A15001" pin="17"/>
+    </net>
+    <net code="77" name="Net-(Q15001-Pad2)">
+      <node ref="Q15001" pin="2"/>
+      <node ref="R15007" pin="2"/>
+    </net>
+    <net code="78" name="Net-(A15001-Pad28)">
+      <node ref="A15001" pin="28"/>
+      <node ref="Q15001" pin="1"/>
+      <node ref="A15001" pin="3"/>
+    </net>
+    <net code="79" name="Net-(Q2002-Pad1)">
+      <node ref="R2001" pin="2"/>
+      <node ref="Q2002" pin="1"/>
+      <node ref="R2002" pin="1"/>
+    </net>
+    <net code="80" name="Net-(Q2001-Pad1)">
+      <node ref="R2004" pin="1"/>
+      <node ref="Q2001" pin="1"/>
+      <node ref="R2005" pin="1"/>
+    </net>
+    <net code="81" name="Net-(Q2003-Pad1)">
+      <node ref="R2004" pin="2"/>
+      <node ref="Q2003" pin="1"/>
+    </net>
+    <net code="82" name="Net-(Q2001-Pad2)">
+      <node ref="R2002" pin="2"/>
+      <node ref="Q2001" pin="2"/>
+    </net>
+    <net code="83" name="Net-(D2001-Pad2)">
+      <node ref="K2001" pin="A1"/>
+      <node ref="Q2003" pin="2"/>
+      <node ref="D2001" pin="2"/>
+    </net>
+    <net code="84" name="Net-(Q2002-Pad2)">
+      <node ref="R2003" pin="2"/>
+      <node ref="Q2002" pin="2"/>
+    </net>
+    <net code="85" name="Net-(K2001-Pad22)">
+      <node ref="K2001" pin="22"/>
+    </net>
+    <net code="86" name="Net-(K2001-Pad12)">
+      <node ref="K2001" pin="12"/>
+    </net>
+    <net code="87" name="Net-(F2001-Pad2)">
+      <node ref="K2001" pin="21"/>
+      <node ref="F2001" pin="2"/>
+    </net>
+    <net code="88" name="/comms/sub_assy/comms/detector_15k/IN">
+      <node ref="C12004" pin="2"/>
+      <node ref="C11012" pin="2"/>
+    </net>
+    <net code="89" name="/comms/sub_assy/comms/barrier/OSC_15K_SIG_OUT_10BAUD_SDA">
+      <node ref="R13001" pin="2"/>
+      <node ref="C7007" pin="1"/>
+    </net>
+    <net code="90" name="/comms/sub_assy/comms/barrier/OSC_25K_SIG_OUT_10BAUD_SCL">
+      <node ref="R13002" pin="2"/>
+      <node ref="C10007" pin="1"/>
+    </net>
+    <net code="91" name="/comms/sub_assy/comms/filter_15k/IN">
+      <node ref="U13001" pin="7"/>
+      <node ref="RV13002" pin="3"/>
+      <node ref="C11007" pin="1"/>
+    </net>
+    <net code="92" name="Net-(D14001-Pad1)">
+      <node ref="D14001" pin="1"/>
+      <node ref="R14004" pin="1"/>
+      <node ref="Q14002" pin="2"/>
+    </net>
+    <net code="93" name="Net-(Q14002-Pad3)">
+      <node ref="R14006" pin="2"/>
+      <node ref="Q14002" pin="3"/>
+      <node ref="R14010" pin="1"/>
+    </net>
+    <net code="94" name="Net-(Q14001-Pad2)">
+      <node ref="Q14001" pin="2"/>
+      <node ref="R14001" pin="1"/>
+      <node ref="R14002" pin="1"/>
+    </net>
+    <net code="95" name="Net-(Q14003-Pad2)">
+      <node ref="Q14003" pin="2"/>
+      <node ref="R14009" pin="1"/>
+      <node ref="R14008" pin="1"/>
+      <node ref="Q14005" pin="2"/>
+    </net>
+    <net code="96" name="Net-(Q14004-Pad2)">
+      <node ref="Q14004" pin="2"/>
+      <node ref="Q14005" pin="1"/>
+      <node ref="R14007" pin="2"/>
+    </net>
+    <net code="97" name="/comms/sub_assy/comms/osc_15k/sub_assy/comms/osc_15k/osc/OUT">
+      <node ref="R7011" pin="2"/>
+      <node ref="C6004" pin="1"/>
+    </net>
+    <net code="98" name="/comms/sub_assy/comms/osc_25k/sub_assy/comms/osc_25k/osc/OUT">
+      <node ref="C9004" pin="1"/>
+      <node ref="R10011" pin="2"/>
+    </net>
+    <net code="101" name="Net-(C11008-Pad2)">
+      <node ref="R11001" pin="2"/>
+      <node ref="C11008" pin="2"/>
+      <node ref="U11001" pin="2"/>
+    </net>
+    <net code="102" name="Net-(C11001-Pad2)">
+      <node ref="R11006" pin="1"/>
+      <node ref="R11001" pin="1"/>
+      <node ref="U11001" pin="1"/>
+      <node ref="C11001" pin="2"/>
+    </net>
+    <net code="103" name="Net-(C11007-Pad2)">
+      <node ref="C11007" pin="2"/>
+      <node ref="R11005" pin="1"/>
+    </net>
+    <net code="104" name="Net-(R11012-Pad2)">
+      <node ref="U11002" pin="3"/>
+      <node ref="R11012" pin="2"/>
+      <node ref="R11015" pin="1"/>
+    </net>
+    <net code="105" name="Net-(C11010-Pad2)">
+      <node ref="C11010" pin="2"/>
+      <node ref="U11002" pin="2"/>
+      <node ref="R11003" pin="2"/>
+    </net>
+    <net code="108" name="Net-(C11011-Pad2)">
+      <node ref="U11002" pin="6"/>
+      <node ref="C11011" pin="2"/>
+      <node ref="R11004" pin="2"/>
+    </net>
+    <net code="109" name="Net-(C11004-Pad1)">
+      <node ref="C11004" pin="1"/>
+      <node ref="R11013" pin="1"/>
+      <node ref="C11011" pin="1"/>
+      <node ref="R11008" pin="2"/>
+    </net>
+    <net code="110" name="Net-(C11003-Pad1)">
+      <node ref="R11007" pin="2"/>
+      <node ref="C11003" pin="1"/>
+      <node ref="C11010" pin="1"/>
+      <node ref="R11011" pin="1"/>
+    </net>
+    <net code="111" name="Net-(C11003-Pad2)">
+      <node ref="R11012" pin="1"/>
+      <node ref="R11003" pin="1"/>
+      <node ref="U11002" pin="1"/>
+      <node ref="C11003" pin="2"/>
+      <node ref="R11008" pin="1"/>
+    </net>
+    <net code="112" name="Net-(R11014-Pad2)">
+      <node ref="R11016" pin="1"/>
+      <node ref="U11002" pin="5"/>
+      <node ref="R11014" pin="2"/>
+    </net>
+    <net code="113" name="Net-(C11004-Pad2)">
+      <node ref="C11012" pin="1"/>
+      <node ref="R11014" pin="1"/>
+      <node ref="U11002" pin="7"/>
+      <node ref="R11004" pin="1"/>
+      <node ref="C11004" pin="2"/>
+    </net>
+    <net code="114" name="Net-(C11001-Pad1)">
+      <node ref="R11005" pin="2"/>
+      <node ref="C11001" pin="1"/>
+      <node ref="C11008" pin="1"/>
+      <node ref="R11009" pin="1"/>
+    </net>
+    <net code="115" name="Net-(C11002-Pad1)">
+      <node ref="R11010" pin="1"/>
+      <node ref="C11002" pin="1"/>
+      <node ref="C11009" pin="1"/>
+      <node ref="R11006" pin="2"/>
+    </net>
+    <net code="116" name="Net-(C11002-Pad2)">
+      <node ref="C11002" pin="2"/>
+      <node ref="R11002" pin="1"/>
+      <node ref="U11001" pin="7"/>
+      <node ref="R11007" pin="1"/>
+    </net>
+    <net code="117" name="Net-(C11009-Pad2)">
+      <node ref="C11009" pin="2"/>
+      <node ref="R11002" pin="2"/>
+      <node ref="U11001" pin="6"/>
+    </net>
+    <net code="118" name="Net-(D12003-Pad2)">
+      <node ref="D12003" pin="2"/>
+      <node ref="R12007" pin="2"/>
+    </net>
+    <net code="119" name="Net-(R12007-Pad1)">
+      <node ref="R12007" pin="1"/>
+      <node ref="U12003" pin="6"/>
+    </net>
+    <net code="120" name="Net-(D12004-Pad1)">
+      <node ref="Q12003" pin="2"/>
+      <node ref="R12010" pin="1"/>
+      <node ref="D12004" pin="1"/>
+    </net>
+    <net code="121" name="Net-(Q12005-Pad3)">
+      <node ref="Q12005" pin="3"/>
+      <node ref="Q12007" pin="1"/>
+    </net>
+    <net code="122" name="Net-(U12003-Pad5)">
+      <node ref="U12003" pin="5"/>
+    </net>
+    <net code="123" name="Net-(U12003-Pad1)">
+      <node ref="U12003" pin="1"/>
+    </net>
+    <net code="124" name="Net-(U12003-Pad8)">
+      <node ref="U12003" pin="8"/>
+    </net>
+    <net code="125" name="Net-(R12005-Pad2)">
+      <node ref="U12003" pin="3"/>
+      <node ref="R12008" pin="1"/>
+      <node ref="R12005" pin="2"/>
+    </net>
+    <net code="126" name="Net-(R12002-Pad2)">
+      <node ref="U12001" pin="2"/>
+      <node ref="R12002" pin="2"/>
+      <node ref="R12005" pin="1"/>
+    </net>
+    <net code="127" name="Net-(D12003-Pad1)">
+      <node ref="D12003" pin="1"/>
+      <node ref="R12017" pin="1"/>
+      <node ref="Q12007" pin="2"/>
+    </net>
+    <net code="128" name="Net-(R12003-Pad1)">
+      <node ref="R12003" pin="1"/>
+      <node ref="U12001" pin="6"/>
+    </net>
+    <net code="129" name="Net-(D12002-Pad2)">
+      <node ref="R12003" pin="2"/>
+      <node ref="D12002" pin="2"/>
+    </net>
+    <net code="130" name="Net-(Q12004-Pad2)">
+      <node ref="Q12004" pin="2"/>
+      <node ref="R12013" pin="2"/>
+    </net>
+    <net code="131" name="Net-(C12009-Pad1)">
+      <node ref="R12014" pin="2"/>
+      <node ref="C12009" pin="1"/>
+      <node ref="Q12005" pin="2"/>
+      <node ref="R12016" pin="1"/>
+    </net>
+    <net code="132" name="Net-(Q12005-Pad1)">
+      <node ref="Q12005" pin="1"/>
+      <node ref="R12011" pin="2"/>
+      <node ref="R12018" pin="1"/>
+    </net>
+    <net code="133" name="Net-(C12010-Pad1)">
+      <node ref="C12010" pin="1"/>
+      <node ref="Q12006" pin="2"/>
+      <node ref="R12019" pin="1"/>
+      <node ref="R12015" pin="2"/>
+    </net>
+    <net code="134" name="Net-(Q12006-Pad3)">
+      <node ref="Q12008" pin="1"/>
+      <node ref="Q12006" pin="3"/>
+    </net>
+    <net code="135" name="Net-(D12002-Pad1)">
+      <node ref="Q12008" pin="2"/>
+      <node ref="R12018" pin="2"/>
+      <node ref="D12002" pin="1"/>
+    </net>
+    <net code="136" name="Net-(Q12006-Pad1)">
+      <node ref="R12013" pin="1"/>
+      <node ref="R12012" pin="2"/>
+      <node ref="R12017" pin="2"/>
+      <node ref="Q12006" pin="1"/>
+    </net>
+    <net code="137" name="Net-(U12002-Pad8)">
+      <node ref="U12002" pin="8"/>
+    </net>
+    <net code="138" name="Net-(C12004-Pad1)">
+      <node ref="C12004" pin="1"/>
+      <node ref="R12009" pin="1"/>
+      <node ref="U12002" pin="3"/>
+    </net>
+    <net code="139" name="Net-(R12006-Pad1)">
+      <node ref="R12006" pin="1"/>
+      <node ref="U12002" pin="6"/>
+      <node ref="RV12001" pin="1"/>
+    </net>
+    <net code="140" name="Net-(RV12001-Pad2)">
+      <node ref="U12002" pin="2"/>
+      <node ref="RV12001" pin="2"/>
+    </net>
+    <net code="141" name="Net-(U12002-Pad5)">
+      <node ref="U12002" pin="5"/>
+    </net>
+    <net code="142" name="Net-(D12001-Pad1)">
+      <node ref="R12004" pin="1"/>
+      <node ref="D12001" pin="1"/>
+      <node ref="Q12002" pin="2"/>
+    </net>
+    <net code="143" name="Net-(Q12001-Pad3)">
+      <node ref="R12001" pin="2"/>
+      <node ref="Q12001" pin="3"/>
+    </net>
+    <net code="144" name="Net-(Q12001-Pad2)">
+      <node ref="Q12001" pin="2"/>
+      <node ref="Q12002" pin="3"/>
+    </net>
+    <net code="145" name="Net-(U12002-Pad1)">
+      <node ref="U12002" pin="1"/>
+    </net>
+    <net code="146" name="Net-(D12004-Pad2)">
+      <node ref="R12006" pin="2"/>
+      <node ref="D12004" pin="2"/>
+    </net>
+    <net code="147" name="Net-(U12001-Pad5)">
+      <node ref="U12001" pin="5"/>
+    </net>
+    <net code="148" name="Net-(U12001-Pad1)">
+      <node ref="U12001" pin="1"/>
+    </net>
+    <net code="149" name="Net-(U12001-Pad8)">
+      <node ref="U12001" pin="8"/>
+    </net>
+    <net code="150" name="Net-(C12008-Pad1)">
+      <node ref="Q12001" pin="1"/>
+      <node ref="U12001" pin="3"/>
+      <node ref="U12003" pin="2"/>
+      <node ref="C12008" pin="1"/>
+      <node ref="Q12003" pin="1"/>
+    </net>
+    <net code="151" name="Net-(RV13002-Pad2)">
+      <node ref="U13001" pin="6"/>
+      <node ref="RV13002" pin="2"/>
+    </net>
+    <net code="154" name="Net-(C13002-Pad1)">
+      <node ref="C13002" pin="1"/>
+      <node ref="C13003" pin="2"/>
+      <node ref="R13003" pin="2"/>
+    </net>
+    <net code="155" name="Net-(C13005-Pad2)">
+      <node ref="R13005" pin="1"/>
+      <node ref="U13001" pin="5"/>
+      <node ref="C13005" pin="2"/>
+    </net>
+    <net code="156" name="Net-(C13005-Pad1)">
+      <node ref="C13005" pin="1"/>
+      <node ref="C13006" pin="2"/>
+      <node ref="R13006" pin="1"/>
+    </net>
+    <net code="157" name="Net-(RV13001-Pad2)">
+      <node ref="RV13001" pin="2"/>
+      <node ref="U13001" pin="2"/>
+    </net>
+    <net code="158" name="Net-(D13001-Pad1)">
+      <node ref="D13001" pin="1"/>
+      <node ref="R13003" pin="1"/>
+      <node ref="T13001" pin="3"/>
+      <node ref="D13002" pin="1"/>
+    </net>
+    <net code="159" name="Net-(D13002-Pad2)">
+      <node ref="D13003" pin="2"/>
+      <node ref="R13006" pin="2"/>
+      <node ref="T13001" pin="6"/>
+      <node ref="D13002" pin="2"/>
+    </net>
+    <net code="160" name="Net-(R13001-Pad1)">
+      <node ref="U13001" pin="3"/>
+      <node ref="R13002" pin="1"/>
+      <node ref="R13001" pin="1"/>
+      <node ref="R13004" pin="2"/>
+    </net>
+    <net code="161" name="Net-(C13002-Pad2)">
+      <node ref="C13002" pin="2"/>
+      <node ref="U13001" pin="1"/>
+      <node ref="RV13001" pin="1"/>
+    </net>
+    <net code="162" name="Net-(C6008-Pad1)">
+      <node ref="R6003" pin="2"/>
+      <node ref="C6008" pin="1"/>
+    </net>
+    <net code="163" name="Net-(Q6001-Pad2)">
+      <node ref="RV6002" pin="2"/>
+      <node ref="Q6001" pin="2"/>
+    </net>
+    <net code="164" name="Net-(C6008-Pad2)">
+      <node ref="C6008" pin="2"/>
+      <node ref="D6002" pin="2"/>
+      <node ref="D6001" pin="1"/>
+    </net>
+    <net code="165" name="Net-(C6004-Pad2)">
+      <node ref="C6004" pin="2"/>
+      <node ref="U6002" pin="6"/>
+      <node ref="U6002" pin="2"/>
+    </net>
+    <net code="166" name="Net-(C6005-Pad2)">
+      <node ref="RV6002" pin="3"/>
+      <node ref="C6009" pin="2"/>
+      <node ref="C6005" pin="2"/>
+      <node ref="Q6001" pin="3"/>
+      <node ref="D6002" pin="1"/>
+      <node ref="R6004" pin="2"/>
+      <node ref="R6002" pin="2"/>
+    </net>
+    <net code="167" name="Net-(C6001-Pad2)">
+      <node ref="C6001" pin="2"/>
+      <node ref="R6001" pin="1"/>
+    </net>
+    <net code="168" name="Net-(RV6001-Pad2)">
+      <node ref="U6001" pin="2"/>
+      <node ref="RV6001" pin="2"/>
+    </net>
+    <net code="169" name="Net-(C6005-Pad1)">
+      <node ref="C6005" pin="1"/>
+      <node ref="R6001" pin="2"/>
+      <node ref="U6001" pin="3"/>
+      <node ref="R6002" pin="1"/>
+    </net>
+    <net code="170" name="Net-(Q6001-Pad1)">
+      <node ref="Q6001" pin="1"/>
+      <node ref="RV6001" pin="3"/>
+    </net>
+    <net code="171" name="Net-(C6009-Pad1)">
+      <node ref="RV6002" pin="1"/>
+      <node ref="D6001" pin="2"/>
+      <node ref="R6004" pin="1"/>
+      <node ref="C6009" pin="1"/>
+    </net>
+    <net code="172" name="Net-(C6001-Pad1)">
+      <node ref="RV6001" pin="1"/>
+      <node ref="U6002" pin="3"/>
+      <node ref="R6003" pin="1"/>
+      <node ref="U6001" pin="6"/>
+      <node ref="C6001" pin="1"/>
+    </net>
+    <net code="173" name="Net-(U6002-Pad5)">
+      <node ref="U6002" pin="5"/>
+    </net>
+    <net code="174" name="Net-(U6002-Pad1)">
+      <node ref="U6002" pin="1"/>
+    </net>
+    <net code="175" name="Net-(U6001-Pad5)">
+      <node ref="U6001" pin="5"/>
+    </net>
+    <net code="176" name="Net-(U6001-Pad1)">
+      <node ref="U6001" pin="1"/>
+    </net>
+    <net code="177" name="Net-(U6001-Pad8)">
+      <node ref="U6001" pin="8"/>
+    </net>
+    <net code="178" name="Net-(U6002-Pad8)">
+      <node ref="U6002" pin="8"/>
+    </net>
+    <net code="179" name="Net-(C7006-Pad2)">
+      <node ref="R7015" pin="1"/>
+      <node ref="C7006" pin="2"/>
+    </net>
+    <net code="180" name="Net-(C7006-Pad1)">
+      <node ref="C7006" pin="1"/>
+      <node ref="U7002" pin="3"/>
+      <node ref="R7016" pin="1"/>
+    </net>
+    <net code="181" name="Net-(C7001-Pad1)">
+      <node ref="C7001" pin="1"/>
+      <node ref="D7001" pin="1"/>
+      <node ref="R7001" pin="2"/>
+      <node ref="R7002" pin="2"/>
+    </net>
+    <net code="182" name="Net-(C7004-Pad2)">
+      <node ref="R7010" pin="1"/>
+      <node ref="R7007" pin="2"/>
+      <node ref="D7004" pin="2"/>
+      <node ref="C7004" pin="2"/>
+    </net>
+    <net code="183" name="Net-(Q7004-Pad2)">
+      <node ref="R7007" pin="1"/>
+      <node ref="Q7004" pin="2"/>
+    </net>
+    <net code="184" name="Net-(Q7001-Pad2)">
+      <node ref="R7002" pin="1"/>
+      <node ref="Q7001" pin="2"/>
+    </net>
+    <net code="185" name="Net-(C7007-Pad2)">
+      <node ref="U7002" pin="6"/>
+      <node ref="U7002" pin="2"/>
+      <node ref="C7007" pin="2"/>
+    </net>
+    <net code="186" name="Net-(C7002-Pad1)">
+      <node ref="Q7001" pin="3"/>
+      <node ref="C7002" pin="1"/>
+      <node ref="U7001" pin="14"/>
+      <node ref="R7003" pin="1"/>
+      <node ref="R7004" pin="1"/>
+    </net>
+    <net code="187" name="Net-(Q7003-Pad2)">
+      <node ref="Q7003" pin="2"/>
+      <node ref="R7006" pin="1"/>
+    </net>
+    <net code="188" name="Net-(D7002-Pad2)">
+      <node ref="R7005" pin="2"/>
+      <node ref="D7002" pin="2"/>
+    </net>
+    <net code="189" name="Net-(C7009-Pad1)">
+      <node ref="C7009" pin="1"/>
+      <node ref="U7001" pin="9"/>
+    </net>
+    <net code="190" name="Net-(C7003-Pad2)">
+      <node ref="C7003" pin="2"/>
+      <node ref="Q7003" pin="3"/>
+      <node ref="U7001" pin="7"/>
+      <node ref="Q7002" pin="3"/>
+      <node ref="Q7004" pin="3"/>
+      <node ref="D7003" pin="2"/>
+    </net>
+    <net code="191" name="Net-(R7012-Pad2)">
+      <node ref="R7012" pin="2"/>
+      <node ref="U7001" pin="2"/>
+    </net>
+    <net code="192" name="Net-(R7008-Pad2)">
+      <node ref="R7008" pin="2"/>
+      <node ref="U7001" pin="13"/>
+      <node ref="U7001" pin="5"/>
+    </net>
+    <net code="193" name="Net-(R7014-Pad2)">
+      <node ref="U7001" pin="3"/>
+      <node ref="R7014" pin="2"/>
+    </net>
+    <net code="194" name="Net-(R7013-Pad1)">
+      <node ref="U7001" pin="4"/>
+      <node ref="R7013" pin="1"/>
+    </net>
+    <net code="195" name="Net-(R7009-Pad2)">
+      <node ref="R7009" pin="2"/>
+      <node ref="U7001" pin="12"/>
+      <node ref="U7001" pin="6"/>
+    </net>
+    <net code="196" name="Net-(R7012-Pad1)">
+      <node ref="R7013" pin="2"/>
+      <node ref="U7001" pin="8"/>
+      <node ref="R7012" pin="1"/>
+    </net>
+    <net code="197" name="Net-(C7010-Pad1)">
+      <node ref="C7010" pin="1"/>
+      <node ref="U7001" pin="10"/>
+    </net>
+    <net code="198" name="Net-(D7003-Pad1)">
+      <node ref="R7005" pin="1"/>
+      <node ref="D7003" pin="1"/>
+      <node ref="Q7002" pin="2"/>
+    </net>
+    <net code="199" name="Net-(Q7003-Pad1)">
+      <node ref="R7004" pin="2"/>
+      <node ref="Q7003" pin="1"/>
+      <node ref="R7009" pin="1"/>
+    </net>
+    <net code="200" name="Net-(Q7002-Pad1)">
+      <node ref="R7006" pin="2"/>
+      <node ref="R7003" pin="2"/>
+      <node ref="Q7002" pin="1"/>
+      <node ref="R7008" pin="1"/>
+    </net>
+    <net code="201" name="Net-(R7014-Pad1)">
+      <node ref="R7014" pin="1"/>
+      <node ref="R7015" pin="2"/>
+      <node ref="U7001" pin="11"/>
+    </net>
+    <net code="202" name="Net-(U7002-Pad1)">
+      <node ref="U7002" pin="1"/>
+    </net>
+    <net code="203" name="Net-(U7002-Pad5)">
+      <node ref="U7002" pin="5"/>
+    </net>
+    <net code="204" name="Net-(U7002-Pad8)">
+      <node ref="U7002" pin="8"/>
+    </net>
+    <net code="205" name="Net-(R7011-Pad1)">
+      <node ref="U7001" pin="1"/>
+      <node ref="R7011" pin="1"/>
+    </net>
+    <net code="206" name="Net-(C9008-Pad1)">
+      <node ref="C9008" pin="1"/>
+      <node ref="R9003" pin="2"/>
+    </net>
+    <net code="207" name="Net-(C9004-Pad2)">
+      <node ref="U9002" pin="2"/>
+      <node ref="U9002" pin="6"/>
+      <node ref="C9004" pin="2"/>
+    </net>
+    <net code="208" name="Net-(C9008-Pad2)">
+      <node ref="D9002" pin="2"/>
+      <node ref="D9001" pin="1"/>
+      <node ref="C9008" pin="2"/>
+    </net>
+    <net code="209" name="Net-(C9009-Pad1)">
+      <node ref="D9001" pin="2"/>
+      <node ref="R9004" pin="1"/>
+      <node ref="RV9002" pin="1"/>
+      <node ref="C9009" pin="1"/>
+    </net>
+    <net code="210" name="Net-(Q9001-Pad2)">
+      <node ref="RV9002" pin="2"/>
+      <node ref="Q9001" pin="2"/>
+    </net>
+    <net code="211" name="Net-(C9005-Pad2)">
+      <node ref="Q9001" pin="3"/>
+      <node ref="R9004" pin="2"/>
+      <node ref="R9002" pin="2"/>
+      <node ref="D9002" pin="1"/>
+      <node ref="C9005" pin="2"/>
+      <node ref="C9009" pin="2"/>
+      <node ref="RV9002" pin="3"/>
+    </net>
+    <net code="212" name="Net-(C9005-Pad1)">
+      <node ref="U9001" pin="3"/>
+      <node ref="R9001" pin="2"/>
+      <node ref="R9002" pin="1"/>
+      <node ref="C9005" pin="1"/>
+    </net>
+    <net code="213" name="Net-(C9001-Pad2)">
+      <node ref="C9001" pin="2"/>
+      <node ref="R9001" pin="1"/>
+    </net>
+    <net code="214" name="Net-(RV9001-Pad2)">
+      <node ref="RV9001" pin="2"/>
+      <node ref="U9001" pin="2"/>
+    </net>
+    <net code="215" name="Net-(C9001-Pad1)">
+      <node ref="RV9001" pin="1"/>
+      <node ref="R9003" pin="1"/>
+      <node ref="C9001" pin="1"/>
+      <node ref="U9001" pin="6"/>
+      <node ref="U9002" pin="3"/>
+    </net>
+    <net code="216" name="Net-(U9001-Pad1)">
+      <node ref="U9001" pin="1"/>
+    </net>
+    <net code="217" name="Net-(Q9001-Pad1)">
+      <node ref="Q9001" pin="1"/>
+      <node ref="RV9001" pin="3"/>
+    </net>
+    <net code="218" name="Net-(U9001-Pad8)">
+      <node ref="U9001" pin="8"/>
+    </net>
+    <net code="219" name="Net-(U9002-Pad8)">
+      <node ref="U9002" pin="8"/>
+    </net>
+    <net code="220" name="Net-(U9002-Pad5)">
+      <node ref="U9002" pin="5"/>
+    </net>
+    <net code="221" name="Net-(U9002-Pad1)">
+      <node ref="U9002" pin="1"/>
+    </net>
+    <net code="222" name="Net-(U9001-Pad5)">
+      <node ref="U9001" pin="5"/>
+    </net>
+    <net code="223" name="Net-(C10003-Pad2)">
+      <node ref="Q10004" pin="3"/>
+      <node ref="C10003" pin="2"/>
+      <node ref="U10001" pin="7"/>
+      <node ref="Q10003" pin="3"/>
+      <node ref="Q10002" pin="3"/>
+      <node ref="D10003" pin="2"/>
+    </net>
+    <net code="224" name="Net-(C10002-Pad1)">
+      <node ref="R10003" pin="1"/>
+      <node ref="Q10001" pin="3"/>
+      <node ref="U10001" pin="14"/>
+      <node ref="C10002" pin="1"/>
+      <node ref="R10004" pin="1"/>
+    </net>
+    <net code="225" name="Net-(R10014-Pad2)">
+      <node ref="U10001" pin="3"/>
+      <node ref="R10014" pin="2"/>
+    </net>
+    <net code="226" name="Net-(R10011-Pad1)">
+      <node ref="R10011" pin="1"/>
+      <node ref="U10001" pin="1"/>
+    </net>
+    <net code="227" name="Net-(D10002-Pad2)">
+      <node ref="R10005" pin="2"/>
+      <node ref="D10002" pin="2"/>
+    </net>
+    <net code="228" name="Net-(D10003-Pad1)">
+      <node ref="D10003" pin="1"/>
+      <node ref="Q10002" pin="2"/>
+      <node ref="R10005" pin="1"/>
+    </net>
+    <net code="229" name="Net-(Q10003-Pad2)">
+      <node ref="Q10003" pin="2"/>
+      <node ref="R10006" pin="1"/>
+    </net>
+    <net code="230" name="Net-(C10006-Pad2)">
+      <node ref="C10006" pin="2"/>
+      <node ref="R10015" pin="1"/>
+    </net>
+    <net code="231" name="Net-(C10006-Pad1)">
+      <node ref="U10002" pin="3"/>
+      <node ref="C10006" pin="1"/>
+      <node ref="R10016" pin="1"/>
+    </net>
+    <net code="232" name="Net-(C10004-Pad2)">
+      <node ref="D10004" pin="2"/>
+      <node ref="R10010" pin="1"/>
+      <node ref="R10007" pin="2"/>
+      <node ref="C10004" pin="2"/>
+    </net>
+    <net code="233" name="Net-(Q10004-Pad2)">
+      <node ref="Q10004" pin="2"/>
+      <node ref="R10007" pin="1"/>
+    </net>
+    <net code="234" name="Net-(Q10001-Pad2)">
+      <node ref="Q10001" pin="2"/>
+      <node ref="R10002" pin="1"/>
+    </net>
+    <net code="235" name="Net-(C10001-Pad1)">
+      <node ref="R10002" pin="2"/>
+      <node ref="C10001" pin="1"/>
+      <node ref="R10001" pin="2"/>
+      <node ref="D10001" pin="1"/>
+    </net>
+    <net code="236" name="Net-(R10012-Pad2)">
+      <node ref="R10012" pin="2"/>
+      <node ref="U10001" pin="2"/>
+    </net>
+    <net code="237" name="Net-(Q10002-Pad1)">
+      <node ref="R10006" pin="2"/>
+      <node ref="R10003" pin="2"/>
+      <node ref="R10008" pin="1"/>
+      <node ref="Q10002" pin="1"/>
+    </net>
+    <net code="238" name="Net-(R10008-Pad2)">
+      <node ref="R10008" pin="2"/>
+      <node ref="U10001" pin="13"/>
+      <node ref="U10001" pin="5"/>
+    </net>
+    <net code="239" name="Net-(R10009-Pad2)">
+      <node ref="U10001" pin="12"/>
+      <node ref="R10009" pin="2"/>
+      <node ref="U10001" pin="6"/>
+    </net>
+    <net code="240" name="Net-(R10013-Pad1)">
+      <node ref="R10013" pin="1"/>
+      <node ref="U10001" pin="4"/>
+    </net>
+    <net code="241" name="Net-(Q10003-Pad1)">
+      <node ref="R10009" pin="1"/>
+      <node ref="Q10003" pin="1"/>
+      <node ref="R10004" pin="2"/>
+    </net>
+    <net code="242" name="Net-(U10002-Pad5)">
+      <node ref="U10002" pin="5"/>
+    </net>
+    <net code="243" name="Net-(U10002-Pad1)">
+      <node ref="U10002" pin="1"/>
+    </net>
+    <net code="244" name="Net-(U10002-Pad8)">
+      <node ref="U10002" pin="8"/>
+    </net>
+    <net code="245" name="Net-(C10007-Pad2)">
+      <node ref="U10002" pin="2"/>
+      <node ref="C10007" pin="2"/>
+      <node ref="U10002" pin="6"/>
+    </net>
+    <net code="246" name="Net-(C10010-Pad1)">
+      <node ref="C10010" pin="1"/>
+      <node ref="U10001" pin="10"/>
+    </net>
+    <net code="247" name="Net-(C10009-Pad1)">
+      <node ref="U10001" pin="9"/>
+      <node ref="C10009" pin="1"/>
+    </net>
+    <net code="248" name="Net-(R10014-Pad1)">
+      <node ref="R10014" pin="1"/>
+      <node ref="R10015" pin="2"/>
+      <node ref="U10001" pin="11"/>
+    </net>
+    <net code="249" name="Net-(R10012-Pad1)">
+      <node ref="R10013" pin="2"/>
+      <node ref="R10012" pin="1"/>
+      <node ref="U10001" pin="8"/>
+    </net>
+  </nets>
+</export>
