@@ -3,7 +3,7 @@
   (general
     (links 731)
     (no_connects 651)
-    (area 1.27 -173.99 314.470002 -6.86)
+    (area 0 0 0 0)
     (thickness 1.6)
     (drawings 0)
     (tracks 0)
@@ -12,13 +12,7 @@
     (nets 244)
   )
 
-  (page A3)
-  (title_block
-    (title Controller)
-    (date 2018-08-27)
-    (rev 0.1)
-  )
-
+  (page A4)
   (layers
     (0 F.Cu signal)
     (31 B.Cu signal)

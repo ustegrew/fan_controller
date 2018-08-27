@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/peter/Documents/project/2017-03-10_ventilator-control/git/fan-controller/project/schematics/controller/controller.sch</source>
-    <date>Fr 10 Aug 2018 11:43:32 CEST</date>
+    <date>Do 16 Aug 2018 08:35:58 CEST</date>
     <tool>Eeschema 4.0.7-e2-6376~61~ubuntu18.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -251,6 +251,7 @@
     </comp>
     <comp ref="D1002">
       <value>1.5KE33CA</value>
+      <footprint>Diodes_THT:D_DO-201AD_P12.70mm_Horizontal</footprint>
       <libsource lib="device" part="D_TVS"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B5E8770</tstamp>
@@ -269,30 +270,35 @@
     </comp>
     <comp ref="D1001">
       <value>1.5KE33CA</value>
+      <footprint>Diodes_THT:D_DO-201AD_P12.70mm_Horizontal</footprint>
       <libsource lib="device" part="D_TVS"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B5E8785</tstamp>
     </comp>
     <comp ref="D1003">
       <value>1.5KE33CA</value>
+      <footprint>Diodes_THT:D_DO-201AD_P12.70mm_Horizontal</footprint>
       <libsource lib="device" part="D_TVS"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B5E878C</tstamp>
     </comp>
     <comp ref="D1010">
       <value>1.5KE30CA</value>
+      <footprint>Diodes_THT:D_DO-201AD_P12.70mm_Horizontal</footprint>
       <libsource lib="device" part="D_TVS"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B5F72B0</tstamp>
     </comp>
     <comp ref="D1012">
       <value>1.5KE30CA</value>
+      <footprint>Diodes_THT:D_DO-201AD_P12.70mm_Horizontal</footprint>
       <libsource lib="device" part="D_TVS"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B5F72B7</tstamp>
     </comp>
     <comp ref="D1011">
       <value>1.5KE30CA</value>
+      <footprint>Diodes_THT:D_DO-201AD_P12.70mm_Horizontal</footprint>
       <libsource lib="device" part="D_TVS"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B5F72BE</tstamp>
@@ -329,6 +335,7 @@
     </comp>
     <comp ref="D1005">
       <value>1.5KE33CA</value>
+      <footprint>Diodes_THT:D_DO-201AD_P12.70mm_Horizontal</footprint>
       <libsource lib="device" part="D_TVS"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B5D9E04</tstamp>
@@ -347,18 +354,21 @@
     </comp>
     <comp ref="D1004">
       <value>1.5KE33CA</value>
+      <footprint>Diodes_THT:D_DO-201AD_P12.70mm_Horizontal</footprint>
       <libsource lib="device" part="D_TVS"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B5D9E19</tstamp>
     </comp>
     <comp ref="D1006">
       <value>1.5KE33CA</value>
+      <footprint>Diodes_THT:D_DO-201AD_P12.70mm_Horizontal</footprint>
       <libsource lib="device" part="D_TVS"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B5D9E20</tstamp>
     </comp>
     <comp ref="D1008">
       <value>1.5KE33CA</value>
+      <footprint>Diodes_THT:D_DO-201AD_P12.70mm_Horizontal</footprint>
       <libsource lib="device" part="D_TVS"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B5DA192</tstamp>
@@ -377,30 +387,35 @@
     </comp>
     <comp ref="D1007">
       <value>1.5KE33CA</value>
+      <footprint>Diodes_THT:D_DO-201AD_P12.70mm_Horizontal</footprint>
       <libsource lib="device" part="D_TVS"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B5DA1A7</tstamp>
     </comp>
     <comp ref="D1009">
       <value>1.5KE33CA</value>
+      <footprint>Diodes_THT:D_DO-201AD_P12.70mm_Horizontal</footprint>
       <libsource lib="device" part="D_TVS"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B5DA1AE</tstamp>
     </comp>
     <comp ref="D1013">
       <value>1.5KE30CA</value>
+      <footprint>Diodes_THT:D_DO-201AD_P12.70mm_Horizontal</footprint>
       <libsource lib="device" part="D_TVS"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B65FC44</tstamp>
     </comp>
     <comp ref="D1015">
       <value>1.5KE30CA</value>
+      <footprint>Diodes_THT:D_DO-201AD_P12.70mm_Horizontal</footprint>
       <libsource lib="device" part="D_TVS"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B65FC4A</tstamp>
     </comp>
     <comp ref="D1014">
       <value>1.5KE30CA</value>
+      <footprint>Diodes_THT:D_DO-201AD_P12.70mm_Horizontal</footprint>
       <libsource lib="device" part="D_TVS"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B65FC50</tstamp>
@@ -437,18 +452,21 @@
     </comp>
     <comp ref="D1016">
       <value>1.5KE30CA</value>
+      <footprint>Diodes_THT:D_DO-201AD_P12.70mm_Horizontal</footprint>
       <libsource lib="device" part="D_TVS"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B660220</tstamp>
     </comp>
     <comp ref="D1018">
       <value>1.5KE30CA</value>
+      <footprint>Diodes_THT:D_DO-201AD_P12.70mm_Horizontal</footprint>
       <libsource lib="device" part="D_TVS"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B660226</tstamp>
     </comp>
     <comp ref="D1017">
       <value>1.5KE30CA</value>
+      <footprint>Diodes_THT:D_DO-201AD_P12.70mm_Horizontal</footprint>
       <libsource lib="device" part="D_TVS"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B66022C</tstamp>
@@ -586,7 +604,7 @@
       <tstamp>59D1BB2B</tstamp>
     </comp>
     <comp ref="Q2002">
-      <value>BC546</value>
+      <value>BC546C</value>
       <libsource lib="transistors" part="BC546"/>
       <sheetpath names="/fan-switch/" tstamps="/59D1AD98/"/>
       <tstamp>59D1BB32</tstamp>
@@ -605,30 +623,35 @@
     </comp>
     <comp ref="D2001">
       <value>1N4148</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
       <libsource lib="diode" part="1N4148"/>
       <sheetpath names="/fan-switch/" tstamps="/59D1AD98/"/>
       <tstamp>59D1BB6A</tstamp>
     </comp>
     <comp ref="D3018">
       <value>1N5404</value>
+      <footprint>Diodes_THT:D_DO-201AD_P12.70mm_Horizontal</footprint>
       <libsource lib="diode" part="1N5404"/>
       <sheetpath names="/psu/" tstamps="/59C7EB6B/"/>
       <tstamp>59C7F318</tstamp>
     </comp>
     <comp ref="D3021">
       <value>1N5404</value>
+      <footprint>Diodes_THT:D_DO-201AD_P12.70mm_Horizontal</footprint>
       <libsource lib="diode" part="1N5404"/>
       <sheetpath names="/psu/" tstamps="/59C7EB6B/"/>
       <tstamp>59C7F46A</tstamp>
     </comp>
     <comp ref="D3019">
       <value>1N5404</value>
+      <footprint>Diodes_THT:D_DO-201AD_P12.70mm_Horizontal</footprint>
       <libsource lib="diode" part="1N5404"/>
       <sheetpath names="/psu/" tstamps="/59C7EB6B/"/>
       <tstamp>59C7F4D0</tstamp>
     </comp>
     <comp ref="D3022">
       <value>1N5404</value>
+      <footprint>Diodes_THT:D_DO-201AD_P12.70mm_Horizontal</footprint>
       <libsource lib="diode" part="1N5404"/>
       <sheetpath names="/psu/" tstamps="/59C7EB6B/"/>
       <tstamp>59C7F50D</tstamp>
@@ -661,12 +684,14 @@
     </comp>
     <comp ref="D3016">
       <value>1N4007</value>
+      <footprint>Diodes_THT:D_DO-41_SOD81_P7.62mm_Horizontal</footprint>
       <libsource lib="diode" part="1N4007"/>
       <sheetpath names="/psu/" tstamps="/59C7EB6B/"/>
       <tstamp>59C85149</tstamp>
     </comp>
     <comp ref="D3023">
       <value>1N4007</value>
+      <footprint>Diodes_THT:D_DO-41_SOD81_P7.62mm_Horizontal</footprint>
       <libsource lib="diode" part="1N4007"/>
       <sheetpath names="/psu/" tstamps="/59C7EB6B/"/>
       <tstamp>59C8535C</tstamp>
@@ -707,6 +732,7 @@
     </comp>
     <comp ref="D3008">
       <value>1N4007</value>
+      <footprint>Diodes_THT:D_DO-41_SOD81_P7.62mm_Horizontal</footprint>
       <libsource lib="diode" part="1N4007"/>
       <sheetpath names="/psu/" tstamps="/59C7EB6B/"/>
       <tstamp>59D28BDE</tstamp>
@@ -734,24 +760,28 @@
     </comp>
     <comp ref="D3010">
       <value>1N5404</value>
+      <footprint>Diodes_THT:D_DO-201AD_P12.70mm_Horizontal</footprint>
       <libsource lib="diode" part="1N5404"/>
       <sheetpath names="/psu/" tstamps="/59C7EB6B/"/>
       <tstamp>59D2C046</tstamp>
     </comp>
     <comp ref="D3013">
       <value>1N5404</value>
+      <footprint>Diodes_THT:D_DO-201AD_P12.70mm_Horizontal</footprint>
       <libsource lib="diode" part="1N5404"/>
       <sheetpath names="/psu/" tstamps="/59C7EB6B/"/>
       <tstamp>59D2C04C</tstamp>
     </comp>
     <comp ref="D3011">
       <value>1N5404</value>
+      <footprint>Diodes_THT:D_DO-201AD_P12.70mm_Horizontal</footprint>
       <libsource lib="diode" part="1N5404"/>
       <sheetpath names="/psu/" tstamps="/59C7EB6B/"/>
       <tstamp>59D2C052</tstamp>
     </comp>
     <comp ref="D3014">
       <value>1N5404</value>
+      <footprint>Diodes_THT:D_DO-201AD_P12.70mm_Horizontal</footprint>
       <libsource lib="diode" part="1N5404"/>
       <sheetpath names="/psu/" tstamps="/59C7EB6B/"/>
       <tstamp>59D2C058</tstamp>
@@ -765,36 +795,42 @@
     </comp>
     <comp ref="D3002">
       <value>1N5404</value>
+      <footprint>Diodes_THT:D_DO-201AD_P12.70mm_Horizontal</footprint>
       <libsource lib="diode" part="1N5404"/>
       <sheetpath names="/psu/" tstamps="/59C7EB6B/"/>
       <tstamp>59D32921</tstamp>
     </comp>
     <comp ref="D3005">
       <value>1N5404</value>
+      <footprint>Diodes_THT:D_DO-201AD_P12.70mm_Horizontal</footprint>
       <libsource lib="diode" part="1N5404"/>
       <sheetpath names="/psu/" tstamps="/59C7EB6B/"/>
       <tstamp>59D32927</tstamp>
     </comp>
     <comp ref="D3003">
       <value>1N5404</value>
+      <footprint>Diodes_THT:D_DO-201AD_P12.70mm_Horizontal</footprint>
       <libsource lib="diode" part="1N5404"/>
       <sheetpath names="/psu/" tstamps="/59C7EB6B/"/>
       <tstamp>59D3292D</tstamp>
     </comp>
     <comp ref="D3006">
       <value>1N5404</value>
+      <footprint>Diodes_THT:D_DO-201AD_P12.70mm_Horizontal</footprint>
       <libsource lib="diode" part="1N5404"/>
       <sheetpath names="/psu/" tstamps="/59C7EB6B/"/>
       <tstamp>59D32933</tstamp>
     </comp>
     <comp ref="D3001">
       <value>1.5KE36CA</value>
+      <footprint>Diodes_THT:D_DO-201AD_P12.70mm_Horizontal</footprint>
       <libsource lib="device" part="D_TVS"/>
       <sheetpath names="/psu/" tstamps="/59C7EB6B/"/>
       <tstamp>5B718EB2</tstamp>
     </comp>
     <comp ref="D3007">
       <value>1.5KE36CA</value>
+      <footprint>Diodes_THT:D_DO-201AD_P12.70mm_Horizontal</footprint>
       <libsource lib="device" part="D_TVS"/>
       <sheetpath names="/psu/" tstamps="/59C7EB6B/"/>
       <tstamp>5B718EB9</tstamp>
@@ -813,18 +849,21 @@
     </comp>
     <comp ref="D3004">
       <value>1.5KE36CA</value>
+      <footprint>Diodes_THT:D_DO-201AD_P12.70mm_Horizontal</footprint>
       <libsource lib="device" part="D_TVS"/>
       <sheetpath names="/psu/" tstamps="/59C7EB6B/"/>
       <tstamp>5B718EC0</tstamp>
     </comp>
     <comp ref="D3015">
       <value>1.5KE36CA</value>
+      <footprint>Diodes_THT:D_DO-201AD_P12.70mm_Horizontal</footprint>
       <libsource lib="device" part="D_TVS"/>
       <sheetpath names="/psu/" tstamps="/59C7EB6B/"/>
       <tstamp>5B722A3D</tstamp>
     </comp>
     <comp ref="D3009">
       <value>1.5KE36CA</value>
+      <footprint>Diodes_THT:D_DO-201AD_P12.70mm_Horizontal</footprint>
       <libsource lib="device" part="D_TVS"/>
       <sheetpath names="/psu/" tstamps="/59C7EB6B/"/>
       <tstamp>5B722A43</tstamp>
@@ -843,6 +882,7 @@
     </comp>
     <comp ref="D3012">
       <value>1.5KE36CA</value>
+      <footprint>Diodes_THT:D_DO-201AD_P12.70mm_Horizontal</footprint>
       <libsource lib="device" part="D_TVS"/>
       <sheetpath names="/psu/" tstamps="/59C7EB6B/"/>
       <tstamp>5B722A55</tstamp>
@@ -861,6 +901,7 @@
     </comp>
     <comp ref="D3020">
       <value>1.5KE36CA</value>
+      <footprint>Diodes_THT:D_DO-201AD_P12.70mm_Horizontal</footprint>
       <libsource lib="device" part="D_TVS"/>
       <sheetpath names="/psu/" tstamps="/59C7EB6B/"/>
       <tstamp>5B724E60</tstamp>
@@ -879,6 +920,7 @@
     </comp>
     <comp ref="D3024">
       <value>1.5KE36CA</value>
+      <footprint>Diodes_THT:D_DO-201AD_P12.70mm_Horizontal</footprint>
       <libsource lib="device" part="D_TVS"/>
       <sheetpath names="/psu/" tstamps="/59C7EB6B/"/>
       <tstamp>5B727161</tstamp>
@@ -975,12 +1017,14 @@
     </comp>
     <comp ref="D6001">
       <value>1N4148</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
       <libsource lib="diode" part="1N4148"/>
       <sheetpath names="/comms/sub_assy/comms/osc_15k/sub_assy/comms/osc_15k/osc/" tstamps="/59DA9A66/59DAC346/5A092A6C/"/>
       <tstamp>5A094A42</tstamp>
     </comp>
     <comp ref="D6002">
       <value>1N4148</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
       <libsource lib="diode" part="1N4148"/>
       <sheetpath names="/comms/sub_assy/comms/osc_15k/sub_assy/comms/osc_15k/osc/" tstamps="/59DA9A66/59DAC346/5A092A6C/"/>
       <tstamp>5A094AD5</tstamp>
@@ -1033,13 +1077,15 @@
       <tstamp>5A1B1055</tstamp>
     </comp>
     <comp ref="D7001">
-      <value>5.6V</value>
+      <value>BZX85C5V6</value>
+      <footprint>Diodes_THT:D_DO-41_SOD81_P7.62mm_Horizontal</footprint>
       <libsource lib="device" part="D_Zener"/>
       <sheetpath names="/comms/sub_assy/comms/osc_15k/sub_assy/comms/osc_15k/switch/" tstamps="/59DA9A66/59DAC346/5A092EE2/"/>
       <tstamp>5A1B1269</tstamp>
     </comp>
     <comp ref="D7004">
-      <value>5.6V</value>
+      <value>BZX85C5V6</value>
+      <footprint>Diodes_THT:D_DO-41_SOD81_P7.62mm_Horizontal</footprint>
       <libsource lib="device" part="D_Zener"/>
       <sheetpath names="/comms/sub_assy/comms/osc_15k/sub_assy/comms/osc_15k/switch/" tstamps="/59DA9A66/59DAC346/5A092EE2/"/>
       <tstamp>5A1B12EF</tstamp>
@@ -1077,7 +1123,7 @@
       <tstamp>5A1B1A61</tstamp>
     </comp>
     <comp ref="Q7001">
-      <value>BC546</value>
+      <value>BC546C</value>
       <libsource lib="transistors" part="BC546"/>
       <sheetpath names="/comms/sub_assy/comms/osc_15k/sub_assy/comms/osc_15k/switch/" tstamps="/59DA9A66/59DAC346/5A092EE2/"/>
       <tstamp>5A1B1D73</tstamp>
@@ -1109,7 +1155,7 @@
       <tstamp>5A1B0F9F</tstamp>
     </comp>
     <comp ref="Q7002">
-      <value>BC546</value>
+      <value>BC546C</value>
       <libsource lib="transistors" part="BC546"/>
       <sheetpath names="/comms/sub_assy/comms/osc_15k/sub_assy/comms/osc_15k/switch/" tstamps="/59DA9A66/59DAC346/5A092EE2/"/>
       <tstamp>5A1B1E38</tstamp>
@@ -1127,13 +1173,14 @@
       <tstamp>5A1B284B</tstamp>
     </comp>
     <comp ref="D7002">
-      <value>5.6V</value>
+      <value>BZX85C5V6</value>
+      <footprint>Diodes_THT:D_DO-41_SOD81_P7.62mm_Horizontal</footprint>
       <libsource lib="device" part="D_Zener"/>
       <sheetpath names="/comms/sub_assy/comms/osc_15k/sub_assy/comms/osc_15k/switch/" tstamps="/59DA9A66/59DAC346/5A092EE2/"/>
       <tstamp>5A1B29D4</tstamp>
     </comp>
     <comp ref="Q7003">
-      <value>BC546</value>
+      <value>BC546C</value>
       <libsource lib="transistors" part="BC546"/>
       <sheetpath names="/comms/sub_assy/comms/osc_15k/sub_assy/comms/osc_15k/switch/" tstamps="/59DA9A66/59DAC346/5A092EE2/"/>
       <tstamp>5A1B36A8</tstamp>
@@ -1235,6 +1282,7 @@
     </comp>
     <comp ref="D7003">
       <value>1N4148</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
       <libsource lib="diode" part="1N4148"/>
       <sheetpath names="/comms/sub_assy/comms/osc_15k/sub_assy/comms/osc_15k/switch/" tstamps="/59DA9A66/59DAC346/5A092EE2/"/>
       <tstamp>5B5855B2</tstamp>
@@ -1286,24 +1334,28 @@
     </comp>
     <comp ref="C9008">
       <value>1uF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/comms/sub_assy/comms/osc_25k/sub_assy/comms/osc_25k/osc/" tstamps="/59DA9A66/59DAC4E4/5A1C7282/"/>
       <tstamp>5A1B3E18</tstamp>
     </comp>
     <comp ref="C9009">
       <value>0.47uF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/comms/sub_assy/comms/osc_25k/sub_assy/comms/osc_25k/osc/" tstamps="/59DA9A66/59DAC4E4/5A1C7282/"/>
       <tstamp>5A1B3E1F</tstamp>
     </comp>
     <comp ref="C9005">
       <value>1nF</value>
+      <footprint>Capacitors_SMD:C_2220_HandSoldering</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/comms/sub_assy/comms/osc_25k/sub_assy/comms/osc_25k/osc/" tstamps="/59DA9A66/59DAC4E4/5A1C7282/"/>
       <tstamp>5A1B3E26</tstamp>
     </comp>
     <comp ref="C9001">
       <value>1nF</value>
+      <footprint>Capacitors_SMD:C_2220_HandSoldering</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/comms/sub_assy/comms/osc_25k/sub_assy/comms/osc_25k/osc/" tstamps="/59DA9A66/59DAC4E4/5A1C7282/"/>
       <tstamp>5A1B3E2D</tstamp>
@@ -1340,12 +1392,14 @@
     </comp>
     <comp ref="D9001">
       <value>1N4148</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
       <libsource lib="diode" part="1N4148"/>
       <sheetpath names="/comms/sub_assy/comms/osc_25k/sub_assy/comms/osc_25k/osc/" tstamps="/59DA9A66/59DAC4E4/5A1C7282/"/>
       <tstamp>5A1B3E6A</tstamp>
     </comp>
     <comp ref="D9002">
       <value>1N4148</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
       <libsource lib="diode" part="1N4148"/>
       <sheetpath names="/comms/sub_assy/comms/osc_25k/sub_assy/comms/osc_25k/osc/" tstamps="/59DA9A66/59DAC4E4/5A1C7282/"/>
       <tstamp>5A1B3E71</tstamp>
@@ -1398,13 +1452,15 @@
       <tstamp>5A1C92E1</tstamp>
     </comp>
     <comp ref="D10001">
-      <value>5.6V</value>
+      <value>BZX85C5V6</value>
+      <footprint>Diodes_THT:D_DO-41_SOD81_P7.62mm_Horizontal</footprint>
       <libsource lib="device" part="D_Zener"/>
       <sheetpath names="/comms/sub_assy/comms/osc_25k/sub_assy/comms/osc_25k/switch/" tstamps="/59DA9A66/59DAC4E4/5A1C7539/"/>
       <tstamp>5A1C92E8</tstamp>
     </comp>
     <comp ref="D10004">
-      <value>5.6V</value>
+      <value>BZX85C5V6</value>
+      <footprint>Diodes_THT:D_DO-41_SOD81_P7.62mm_Horizontal</footprint>
       <libsource lib="device" part="D_Zener"/>
       <sheetpath names="/comms/sub_assy/comms/osc_25k/sub_assy/comms/osc_25k/switch/" tstamps="/59DA9A66/59DAC4E4/5A1C7539/"/>
       <tstamp>5A1C92EF</tstamp>
@@ -1442,7 +1498,7 @@
       <tstamp>5A1C9312</tstamp>
     </comp>
     <comp ref="Q10001">
-      <value>BC546</value>
+      <value>BC546C</value>
       <libsource lib="transistors" part="BC546"/>
       <sheetpath names="/comms/sub_assy/comms/osc_25k/sub_assy/comms/osc_25k/switch/" tstamps="/59DA9A66/59DAC4E4/5A1C7539/"/>
       <tstamp>5A1C9319</tstamp>
@@ -1474,7 +1530,7 @@
       <tstamp>5A1C9354</tstamp>
     </comp>
     <comp ref="Q10002">
-      <value>BC546</value>
+      <value>BC546C</value>
       <libsource lib="transistors" part="BC546"/>
       <sheetpath names="/comms/sub_assy/comms/osc_25k/sub_assy/comms/osc_25k/switch/" tstamps="/59DA9A66/59DAC4E4/5A1C7539/"/>
       <tstamp>5A1C9367</tstamp>
@@ -1487,6 +1543,7 @@
     </comp>
     <comp ref="D10003">
       <value>1N4148</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
       <libsource lib="diode" part="1N4148"/>
       <sheetpath names="/comms/sub_assy/comms/osc_25k/sub_assy/comms/osc_25k/switch/" tstamps="/59DA9A66/59DAC4E4/5A1C7539/"/>
       <tstamp>5A1C9375</tstamp>
@@ -1498,13 +1555,14 @@
       <tstamp>5A1C937C</tstamp>
     </comp>
     <comp ref="D10002">
-      <value>5.6V</value>
+      <value>BZX85C5V6</value>
+      <footprint>Diodes_THT:D_DO-41_SOD81_P7.62mm_Horizontal</footprint>
       <libsource lib="device" part="D_Zener"/>
       <sheetpath names="/comms/sub_assy/comms/osc_25k/sub_assy/comms/osc_25k/switch/" tstamps="/59DA9A66/59DAC4E4/5A1C7539/"/>
       <tstamp>5A1C9383</tstamp>
     </comp>
     <comp ref="Q10003">
-      <value>BC546</value>
+      <value>BC546C</value>
       <libsource lib="transistors" part="BC546"/>
       <sheetpath names="/comms/sub_assy/comms/osc_25k/sub_assy/comms/osc_25k/switch/" tstamps="/59DA9A66/59DAC4E4/5A1C7539/"/>
       <tstamp>5A1C93D3</tstamp>
@@ -1632,12 +1690,14 @@
     </comp>
     <comp ref="C11001">
       <value>1nF</value>
+      <footprint>Capacitors_SMD:C_2220_HandSoldering</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/comms/sub_assy/comms/filter_15k/" tstamps="/59DA9A66/59DAC4E7/"/>
       <tstamp>59E38AA8</tstamp>
     </comp>
     <comp ref="C11008">
       <value>1nF</value>
+      <footprint>Capacitors_SMD:C_2220_HandSoldering</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/comms/sub_assy/comms/filter_15k/" tstamps="/59DA9A66/59DAC4E7/"/>
       <tstamp>59E38AAF</tstamp>
@@ -1682,12 +1742,14 @@
     </comp>
     <comp ref="C11002">
       <value>1nF</value>
+      <footprint>Capacitors_SMD:C_2220_HandSoldering</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/comms/sub_assy/comms/filter_15k/" tstamps="/59DA9A66/59DAC4E7/"/>
       <tstamp>59E38AE6</tstamp>
     </comp>
     <comp ref="C11009">
       <value>1nF</value>
+      <footprint>Capacitors_SMD:C_2220_HandSoldering</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/comms/sub_assy/comms/filter_15k/" tstamps="/59DA9A66/59DAC4E7/"/>
       <tstamp>59E38AED</tstamp>
@@ -1712,12 +1774,14 @@
     </comp>
     <comp ref="C11003">
       <value>910pF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/comms/sub_assy/comms/filter_15k/" tstamps="/59DA9A66/59DAC4E7/"/>
       <tstamp>59E38B10</tstamp>
     </comp>
     <comp ref="C11010">
       <value>910pF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/comms/sub_assy/comms/filter_15k/" tstamps="/59DA9A66/59DAC4E7/"/>
       <tstamp>59E38B17</tstamp>
@@ -1762,12 +1826,14 @@
     </comp>
     <comp ref="C11004">
       <value>1nF</value>
+      <footprint>Capacitors_SMD:C_2220_HandSoldering</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/comms/sub_assy/comms/filter_15k/" tstamps="/59DA9A66/59DAC4E7/"/>
       <tstamp>59E38B4C</tstamp>
     </comp>
     <comp ref="C11011">
       <value>1nF</value>
+      <footprint>Capacitors_SMD:C_2220_HandSoldering</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/comms/sub_assy/comms/filter_15k/" tstamps="/59DA9A66/59DAC4E7/"/>
       <tstamp>59E38B53</tstamp>
@@ -1843,6 +1909,7 @@
     </comp>
     <comp ref="C12004">
       <value>0.22uF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/comms/sub_assy/comms/detector_15k/" tstamps="/59DA9A66/59DAC4ED/"/>
       <tstamp>59E4EEEF</tstamp>
@@ -1875,6 +1942,7 @@
     </comp>
     <comp ref="D12004">
       <value>1N4148</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
       <libsource lib="diode" part="1N4148"/>
       <sheetpath names="/comms/sub_assy/comms/detector_15k/" tstamps="/59DA9A66/59DAC4ED/"/>
       <tstamp>59E50302</tstamp>
@@ -1923,6 +1991,7 @@
     </comp>
     <comp ref="C12008">
       <value>39nF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/comms/sub_assy/comms/detector_15k/" tstamps="/59DA9A66/59DAC4ED/"/>
       <tstamp>59E3DD35</tstamp>
@@ -2007,18 +2076,19 @@
     </comp>
     <comp ref="D12003">
       <value>1N4148</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
       <libsource lib="diode" part="1N4148"/>
       <sheetpath names="/comms/sub_assy/comms/detector_15k/" tstamps="/59DA9A66/59DAC4ED/"/>
       <tstamp>59EC467E</tstamp>
     </comp>
     <comp ref="Q12005">
-      <value>BC546</value>
+      <value>BC546C</value>
       <libsource lib="transistors" part="BC546"/>
       <sheetpath names="/comms/sub_assy/comms/detector_15k/" tstamps="/59DA9A66/59DAC4ED/"/>
       <tstamp>59EC4D04</tstamp>
     </comp>
     <comp ref="Q12007">
-      <value>BC546</value>
+      <value>BC546C</value>
       <libsource lib="transistors" part="BC546"/>
       <sheetpath names="/comms/sub_assy/comms/detector_15k/" tstamps="/59DA9A66/59DAC4ED/"/>
       <tstamp>59EC4DA7</tstamp>
@@ -2042,13 +2112,13 @@
       <tstamp>59EC6316</tstamp>
     </comp>
     <comp ref="Q12006">
-      <value>BC546</value>
+      <value>BC546C</value>
       <libsource lib="transistors" part="BC546"/>
       <sheetpath names="/comms/sub_assy/comms/detector_15k/" tstamps="/59DA9A66/59DAC4ED/"/>
       <tstamp>59EC7179</tstamp>
     </comp>
     <comp ref="Q12008">
-      <value>BC546</value>
+      <value>BC546C</value>
       <libsource lib="transistors" part="BC546"/>
       <sheetpath names="/comms/sub_assy/comms/detector_15k/" tstamps="/59DA9A66/59DAC4ED/"/>
       <tstamp>59EC717F</tstamp>
@@ -2097,24 +2167,27 @@
     </comp>
     <comp ref="D12002">
       <value>1N4148</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
       <libsource lib="diode" part="1N4148"/>
       <sheetpath names="/comms/sub_assy/comms/detector_15k/" tstamps="/59DA9A66/59DAC4ED/"/>
       <tstamp>59ED38C2</tstamp>
     </comp>
     <comp ref="Q12004">
-      <value>BC546</value>
+      <value>BC546C</value>
       <libsource lib="transistors" part="BC546"/>
       <sheetpath names="/comms/sub_assy/comms/detector_15k/" tstamps="/59DA9A66/59DAC4ED/"/>
       <tstamp>59ED55CD</tstamp>
     </comp>
     <comp ref="C12009">
-      <value>1μF</value>
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/comms/sub_assy/comms/detector_15k/" tstamps="/59DA9A66/59DAC4ED/"/>
       <tstamp>5B5BF999</tstamp>
     </comp>
     <comp ref="C12010">
-      <value>1μF</value>
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/comms/sub_assy/comms/detector_15k/" tstamps="/59DA9A66/59DAC4ED/"/>
       <tstamp>5B5C01AB</tstamp>
@@ -2183,7 +2256,7 @@
       <tstamp>59FF35FB</tstamp>
     </comp>
     <comp ref="D13003">
-      <value>1.5KE10CA</value>
+      <value>1.5KE12CA</value>
       <libsource lib="device" part="D_TVS"/>
       <sheetpath names="/comms/sub_assy/comms/barrier/" tstamps="/59DA9A66/59DAC6DD/"/>
       <tstamp>59FF3757</tstamp>
@@ -2215,6 +2288,7 @@
     </comp>
     <comp ref="C13001">
       <value>100nF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/comms/sub_assy/comms/barrier/" tstamps="/59DA9A66/59DAC6DD/"/>
       <tstamp>59FFD748</tstamp>
@@ -2240,18 +2314,20 @@
     </comp>
     <comp ref="C13003">
       <value>4.7nF</value>
+      <footprint>Capacitors_SMD:C_2220_HandSoldering</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/comms/sub_assy/comms/barrier/" tstamps="/59DA9A66/59DAC6DD/"/>
       <tstamp>5A08A237</tstamp>
     </comp>
     <comp ref="C13006">
       <value>4.7nF</value>
+      <footprint>Capacitors_SMD:C_2220_HandSoldering</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/comms/sub_assy/comms/barrier/" tstamps="/59DA9A66/59DAC6DD/"/>
       <tstamp>5A08A304</tstamp>
     </comp>
     <comp ref="Q14001">
-      <value>BC546</value>
+      <value>BC546C</value>
       <libsource lib="transistors" part="BC546"/>
       <sheetpath names="/comms_router/" tstamps="/5A9355B1/"/>
       <tstamp>5B438A1E</tstamp>
@@ -2275,13 +2351,13 @@
       <tstamp>5B438A49</tstamp>
     </comp>
     <comp ref="Q14004">
-      <value>BC546</value>
+      <value>BC546C</value>
       <libsource lib="transistors" part="BC546"/>
       <sheetpath names="/comms_router/" tstamps="/5A9355B1/"/>
       <tstamp>5B439F82</tstamp>
     </comp>
     <comp ref="Q14005">
-      <value>BC546</value>
+      <value>BC546C</value>
       <libsource lib="transistors" part="BC546"/>
       <sheetpath names="/comms_router/" tstamps="/5A9355B1/"/>
       <tstamp>5B439F8D</tstamp>
@@ -2293,7 +2369,7 @@
       <tstamp>5B439FA2</tstamp>
     </comp>
     <comp ref="Q14002">
-      <value>BC546</value>
+      <value>BC546C</value>
       <libsource lib="transistors" part="BC546"/>
       <sheetpath names="/comms_router/" tstamps="/5A9355B1/"/>
       <tstamp>5B439FB3</tstamp>
@@ -2323,13 +2399,14 @@
       <tstamp>5B439FEC</tstamp>
     </comp>
     <comp ref="Q14003">
-      <value>BC546</value>
+      <value>BC546C</value>
       <libsource lib="transistors" part="BC546"/>
       <sheetpath names="/comms_router/" tstamps="/5A9355B1/"/>
       <tstamp>5B439FD6</tstamp>
     </comp>
     <comp ref="D14001">
       <value>1N4148</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
       <libsource lib="diode" part="1N4148"/>
       <sheetpath names="/comms_router/" tstamps="/5A9355B1/"/>
       <tstamp>5B55AEF3</tstamp>
@@ -2377,13 +2454,13 @@
       <tstamp>5A6CE83F</tstamp>
     </comp>
     <comp ref="Q15001">
-      <value>BC546</value>
+      <value>BC546C</value>
       <libsource lib="transistors" part="BC546"/>
       <sheetpath names="/cpu/" tstamps="/59C7EB6E/"/>
       <tstamp>5A6D1A96</tstamp>
     </comp>
     <comp ref="R15007">
-      <value>10 kΩ</value>
+      <value>10kΩ</value>
       <libsource lib="device" part="R"/>
       <sheetpath names="/cpu/" tstamps="/59C7EB6E/"/>
       <tstamp>5A6D1B7B</tstamp>
@@ -3080,14 +3157,17 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="transistors">
-      <uri>/home/peter/Documents/project/2017-03-10_ventilator-control/git/fan-controller/project/lib/kicad-library/library/transistors.lib</uri>
+    <library logical="cmos4000">
+      <uri>/home/peter/Documents/project/2017-03-10_ventilator-control/git/fan-controller/project/lib/kicad-library/library/cmos4000.lib</uri>
     </library>
-    <library logical="fan-controller_parts">
-      <uri>/home/peter/Documents/project/2017-03-10_ventilator-control/git/fan-controller/project/lib/custom/symbols/fan-controller_parts.lib</uri>
+    <library logical="conn">
+      <uri>/home/peter/Documents/project/2017-03-10_ventilator-control/git/fan-controller/project/lib/kicad-library/library/conn.lib</uri>
     </library>
-    <library logical="modules">
-      <uri>/home/peter/Documents/project/2017-03-10_ventilator-control/git/fan-controller/project/lib/kicad-library/library/modules.lib</uri>
+    <library logical="device">
+      <uri>/home/peter/Documents/project/2017-03-10_ventilator-control/git/fan-controller/project/lib/kicad-library/library/device.lib</uri>
+    </library>
+    <library logical="diode">
+      <uri>/home/peter/Documents/project/2017-03-10_ventilator-control/git/fan-controller/project/lib/kicad-library/library/diode.lib</uri>
     </library>
     <library logical="ESD_Protection">
       <uri>/home/peter/Documents/project/2017-03-10_ventilator-control/git/fan-controller/project/lib/kicad-library/library/ESD_Protection.lib</uri>
@@ -3098,23 +3178,20 @@
     <library logical="mechanical">
       <uri>/home/peter/Documents/project/2017-03-10_ventilator-control/git/fan-controller/project/lib/kicad-library/library/mechanical.lib</uri>
     </library>
+    <library logical="modules">
+      <uri>/home/peter/Documents/project/2017-03-10_ventilator-control/git/fan-controller/project/lib/kicad-library/library/modules.lib</uri>
+    </library>
     <library logical="regul">
       <uri>/home/peter/Documents/project/2017-03-10_ventilator-control/git/fan-controller/project/lib/kicad-library/library/regul.lib</uri>
     </library>
     <library logical="relays">
       <uri>/home/peter/Documents/project/2017-03-10_ventilator-control/git/fan-controller/project/lib/kicad-library/library/relays.lib</uri>
     </library>
-    <library logical="diode">
-      <uri>/home/peter/Documents/project/2017-03-10_ventilator-control/git/fan-controller/project/lib/kicad-library/library/diode.lib</uri>
+    <library logical="transistors">
+      <uri>/home/peter/Documents/project/2017-03-10_ventilator-control/git/fan-controller/project/lib/kicad-library/library/transistors.lib</uri>
     </library>
-    <library logical="device">
-      <uri>/home/peter/Documents/project/2017-03-10_ventilator-control/git/fan-controller/project/lib/kicad-library/library/device.lib</uri>
-    </library>
-    <library logical="cmos4000">
-      <uri>/home/peter/Documents/project/2017-03-10_ventilator-control/git/fan-controller/project/lib/kicad-library/library/cmos4000.lib</uri>
-    </library>
-    <library logical="conn">
-      <uri>/home/peter/Documents/project/2017-03-10_ventilator-control/git/fan-controller/project/lib/kicad-library/library/conn.lib</uri>
+    <library logical="fan-controller_parts">
+      <uri>/home/peter/Documents/project/2017-03-10_ventilator-control/git/fan-controller/project/lib/custom/symbols/fan-controller_parts.lib</uri>
     </library>
   </libraries>
   <nets>
