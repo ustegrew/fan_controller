@@ -1,103 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:74xgxx
-LIBS:74xx
-LIBS:ac-dc
-LIBS:actel
-LIBS:adc-dac
-LIBS:allegro
-LIBS:Altera
-LIBS:analog_devices
-LIBS:analog_switches
-LIBS:atmel
-LIBS:audio
-LIBS:battery_management
-LIBS:bbd
-LIBS:bosch
-LIBS:brooktre
-LIBS:cmos4000
-LIBS:cmos_ieee
-LIBS:conn
-LIBS:contrib
-LIBS:cypress
-LIBS:dc-dc
-LIBS:device
-LIBS:digital-audio
-LIBS:diode
-LIBS:display
-LIBS:driver_gate
-LIBS:dsp
-LIBS:elec-unifil
-LIBS:ESD_Protection
-LIBS:ftdi
-LIBS:gennum
-LIBS:graphic_symbols
-LIBS:hc11
-LIBS:infineon
-LIBS:intel
-LIBS:interface
-LIBS:intersil
-LIBS:ir
-LIBS:Lattice
-LIBS:leds
-LIBS:LEM
-LIBS:linear
-LIBS:logic_programmable
-LIBS:maxim
-LIBS:mechanical
-LIBS:memory
-LIBS:microchip
-LIBS:microchip_dspic33dsc
-LIBS:microchip_pic10mcu
-LIBS:microchip_pic12mcu
-LIBS:microchip_pic16mcu
-LIBS:microchip_pic18mcu
-LIBS:microchip_pic24mcu
-LIBS:microchip_pic32mcu
-LIBS:microcontrollers
-LIBS:modules
-LIBS:motor_drivers
-LIBS:motorola
-LIBS:motors
-LIBS:msp430
-LIBS:nordicsemi
-LIBS:nxp
-LIBS:nxp_armmcu
-LIBS:onsemi
-LIBS:opto
-LIBS:Oscillators
-LIBS:philips
-LIBS:power
-LIBS:powerint
-LIBS:Power_Management
-LIBS:pspice
-LIBS:references
-LIBS:regul
-LIBS:relays
-LIBS:rfcom
-LIBS:RFSolutions
-LIBS:sensors
-LIBS:silabs
-LIBS:siliconi
-LIBS:stm8
-LIBS:stm32
-LIBS:supertex
-LIBS:switches
-LIBS:texas
-LIBS:transf
-LIBS:transistors
-LIBS:triac_thyristor
-LIBS:ttl_ieee
-LIBS:valves
-LIBS:video
-LIBS:wiznet
-LIBS:Worldsemi
-LIBS:Xicor
-LIBS:xilinx
-LIBS:zetex
-LIBS:Zilog
-LIBS:fan-controller_parts
+EESchema Schematic File Version 4
 LIBS:controller-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -112,7 +15,7 @@ Comment3 ""
 Comment4 "CPU module"
 $EndDescr
 $Comp
-L Arduino_Nano_v3.x A15001
+L modules:Arduino_Nano_v3.x A15001
 U 1 1 5A665ACA
 P 11250 5250
 F 0 "A15001" H 11050 6275 50  0000 R CNN
@@ -136,7 +39,7 @@ Wire Wire Line
 	6000 8250 12800 8250
 Connection ~ 11250 6350
 $Comp
-L R R15005
+L device:R R15005
 U 1 1 5A64974C
 P 9550 3800
 F 0 "R15005" V 9450 3800 50  0000 C CNN
@@ -147,7 +50,7 @@ F 3 "" H 9550 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R15004
+L device:R R15004
 U 1 1 5A6497C2
 P 9150 3800
 F 0 "R15004" V 9050 3800 50  0000 C CNN
@@ -188,7 +91,7 @@ Wire Wire Line
 Wire Wire Line
 	12200 5750 11750 5750
 $Comp
-L R R15002
+L device:R R15002
 U 1 1 5A6CE7F9
 P 8350 3800
 F 0 "R15002" V 8250 3800 50  0000 C CNN
@@ -199,7 +102,7 @@ F 3 "" H 8350 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R15001
+L device:R R15001
 U 1 1 5A6CE83F
 P 7950 3800
 F 0 "R15001" V 7850 3800 50  0000 C CNN
@@ -222,7 +125,7 @@ Wire Wire Line
 	7950 3950 7950 7150
 Connection ~ 7950 7150
 $Comp
-L BC546 Q15001
+L transistors:BC546 Q15001
 U 1 1 5A6D1A96
 P 12700 7800
 F 0 "Q15001" H 12900 7875 50  0000 L CNN
@@ -245,7 +148,7 @@ Wire Wire Line
 	12800 8250 12800 8000
 Connection ~ 11250 8250
 $Comp
-L R R15007
+L device:R R15007
 U 1 1 5A6D1B7B
 P 12100 7800
 F 0 "R15007" V 12180 7800 50  0000 C CNN
@@ -264,7 +167,7 @@ Wire Wire Line
 Text HLabel 6000 5050 0    60   Output ~ 0
 CPU_10BAUD_WR_EN
 $Comp
-L R R15003
+L device:R R15003
 U 1 1 5A6F45AA
 P 8750 3800
 F 0 "R15003" V 8650 3800 50  0000 C CNN
@@ -276,7 +179,7 @@ F 3 "" H 8750 3800 50  0001 C CNN
 $EndComp
 Connection ~ 8750 3250
 $Comp
-L R R15006
+L device:R R15006
 U 1 1 5A9FC163
 P 9950 3800
 F 0 "R15006" V 9850 3800 50  0000 C CNN

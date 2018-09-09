@@ -1,0 +1,45 @@
+ERC report (Sa 08 Sep 2018 22:55:34 CEST, Encoding UTF8 )
+
+***** Sheet /
+
+***** Sheet /fan-switch/
+
+***** Sheet /psu/
+
+***** Sheet /comms/
+
+***** Sheet /comms/comms/osc_15k/
+
+***** Sheet /comms/comms/osc_15k/osc_15k/osc/
+
+***** Sheet /comms/comms/osc_15k/osc_15k/switch/
+
+***** Sheet /comms/comms/osc_25k/
+
+***** Sheet /comms/comms/osc_25k/osc_25k/osc/
+
+***** Sheet /comms/comms/osc_25k/osc_25k/switch/
+
+***** Sheet /comms/comms/filter_15k/
+ErrType(12): Different net assigned to a shared pin in another unit of the same component
+    @ (344,17 mm,104,14 mm): Pin 8 on U11002 is connected to both /comms/VCC and Net-(U11002-Pad8)
+ErrType(12): Different net assigned to a shared pin in another unit of the same component
+    @ (344,17 mm,116,84 mm): Pin 4 on U11002 is connected to both /comms/VEE and Net-(U11002-Pad4)
+ErrType(12): Different net assigned to a shared pin in another unit of the same component
+    @ (180,34 mm,104,14 mm): Pin 8 on U11001 is connected to both /comms/VCC and Net-(U11001-Pad8)
+ErrType(12): Different net assigned to a shared pin in another unit of the same component
+    @ (180,34 mm,116,84 mm): Pin 4 on U11001 is connected to both /comms/VEE and Net-(U11001-Pad4)
+
+***** Sheet /comms/comms/detector_15k/
+
+***** Sheet /comms/comms/barrier/
+ErrType(12): Different net assigned to a shared pin in another unit of the same component
+    @ (231,14 mm,161,29 mm): Pin 4 on U13001 is connected to both /comms/VEE and Net-(U13001-Pad4)
+ErrType(12): Different net assigned to a shared pin in another unit of the same component
+    @ (231,14 mm,148,59 mm): Pin 8 on U13001 is connected to both /comms/VCC and Net-(U13001-Pad8)
+
+***** Sheet /comms_router/
+
+***** Sheet /cpu/
+
+ ** ERC messages: 6  Errors 6  Warnings 0

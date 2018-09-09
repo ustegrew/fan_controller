@@ -1,107 +1,10 @@
-EESchema Schematic File Version 2
-LIBS:74xgxx
-LIBS:74xx
-LIBS:ac-dc
-LIBS:actel
-LIBS:adc-dac
-LIBS:allegro
-LIBS:Altera
-LIBS:analog_devices
-LIBS:analog_switches
-LIBS:atmel
-LIBS:audio
-LIBS:battery_management
-LIBS:bbd
-LIBS:bosch
-LIBS:brooktre
-LIBS:cmos4000
-LIBS:cmos_ieee
-LIBS:conn
-LIBS:contrib
-LIBS:cypress
-LIBS:dc-dc
-LIBS:device
-LIBS:digital-audio
-LIBS:diode
-LIBS:display
-LIBS:driver_gate
-LIBS:dsp
-LIBS:elec-unifil
-LIBS:ESD_Protection
-LIBS:ftdi
-LIBS:gennum
-LIBS:graphic_symbols
-LIBS:hc11
-LIBS:infineon
-LIBS:intel
-LIBS:interface
-LIBS:intersil
-LIBS:ir
-LIBS:Lattice
-LIBS:leds
-LIBS:LEM
-LIBS:linear
-LIBS:logic_programmable
-LIBS:maxim
-LIBS:mechanical
-LIBS:memory
-LIBS:microchip
-LIBS:microchip_dspic33dsc
-LIBS:microchip_pic10mcu
-LIBS:microchip_pic12mcu
-LIBS:microchip_pic16mcu
-LIBS:microchip_pic18mcu
-LIBS:microchip_pic24mcu
-LIBS:microchip_pic32mcu
-LIBS:microcontrollers
-LIBS:modules
-LIBS:motor_drivers
-LIBS:motorola
-LIBS:motors
-LIBS:msp430
-LIBS:nordicsemi
-LIBS:nxp
-LIBS:nxp_armmcu
-LIBS:onsemi
-LIBS:opto
-LIBS:Oscillators
-LIBS:philips
-LIBS:power
-LIBS:powerint
-LIBS:Power_Management
-LIBS:pspice
-LIBS:references
-LIBS:regul
-LIBS:relays
-LIBS:rfcom
-LIBS:RFSolutions
-LIBS:sensors
-LIBS:silabs
-LIBS:siliconi
-LIBS:stm8
-LIBS:stm32
-LIBS:supertex
-LIBS:switches
-LIBS:texas
-LIBS:transf
-LIBS:transistors
-LIBS:triac_thyristor
-LIBS:ttl_ieee
-LIBS:valves
-LIBS:video
-LIBS:wiznet
-LIBS:Worldsemi
-LIBS:Xicor
-LIBS:xilinx
-LIBS:zetex
-LIBS:Zilog
-LIBS:fan-controller_parts
+EESchema Schematic File Version 4
 LIBS:controller-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 14 15
+Sheet 10 15
 Title ""
 Date "2018-02-25"
 Rev "1.0"
@@ -116,7 +19,7 @@ OSC_25K_UNMUTE_10BAUD_SCL
 Text HLabel 3000 2100 0    60   Input ~ 0
 CPU_10BAUD_SCL
 $Comp
-L BC546 Q14001
+L transistors:BC546 Q14001
 U 1 1 5B438A1E
 P 12200 2100
 F 0 "Q14001" H 12400 2175 50  0000 L CNN
@@ -127,7 +30,7 @@ F 3 "" H 12200 2100 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R14003
+L device:R R14003
 U 1 1 5B438A26
 P 12300 3150
 F 0 "R14003" V 12200 3150 50  0000 C CNN
@@ -138,7 +41,7 @@ F 3 "" H 12300 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R14001
+L device:R R14001
 U 1 1 5B438A34
 P 5350 2100
 F 0 "R14001" V 5250 2100 50  0000 C CNN
@@ -149,7 +52,7 @@ F 3 "" H 5350 2100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R14002
+L device:R R14002
 U 1 1 5B438A49
 P 11500 3150
 F 0 "R14002" V 11400 3150 50  0000 C CNN
@@ -170,7 +73,7 @@ DETECTOR_15K_10BAUD_SDA
 Text HLabel 14050 5400 2    60   Output ~ 0
 OSC_15K_UNMUTE_10BAUD_SDA
 $Comp
-L BC546 Q14004
+L transistors:BC546 Q14004
 U 1 1 5B439F82
 P 10400 7350
 F 0 "Q14004" H 10600 7425 50  0000 L CNN
@@ -183,7 +86,7 @@ $EndComp
 Text HLabel 3000 4450 0    60   BiDi ~ 0
 CPU_10BAUD_SDA
 $Comp
-L BC546 Q14005
+L transistors:BC546 Q14005
 U 1 1 5B439F8D
 P 9650 7850
 F 0 "Q14005" H 9850 7925 50  0000 L CNN
@@ -194,7 +97,7 @@ F 3 "" H 9650 7850 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R14006
+L device:R R14006
 U 1 1 5B439FA2
 P 9050 5400
 F 0 "R14006" V 8950 5400 50  0000 C CNN
@@ -205,7 +108,7 @@ F 3 "" H 9050 5400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L BC546 Q14002
+L transistors:BC546 Q14002
 U 1 1 5B439FB3
 P 8200 4450
 F 0 "Q14002" H 8400 4525 50  0000 L CNN
@@ -216,7 +119,7 @@ F 3 "" H 8200 4450 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R14010
+L device:R R14010
 U 1 1 5B439FBC
 P 8300 8250
 F 0 "R14010" V 8200 8250 50  0000 C CNN
@@ -227,7 +130,7 @@ F 3 "" H 8300 8250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R14004
+L device:R R14004
 U 1 1 5B439FCA
 P 5350 4450
 F 0 "R14004" V 5250 4450 50  0000 C CNN
@@ -238,7 +141,7 @@ F 3 "" H 5350 4450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R14008
+L device:R R14008
 U 1 1 5B439FE1
 P 5350 7350
 F 0 "R14008" V 5250 7350 50  0000 C CNN
@@ -249,7 +152,7 @@ F 3 "" H 5350 7350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R14009
+L device:R R14009
 U 1 1 5B439FEC
 P 6050 8250
 F 0 "R14009" V 5950 8250 50  0000 C CNN
@@ -260,7 +163,7 @@ F 3 "" H 6050 8250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BC546 Q14003
+L transistors:BC546 Q14003
 U 1 1 5B439FD6
 P 6700 7350
 F 0 "Q14003" H 6900 7425 50  0000 L CNN
@@ -273,7 +176,7 @@ $EndComp
 Text Notes 2900 7800 2    60   ~ 0
 10Baud bus WRITE_ENABLE\nLO: CPU Receives serial data\nHI: CPU Sends serial data
 $Comp
-L 1N4148 D14001
+L diode:1N4148 D14001
 U 1 1 5B55AEF3
 P 6800 4900
 F 0 "D14001" H 6800 5000 50  0000 C CNN
@@ -284,7 +187,7 @@ F 3 "" H 6800 4900 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L R R14007
+L device:R R14007
 U 1 1 5B5625B9
 P 9750 6800
 F 0 "R14007" V 9650 6800 50  0000 C CNN
@@ -295,16 +198,16 @@ F 3 "" H 9750 6800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	12300 2300 12300 3000
+	12300 2300 12300 2650
 Connection ~ 12300 2650
 Wire Wire Line
-	3000 1000 12300 1000
+	3000 1000 4600 1000
 Wire Wire Line
-	3000 8600 12300 8600
+	3000 8600 6050 8600
 Wire Wire Line
 	8300 1000 8300 4250
 Wire Wire Line
-	8300 4650 8300 8100
+	8300 4650 8300 5400
 Wire Wire Line
 	8300 8600 8300 8400
 Wire Wire Line
@@ -323,14 +226,14 @@ Wire Wire Line
 Wire Wire Line
 	6800 4450 6800 4750
 Wire Wire Line
-	5500 4450 8000 4450
+	5500 4450 6800 4450
 Connection ~ 6800 4450
 Wire Wire Line
-	3000 5400 6800 5400
+	3000 5400 4600 5400
 Wire Wire Line
-	5500 7350 6500 7350
+	5500 7350 6050 7350
 Wire Wire Line
-	6050 7350 6050 8100
+	6050 7350 6050 7850
 Connection ~ 6050 7350
 Wire Wire Line
 	6050 8400 6050 8600
@@ -339,12 +242,12 @@ Wire Wire Line
 	6800 7550 6800 8600
 Connection ~ 6800 8600
 Wire Wire Line
-	6800 5050 6800 7150
+	6800 5050 6800 5400
 Connection ~ 6800 5400
 Wire Wire Line
 	3000 2100 5200 2100
 Wire Wire Line
-	5500 2100 12000 2100
+	5500 2100 11500 2100
 Wire Wire Line
 	11500 3000 11500 2100
 Connection ~ 11500 2100
@@ -352,7 +255,7 @@ Wire Wire Line
 	8900 5400 8300 5400
 Connection ~ 8300 5400
 Wire Wire Line
-	9200 5400 14050 5400
+	9200 5400 10500 5400
 Wire Wire Line
 	10500 7150 10500 5400
 Connection ~ 10500 5400
@@ -360,7 +263,7 @@ Wire Wire Line
 	10500 7550 10500 8600
 Connection ~ 10500 8600
 Wire Wire Line
-	9750 6950 9750 7650
+	9750 6950 9750 7350
 Wire Wire Line
 	9750 8050 9750 8600
 Connection ~ 9750 8600
@@ -400,7 +303,7 @@ DA
 Text Notes 700  11050 0    60   ~ 0
 Notes: \n  * The communication with the periphery implements \n    ideas from the I2C bus design with the addon that we \n    encode the logic levels with AC signals between\n    controller and peripherals. For the clock we use a \n    25kHz signal, for the data we use a 15kHz signal.\n    Signal abscent = logic 0, Signal present = logic 1 \n  * The design is geared at EMC robustness, i.e. we \n    employ surge protection between controller\n    and periphery. Equipment operates in an area \n    with thunderstorms and near lightning strikes.\n  * As a trade-off, comms between controller and \n    periphery can only handle very low data rates.\n    It's no problem in this application as we\n    are handling very small amounts of data (a few bytes \n    per transferral) when receiving and sending data from / to\n    the peripherals.\n  * Serial clock is unidirectional as the clock is generated\n    by the controller with all peripheral devices listening.\n  * Serial data is bidirectional as the CPU both receives\n    and transmits data from / to the periphery devices.\n  * DETECTOR_15K_10BAUD_SDA is connected to an \n    open-collector output. It seemed best to put the \n    pullup resistor here.
 $Comp
-L R R14005
+L device:R R14005
 U 1 1 5B5761E8
 P 4600 4950
 F 0 "R14005" V 4500 4950 50  0000 C CNN
@@ -418,4 +321,42 @@ Wire Wire Line
 Wire Wire Line
 	4600 5100 4600 5400
 Connection ~ 4600 5400
+Wire Wire Line
+	12300 2650 12300 3000
+Wire Wire Line
+	8300 1000 9750 1000
+Wire Wire Line
+	8300 8600 9750 8600
+Wire Wire Line
+	11500 8600 12300 8600
+Wire Wire Line
+	6800 4450 8000 4450
+Wire Wire Line
+	6050 7350 6500 7350
+Wire Wire Line
+	6050 8600 6800 8600
+Wire Wire Line
+	6800 8600 8300 8600
+Wire Wire Line
+	6800 5400 6800 7150
+Wire Wire Line
+	11500 2100 12000 2100
+Wire Wire Line
+	8300 5400 8300 8100
+Wire Wire Line
+	10500 5400 14050 5400
+Wire Wire Line
+	10500 8600 11500 8600
+Wire Wire Line
+	9750 8600 10500 8600
+Wire Wire Line
+	9750 1000 12300 1000
+Wire Wire Line
+	9750 7350 9750 7650
+Wire Wire Line
+	6050 7850 6050 8100
+Wire Wire Line
+	4600 1000 8300 1000
+Wire Wire Line
+	4600 5400 6800 5400
 $EndSCHEMATC

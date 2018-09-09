@@ -1,103 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:74xgxx
-LIBS:74xx
-LIBS:ac-dc
-LIBS:actel
-LIBS:adc-dac
-LIBS:allegro
-LIBS:Altera
-LIBS:analog_devices
-LIBS:analog_switches
-LIBS:atmel
-LIBS:audio
-LIBS:battery_management
-LIBS:bbd
-LIBS:bosch
-LIBS:brooktre
-LIBS:cmos4000
-LIBS:cmos_ieee
-LIBS:conn
-LIBS:contrib
-LIBS:cypress
-LIBS:dc-dc
-LIBS:device
-LIBS:digital-audio
-LIBS:diode
-LIBS:display
-LIBS:driver_gate
-LIBS:dsp
-LIBS:elec-unifil
-LIBS:ESD_Protection
-LIBS:ftdi
-LIBS:gennum
-LIBS:graphic_symbols
-LIBS:hc11
-LIBS:infineon
-LIBS:intel
-LIBS:interface
-LIBS:intersil
-LIBS:ir
-LIBS:Lattice
-LIBS:leds
-LIBS:LEM
-LIBS:linear
-LIBS:logic_programmable
-LIBS:maxim
-LIBS:mechanical
-LIBS:memory
-LIBS:microchip
-LIBS:microchip_dspic33dsc
-LIBS:microchip_pic10mcu
-LIBS:microchip_pic12mcu
-LIBS:microchip_pic16mcu
-LIBS:microchip_pic18mcu
-LIBS:microchip_pic24mcu
-LIBS:microchip_pic32mcu
-LIBS:microcontrollers
-LIBS:modules
-LIBS:motor_drivers
-LIBS:motorola
-LIBS:motors
-LIBS:msp430
-LIBS:nordicsemi
-LIBS:nxp
-LIBS:nxp_armmcu
-LIBS:onsemi
-LIBS:opto
-LIBS:Oscillators
-LIBS:philips
-LIBS:power
-LIBS:powerint
-LIBS:Power_Management
-LIBS:pspice
-LIBS:references
-LIBS:regul
-LIBS:relays
-LIBS:rfcom
-LIBS:RFSolutions
-LIBS:sensors
-LIBS:silabs
-LIBS:siliconi
-LIBS:stm8
-LIBS:stm32
-LIBS:supertex
-LIBS:switches
-LIBS:texas
-LIBS:transf
-LIBS:transistors
-LIBS:triac_thyristor
-LIBS:ttl_ieee
-LIBS:valves
-LIBS:video
-LIBS:wiznet
-LIBS:Worldsemi
-LIBS:Xicor
-LIBS:xilinx
-LIBS:zetex
-LIBS:Zilog
-LIBS:fan-controller_parts
+EESchema Schematic File Version 4
 LIBS:controller-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -112,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L TL061 U12002
+L Amplifier_Operational:TL061 U12002
 U 1 1 59E4ED22
 P 2550 4200
 F 0 "U12002" H 2550 4450 50  0000 L CNN
@@ -123,7 +26,7 @@ F 3 "" H 2700 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R12009
+L device:R R12009
 U 1 1 59E4EE64
 P 1700 5950
 F 0 "R12009" H 1750 6000 50  0000 L CNN
@@ -134,7 +37,7 @@ F 3 "" H 1700 5950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C12004
+L Device:C C12004
 U 1 1 59E4EEEF
 P 1300 4100
 F 0 "C12004" V 1450 4100 50  0000 C CNN
@@ -145,7 +48,7 @@ F 3 "" H 1300 4100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L POT RV12001
+L device:POT_TRIM RV12001
 U 1 1 59E4F42E
 P 3250 5950
 F 0 "RV12001" H 3200 6000 50  0000 R CNN
@@ -156,7 +59,7 @@ F 3 "" H 3250 5950 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	2850 4200 3700 4200
+	2850 4200 3250 4200
 Wire Wire Line
 	3250 4200 3250 5800
 Wire Wire Line
@@ -166,14 +69,14 @@ Wire Wire Line
 Wire Wire Line
 	2150 4300 2250 4300
 Wire Wire Line
-	1450 4100 2250 4100
+	1450 4100 1700 4100
 Wire Wire Line
 	1700 5800 1700 4100
 Connection ~ 1700 4100
 NoConn ~ 2550 4500
 NoConn ~ 2650 4500
 $Comp
-L C C12006
+L Device:C C12006
 U 1 1 59E4FB10
 P 2700 4700
 F 0 "C12006" V 2850 4700 50  0000 C CNN
@@ -184,7 +87,7 @@ F 3 "" H 2700 4700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C C12003
+L Device:C C12003
 U 1 1 59E4FBB7
 P 2700 3700
 F 0 "C12003" V 2450 3700 50  0000 C CNN
@@ -195,24 +98,24 @@ F 3 "" H 2700 3700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2450 3200 2450 3900
+	2450 3200 2450 3700
 Wire Wire Line
 	2450 3700 2550 3700
 Wire Wire Line
 	2550 4700 2450 4700
 Wire Wire Line
-	2450 4500 2450 5200
+	2450 4500 2450 4700
 Wire Wire Line
 	2850 3700 2950 3700
 Wire Wire Line
-	2950 3700 2950 5200
+	2950 3700 2950 4700
 Wire Wire Line
 	2950 4700 2850 4700
 Connection ~ 2950 4700
 Text Label 2950 5200 0    60   ~ 0
 _GND
 $Comp
-L R R12006
+L device:R R12006
 U 1 1 59E4FF49
 P 3700 4700
 F 0 "R12006" H 3750 4750 50  0000 L CNN
@@ -230,7 +133,7 @@ _VCC
 Text Label 2450 5200 0    60   ~ 0
 _VEE
 $Comp
-L 1N4148 D12004
+L diode:1N4148 D12004
 U 1 1 59E50302
 P 3700 5300
 F 0 "D12004" V 3750 5350 50  0000 L CNN
@@ -241,7 +144,7 @@ F 3 "" H 3700 5300 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L R R12010
+L device:R R12010
 U 1 1 59E51433
 P 3700 5950
 F 0 "R12010" H 3750 6000 50  0000 L CNN
@@ -252,7 +155,7 @@ F 3 "" H 3700 5950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BC546 Q12003
+L Transistor_BJT:BC546 Q12003
 U 1 1 59E5163C
 P 4150 5650
 F 0 "Q12003" H 4350 5725 50  0000 L CNN
@@ -267,10 +170,10 @@ Wire Wire Line
 Wire Wire Line
 	3700 4850 3700 5150
 Wire Wire Line
-	3700 5450 3700 5800
+	3700 5450 3700 5650
 Connection ~ 3700 5650
 $Comp
-L BZX85xx D12001
+L fan-controller_parts:BZX85xx D12001
 U 1 1 59E53CA2
 P 4900 1450
 F 0 "D12001" V 4900 1550 60  0000 L CNN
@@ -281,7 +184,7 @@ F 3 "" H 4900 1450 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R12004
+L device:R R12004
 U 1 1 59E55CC2
 P 4900 3000
 F 0 "R12004" H 4800 3050 50  0000 R CNN
@@ -292,7 +195,7 @@ F 3 "" H 4900 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BC556 Q12002
+L Transistor_BJT:BC556 Q12002
 U 1 1 59E55E16
 P 5300 2600
 F 0 "Q12002" H 5500 2675 50  0000 L CNN
@@ -303,12 +206,12 @@ F 3 "" H 5300 2600 50  0001 L CNN
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	4900 1650 4900 2850
+	4900 1650 4900 2600
 Wire Wire Line
 	5100 2600 4900 2600
 Connection ~ 4900 2600
 $Comp
-L BC556 Q12001
+L Transistor_BJT:BC556 Q12001
 U 1 1 59E56441
 P 5900 2100
 F 0 "Q12001" H 6100 2175 50  0000 L CNN
@@ -319,7 +222,7 @@ F 3 "" H 5900 2100 50  0001 L CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L R R12001
+L device:R R12001
 U 1 1 59E3B3D7
 P 6000 1550
 F 0 "R12001" H 5900 1600 50  0000 R CNN
@@ -330,11 +233,11 @@ F 3 "" H 6000 1550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1700 6100 1700 8800
+	1700 6100 1700 8450
 Wire Wire Line
 	3250 6100 3250 8450
 Wire Wire Line
-	1700 8450 13700 8450
+	1700 8450 3250 8450
 Connection ~ 1700 8450
 Wire Wire Line
 	3700 8450 3700 6100
@@ -347,7 +250,7 @@ Wire Wire Line
 Connection ~ 4250 8450
 Connection ~ 4900 8450
 $Comp
-L C C12008
+L Device:C C12008
 U 1 1 59E3DD35
 P 6000 5650
 F 0 "C12008" H 6025 5750 50  0000 L CNN
@@ -364,13 +267,13 @@ Wire Wire Line
 Wire Wire Line
 	6000 1700 6000 1900
 Wire Wire Line
-	6000 2300 6000 5500
+	6000 2300 6000 3700
 Wire Wire Line
 	5400 8450 5400 2800
 Wire Wire Line
 	4250 5450 4250 3700
 Wire Wire Line
-	4250 3700 7500 3700
+	4250 3700 6000 3700
 Connection ~ 6000 3700
 Wire Wire Line
 	6000 8450 6000 5800
@@ -378,7 +281,7 @@ Connection ~ 5400 8450
 Wire Wire Line
 	4900 1350 4900 1000
 Wire Wire Line
-	4250 1000 12750 1000
+	4250 1000 4900 1000
 Wire Wire Line
 	6000 1000 6000 1400
 Connection ~ 4900 1000
@@ -387,7 +290,7 @@ _VCC
 Text Label 1700 8800 0    60   ~ 0
 _GND
 $Comp
-L R R12002
+L device:R R12002
 U 1 1 59E3FAE1
 P 6850 1550
 F 0 "R12002" H 6750 1600 50  0000 R CNN
@@ -398,7 +301,7 @@ F 3 "" H 6850 1550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R12005
+L device:R R12005
 U 1 1 59E40074
 P 6850 3100
 F 0 "R12005" H 6750 3150 50  0000 R CNN
@@ -409,7 +312,7 @@ F 3 "" H 6850 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R12008
+L device:R R12008
 U 1 1 59E4011C
 P 6850 5650
 F 0 "R12008" H 6750 5700 50  0000 R CNN
@@ -423,16 +326,16 @@ Wire Wire Line
 	6850 1000 6850 1400
 Connection ~ 6000 1000
 Wire Wire Line
-	6850 3250 6850 5500
+	6850 3250 6850 4700
 Wire Wire Line
 	6850 8450 6850 5800
 Connection ~ 6000 8450
 Connection ~ 6850 4700
 Wire Wire Line
-	7500 2400 7500 4900
+	7500 2400 7500 3700
 Connection ~ 7500 3700
 $Comp
-L TL061 U12001
+L Amplifier_Operational:TL061 U12001
 U 1 1 59E41B34
 P 8250 2500
 F 0 "U12001" H 8250 2750 50  0000 L CNN
@@ -445,7 +348,7 @@ $EndComp
 NoConn ~ 8250 2800
 NoConn ~ 8350 2800
 $Comp
-L C C12002
+L Device:C C12002
 U 1 1 59E41B42
 P 8400 3000
 F 0 "C12002" V 8550 3000 50  0000 C CNN
@@ -456,7 +359,7 @@ F 3 "" H 8400 3000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C C12001
+L Device:C C12001
 U 1 1 59E41B48
 P 8400 2000
 F 0 "C12001" V 8150 2000 50  0000 C CNN
@@ -467,11 +370,11 @@ F 3 "" H 8400 2000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	8050 2000 8250 2000
+	8050 2000 8150 2000
 Wire Wire Line
 	8150 2000 8150 2200
 Wire Wire Line
-	8050 3000 8250 3000
+	8050 3000 8150 3000
 Wire Wire Line
 	8150 3000 8150 2800
 Wire Wire Line
@@ -479,7 +382,7 @@ Wire Wire Line
 Wire Wire Line
 	8650 2000 8650 3000
 Wire Wire Line
-	8550 3000 8750 3000
+	8550 3000 8650 3000
 Connection ~ 8650 3000
 Text Label 8750 3000 0    60   ~ 0
 _GND
@@ -490,7 +393,7 @@ _VCC
 Text Label 8050 3000 2    60   ~ 0
 _VEE
 $Comp
-L TL061 U12003
+L Amplifier_Operational:TL061 U12003
 U 1 1 59E42BAC
 P 8300 4800
 F 0 "U12003" H 8300 5050 50  0000 L CNN
@@ -503,7 +406,7 @@ $EndComp
 NoConn ~ 8300 5100
 NoConn ~ 8400 5100
 $Comp
-L C C12007
+L Device:C C12007
 U 1 1 59E42BB4
 P 8450 5300
 F 0 "C12007" V 8600 5300 50  0000 C CNN
@@ -514,7 +417,7 @@ F 3 "" H 8450 5300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C C12005
+L Device:C C12005
 U 1 1 59E42BBA
 P 8450 4300
 F 0 "C12005" V 8200 4300 50  0000 C CNN
@@ -525,11 +428,11 @@ F 3 "" H 8450 4300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	8100 4300 8300 4300
+	8100 4300 8200 4300
 Wire Wire Line
 	8200 4300 8200 4500
 Wire Wire Line
-	8100 5300 8300 5300
+	8100 5300 8200 5300
 Wire Wire Line
 	8200 5300 8200 5100
 Wire Wire Line
@@ -537,7 +440,7 @@ Wire Wire Line
 Wire Wire Line
 	8700 4300 8700 5300
 Wire Wire Line
-	8600 5300 8800 5300
+	8600 5300 8700 5300
 Connection ~ 8700 5300
 Text Label 8800 5300 0    60   ~ 0
 _GND
@@ -552,7 +455,7 @@ Wire Wire Line
 Wire Wire Line
 	7500 4900 8000 4900
 Wire Wire Line
-	6850 1700 6850 2950
+	6850 1700 6850 2600
 Wire Wire Line
 	7950 2600 6850 2600
 Connection ~ 6850 2600
@@ -565,7 +468,7 @@ VEE
 Text HLabel 1350 10300 0    60   Input ~ 0
 GND
 $Comp
-L CP C12011
+L Device:CP C12011
 U 1 1 59E43DCE
 P 1900 9950
 F 0 "C12011" H 1925 10050 50  0000 L CNN
@@ -576,7 +479,7 @@ F 3 "" H 1900 9950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP C12012
+L Device:CP C12012
 U 1 1 59E43DD5
 P 1900 10650
 F 0 "C12012" H 1925 10750 50  0000 L CNN
@@ -593,17 +496,17 @@ _GND
 Text Label 2400 9600 0    60   ~ 0
 _VCC
 Wire Wire Line
-	1900 10100 1900 10500
+	1900 10100 1900 10300
 Wire Wire Line
-	1350 9600 2400 9600
+	1350 9600 1900 9600
 Wire Wire Line
 	1900 9600 1900 9800
 Wire Wire Line
 	1900 10800 1900 11000
 Wire Wire Line
-	1350 11000 2400 11000
+	1350 11000 1900 11000
 Wire Wire Line
-	1350 10300 2400 10300
+	1350 10300 1900 10300
 Connection ~ 1900 10300
 Connection ~ 1900 9600
 Connection ~ 1900 11000
@@ -616,7 +519,7 @@ DETECTOR_15K_10BAUD_SDA
 Wire Wire Line
 	3700 5650 3950 5650
 $Comp
-L R R12007
+L device:R R12007
 U 1 1 59EC43D1
 P 8950 4800
 F 0 "R12007" V 9050 4800 50  0000 C CNN
@@ -627,7 +530,7 @@ F 3 "" H 8950 4800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 1N4148 D12003
+L diode:1N4148 D12003
 U 1 1 59EC467E
 P 9400 4800
 F 0 "D12003" H 9400 4700 50  0000 C CNN
@@ -638,7 +541,7 @@ F 3 "" H 9400 4800 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L BC546 Q12005
+L Transistor_BJT:BC546 Q12005
 U 1 1 59EC4D04
 P 9900 7550
 F 0 "Q12005" H 10100 7625 50  0000 L CNN
@@ -649,7 +552,7 @@ F 3 "" H 9900 7550 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BC546 Q12007
+L Transistor_BJT:BC546 Q12007
 U 1 1 59EC4DA7
 P 10100 8050
 F 0 "Q12007" H 10300 8125 50  0000 L CNN
@@ -665,7 +568,7 @@ Wire Wire Line
 	10000 8450 10000 8250
 Connection ~ 6850 8450
 $Comp
-L R R12011
+L device:R R12011
 U 1 1 59EC5ABD
 P 10000 6400
 F 0 "R12011" H 10050 6450 50  0000 L CNN
@@ -676,9 +579,9 @@ F 3 "" H 10000 6400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10000 6550 10000 7350
+	10000 6550 10000 6800
 $Comp
-L R R12014
+L device:R R12014
 U 1 1 59EC6265
 P 9500 7150
 F 0 "R12014" H 9450 7200 50  0000 R CNN
@@ -689,7 +592,7 @@ F 3 "" H 9500 7150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R12016
+L device:R R12016
 U 1 1 59EC6316
 P 9500 8050
 F 0 "R12016" H 9450 8100 50  0000 R CNN
@@ -700,15 +603,15 @@ F 3 "" H 9500 8050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9500 7300 9500 7900
+	9500 7300 9500 7550
 Wire Wire Line
-	8750 7550 9700 7550
+	8750 7550 9500 7550
 Connection ~ 9500 7550
 Wire Wire Line
 	9500 8200 9500 8450
 Connection ~ 9500 8450
 $Comp
-L BC546 Q12006
+L Transistor_BJT:BC546 Q12006
 U 1 1 59EC7179
 P 12350 7550
 F 0 "Q12006" H 12550 7625 50  0000 L CNN
@@ -719,7 +622,7 @@ F 3 "" H 12350 7550 50  0001 L CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L BC546 Q12008
+L Transistor_BJT:BC546 Q12008
 U 1 1 59EC717F
 P 12150 8050
 F 0 "Q12008" H 12350 8125 50  0000 L CNN
@@ -734,7 +637,7 @@ Wire Wire Line
 Wire Wire Line
 	12250 8450 12250 8250
 $Comp
-L R R12012
+L device:R R12012
 U 1 1 59EC7187
 P 12250 6400
 F 0 "R12012" H 12300 6450 50  0000 L CNN
@@ -745,9 +648,9 @@ F 3 "" H 12250 6400 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	12250 6550 12250 7350
+	12250 6550 12250 6800
 $Comp
-L R R12015
+L device:R R12015
 U 1 1 59EC718E
 P 12750 7150
 F 0 "R12015" H 12700 7200 50  0000 R CNN
@@ -758,7 +661,7 @@ F 3 "" H 12750 7150 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R R12019
+L device:R R12019
 U 1 1 59EC7194
 P 12750 8050
 F 0 "R12019" H 12700 8100 50  0000 R CNN
@@ -769,14 +672,14 @@ F 3 "" H 12750 8050 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	12750 7300 12750 7900
+	12750 7300 12750 7550
 Wire Wire Line
-	12550 7550 13250 7550
+	12550 7550 12750 7550
 Connection ~ 12750 7550
 Wire Wire Line
 	12750 8450 12750 8200
 $Comp
-L R R12017
+L device:R R12017
 U 1 1 59EC8D93
 P 10650 8050
 F 0 "R12017" V 10750 8050 50  0000 C CNN
@@ -787,7 +690,7 @@ F 3 "" H 10650 8050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R12018
+L device:R R12018
 U 1 1 59EC9808
 P 11600 8050
 F 0 "R12018" V 11700 8050 50  0000 C CNN
@@ -801,26 +704,26 @@ Connection ~ 10000 8450
 Connection ~ 12250 8450
 Connection ~ 10000 6800
 Wire Wire Line
-	11250 6800 13000 6800
+	11250 6800 12250 6800
 Connection ~ 12250 6800
 Wire Wire Line
 	10000 6250 10000 6000
 Wire Wire Line
-	9500 6000 12750 6000
+	9500 6000 10000 6000
 Wire Wire Line
 	9500 6000 9500 7000
 Wire Wire Line
 	12250 6000 12250 6250
 Wire Wire Line
-	12750 1000 12750 7000
+	12750 1000 12750 6000
 Wire Wire Line
-	11750 8050 11950 8050
+	11750 8050 11850 8050
 Wire Wire Line
-	10300 8050 10500 8050
+	10300 8050 10400 8050
 Connection ~ 12250 6000
 Connection ~ 10000 6000
 $Comp
-L R R12013
+L device:R R12013
 U 1 1 59ED3023
 P 13150 6800
 F 0 "R12013" V 13250 6800 50  0000 C CNN
@@ -833,7 +736,7 @@ $EndComp
 Connection ~ 6850 1000
 Connection ~ 12750 6000
 $Comp
-L R R12003
+L device:R R12003
 U 1 1 59ED38BC
 P 8950 2500
 F 0 "R12003" V 9050 2500 50  0000 C CNN
@@ -844,7 +747,7 @@ F 3 "" H 8950 2500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 1N4148 D12002
+L diode:1N4148 D12002
 U 1 1 59ED38C2
 P 9400 2500
 F 0 "D12002" H 9400 2400 50  0000 C CNN
@@ -873,7 +776,7 @@ Wire Wire Line
 Wire Wire Line
 	9100 4800 9250 4800
 $Comp
-L BC546 Q12004
+L Transistor_BJT:BC546 Q12004
 U 1 1 59ED55CD
 P 13600 6800
 F 0 "Q12004" H 13800 6875 50  0000 L CNN
@@ -929,7 +832,7 @@ Capacitor charge time 0...Vcc:\n\nVcc = 15V\nI    = 0.00114A\nC   = 39 e-9 F\n\n
 Text Notes 13800 7750 0    60   ~ 0
 No cascode config\nto keep output simple.\nUnfortunately, this will\nintroduce a somewhat \ndecreased slew rate\non the output signal \ndue to the transistor's \nmiller capacitance...
 $Comp
-L C C12009
+L Device:C C12009
 U 1 1 5B5BF999
 P 8750 8050
 F 0 "C12009" H 8600 8100 50  0000 R CNN
@@ -940,7 +843,7 @@ F 3 "" H 8750 8050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C12010
+L Device:C C12010
 U 1 1 5B5C01AB
 P 13250 8050
 F 0 "C12010" H 13100 8100 50  0000 R CNN
@@ -962,4 +865,106 @@ Wire Wire Line
 Connection ~ 8750 8450
 Text Notes 12000 8300 0    60   ~ 0
 TrsB
+Wire Wire Line
+	1700 4100 2250 4100
+Wire Wire Line
+	2950 4700 2950 5200
+Wire Wire Line
+	3250 4200 3700 4200
+Wire Wire Line
+	2450 4700 2450 5200
+Wire Wire Line
+	2450 3700 2450 3900
+Wire Wire Line
+	3700 5650 3700 5800
+Wire Wire Line
+	4900 2600 4900 2850
+Wire Wire Line
+	1700 8450 1700 8800
+Wire Wire Line
+	3250 8450 3700 8450
+Wire Wire Line
+	3700 8450 4250 8450
+Wire Wire Line
+	4250 8450 4900 8450
+Wire Wire Line
+	4900 8450 5400 8450
+Wire Wire Line
+	6000 3700 6000 5500
+Wire Wire Line
+	6000 3700 7500 3700
+Wire Wire Line
+	5400 8450 6000 8450
+Wire Wire Line
+	4900 1000 6000 1000
+Wire Wire Line
+	6000 1000 6850 1000
+Wire Wire Line
+	6000 8450 6850 8450
+Wire Wire Line
+	6850 4700 6850 5500
+Wire Wire Line
+	7500 3700 7500 4900
+Wire Wire Line
+	8650 3000 8750 3000
+Wire Wire Line
+	8150 3000 8250 3000
+Wire Wire Line
+	8150 2000 8250 2000
+Wire Wire Line
+	8700 5300 8800 5300
+Wire Wire Line
+	8200 5300 8300 5300
+Wire Wire Line
+	8200 4300 8300 4300
+Wire Wire Line
+	6850 2600 6850 2950
+Wire Wire Line
+	1900 10300 1900 10500
+Wire Wire Line
+	1900 10300 2400 10300
+Wire Wire Line
+	1900 9600 2400 9600
+Wire Wire Line
+	1900 11000 2400 11000
+Wire Wire Line
+	6850 8450 8750 8450
+Wire Wire Line
+	9500 7550 9500 7900
+Wire Wire Line
+	9500 7550 9700 7550
+Wire Wire Line
+	9500 8450 10000 8450
+Wire Wire Line
+	12750 7550 12750 7900
+Wire Wire Line
+	12750 7550 13250 7550
+Wire Wire Line
+	10000 8450 12250 8450
+Wire Wire Line
+	12250 8450 12750 8450
+Wire Wire Line
+	10000 6800 10000 7350
+Wire Wire Line
+	12250 6800 12250 7350
+Wire Wire Line
+	12250 6800 13000 6800
+Wire Wire Line
+	12250 6000 12750 6000
+Wire Wire Line
+	10000 6000 12250 6000
+Wire Wire Line
+	6850 1000 12750 1000
+Wire Wire Line
+	12750 6000 12750 7000
+Wire Wire Line
+	10400 8050 10500 8050
+Wire Wire Line
+	11850 8050 11950 8050
+Wire Wire Line
+	12750 8450 13250 8450
+Wire Wire Line
+	13250 8450 13700 8450
+Wire Wire Line
+	8750 8450 9500 8450
 $EndSCHEMATC

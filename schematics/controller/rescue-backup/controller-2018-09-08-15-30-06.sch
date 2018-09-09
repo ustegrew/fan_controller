@@ -1,0 +1,1316 @@
+EESchema Schematic File Version 2
+LIBS:74xgxx
+LIBS:74xx
+LIBS:ac-dc
+LIBS:actel
+LIBS:adc-dac
+LIBS:allegro
+LIBS:Altera
+LIBS:analog_devices
+LIBS:analog_switches
+LIBS:atmel
+LIBS:audio
+LIBS:battery_management
+LIBS:bbd
+LIBS:bosch
+LIBS:brooktre
+LIBS:cmos4000
+LIBS:cmos_ieee
+LIBS:conn
+LIBS:contrib
+LIBS:cypress
+LIBS:dc-dc
+LIBS:device
+LIBS:digital-audio
+LIBS:diode
+LIBS:display
+LIBS:driver_gate
+LIBS:dsp
+LIBS:elec-unifil
+LIBS:ESD_Protection
+LIBS:ftdi
+LIBS:gennum
+LIBS:graphic_symbols
+LIBS:hc11
+LIBS:infineon
+LIBS:intel
+LIBS:interface
+LIBS:intersil
+LIBS:ir
+LIBS:Lattice
+LIBS:leds
+LIBS:LEM
+LIBS:linear
+LIBS:logic_programmable
+LIBS:maxim
+LIBS:mechanical
+LIBS:memory
+LIBS:microchip
+LIBS:microchip_dspic33dsc
+LIBS:microchip_pic10mcu
+LIBS:microchip_pic12mcu
+LIBS:microchip_pic16mcu
+LIBS:microchip_pic18mcu
+LIBS:microchip_pic24mcu
+LIBS:microchip_pic32mcu
+LIBS:microcontrollers
+LIBS:modules
+LIBS:motor_drivers
+LIBS:motorola
+LIBS:motors
+LIBS:msp430
+LIBS:nordicsemi
+LIBS:nxp
+LIBS:nxp_armmcu
+LIBS:onsemi
+LIBS:opto
+LIBS:Oscillators
+LIBS:philips
+LIBS:power
+LIBS:powerint
+LIBS:Power_Management
+LIBS:pspice
+LIBS:references
+LIBS:regul
+LIBS:relays
+LIBS:rfcom
+LIBS:RFSolutions
+LIBS:sensors
+LIBS:silabs
+LIBS:siliconi
+LIBS:stm8
+LIBS:stm32
+LIBS:supertex
+LIBS:switches
+LIBS:texas
+LIBS:transf
+LIBS:transistors
+LIBS:triac_thyristor
+LIBS:ttl_ieee
+LIBS:valves
+LIBS:video
+LIBS:wiznet
+LIBS:Worldsemi
+LIBS:Xicor
+LIBS:xilinx
+LIBS:zetex
+LIBS:Zilog
+LIBS:fan-controller_parts
+LIBS:controller-cache
+EELAYER 25 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 15
+Title "Controller"
+Date "2017-09-24"
+Rev "1.1"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 5350 750  3200 950 
+U 59D1AD98
+F0 "fan-switch" 60
+F1 "sub_assy/fan-switch.sch" 60
+F2 "FAN_ON" I R 8550 1650 60 
+F3 "L" U L 5350 850 60 
+F4 "N" U L 5350 950 60 
+F5 "LFAN" U L 5350 1250 60 
+F6 "NFAN" U L 5350 1350 60 
+F7 "GND" U L 5350 1650 60 
+F8 "V_FANSWITCH" U L 5350 1550 60 
+$EndSheet
+$Sheet
+S 2650 3100 1300 900 
+U 59C7EB6B
+F0 "psu" 60
+F1 "sub_assy/psu.sch" 60
+F2 "VCC" U R 3950 3750 60 
+F3 "GND" U R 3950 3950 60 
+F4 "VEE" U R 3950 3850 60 
+F5 "TR02-1" U L 2650 3650 60 
+F6 "TR02-4" U L 2650 3950 60 
+F7 "TR02-2" U L 2650 3750 60 
+F8 "TR02-3" U L 2650 3850 60 
+F9 "TR01-3" U L 2650 3400 60 
+F10 "TR01-4" U L 2650 3500 60 
+F11 "V_LOGIC" U R 3950 3500 60 
+F12 "V_FANSWITCH" U R 3950 3200 60 
+F13 "TR01-1" U L 2650 3200 60 
+F14 "TR01-2" U L 2650 3300 60 
+F15 "V_DCDC_+18" U R 3950 3300 60 
+F16 "V_DCDC_0" U R 3950 3400 60 
+$EndSheet
+$Comp
+L Conn_01x04_Male J1005
+U 1 1 59D2E43C
+P 1350 3300
+F 0 "J1005" H 1350 3450 50  0000 C CNN
+F 1 "Conn_01x04_Male" H 1350 3000 50  0001 C CNN
+F 2 "footprints:TE_1969807-1" H 1350 3300 50  0001 C CNN
+F 3 "" H 1350 3300 50  0001 C CNN
+	1    1350 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x04_Male J1006
+U 1 1 59D2EA34
+P 1350 3750
+F 0 "J1006" H 1350 3500 50  0000 C CNN
+F 1 "Conn_01x04_Male" H 1350 3450 50  0001 C CNN
+F 2 "footprints:TE_1969807-1" H 1350 3750 50  0001 C CNN
+F 3 "" H 1350 3750 50  0001 C CNN
+	1    1350 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Screw_Terminal_01x03 J1001
+U 1 1 59D41362
+P 1400 950
+F 0 "J1001" H 1450 1150 50  0000 C CNN
+F 1 "Screw_Terminal_01x03" H 1400 750 50  0001 C CNN
+F 2 "Connectors_Phoenix:PhoenixContact_MSTBVA-G_03x5.00mm_Vertical" H 1400 950 50  0001 C CNN
+F 3 "" H 1400 950 50  0001 C CNN
+	1    1400 950 
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Screw_Terminal_01x03 J1002
+U 1 1 59D44A54
+P 1400 1350
+F 0 "J1002" H 1450 1150 50  0000 C CNN
+F 1 "Screw_Terminal_01x03" H 1400 1150 50  0001 C CNN
+F 2 "Connectors_Phoenix:PhoenixContact_MSTBVA-G_03x5.00mm_Vertical" H 1400 1350 50  0001 C CNN
+F 3 "" H 1400 1350 50  0001 C CNN
+	1    1400 1350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Conn_01x02_Male J1004
+U 1 1 59D45F93
+P 1350 2050
+F 0 "J1004" H 1350 2100 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 1350 1850 50  0001 C CNN
+F 2 "footprints:TE_1969799-1" H 1350 2050 50  0001 C CNN
+F 3 "" H 1350 2050 50  0001 C CNN
+	1    1350 2050
+	1    0    0    -1  
+$EndComp
+Text Notes 1150 3450 1    60   ~ 0
+Tr 01\n sec
+Text Notes 1150 3900 1    60   ~ 0
+Tr 02\n sec
+Text Notes 1150 2350 1    60   ~ 0
+TR 01, prim +\nTR 02, prim
+$Comp
+L Earth #PWR01
+U 1 1 59D4D93F
+P 1700 1550
+F 0 "#PWR01" H 1700 1300 50  0001 C CNN
+F 1 "Earth" H 1700 1400 50  0001 C CNN
+F 2 "" H 1700 1550 50  0001 C CNN
+F 3 "" H 1700 1550 50  0001 C CNN
+	1    1700 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L line-protector U1001
+U 1 1 59D3311B
+P 3000 2150
+F 0 "U1001" H 3000 2450 60  0000 C CNN
+F 1 "Module: surgeprot.mains.275.5.01" H 3000 2350 39  0000 C CNN
+F 2 "footprints:TE_1969803-1" H 3000 1500 60  0001 C CNN
+F 3 "" H 3000 1800 60  0000 C CNN
+	1    3000 2150
+	-1   0    0    -1  
+$EndComp
+Text Notes 1150 1150 1    60   ~ 0
+  MAINS\n 240VAC
+Text Notes 1150 1450 1    60   ~ 0
+FAN
+Text Notes 1300 900  2    60   ~ 12
+L
+Text Notes 1300 1000 2    60   ~ 12
+N
+Text Notes 1300 1100 2    60   ~ 12
+E
+Text Notes 1300 1300 2    60   ~ 12
+L
+Text Notes 1300 1400 2    60   ~ 12
+N
+Text Notes 1300 1500 2    60   ~ 12
+E
+$Sheet
+S 5350 3900 3200 1000
+U 59DA9A66
+F0 "comms" 60
+F1 "sub_assy/comms.sch" 60
+F2 "VCC" I L 5350 4650 60 
+F3 "GND" I L 5350 4850 60 
+F4 "VEE" I L 5350 4750 60 
+F5 "OSC_15K_UNMUTE_10BAUD_SDA" I L 5350 3950 60 
+F6 "OSC_25K_UNMUTE_10BAUD_SCL" I L 5350 4050 60 
+F7 "X" B R 8550 3950 60 
+F8 "Y" B R 8550 4050 60 
+F9 "DETECTOR_15K_10BAUD_SDA" O R 8550 4850 60 
+$EndSheet
+$Comp
+L Conn_01x05_Male J1007
+U 1 1 5A9D8BFF
+P 14800 9150
+F 0 "J1007" H 14800 9450 50  0000 C CNN
+F 1 "FRONTPANEL" H 14800 8850 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x05_Pitch2.54mm" H 14800 9150 50  0001 C CNN
+F 3 "" H 14800 9150 50  0001 C CNN
+	1    14800 9150
+	-1   0    0    -1  
+$EndComp
+$Sheet
+S 5350 6100 3200 1100
+U 5A9355B1
+F0 "comms_router" 60
+F1 "sub_assy/comms/router.sch" 60
+F2 "V_LOGIC" U L 5350 7050 60 
+F3 "GND" U L 5350 7150 60 
+F4 "OSC_25K_UNMUTE_10BAUD_SCL" O L 5350 6250 60 
+F5 "CPU_10BAUD_SCL" I R 8550 6950 60 
+F6 "CPU_10BAUD_WR_EN" I R 8550 7150 60 
+F7 "DETECTOR_15K_10BAUD_SDA" I R 8550 6150 60 
+F8 "OSC_15K_UNMUTE_10BAUD_SDA" O L 5350 6150 60 
+F9 "CPU_10BAUD_SDA" B R 8550 7050 60 
+$EndSheet
+$Sheet
+S 5350 8300 3200 1000
+U 59C7EB6E
+F0 "cpu" 60
+F1 "sub_assy/cpu.sch" 60
+F2 "V_LOGIC" U L 5350 9150 60 
+F3 "GND" U L 5350 9250 60 
+F4 "CPU_10BAUD_SDA" B R 8550 8450 60 
+F5 "CPU_10BAUD_SCL" O R 8550 8350 60 
+F6 "CPU_HIBAUD_SDA" B R 8550 9050 60 
+F7 "CPU_HIBAUD_SCL" O R 8550 8950 60 
+F8 "RESET" I R 8550 9150 60 
+F9 "CPU_10BAUD_WR_EN" O R 8550 8550 60 
+F10 "FAN_ON" O R 8550 9250 60 
+$EndSheet
+$Comp
+L Screw_Terminal_01x12 J1003
+U 1 1 5B5BA553
+P 14800 1400
+F 0 "J1003" H 14800 2000 50  0000 C CNN
+F 1 "Periphery" H 14800 700 50  0000 C CNN
+F 2 "Connectors_Phoenix:PhoenixContact_MSTBVA-G_12x5.00mm_Vertical" H 14800 1400 50  0001 C CNN
+F 3 "" H 14800 1400 50  0001 C CNN
+	1    14800 1400
+	1    0    0    -1  
+$EndComp
+Text Notes 15075 925  2    39   ~ 0
++18V
+Text Notes 15075 1025 2    39   ~ 0
+0V
+Text Notes 15075 1125 2    39   ~ 0
+X
+Text Notes 15075 1225 2    39   ~ 0
+Y
+Text Notes 15075 1325 2    39   ~ 0
++18V
+Text Notes 15075 1425 2    39   ~ 0
+0V
+Text Notes 15075 1525 2    39   ~ 0
+X
+Text Notes 15075 1625 2    39   ~ 0
+Y
+Text Notes 15075 1725 2    39   ~ 0
++18V
+Text Notes 15075 1825 2    39   ~ 0
+0V
+Text Notes 15075 1925 2    39   ~ 0
+X
+Text Notes 15075 2025 2    39   ~ 0
+Y
+Text Notes 15300 875  3    35   ~ 0
+SENS_INSIDE
+Text Notes 15300 1275 3    31   ~ 0
+SENS_OUTSIDE
+Text Notes 15300 1700 3    35   ~ 0
+HEAT_VALVE
+Text Notes 15075 9275 2    39   ~ 0
++5V
+Text Notes 15075 9375 2    39   ~ 0
+0V
+Text Notes 15075 8975 2    39   ~ 0
+SCL
+Text Notes 15075 9075 2    39   ~ 0
+SDA
+Text Notes 15075 9175 2    39   ~ 0
+RESET
+$Comp
+L D_TVS D1002
+U 1 1 5B5E8770
+P 11650 1050
+F 0 "D1002" V 11700 950 50  0000 R CNN
+F 1 "1.5KE33CA" V 11600 950 39  0000 R CNN
+F 2 "Diodes_THT:D_DO-201AD_P12.70mm_Horizontal" H 11650 1050 50  0001 C CNN
+F 3 "" H 11650 1050 50  0001 C CNN
+	1    11650 1050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Fuse F1001
+U 1 1 5B5E8777
+P 12100 900
+F 0 "F1001" V 12300 900 50  0000 C CNN
+F 1 "250mAF" V 12200 900 50  0000 C CNN
+F 2 "Fuse_Holders_and_Fuses:Fuseholder5x20_horiz_open_Schurter_0031_8201" V 12030 900 50  0001 C CNN
+F 3 "" H 12100 900 50  0001 C CNN
+	1    12100 900 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Fuse F1002
+U 1 1 5B5E877E
+P 12100 1200
+F 0 "F1002" V 12000 1200 50  0000 C CNN
+F 1 "250mAF" V 11900 1200 50  0000 C CNN
+F 2 "Fuse_Holders_and_Fuses:Fuseholder5x20_horiz_open_Schurter_0031_8201" V 12030 1200 50  0001 C CNN
+F 3 "" H 12100 1200 50  0001 C CNN
+	1    12100 1200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D_TVS D1001
+U 1 1 5B5E8785
+P 10700 900
+F 0 "D1001" H 10700 1100 50  0000 C CNN
+F 1 "1.5KE33CA" H 10700 1000 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-201AD_P12.70mm_Horizontal" H 10700 900 50  0001 C CNN
+F 3 "" H 10700 900 50  0001 C CNN
+	1    10700 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_TVS D1003
+U 1 1 5B5E878C
+P 10700 1200
+F 0 "D1003" H 10700 1100 50  0000 C CNN
+F 1 "1.5KE33CA" H 10700 1000 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-201AD_P12.70mm_Horizontal" H 10700 1200 50  0001 C CNN
+F 3 "" H 10700 1200 50  0001 C CNN
+	1    10700 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_TVS D1010
+U 1 1 5B5F72B0
+P 10700 4500
+F 0 "D1010" H 10700 4600 50  0000 C CNN
+F 1 "1.5KE30CA" H 10700 4400 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-201AD_P12.70mm_Horizontal" H 10700 4500 50  0001 C CNN
+F 3 "" H 10700 4500 50  0001 C CNN
+	1    10700 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_TVS D1012
+U 1 1 5B5F72B7
+P 10700 5000
+F 0 "D1012" H 10700 5100 50  0000 C CNN
+F 1 "1.5KE30CA" H 10700 4900 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-201AD_P12.70mm_Horizontal" H 10700 5000 50  0001 C CNN
+F 3 "" H 10700 5000 50  0001 C CNN
+	1    10700 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_TVS D1011
+U 1 1 5B5F72BE
+P 11650 4750
+F 0 "D1011" H 11650 4950 50  0000 C CNN
+F 1 "1.5KE30CA" H 11650 4850 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-201AD_P12.70mm_Horizontal" H 11650 4750 50  0001 C CNN
+F 3 "" H 11650 4750 50  0001 C CNN
+	1    11650 4750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GDT-3 U1002
+U 1 1 5B5F72CF
+P 12350 4750
+F 0 "U1002" H 12550 4800 60  0000 L CNN
+F 1 "Bourns 2026-07-C2LF" H 12550 4700 60  0000 L CNN
+F 2 "footprints:Bourns_2026-xx" H 12350 4750 60  0001 C CNN
+F 3 "" H 12350 4750 60  0000 C CNN
+	1    12350 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1001
+U 1 1 5B5F72D6
+P 12100 4500
+F 0 "R1001" V 12300 4500 50  0000 C CNN
+F 1 "27Ω / 1W" V 12200 4500 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal" V 12030 4500 50  0001 C CNN
+F 3 "" H 12100 4500 50  0001 C CNN
+	1    12100 4500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R1002
+U 1 1 5B5F72DD
+P 12100 5000
+F 0 "R1002" V 12000 5000 50  0000 C CNN
+F 1 "27Ω / 1W" V 11900 5000 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal" V 12030 5000 50  0001 C CNN
+F 3 "" H 12100 5000 50  0001 C CNN
+	1    12100 5000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Fuse F1007
+U 1 1 5B5F72EA
+P 12600 4500
+F 0 "F1007" V 12800 4500 50  0000 C CNN
+F 1 "100mAF" V 12700 4500 50  0000 C CNN
+F 2 "Fuse_Holders_and_Fuses:Fuseholder5x20_horiz_open_Schurter_0031_8201" V 12530 4500 50  0001 C CNN
+F 3 "" H 12600 4500 50  0001 C CNN
+	1    12600 4500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Fuse F1008
+U 1 1 5B5F72F1
+P 12600 5000
+F 0 "F1008" V 12500 5000 50  0000 C CNN
+F 1 "100mAF" V 12400 5000 50  0000 C CNN
+F 2 "Fuse_Holders_and_Fuses:Fuseholder5x20_horiz_open_Schurter_0031_8201" V 12530 5000 50  0001 C CNN
+F 3 "" H 12600 5000 50  0001 C CNN
+	1    12600 5000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D_TVS D1005
+U 1 1 5B5D9E04
+P 11650 1900
+F 0 "D1005" V 11700 1800 50  0000 R CNN
+F 1 "1.5KE33CA" V 11600 1800 39  0000 R CNN
+F 2 "Diodes_THT:D_DO-201AD_P12.70mm_Horizontal" H 11650 1900 50  0001 C CNN
+F 3 "" H 11650 1900 50  0001 C CNN
+	1    11650 1900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Fuse F1003
+U 1 1 5B5D9E0B
+P 12100 1750
+F 0 "F1003" V 12300 1750 50  0000 C CNN
+F 1 "250mAF" V 12200 1750 50  0000 C CNN
+F 2 "Fuse_Holders_and_Fuses:Fuseholder5x20_horiz_open_Schurter_0031_8201" V 12030 1750 50  0001 C CNN
+F 3 "" H 12100 1750 50  0001 C CNN
+	1    12100 1750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Fuse F1004
+U 1 1 5B5D9E12
+P 12100 2050
+F 0 "F1004" V 12000 2050 50  0000 C CNN
+F 1 "250mAF" V 11900 2050 50  0000 C CNN
+F 2 "Fuse_Holders_and_Fuses:Fuseholder5x20_horiz_open_Schurter_0031_8201" V 12030 2050 50  0001 C CNN
+F 3 "" H 12100 2050 50  0001 C CNN
+	1    12100 2050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D_TVS D1004
+U 1 1 5B5D9E19
+P 10700 1750
+F 0 "D1004" H 10700 1950 50  0000 C CNN
+F 1 "1.5KE33CA" H 10700 1850 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-201AD_P12.70mm_Horizontal" H 10700 1750 50  0001 C CNN
+F 3 "" H 10700 1750 50  0001 C CNN
+	1    10700 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_TVS D1006
+U 1 1 5B5D9E20
+P 10700 2050
+F 0 "D1006" H 10700 1950 50  0000 C CNN
+F 1 "1.5KE33CA" H 10700 1850 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-201AD_P12.70mm_Horizontal" H 10700 2050 50  0001 C CNN
+F 3 "" H 10700 2050 50  0001 C CNN
+	1    10700 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_TVS D1008
+U 1 1 5B5DA192
+P 11650 2750
+F 0 "D1008" V 11700 2650 50  0000 R CNN
+F 1 "1.5KE33CA" V 11600 2650 39  0000 R CNN
+F 2 "Diodes_THT:D_DO-201AD_P12.70mm_Horizontal" H 11650 2750 50  0001 C CNN
+F 3 "" H 11650 2750 50  0001 C CNN
+	1    11650 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Fuse F1005
+U 1 1 5B5DA199
+P 12100 2600
+F 0 "F1005" V 12300 2600 50  0000 C CNN
+F 1 "250mAF" V 12200 2600 50  0000 C CNN
+F 2 "Fuse_Holders_and_Fuses:Fuseholder5x20_horiz_open_Schurter_0031_8201" V 12030 2600 50  0001 C CNN
+F 3 "" H 12100 2600 50  0001 C CNN
+	1    12100 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Fuse F1006
+U 1 1 5B5DA1A0
+P 12100 2900
+F 0 "F1006" V 12000 2900 50  0000 C CNN
+F 1 "250mAF" V 11900 2900 50  0000 C CNN
+F 2 "Fuse_Holders_and_Fuses:Fuseholder5x20_horiz_open_Schurter_0031_8201" V 12030 2900 50  0001 C CNN
+F 3 "" H 12100 2900 50  0001 C CNN
+	1    12100 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D_TVS D1007
+U 1 1 5B5DA1A7
+P 10700 2600
+F 0 "D1007" H 10700 2800 50  0000 C CNN
+F 1 "1.5KE33CA" H 10700 2700 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-201AD_P12.70mm_Horizontal" H 10700 2600 50  0001 C CNN
+F 3 "" H 10700 2600 50  0001 C CNN
+	1    10700 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_TVS D1009
+U 1 1 5B5DA1AE
+P 10700 2900
+F 0 "D1009" H 10700 2800 50  0000 C CNN
+F 1 "1.5KE33CA" H 10700 2700 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-201AD_P12.70mm_Horizontal" H 10700 2900 50  0001 C CNN
+F 3 "" H 10700 2900 50  0001 C CNN
+	1    10700 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_TVS D1013
+U 1 1 5B65FC44
+P 10700 5800
+F 0 "D1013" H 10700 5900 50  0000 C CNN
+F 1 "1.5KE30CA" H 10700 5700 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-201AD_P12.70mm_Horizontal" H 10700 5800 50  0001 C CNN
+F 3 "" H 10700 5800 50  0001 C CNN
+	1    10700 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_TVS D1015
+U 1 1 5B65FC4A
+P 10700 6300
+F 0 "D1015" H 10700 6400 50  0000 C CNN
+F 1 "1.5KE30CA" H 10700 6200 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-201AD_P12.70mm_Horizontal" H 10700 6300 50  0001 C CNN
+F 3 "" H 10700 6300 50  0001 C CNN
+	1    10700 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_TVS D1014
+U 1 1 5B65FC50
+P 11650 6050
+F 0 "D1014" H 11650 6250 50  0000 C CNN
+F 1 "1.5KE30CA" H 11650 6150 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-201AD_P12.70mm_Horizontal" H 11650 6050 50  0001 C CNN
+F 3 "" H 11650 6050 50  0001 C CNN
+	1    11650 6050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GDT-3 U1003
+U 1 1 5B65FC56
+P 12350 6050
+F 0 "U1003" H 12550 6100 60  0000 L CNN
+F 1 "Bourns 2026-07-C2LF" H 12550 6000 60  0000 L CNN
+F 2 "footprints:Bourns_2026-xx" H 12350 6050 60  0001 C CNN
+F 3 "" H 12350 6050 60  0000 C CNN
+	1    12350 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1003
+U 1 1 5B65FC5C
+P 12100 5800
+F 0 "R1003" V 12300 5800 50  0000 C CNN
+F 1 "27Ω / 1W" V 12200 5800 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal" V 12030 5800 50  0001 C CNN
+F 3 "" H 12100 5800 50  0001 C CNN
+	1    12100 5800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R1004
+U 1 1 5B65FC62
+P 12100 6300
+F 0 "R1004" V 12000 6300 50  0000 C CNN
+F 1 "27Ω / 1W" V 11900 6300 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal" V 12030 6300 50  0001 C CNN
+F 3 "" H 12100 6300 50  0001 C CNN
+	1    12100 6300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Fuse F1009
+U 1 1 5B65FC68
+P 12600 5800
+F 0 "F1009" V 12800 5800 50  0000 C CNN
+F 1 "100mAF" V 12700 5800 50  0000 C CNN
+F 2 "Fuse_Holders_and_Fuses:Fuseholder5x20_horiz_open_Schurter_0031_8201" V 12530 5800 50  0001 C CNN
+F 3 "" H 12600 5800 50  0001 C CNN
+	1    12600 5800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Fuse F1010
+U 1 1 5B65FC6E
+P 12600 6300
+F 0 "F1010" V 12500 6300 50  0000 C CNN
+F 1 "100mAF" V 12400 6300 50  0000 C CNN
+F 2 "Fuse_Holders_and_Fuses:Fuseholder5x20_horiz_open_Schurter_0031_8201" V 12530 6300 50  0001 C CNN
+F 3 "" H 12600 6300 50  0001 C CNN
+	1    12600 6300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D_TVS D1016
+U 1 1 5B660220
+P 10700 7100
+F 0 "D1016" H 10700 7200 50  0000 C CNN
+F 1 "1.5KE30CA" H 10700 7000 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-201AD_P12.70mm_Horizontal" H 10700 7100 50  0001 C CNN
+F 3 "" H 10700 7100 50  0001 C CNN
+	1    10700 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_TVS D1018
+U 1 1 5B660226
+P 10700 7600
+F 0 "D1018" H 10700 7700 50  0000 C CNN
+F 1 "1.5KE30CA" H 10700 7500 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-201AD_P12.70mm_Horizontal" H 10700 7600 50  0001 C CNN
+F 3 "" H 10700 7600 50  0001 C CNN
+	1    10700 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_TVS D1017
+U 1 1 5B66022C
+P 11650 7350
+F 0 "D1017" H 11650 7550 50  0000 C CNN
+F 1 "1.5KE30CA" H 11650 7450 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-201AD_P12.70mm_Horizontal" H 11650 7350 50  0001 C CNN
+F 3 "" H 11650 7350 50  0001 C CNN
+	1    11650 7350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GDT-3 U1004
+U 1 1 5B660232
+P 12350 7350
+F 0 "U1004" H 12550 7400 60  0000 L CNN
+F 1 "Bourns 2026-07-C2LF" H 12550 7300 60  0000 L CNN
+F 2 "footprints:Bourns_2026-xx" H 12350 7350 60  0001 C CNN
+F 3 "" H 12350 7350 60  0000 C CNN
+	1    12350 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1005
+U 1 1 5B660238
+P 12100 7100
+F 0 "R1005" V 12300 7100 50  0000 C CNN
+F 1 "27Ω / 1W" V 12200 7100 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal" V 12030 7100 50  0001 C CNN
+F 3 "" H 12100 7100 50  0001 C CNN
+	1    12100 7100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R1006
+U 1 1 5B66023E
+P 12100 7600
+F 0 "R1006" V 12000 7600 50  0000 C CNN
+F 1 "27Ω / 1W" V 11900 7600 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal" V 12030 7600 50  0001 C CNN
+F 3 "" H 12100 7600 50  0001 C CNN
+	1    12100 7600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Fuse F1011
+U 1 1 5B660244
+P 12600 7100
+F 0 "F1011" V 12800 7100 50  0000 C CNN
+F 1 "100mAF" V 12700 7100 50  0000 C CNN
+F 2 "Fuse_Holders_and_Fuses:Fuseholder5x20_horiz_open_Schurter_0031_8201" V 12530 7100 50  0001 C CNN
+F 3 "" H 12600 7100 50  0001 C CNN
+	1    12600 7100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Fuse F1012
+U 1 1 5B66024A
+P 12600 7600
+F 0 "F1012" V 12500 7600 50  0000 C CNN
+F 1 "100mAF" V 12400 7600 50  0000 C CNN
+F 2 "Fuse_Holders_and_Fuses:Fuseholder5x20_horiz_open_Schurter_0031_8201" V 12530 7600 50  0001 C CNN
+F 3 "" H 12600 7600 50  0001 C CNN
+	1    12600 7600
+	0    -1   -1   0   
+$EndComp
+Text Notes 3350 10350 0    60   ~ 0
+Spark protector:\n    TDK T90-A75XSMD\n    Sparkover voltage: 75V +/- 20%
+Wire Wire Line
+	1550 3200 2650 3200
+Wire Wire Line
+	1550 3300 2650 3300
+Wire Wire Line
+	1550 3400 2650 3400
+Wire Wire Line
+	1550 3500 2650 3500
+Wire Wire Line
+	1550 3650 2650 3650
+Wire Wire Line
+	1550 3750 2650 3750
+Wire Wire Line
+	1550 3850 2650 3850
+Wire Wire Line
+	1550 3950 2650 3950
+Wire Wire Line
+	1600 850  5350 850 
+Wire Wire Line
+	1600 950  5350 950 
+Wire Wire Line
+	1600 1050 1700 1050
+Wire Wire Line
+	1700 1050 1700 1550
+Wire Wire Line
+	1600 1450 4150 1450
+Connection ~ 1700 1450
+Wire Wire Line
+	3450 2150 3500 2150
+Wire Wire Line
+	3500 2150 3500 850 
+Connection ~ 3500 850 
+Connection ~ 2300 950 
+Wire Wire Line
+	3950 3200 4750 3200
+Wire Wire Line
+	3000 2650 3000 2750
+Wire Wire Line
+	3000 2750 3600 2750
+Wire Wire Line
+	3600 2750 3600 950 
+Connection ~ 3600 950 
+Wire Wire Line
+	1600 1250 5350 1250
+Wire Wire Line
+	1600 1350 5350 1350
+Wire Wire Line
+	4750 3200 4750 1550
+Wire Wire Line
+	4750 1550 5350 1550
+Wire Wire Line
+	1550 2050 2300 2050
+Wire Wire Line
+	2300 2050 2300 950 
+Wire Wire Line
+	1550 2150 2550 2150
+Wire Notes Line
+	14925 1250 15350 1250
+Wire Notes Line
+	14925 1650 15350 1650
+Wire Wire Line
+	10850 900  11950 900 
+Wire Wire Line
+	10850 1200 11950 1200
+Connection ~ 11650 900 
+Connection ~ 11650 1200
+Wire Wire Line
+	12250 900  14600 900 
+Wire Wire Line
+	12250 1200 12250 1000
+Wire Wire Line
+	12250 1000 14600 1000
+Wire Wire Line
+	12250 1750 12450 1750
+Wire Wire Line
+	12450 1750 12450 1300
+Wire Wire Line
+	12450 1300 14600 1300
+Wire Wire Line
+	12250 2050 12550 2050
+Wire Wire Line
+	12550 2050 12550 1400
+Wire Wire Line
+	12550 1400 14600 1400
+Wire Wire Line
+	12250 2600 12750 2600
+Wire Wire Line
+	12750 2600 12750 1700
+Wire Wire Line
+	12750 1700 14600 1700
+Wire Wire Line
+	12250 2900 12850 2900
+Wire Wire Line
+	12850 2900 12850 1800
+Wire Wire Line
+	12850 1800 14600 1800
+Wire Wire Line
+	10150 2900 10550 2900
+Wire Wire Line
+	10150 2600 10550 2600
+Wire Wire Line
+	10150 900  10150 9700
+Connection ~ 10150 2900
+Wire Wire Line
+	10550 2050 10150 2050
+Connection ~ 10150 2600
+Wire Wire Line
+	10550 1750 10150 1750
+Connection ~ 10150 2050
+Wire Wire Line
+	10550 1200 10150 1200
+Connection ~ 10150 1750
+Wire Wire Line
+	10550 900  10150 900 
+Connection ~ 10150 1200
+Wire Wire Line
+	11850 5200 11850 4750
+Wire Wire Line
+	11850 4750 12100 4750
+Wire Wire Line
+	10150 5200 11850 5200
+Wire Wire Line
+	10850 5000 11950 5000
+Wire Wire Line
+	10850 4500 11950 4500
+Wire Wire Line
+	11650 4600 11650 4500
+Connection ~ 11650 4500
+Wire Wire Line
+	11650 4900 11650 5000
+Connection ~ 11650 5000
+Wire Wire Line
+	12250 5000 12450 5000
+Connection ~ 12350 5000
+Wire Wire Line
+	12250 4500 12450 4500
+Connection ~ 12350 4500
+Wire Wire Line
+	11850 6500 11850 6050
+Wire Wire Line
+	11850 6050 12100 6050
+Wire Wire Line
+	10150 6500 11850 6500
+Wire Wire Line
+	10150 6300 10550 6300
+Wire Wire Line
+	10850 6300 11950 6300
+Wire Wire Line
+	10850 5800 11950 5800
+Wire Wire Line
+	11650 5900 11650 5800
+Connection ~ 11650 5800
+Wire Wire Line
+	11650 6200 11650 6300
+Connection ~ 11650 6300
+Wire Wire Line
+	12250 6300 12450 6300
+Connection ~ 12350 6300
+Wire Wire Line
+	12250 5800 12450 5800
+Connection ~ 12350 5800
+Wire Wire Line
+	11850 7800 11850 7350
+Wire Wire Line
+	11850 7350 12100 7350
+Wire Wire Line
+	10150 7800 11850 7800
+Wire Wire Line
+	10150 7600 10550 7600
+Wire Wire Line
+	10850 7600 11950 7600
+Wire Wire Line
+	10850 7100 11950 7100
+Wire Wire Line
+	11650 7200 11650 7100
+Connection ~ 11650 7100
+Wire Wire Line
+	11650 7500 11650 7600
+Connection ~ 11650 7600
+Wire Wire Line
+	12250 7600 12450 7600
+Connection ~ 12350 7600
+Wire Wire Line
+	12250 7100 12450 7100
+Connection ~ 12350 7100
+Wire Wire Line
+	8550 4850 8950 4850
+Wire Wire Line
+	8950 4850 8950 6150
+Wire Wire Line
+	8950 6150 8550 6150
+Wire Wire Line
+	8550 6950 8750 6950
+Wire Wire Line
+	8750 6950 8750 8350
+Wire Wire Line
+	8750 8350 8550 8350
+Wire Wire Line
+	8550 7050 8850 7050
+Wire Wire Line
+	8850 7050 8850 8450
+Wire Wire Line
+	8850 8450 8550 8450
+Wire Wire Line
+	8550 7150 8950 7150
+Wire Wire Line
+	8950 7150 8950 8550
+Wire Wire Line
+	8950 8550 8550 8550
+Wire Wire Line
+	10150 4500 10550 4500
+Connection ~ 10150 4500
+Wire Wire Line
+	10150 5000 10550 5000
+Connection ~ 10150 5000
+Wire Wire Line
+	10150 5800 10550 5800
+Connection ~ 10150 5200
+Connection ~ 10150 6300
+Connection ~ 10150 5800
+Wire Wire Line
+	10150 7100 10550 7100
+Connection ~ 10150 6500
+Connection ~ 10150 7600
+Connection ~ 10150 7100
+Wire Wire Line
+	12750 4500 13750 4500
+Wire Wire Line
+	13750 4500 13750 1100
+Wire Wire Line
+	13750 1100 14600 1100
+Wire Wire Line
+	12750 5000 13900 5000
+Wire Wire Line
+	13900 5000 13900 1200
+Wire Wire Line
+	13900 1200 14600 1200
+Wire Wire Line
+	12750 7600 14500 7600
+Wire Wire Line
+	14500 7600 14500 2000
+Wire Wire Line
+	14500 2000 14600 2000
+Wire Wire Line
+	14600 1900 14400 1900
+Wire Wire Line
+	14400 1900 14400 7100
+Wire Wire Line
+	14400 7100 12750 7100
+Wire Wire Line
+	14600 1600 14200 1600
+Wire Wire Line
+	14200 1600 14200 6300
+Wire Wire Line
+	14200 6300 12750 6300
+Wire Wire Line
+	14600 1500 14100 1500
+Wire Wire Line
+	14100 1500 14100 5800
+Wire Wire Line
+	14100 5800 12750 5800
+Wire Wire Line
+	10850 1750 11950 1750
+Wire Wire Line
+	10850 2050 11950 2050
+Wire Wire Line
+	10850 2600 11950 2600
+Wire Wire Line
+	10850 2900 11950 2900
+Connection ~ 11650 2600
+Connection ~ 11650 2900
+Connection ~ 11650 1750
+Connection ~ 11650 2050
+Wire Wire Line
+	11150 3300 3950 3300
+Wire Wire Line
+	11150 900  11150 3300
+Connection ~ 11150 2600
+Connection ~ 11150 1750
+Connection ~ 11150 900 
+Wire Wire Line
+	11250 3400 3950 3400
+Wire Wire Line
+	11250 1200 11250 3400
+Connection ~ 11250 2900
+Connection ~ 11250 2050
+Connection ~ 11250 1200
+Wire Wire Line
+	8550 3950 11250 3950
+Wire Wire Line
+	11250 3950 11250 7100
+Connection ~ 11250 4500
+Wire Wire Line
+	8550 4050 11150 4050
+Wire Wire Line
+	11150 4050 11150 7600
+Connection ~ 11150 5000
+Connection ~ 11150 6300
+Connection ~ 11150 7600
+Connection ~ 11250 5800
+Connection ~ 11250 7100
+Wire Wire Line
+	9250 1650 9250 9250
+Wire Wire Line
+	9250 9250 8550 9250
+Wire Wire Line
+	5350 3950 5150 3950
+Wire Wire Line
+	5150 3950 5150 6150
+Wire Wire Line
+	5150 6150 5350 6150
+Wire Wire Line
+	5350 4050 5050 4050
+Wire Wire Line
+	5050 4050 5050 6250
+Wire Wire Line
+	5050 6250 5350 6250
+Wire Wire Line
+	3950 3950 4850 3950
+Wire Wire Line
+	4150 1450 4150 9700
+Wire Wire Line
+	4150 4850 5350 4850
+Wire Wire Line
+	4150 7150 5350 7150
+Connection ~ 4150 4850
+Wire Wire Line
+	4150 9250 5350 9250
+Connection ~ 4150 7150
+Wire Wire Line
+	3950 3850 4250 3850
+Wire Wire Line
+	4250 3850 4250 4750
+Wire Wire Line
+	4250 4750 5350 4750
+Wire Wire Line
+	3950 3750 4350 3750
+Wire Wire Line
+	4350 3750 4350 4650
+Wire Wire Line
+	4350 4650 5350 4650
+Wire Wire Line
+	5350 7050 4550 7050
+Wire Wire Line
+	4550 3500 4550 9600
+Wire Wire Line
+	4550 3500 3950 3500
+Wire Wire Line
+	4550 9150 5350 9150
+Connection ~ 4550 7050
+Wire Wire Line
+	9250 1650 8550 1650
+Text Notes 15300 8950 3    35   ~ 0
+FRONT_PANEL
+Wire Wire Line
+	4150 9700 14350 9700
+Connection ~ 4150 9250
+Wire Wire Line
+	4550 9600 14250 9600
+Connection ~ 4550 9150
+Connection ~ 10150 7800
+Wire Wire Line
+	4850 3950 4850 1650
+Wire Wire Line
+	4850 1650 5350 1650
+Connection ~ 4150 3950
+Wire Wire Line
+	8550 8950 14600 8950
+Wire Wire Line
+	14600 9050 8550 9050
+Wire Wire Line
+	8550 9150 14600 9150
+Wire Wire Line
+	14250 9600 14250 9250
+Wire Wire Line
+	14250 9250 14600 9250
+Wire Wire Line
+	14350 9700 14350 9350
+Wire Wire Line
+	14350 9350 14600 9350
+Connection ~ 10150 9700
+$Comp
+L Mounting_Hole_PAD MK1005
+U 1 1 5B5F91C5
+P 1700 10000
+F 0 "MK1005" H 1700 10250 50  0000 C CNN
+F 1 "3.5" H 1700 10175 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.5mm_Pad_Via" H 1700 10000 50  0001 C CNN
+F 3 "" H 1700 10000 50  0001 C CNN
+	1    1700 10000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mounting_Hole_PAD MK1006
+U 1 1 5B5FD13B
+P 1900 10400
+F 0 "MK1006" H 1900 10650 50  0000 C CNN
+F 1 "3.5" H 1900 10575 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.5mm_Pad_Via" H 1900 10400 50  0001 C CNN
+F 3 "" H 1900 10400 50  0001 C CNN
+	1    1900 10400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mounting_Hole_PAD MK1007
+U 1 1 5B5FD551
+P 2100 10000
+F 0 "MK1007" H 2100 10250 50  0000 C CNN
+F 1 "3.5" H 2100 10175 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.5mm_Pad_Via" H 2100 10000 50  0001 C CNN
+F 3 "" H 2100 10000 50  0001 C CNN
+	1    2100 10000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mounting_Hole_PAD MK1008
+U 1 1 5B5FD557
+P 2300 10400
+F 0 "MK1008" H 2300 10650 50  0000 C CNN
+F 1 "3.5" H 2300 10575 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.5mm_Pad_Via" H 2300 10400 50  0001 C CNN
+F 3 "" H 2300 10400 50  0001 C CNN
+	1    2300 10400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mounting_Hole_PAD MK1001
+U 1 1 5B5FDB23
+P 900 10000
+F 0 "MK1001" H 900 10250 50  0000 C CNN
+F 1 "3.5" H 900 10175 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.5mm_Pad_Via" H 900 10000 50  0001 C CNN
+F 3 "" H 900 10000 50  0001 C CNN
+	1    900  10000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mounting_Hole_PAD MK1002
+U 1 1 5B5FDB29
+P 1100 10400
+F 0 "MK1002" H 1100 10650 50  0000 C CNN
+F 1 "3.5" H 1100 10575 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.5mm_Pad_Via" H 1100 10400 50  0001 C CNN
+F 3 "" H 1100 10400 50  0001 C CNN
+	1    1100 10400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mounting_Hole_PAD MK1003
+U 1 1 5B5FDB2F
+P 1300 10000
+F 0 "MK1003" H 1300 10250 50  0000 C CNN
+F 1 "3.5" H 1300 10175 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.5mm_Pad_Via" H 1300 10000 50  0001 C CNN
+F 3 "" H 1300 10000 50  0001 C CNN
+	1    1300 10000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mounting_Hole_PAD MK1004
+U 1 1 5B5FDB35
+P 1500 10400
+F 0 "MK1004" H 1500 10650 50  0000 C CNN
+F 1 "3.5" H 1500 10575 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.5mm_Pad_Via" H 1500 10400 50  0001 C CNN
+F 3 "" H 1500 10400 50  0001 C CNN
+	1    1500 10400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mounting_Hole_PAD MK1009
+U 1 1 5B5FDEA3
+P 2500 10000
+F 0 "MK1009" H 2500 10250 50  0000 C CNN
+F 1 "3.5" H 2500 10175 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.5mm_Pad_Via" H 2500 10000 50  0001 C CNN
+F 3 "" H 2500 10000 50  0001 C CNN
+	1    2500 10000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mounting_Hole_PAD MK1010
+U 1 1 5B5FDEA9
+P 2700 10400
+F 0 "MK1010" H 2700 10650 50  0000 C CNN
+F 1 "3.5" H 2700 10575 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.5mm_Pad_Via" H 2700 10400 50  0001 C CNN
+F 3 "" H 2700 10400 50  0001 C CNN
+	1    2700 10400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Earth #PWR02
+U 1 1 5B602CCF
+P 900 10800
+F 0 "#PWR02" H 900 10550 50  0001 C CNN
+F 1 "Earth" H 900 10650 50  0001 C CNN
+F 2 "" H 900 10800 50  0001 C CNN
+F 3 "" H 900 10800 50  0001 C CNN
+	1    900  10800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	900  10100 900  10800
+Wire Wire Line
+	1100 10500 1100 10650
+Wire Wire Line
+	900  10650 2700 10650
+Connection ~ 900  10650
+Wire Wire Line
+	1300 10650 1300 10100
+Connection ~ 1100 10650
+Wire Wire Line
+	1500 10650 1500 10500
+Connection ~ 1300 10650
+Wire Wire Line
+	1700 10650 1700 10100
+Connection ~ 1500 10650
+Wire Wire Line
+	1900 10650 1900 10500
+Connection ~ 1700 10650
+Wire Wire Line
+	2100 10650 2100 10100
+Connection ~ 1900 10650
+Wire Wire Line
+	2300 10650 2300 10500
+Connection ~ 2100 10650
+Wire Wire Line
+	2500 10650 2500 10100
+Connection ~ 2300 10650
+Wire Wire Line
+	2700 10650 2700 10500
+Connection ~ 2500 10650
+$EndSCHEMATC

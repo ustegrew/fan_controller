@@ -1,103 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:74xgxx
-LIBS:74xx
-LIBS:ac-dc
-LIBS:actel
-LIBS:adc-dac
-LIBS:allegro
-LIBS:Altera
-LIBS:analog_devices
-LIBS:analog_switches
-LIBS:atmel
-LIBS:audio
-LIBS:battery_management
-LIBS:bbd
-LIBS:bosch
-LIBS:brooktre
-LIBS:cmos4000
-LIBS:cmos_ieee
-LIBS:conn
-LIBS:contrib
-LIBS:cypress
-LIBS:dc-dc
-LIBS:device
-LIBS:digital-audio
-LIBS:diode
-LIBS:display
-LIBS:driver_gate
-LIBS:dsp
-LIBS:elec-unifil
-LIBS:ESD_Protection
-LIBS:ftdi
-LIBS:gennum
-LIBS:graphic_symbols
-LIBS:hc11
-LIBS:infineon
-LIBS:intel
-LIBS:interface
-LIBS:intersil
-LIBS:ir
-LIBS:Lattice
-LIBS:leds
-LIBS:LEM
-LIBS:linear
-LIBS:logic_programmable
-LIBS:maxim
-LIBS:mechanical
-LIBS:memory
-LIBS:microchip
-LIBS:microchip_dspic33dsc
-LIBS:microchip_pic10mcu
-LIBS:microchip_pic12mcu
-LIBS:microchip_pic16mcu
-LIBS:microchip_pic18mcu
-LIBS:microchip_pic24mcu
-LIBS:microchip_pic32mcu
-LIBS:microcontrollers
-LIBS:modules
-LIBS:motor_drivers
-LIBS:motorola
-LIBS:motors
-LIBS:msp430
-LIBS:nordicsemi
-LIBS:nxp
-LIBS:nxp_armmcu
-LIBS:onsemi
-LIBS:opto
-LIBS:Oscillators
-LIBS:philips
-LIBS:power
-LIBS:powerint
-LIBS:Power_Management
-LIBS:pspice
-LIBS:references
-LIBS:regul
-LIBS:relays
-LIBS:rfcom
-LIBS:RFSolutions
-LIBS:sensors
-LIBS:silabs
-LIBS:siliconi
-LIBS:stm8
-LIBS:stm32
-LIBS:supertex
-LIBS:switches
-LIBS:texas
-LIBS:transf
-LIBS:transistors
-LIBS:triac_thyristor
-LIBS:ttl_ieee
-LIBS:valves
-LIBS:video
-LIBS:wiznet
-LIBS:Worldsemi
-LIBS:Xicor
-LIBS:xilinx
-LIBS:zetex
-LIBS:Zilog
-LIBS:fan-controller_parts
+EESchema Schematic File Version 4
 LIBS:controller-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -114,8 +17,8 @@ $EndDescr
 $Sheet
 S 6050 4500 2050 650 
 U 5A1C7282
-F0 "sub_assy/comms/osc_25k/osc" 60
-F1 "sub_assy/comms/osc_25k/osc.sch" 60
+F0 "osc_25k/osc" 60
+F1 "osc_25k/osc.sch" 60
 F2 "VCC" I L 6050 4850 60 
 F3 "GND" I L 6050 4950 60 
 F4 "VEE" I L 6050 5050 60 
@@ -124,8 +27,8 @@ $EndSheet
 $Sheet
 S 10100 4500 2750 650 
 U 5A1C7539
-F0 "sub_assy/comms/osc_25k/switch" 60
-F1 "sub_assy/comms/osc_25k/switch.sch" 60
+F0 "osc_25k/switch" 60
+F1 "osc_25k/switch.sch" 60
 F2 "VCC" I L 10100 4850 60 
 F3 "GND" I L 10100 4950 60 
 F4 "VEE" I L 10100 5050 60 
@@ -134,7 +37,7 @@ F6 "SIG_OUT" O R 12850 4550 60
 F7 "UNMUTE" I L 10100 4700 60 
 $EndSheet
 $Comp
-L CP C8001
+L Device:CP C8001
 U 1 1 5A1B9051
 P 3900 6800
 F 0 "C8001" H 3925 6900 50  0000 L CNN
@@ -145,7 +48,7 @@ F 3 "" H 3900 6800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP C8002
+L Device:CP C8002
 U 1 1 5A1B9058
 P 3900 7500
 F 0 "C8002" H 3925 7600 50  0000 L CNN
@@ -160,7 +63,7 @@ Wire Wire Line
 Wire Wire Line
 	3900 7650 3900 7850
 Wire Wire Line
-	3900 6950 3900 7350
+	3900 6950 3900 7150
 Connection ~ 3900 7150
 Text HLabel 3000 6450 0    60   Input ~ 0
 VCC
@@ -175,19 +78,19 @@ Wire Wire Line
 Wire Wire Line
 	5750 4850 5750 6450
 Wire Wire Line
-	3000 6450 9050 6450
+	3000 6450 3900 6450
 Wire Wire Line
 	6050 4950 5850 4950
 Wire Wire Line
 	5850 4950 5850 7150
 Wire Wire Line
-	3000 7150 9150 7150
+	3000 7150 3900 7150
 Wire Wire Line
 	6050 5050 5950 5050
 Wire Wire Line
 	5950 5050 5950 7850
 Wire Wire Line
-	3000 7850 9250 7850
+	3000 7850 3900 7850
 Wire Wire Line
 	9050 6450 9050 4850
 Wire Wire Line
@@ -217,4 +120,18 @@ Wire Wire Line
 	8100 4550 10100 4550
 Wire Wire Line
 	12850 4550 14300 4550
+Wire Wire Line
+	3900 7150 3900 7350
+Wire Wire Line
+	3900 7150 5850 7150
+Wire Wire Line
+	3900 6450 5750 6450
+Wire Wire Line
+	3900 7850 5950 7850
+Wire Wire Line
+	5750 6450 9050 6450
+Wire Wire Line
+	5850 7150 9150 7150
+Wire Wire Line
+	5950 7850 9250 7850
 $EndSCHEMATC

@@ -1,103 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:74xgxx
-LIBS:74xx
-LIBS:ac-dc
-LIBS:actel
-LIBS:adc-dac
-LIBS:allegro
-LIBS:Altera
-LIBS:analog_devices
-LIBS:analog_switches
-LIBS:atmel
-LIBS:audio
-LIBS:battery_management
-LIBS:bbd
-LIBS:bosch
-LIBS:brooktre
-LIBS:cmos4000
-LIBS:cmos_ieee
-LIBS:conn
-LIBS:contrib
-LIBS:cypress
-LIBS:dc-dc
-LIBS:device
-LIBS:digital-audio
-LIBS:diode
-LIBS:display
-LIBS:driver_gate
-LIBS:dsp
-LIBS:elec-unifil
-LIBS:ESD_Protection
-LIBS:ftdi
-LIBS:gennum
-LIBS:graphic_symbols
-LIBS:hc11
-LIBS:infineon
-LIBS:intel
-LIBS:interface
-LIBS:intersil
-LIBS:ir
-LIBS:Lattice
-LIBS:leds
-LIBS:LEM
-LIBS:linear
-LIBS:logic_programmable
-LIBS:maxim
-LIBS:mechanical
-LIBS:memory
-LIBS:microchip
-LIBS:microchip_dspic33dsc
-LIBS:microchip_pic10mcu
-LIBS:microchip_pic12mcu
-LIBS:microchip_pic16mcu
-LIBS:microchip_pic18mcu
-LIBS:microchip_pic24mcu
-LIBS:microchip_pic32mcu
-LIBS:microcontrollers
-LIBS:modules
-LIBS:motor_drivers
-LIBS:motorola
-LIBS:motors
-LIBS:msp430
-LIBS:nordicsemi
-LIBS:nxp
-LIBS:nxp_armmcu
-LIBS:onsemi
-LIBS:opto
-LIBS:Oscillators
-LIBS:philips
-LIBS:power
-LIBS:powerint
-LIBS:Power_Management
-LIBS:pspice
-LIBS:references
-LIBS:regul
-LIBS:relays
-LIBS:rfcom
-LIBS:RFSolutions
-LIBS:sensors
-LIBS:silabs
-LIBS:siliconi
-LIBS:stm8
-LIBS:stm32
-LIBS:supertex
-LIBS:switches
-LIBS:texas
-LIBS:transf
-LIBS:transistors
-LIBS:triac_thyristor
-LIBS:ttl_ieee
-LIBS:valves
-LIBS:video
-LIBS:wiznet
-LIBS:Worldsemi
-LIBS:Xicor
-LIBS:xilinx
-LIBS:zetex
-LIBS:Zilog
-LIBS:fan-controller_parts
+EESchema Schematic File Version 4
 LIBS:controller-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -112,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L 1N5404 D3018
+L diode:1N5404 D3018
 U 1 1 59C7F318
 P 6150 7300
 F 0 "D3018" H 6150 7400 50  0000 C CNN
@@ -123,7 +26,7 @@ F 3 "" H 6150 7300 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L 1N5404 D3021
+L diode:1N5404 D3021
 U 1 1 59C7F46A
 P 6150 7700
 F 0 "D3021" H 6150 7800 50  0000 C CNN
@@ -134,7 +37,7 @@ F 3 "" H 6150 7700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 1N5404 D3019
+L diode:1N5404 D3019
 U 1 1 59C7F4D0
 P 6850 7300
 F 0 "D3019" H 6850 7400 50  0000 C CNN
@@ -145,7 +48,7 @@ F 3 "" H 6850 7300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 1N5404 D3022
+L diode:1N5404 D3022
 U 1 1 59C7F50D
 P 6850 7700
 F 0 "D3022" H 6850 7800 50  0000 C CNN
@@ -156,7 +59,7 @@ F 3 "" H 6850 7700 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L CP C3006
+L Device:CP C3006
 U 1 1 59C7FF94
 P 7900 7300
 F 0 "C3006" H 7925 7400 50  0000 L CNN
@@ -167,7 +70,7 @@ F 3 "" H 7900 7300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP C3010
+L Device:CP C3010
 U 1 1 59C80119
 P 7900 8900
 F 0 "C3010" H 7925 9000 50  0000 L CNN
@@ -178,7 +81,7 @@ F 3 "" H 7900 8900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L L7815 U3002
+L regul:L7815 U3002
 U 1 1 59C83FF4
 P 10200 6800
 F 0 "U3002" H 10050 6925 50  0000 C CNN
@@ -189,7 +92,7 @@ F 3 "" H 10200 6750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L L7915 U3003
+L regul:L7915 U3003
 U 1 1 59C84085
 P 10200 9500
 F 0 "U3003" H 10050 9375 50  0000 C CNN
@@ -200,7 +103,7 @@ F 3 "" H 10200 9500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 1N4007 D3016
+L diode:1N4007 D3016
 U 1 1 59C85149
 P 10200 6350
 F 0 "D3016" H 10200 6450 50  0000 C CNN
@@ -211,7 +114,7 @@ F 3 "" H 10200 6350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 1N4007 D3023
+L diode:1N4007 D3023
 U 1 1 59C8535C
 P 10200 9950
 F 0 "D3023" H 10200 10050 50  0000 C CNN
@@ -222,7 +125,7 @@ F 3 "" H 10200 9950 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C C3007
+L Device:C C3007
 U 1 1 59C8540F
 P 9750 7300
 F 0 "C3007" H 9775 7400 50  0000 L CNN
@@ -233,7 +136,7 @@ F 3 "" H 9750 7300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C3005
+L Device:C C3005
 U 1 1 59C85458
 P 10650 7300
 F 0 "C3005" H 10675 7400 50  0000 L CNN
@@ -244,7 +147,7 @@ F 3 "" H 10650 7300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C3008
+L Device:C C3008
 U 1 1 59C85657
 P 9750 8900
 F 0 "C3008" H 9775 9000 50  0000 L CNN
@@ -255,7 +158,7 @@ F 3 "" H 9750 8900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C3009
+L Device:C C3009
 U 1 1 59C856A2
 P 10650 8900
 F 0 "C3009" H 10675 9000 50  0000 L CNN
@@ -272,7 +175,7 @@ GND
 Text HLabel 12950 9500 2    60   UnSpc ~ 0
 VEE
 $Comp
-L L7805 U3001
+L regul:L7805 U3001
 U 1 1 59D28B24
 P 10200 4200
 F 0 "U3001" H 10050 4325 50  0000 C CNN
@@ -283,7 +186,7 @@ F 3 "" H 10200 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 1N4007 D3008
+L diode:1N4007 D3008
 U 1 1 59D28BDE
 P 10200 3800
 F 0 "D3008" H 10200 3900 50  0000 C CNN
@@ -294,7 +197,7 @@ F 3 "" H 10200 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C3003
+L Device:C C3003
 U 1 1 59D290DC
 P 9750 4800
 F 0 "C3003" H 9775 4900 50  0000 L CNN
@@ -305,7 +208,7 @@ F 3 "" H 9750 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C3004
+L Device:C C3004
 U 1 1 59D29184
 P 10650 4800
 F 0 "C3004" H 10675 4900 50  0000 L CNN
@@ -316,7 +219,7 @@ F 3 "" H 10650 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP C3002
+L Device:CP C3002
 U 1 1 59D2BD09
 P 7900 4800
 F 0 "C3002" H 7925 4900 50  0000 L CNN
@@ -327,7 +230,7 @@ F 3 "" H 7900 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 1N5404 D3010
+L diode:1N5404 D3010
 U 1 1 59D2C046
 P 6150 4600
 F 0 "D3010" H 6150 4700 50  0000 C CNN
@@ -338,7 +241,7 @@ F 3 "" H 6150 4600 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L 1N5404 D3013
+L diode:1N5404 D3013
 U 1 1 59D2C04C
 P 6150 5000
 F 0 "D3013" H 6150 5100 50  0000 C CNN
@@ -349,7 +252,7 @@ F 3 "" H 6150 5000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 1N5404 D3011
+L diode:1N5404 D3011
 U 1 1 59D2C052
 P 6850 4600
 F 0 "D3011" H 6850 4700 50  0000 C CNN
@@ -360,7 +263,7 @@ F 3 "" H 6850 4600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 1N5404 D3014
+L diode:1N5404 D3014
 U 1 1 59D2C058
 P 6850 5000
 F 0 "D3014" H 6850 5100 50  0000 C CNN
@@ -375,7 +278,7 @@ V_LOGIC
 Text HLabel 12950 900  2    60   UnSpc ~ 0
 V_FANSWITCH
 $Comp
-L CP C3001
+L Device:CP C3001
 U 1 1 59D3291B
 P 7900 1850
 F 0 "C3001" H 7925 1950 50  0000 L CNN
@@ -386,7 +289,7 @@ F 3 "" H 7900 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 1N5404 D3002
+L diode:1N5404 D3002
 U 1 1 59D32921
 P 6150 1650
 F 0 "D3002" H 6150 1750 50  0000 C CNN
@@ -397,7 +300,7 @@ F 3 "" H 6150 1650 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L 1N5404 D3005
+L diode:1N5404 D3005
 U 1 1 59D32927
 P 6150 2050
 F 0 "D3005" H 6150 2150 50  0000 C CNN
@@ -408,7 +311,7 @@ F 3 "" H 6150 2050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 1N5404 D3003
+L diode:1N5404 D3003
 U 1 1 59D3292D
 P 6850 1650
 F 0 "D3003" H 6850 1750 50  0000 C CNN
@@ -419,7 +322,7 @@ F 3 "" H 6850 1650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 1N5404 D3006
+L diode:1N5404 D3006
 U 1 1 59D32933
 P 6850 2050
 F 0 "D3006" H 6850 2150 50  0000 C CNN
@@ -446,7 +349,7 @@ V_DCDC_0
 Text Notes 14000 2500 0    60   ~ 0
 DC/DC converters, 0V
 $Comp
-L PWR_FLAG #FLG03
+L power1:PWR_FLAG #FLG03
 U 1 1 5B42D5B3
 P 7300 4100
 F 0 "#FLG03" H 7300 4175 50  0001 C CNN
@@ -457,7 +360,7 @@ F 3 "" H 7300 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG04
+L power1:PWR_FLAG #FLG04
 U 1 1 5B42F1E8
 P 7300 1150
 F 0 "#FLG04" H 7300 1225 50  0001 C CNN
@@ -468,7 +371,7 @@ F 3 "" H 7300 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG05
+L power1:PWR_FLAG #FLG05
 U 1 1 5B42FAC9
 P 7300 6700
 F 0 "#FLG05" H 7300 6775 50  0001 C CNN
@@ -479,7 +382,7 @@ F 3 "" H 7300 6700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG06
+L power1:PWR_FLAG #FLG06
 U 1 1 5B42FB87
 P 7300 9400
 F 0 "#FLG06" H 7300 9475 50  0001 C CNN
@@ -512,7 +415,7 @@ Transformer 01
 Text Notes 2600 9400 1    118  ~ 0
 Transformer 02
 $Comp
-L D_TVS D3001
+L Device:D_TVS D3001
 U 1 1 5B718EB2
 P 5500 1200
 F 0 "D3001" H 5500 1300 50  0000 C CNN
@@ -523,7 +426,7 @@ F 3 "" H 5500 1200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L D_TVS D3007
+L Device:D_TVS D3007
 U 1 1 5B718EB9
 P 4900 2500
 F 0 "D3007" H 4900 2300 50  0000 C CNN
@@ -534,7 +437,7 @@ F 3 "" H 4900 2500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Fuse F3001
+L Device:Fuse F3001
 U 1 1 5B718EDC
 P 4050 1450
 F 0 "F3001" V 4250 1450 50  0000 C CNN
@@ -545,7 +448,7 @@ F 3 "" H 4050 1450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Fuse F3002
+L Device:Fuse F3002
 U 1 1 5B718EE3
 P 4050 2250
 F 0 "F3002" V 3950 2250 50  0000 C CNN
@@ -556,7 +459,7 @@ F 3 "" H 4050 2250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L D_TVS D3004
+L Device:D_TVS D3004
 U 1 1 5B718EC0
 P 4900 1800
 F 0 "D3004" H 4900 2000 50  0000 C CNN
@@ -835,7 +738,7 @@ Wire Notes Line
 Wire Notes Line
 	3700 6750 2350 6750
 $Comp
-L D_TVS D3015
+L Device:D_TVS D3015
 U 1 1 5B722A3D
 P 4900 5450
 F 0 "D3015" H 4900 5250 50  0000 C CNN
@@ -846,7 +749,7 @@ F 3 "" H 4900 5450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L D_TVS D3009
+L Device:D_TVS D3009
 U 1 1 5B722A43
 P 5500 4150
 F 0 "D3009" H 5500 4300 50  0000 C CNN
@@ -857,7 +760,7 @@ F 3 "" H 5500 4150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Fuse F3003
+L Device:Fuse F3003
 U 1 1 5B722A49
 P 4050 4400
 F 0 "F3003" V 4250 4400 50  0000 C CNN
@@ -868,7 +771,7 @@ F 3 "" H 4050 4400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Fuse F3004
+L Device:Fuse F3004
 U 1 1 5B722A4F
 P 4050 5200
 F 0 "F3004" V 3950 5200 50  0000 C CNN
@@ -879,7 +782,7 @@ F 3 "" H 4050 5200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L D_TVS D3012
+L Device:D_TVS D3012
 U 1 1 5B722A55
 P 4900 4800
 F 0 "D3012" H 4900 5000 50  0000 C CNN
@@ -894,7 +797,7 @@ Wire Wire Line
 Wire Wire Line
 	3250 5200 3900 5200
 $Comp
-L Fuse F3005
+L Device:Fuse F3005
 U 1 1 5B724E52
 P 4050 7100
 F 0 "F3005" V 4250 7100 50  0000 C CNN
@@ -905,7 +808,7 @@ F 3 "" H 4050 7100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Fuse F3006
+L Device:Fuse F3006
 U 1 1 5B724E59
 P 4050 7900
 F 0 "F3006" V 4250 7900 50  0000 C CNN
@@ -916,7 +819,7 @@ F 3 "" H 4050 7900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L D_TVS D3020
+L Device:D_TVS D3020
 U 1 1 5B724E60
 P 4600 7500
 F 0 "D3020" H 4600 7400 50  0000 C CNN
@@ -927,7 +830,7 @@ F 3 "" H 4600 7500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Fuse F3007
+L Device:Fuse F3007
 U 1 1 5B727155
 P 4050 9650
 F 0 "F3007" V 4150 9650 50  0000 C CNN
@@ -938,7 +841,7 @@ F 3 "" H 4050 9650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Fuse F3008
+L Device:Fuse F3008
 U 1 1 5B72715B
 P 4050 10450
 F 0 "F3008" V 4250 10450 50  0000 C CNN
@@ -949,7 +852,7 @@ F 3 "" H 4050 10450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L D_TVS D3024
+L Device:D_TVS D3024
 U 1 1 5B727161
 P 4600 10050
 F 0 "D3024" H 4600 9950 50  0000 C CNN
@@ -1057,7 +960,7 @@ Wire Wire Line
 	4200 7100 6850 7100
 Connection ~ 5200 8450
 $Comp
-L PWR_FLAG #FLG07
+L power1:PWR_FLAG #FLG07
 U 1 1 5B7B7385
 P 7300 8300
 F 0 "#FLG07" H 7300 8375 50  0001 C CNN

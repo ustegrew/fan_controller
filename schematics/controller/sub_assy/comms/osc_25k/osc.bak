@@ -1,103 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:74xgxx
-LIBS:74xx
-LIBS:ac-dc
-LIBS:actel
-LIBS:adc-dac
-LIBS:allegro
-LIBS:Altera
-LIBS:analog_devices
-LIBS:analog_switches
-LIBS:atmel
-LIBS:audio
-LIBS:battery_management
-LIBS:bbd
-LIBS:bosch
-LIBS:brooktre
-LIBS:cmos4000
-LIBS:cmos_ieee
-LIBS:conn
-LIBS:contrib
-LIBS:cypress
-LIBS:dc-dc
-LIBS:device
-LIBS:digital-audio
-LIBS:diode
-LIBS:display
-LIBS:driver_gate
-LIBS:dsp
-LIBS:elec-unifil
-LIBS:ESD_Protection
-LIBS:ftdi
-LIBS:gennum
-LIBS:graphic_symbols
-LIBS:hc11
-LIBS:infineon
-LIBS:intel
-LIBS:interface
-LIBS:intersil
-LIBS:ir
-LIBS:Lattice
-LIBS:leds
-LIBS:LEM
-LIBS:linear
-LIBS:logic_programmable
-LIBS:maxim
-LIBS:mechanical
-LIBS:memory
-LIBS:microchip
-LIBS:microchip_dspic33dsc
-LIBS:microchip_pic10mcu
-LIBS:microchip_pic12mcu
-LIBS:microchip_pic16mcu
-LIBS:microchip_pic18mcu
-LIBS:microchip_pic24mcu
-LIBS:microchip_pic32mcu
-LIBS:microcontrollers
-LIBS:modules
-LIBS:motor_drivers
-LIBS:motorola
-LIBS:motors
-LIBS:msp430
-LIBS:nordicsemi
-LIBS:nxp
-LIBS:nxp_armmcu
-LIBS:onsemi
-LIBS:opto
-LIBS:Oscillators
-LIBS:philips
-LIBS:power
-LIBS:powerint
-LIBS:Power_Management
-LIBS:pspice
-LIBS:references
-LIBS:regul
-LIBS:relays
-LIBS:rfcom
-LIBS:RFSolutions
-LIBS:sensors
-LIBS:silabs
-LIBS:siliconi
-LIBS:stm8
-LIBS:stm32
-LIBS:supertex
-LIBS:switches
-LIBS:texas
-LIBS:transf
-LIBS:transistors
-LIBS:triac_thyristor
-LIBS:ttl_ieee
-LIBS:valves
-LIBS:video
-LIBS:wiznet
-LIBS:Worldsemi
-LIBS:Xicor
-LIBS:xilinx
-LIBS:zetex
-LIBS:Zilog
-LIBS:fan-controller_parts
+EESchema Schematic File Version 4
 LIBS:controller-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -112,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L TL061 U9001
+L Amplifier_Operational:TL061 U9001
 U 1 1 5A1B3DFF
 P 6550 4650
 F 0 "U9001" H 6550 4900 50  0000 L CNN
@@ -123,7 +26,7 @@ F 3 "" H 6700 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TL061 U9002
+L Amplifier_Operational:TL061 U9002
 U 1 1 5A1B3E06
 P 10150 4750
 F 0 "U9002" H 10150 5000 50  0000 L CNN
@@ -138,7 +41,7 @@ NoConn ~ 6650 4950
 NoConn ~ 10150 5050
 NoConn ~ 10250 5050
 $Comp
-L R R9003
+L Device:R R9003
 U 1 1 5A1B3E11
 P 8550 5000
 F 0 "R9003" V 8450 5000 50  0000 C CNN
@@ -149,7 +52,7 @@ F 3 "" H 8550 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C9008
+L Device:C C9008
 U 1 1 5A1B3E18
 P 8550 5500
 F 0 "C9008" H 8575 5600 50  0000 L CNN
@@ -160,7 +63,7 @@ F 3 "" H 8550 5500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C9009
+L Device:C C9009
 U 1 1 5A1B3E1F
 P 7050 6300
 F 0 "C9009" H 7075 6400 50  0000 L CNN
@@ -171,7 +74,7 @@ F 3 "" H 7050 6300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C9005
+L Device:C C9005
 U 1 1 5A1B3E26
 P 4350 4950
 F 0 "C9005" H 4375 5050 50  0000 L CNN
@@ -182,7 +85,7 @@ F 3 "" H 4350 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C9001
+L Device:C C9001
 U 1 1 5A1B3E2D
 P 4650 3650
 F 0 "C9001" H 4675 3750 50  0000 L CNN
@@ -193,7 +96,7 @@ F 3 "" H 4650 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R9001
+L Device:R R9001
 U 1 1 5A1B3E34
 P 4650 4050
 F 0 "R9001" V 4550 4050 50  0000 C CNN
@@ -204,7 +107,7 @@ F 3 "" H 4650 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R9002
+L Device:R R9002
 U 1 1 5A1B3E3B
 P 4950 4950
 F 0 "R9002" V 4850 4950 50  0000 C CNN
@@ -215,7 +118,7 @@ F 3 "" H 4950 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L POT RV9001
+L device:POT_TRIM RV9001
 U 1 1 5A1B3E42
 P 5650 4950
 F 0 "RV9001" V 5475 4950 50  0000 C CNN
@@ -226,7 +129,7 @@ F 3 "" H 5650 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L POT RV9002
+L device:POT_TRIM RV9002
 U 1 1 5A1B3E49
 P 6450 6300
 F 0 "RV9002" V 6350 6300 50  0000 C CNN
@@ -239,7 +142,7 @@ $EndComp
 Wire Wire Line
 	4650 4200 4650 4350
 Wire Wire Line
-	4350 4350 6150 4350
+	4350 4350 4650 4350
 Wire Wire Line
 	4950 4350 4950 4800
 Wire Wire Line
@@ -259,18 +162,18 @@ Wire Wire Line
 Wire Wire Line
 	6100 4750 6250 4750
 Wire Wire Line
-	6850 4650 9850 4650
+	6850 4650 8550 4650
 Wire Wire Line
-	8550 3350 8550 4850
+	8550 3350 8550 4650
 Wire Wire Line
-	4650 3350 8550 3350
+	4650 3350 5650 3350
 Wire Wire Line
 	4650 3350 4650 3500
 Wire Wire Line
 	5650 4800 5650 3350
 Connection ~ 5650 3350
 $Comp
-L Q_NJFET_DGS Q9001
+L Device:Q_NJFET_DGS Q9001
 U 1 1 5A1B3E62
 P 5750 6300
 F 0 "Q9001" H 5950 6350 50  0000 L CNN
@@ -283,7 +186,7 @@ $EndComp
 Wire Wire Line
 	5650 5100 5650 6100
 $Comp
-L 1N4148 D9001
+L Diode:1N4148 D9001
 U 1 1 5A1B3E6A
 P 8100 5950
 F 0 "D9001" H 8100 6050 50  0000 C CNN
@@ -294,7 +197,7 @@ F 3 "" H 8100 5950 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L 1N4148 D9002
+L Diode:1N4148 D9002
 U 1 1 5A1B3E71
 P 8550 6300
 F 0 "D9002" H 8550 6400 50  0000 C CNN
@@ -305,7 +208,7 @@ F 3 "" H 8550 6300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R9004
+L Device:R R9004
 U 1 1 5A1B3E78
 P 7650 6300
 F 0 "R9004" V 7550 6300 50  0000 C CNN
@@ -316,11 +219,11 @@ F 3 "" H 7650 6300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8550 5650 8550 6150
+	8550 5650 8550 5950
 Wire Wire Line
 	7650 5950 7650 6150
 Wire Wire Line
-	6450 5950 7950 5950
+	6450 5950 7050 5950
 Wire Wire Line
 	8250 5950 8550 5950
 Connection ~ 8550 5950
@@ -335,7 +238,7 @@ Wire Wire Line
 Wire Wire Line
 	5650 6500 5650 6800
 Wire Wire Line
-	4650 6800 8550 6800
+	4650 6800 5650 6800
 Wire Wire Line
 	6450 6800 6450 6450
 Wire Wire Line
@@ -353,7 +256,7 @@ Connection ~ 8550 4650
 Wire Wire Line
 	4350 5100 4350 5550
 Wire Wire Line
-	4350 5550 4950 5550
+	4350 5550 4650 5550
 Wire Wire Line
 	4950 5550 4950 5100
 Wire Wire Line
@@ -361,7 +264,7 @@ Wire Wire Line
 Connection ~ 4650 5550
 Connection ~ 5650 6800
 Wire Wire Line
-	10450 4750 11750 4750
+	10450 4750 11350 4750
 Wire Wire Line
 	11350 4750 11350 6050
 Wire Wire Line
@@ -371,7 +274,7 @@ Wire Wire Line
 Wire Wire Line
 	9450 4850 9850 4850
 $Comp
-L C C9004
+L Device:C C9004
 U 1 1 5A1B3E9F
 P 11900 4750
 F 0 "C9004" H 11925 4850 50  0000 L CNN
@@ -383,7 +286,7 @@ F 3 "" H 11900 4750 50  0001 C CNN
 $EndComp
 Connection ~ 11350 4750
 $Comp
-L C C9002
+L Device:C C9002
 U 1 1 5A1B3EA7
 P 6800 4050
 F 0 "C9002" H 6825 4150 50  0000 L CNN
@@ -394,7 +297,7 @@ F 3 "" H 6800 4050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C9006
+L Device:C C9006
 U 1 1 5A1B3EAE
 P 6800 5250
 F 0 "C9006" H 6825 5350 50  0000 L CNN
@@ -407,11 +310,11 @@ $EndComp
 Wire Wire Line
 	6650 4050 6450 4050
 Wire Wire Line
-	6450 3750 6450 4350
+	6450 3750 6450 4050
 Wire Wire Line
 	6650 5250 6450 5250
 Wire Wire Line
-	6450 4950 6450 5550
+	6450 4950 6450 5250
 Text Label 1700 10100 0    60   ~ 0
 _VCC
 Text Label 1700 10500 0    60   ~ 0
@@ -443,7 +346,7 @@ _GND
 Text Label 7200 5250 0    60   ~ 0
 _GND
 $Comp
-L C C9003
+L Device:C C9003
 U 1 1 5A1B3EC8
 P 10400 4150
 F 0 "C9003" H 10425 4250 50  0000 L CNN
@@ -454,7 +357,7 @@ F 3 "" H 10400 4150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C9007
+L Device:C C9007
 U 1 1 5A1B3ECF
 P 10400 5350
 F 0 "C9007" H 10425 5450 50  0000 L CNN
@@ -465,11 +368,11 @@ F 3 "" H 10400 5350 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	10050 3850 10050 4450
+	10050 3850 10050 4150
 Wire Wire Line
 	10050 4150 10250 4150
 Wire Wire Line
-	10050 5050 10050 5650
+	10050 5050 10050 5350
 Wire Wire Line
 	10050 5350 10250 5350
 Text Label 10050 3850 0    60   ~ 0
@@ -502,4 +405,40 @@ Text Notes 10000 7550 0    79   ~ 0
 Buffer
 Wire Notes Line
 	9100 2750 9100 7800
+Wire Wire Line
+	4650 4350 4950 4350
+Wire Wire Line
+	4950 4350 6150 4350
+Wire Wire Line
+	5650 3350 8550 3350
+Wire Wire Line
+	8550 5950 8550 6150
+Wire Wire Line
+	7650 5950 7950 5950
+Wire Wire Line
+	7050 5950 7650 5950
+Wire Wire Line
+	6450 6800 7050 6800
+Wire Wire Line
+	7050 6800 7650 6800
+Wire Wire Line
+	7650 6800 8550 6800
+Wire Wire Line
+	8550 4650 9850 4650
+Wire Wire Line
+	8550 4650 8550 4850
+Wire Wire Line
+	4650 5550 4950 5550
+Wire Wire Line
+	5650 6800 6450 6800
+Wire Wire Line
+	11350 4750 11750 4750
+Wire Wire Line
+	10050 4150 10050 4450
+Wire Wire Line
+	10050 5350 10050 5650
+Wire Wire Line
+	6450 4050 6450 4350
+Wire Wire Line
+	6450 5250 6450 5550
 $EndSCHEMATC
