@@ -286,28 +286,6 @@ F 3 "" H 12100 1200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D_TVS D1001
-U 1 1 5B5E8785
-P 10700 900
-F 0 "D1001" H 10700 1100 50  0000 C CNN
-F 1 "1.5KE33CA" H 10700 1000 50  0000 C CNN
-F 2 "Diodes_THT:D_DO-201AD_P12.70mm_Horizontal" H 10700 900 50  0001 C CNN
-F 3 "" H 10700 900 50  0001 C CNN
-	1    10700 900 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_TVS D1003
-U 1 1 5B5E878C
-P 10700 1200
-F 0 "D1003" H 10700 1100 50  0000 C CNN
-F 1 "1.5KE33CA" H 10700 1000 50  0000 C CNN
-F 2 "Diodes_THT:D_DO-201AD_P12.70mm_Horizontal" H 10700 1200 50  0001 C CNN
-F 3 "" H 10700 1200 50  0001 C CNN
-	1    10700 1200
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:D_TVS D1010
 U 1 1 5B5F72B0
 P 10700 4500
@@ -429,28 +407,6 @@ F 3 "" H 12100 2050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D_TVS D1004
-U 1 1 5B5D9E19
-P 10700 1750
-F 0 "D1004" H 10700 1950 50  0000 C CNN
-F 1 "1.5KE33CA" H 10700 1850 50  0000 C CNN
-F 2 "Diodes_THT:D_DO-201AD_P12.70mm_Horizontal" H 10700 1750 50  0001 C CNN
-F 3 "" H 10700 1750 50  0001 C CNN
-	1    10700 1750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_TVS D1006
-U 1 1 5B5D9E20
-P 10700 2050
-F 0 "D1006" H 10700 1950 50  0000 C CNN
-F 1 "1.5KE33CA" H 10700 1850 50  0000 C CNN
-F 2 "Diodes_THT:D_DO-201AD_P12.70mm_Horizontal" H 10700 2050 50  0001 C CNN
-F 3 "" H 10700 2050 50  0001 C CNN
-	1    10700 2050
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:D_TVS D1008
 U 1 1 5B5DA192
 P 11650 2750
@@ -482,28 +438,6 @@ F 2 "Fuse_Holders_and_Fuses:Fuseholder5x20_horiz_open_Schurter_0031_8201" V 1203
 F 3 "" H 12100 2900 50  0001 C CNN
 	1    12100 2900
 	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:D_TVS D1007
-U 1 1 5B5DA1A7
-P 10700 2600
-F 0 "D1007" H 10700 2800 50  0000 C CNN
-F 1 "1.5KE33CA" H 10700 2700 50  0000 C CNN
-F 2 "Diodes_THT:D_DO-201AD_P12.70mm_Horizontal" H 10700 2600 50  0001 C CNN
-F 3 "" H 10700 2600 50  0001 C CNN
-	1    10700 2600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_TVS D1009
-U 1 1 5B5DA1AE
-P 10700 2900
-F 0 "D1009" H 10700 2800 50  0000 C CNN
-F 1 "1.5KE33CA" H 10700 2700 50  0000 C CNN
-F 2 "Diodes_THT:D_DO-201AD_P12.70mm_Horizontal" H 10700 2900 50  0001 C CNN
-F 3 "" H 10700 2900 50  0001 C CNN
-	1    10700 2900
-	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D_TVS D1013
@@ -743,10 +677,6 @@ Wire Notes Line
 	14925 1250 15350 1250
 Wire Notes Line
 	14925 1650 15350 1650
-Wire Wire Line
-	10850 900  11150 900 
-Wire Wire Line
-	10850 1200 11250 1200
 Connection ~ 11650 900 
 Connection ~ 11650 1200
 Wire Wire Line
@@ -779,25 +709,6 @@ Wire Wire Line
 	12850 2900 12850 1800
 Wire Wire Line
 	12850 1800 14600 1800
-Wire Wire Line
-	10150 2900 10550 2900
-Wire Wire Line
-	10150 2600 10550 2600
-Wire Wire Line
-	10150 900  10150 1200
-Connection ~ 10150 2900
-Wire Wire Line
-	10550 2050 10150 2050
-Connection ~ 10150 2600
-Wire Wire Line
-	10550 1750 10150 1750
-Connection ~ 10150 2050
-Wire Wire Line
-	10550 1200 10150 1200
-Connection ~ 10150 1750
-Wire Wire Line
-	10550 900  10150 900 
-Connection ~ 10150 1200
 Wire Wire Line
 	11850 5200 11850 4750
 Wire Wire Line
@@ -894,7 +805,6 @@ Wire Wire Line
 	8950 8550 8550 8550
 Wire Wire Line
 	10150 4500 10550 4500
-Connection ~ 10150 4500
 Wire Wire Line
 	10150 5000 10550 5000
 Connection ~ 10150 5000
@@ -944,14 +854,6 @@ Wire Wire Line
 	14100 1500 14100 5800
 Wire Wire Line
 	14100 5800 12750 5800
-Wire Wire Line
-	10850 1750 11150 1750
-Wire Wire Line
-	10850 2050 11250 2050
-Wire Wire Line
-	10850 2600 11150 2600
-Wire Wire Line
-	10850 2900 11250 2900
 Connection ~ 11650 2600
 Connection ~ 11650 2900
 Connection ~ 11650 1750
@@ -962,14 +864,12 @@ Wire Wire Line
 	11150 900  11150 1750
 Connection ~ 11150 2600
 Connection ~ 11150 1750
-Connection ~ 11150 900 
 Wire Wire Line
 	11250 3400 3950 3400
 Wire Wire Line
 	11250 1200 11250 2050
 Connection ~ 11250 2900
 Connection ~ 11250 2050
-Connection ~ 11250 1200
 Wire Wire Line
 	8550 3950 11250 3950
 Wire Wire Line
@@ -1230,16 +1130,6 @@ Wire Wire Line
 	11650 900  11950 900 
 Wire Wire Line
 	11650 1200 11950 1200
-Wire Wire Line
-	10150 2900 10150 4500
-Wire Wire Line
-	10150 2600 10150 2900
-Wire Wire Line
-	10150 2050 10150 2600
-Wire Wire Line
-	10150 1750 10150 2050
-Wire Wire Line
-	10150 1200 10150 1750
 Wire Wire Line
 	11650 4500 11950 4500
 Wire Wire Line

@@ -86,7 +86,7 @@ U 1 1 59D1BB2B
 P 6600 3200
 F 0 "F2001" V 6500 3200 50  0000 C CNN
 F 1 "6AT" V 6400 3200 50  0000 C CNN
-F 2 "Wire_Connections_Bridges:WireConnection_2.50mmDrill_LargePad" V 6530 3200 50  0001 C CNN
+F 2 "Fuse_Holders_and_Fuses:Fuseholder5x20_horiz_open_Schurter_0031_8201" V 6530 3200 50  0001 C CNN
 F 3 "" H 6600 3200 50  0001 C CNN
 	1    6600 3200
 	0    -1   -1   0   
@@ -154,17 +154,17 @@ Wire Wire Line
 Wire Wire Line
 	9400 6600 9550 6600
 Wire Wire Line
-	8850 6100 8850 7050
+	8850 6100 8850 6600
 Wire Wire Line
 	8850 6600 9100 6600
 Connection ~ 8850 6600
 Wire Wire Line
-	2500 4950 9200 4950
+	2500 4950 7900 4950
 Wire Wire Line
-	8850 4000 8850 5700
+	8850 4000 8850 4950
 Connection ~ 8850 4950
 Wire Wire Line
-	7900 5550 7900 6400
+	7900 5550 7900 5900
 Wire Wire Line
 	7900 5900 8150 5900
 Connection ~ 7900 5900
@@ -176,7 +176,7 @@ Wire Wire Line
 	2500 6600 6450 6600
 Connection ~ 7900 4950
 Wire Wire Line
-	2500 7850 9850 7850
+	2500 7850 7900 7850
 Wire Wire Line
 	8850 7850 8850 7350
 Wire Wire Line
@@ -194,7 +194,7 @@ Wire Wire Line
 Wire Wire Line
 	9650 4000 9850 4000
 Wire Wire Line
-	9850 4000 9850 6400
+	9850 4000 9850 4950
 Wire Wire Line
 	9500 4950 9850 4950
 Connection ~ 9850 4950
@@ -216,4 +216,20 @@ Wire Wire Line
 	6750 6600 7600 6600
 Text Notes 1250 5000 0    60   ~ 0
 ≈ +24V
+Wire Wire Line
+	8850 6600 8850 7050
+Wire Wire Line
+	8850 4950 9200 4950
+Wire Wire Line
+	8850 4950 8850 5700
+Wire Wire Line
+	7900 5900 7900 6400
+Wire Wire Line
+	7900 4950 8850 4950
+Wire Wire Line
+	8850 7850 9850 7850
+Wire Wire Line
+	7900 7850 8850 7850
+Wire Wire Line
+	9850 4950 9850 6400
 $EndSCHEMATC
